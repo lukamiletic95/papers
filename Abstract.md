@@ -13,10 +13,10 @@ Paper structure:
 	<h3>Abstract</h3>
 </div>
 
-This paper will present a formal analysis of the Tendermint Mempool component. Tendermint is a blockchain that operates on a daily basis and is used worldwide. However, some aspects of its implementation have room for improvement. The paper is
+This paper will present a formal analysis of the Tendermint Mempool component. Tendermint is a blockchain that operates on a daily basis and is used worldwide. However, some aspects of its implementation have room for improvement. The paper is mainly focused on being 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2NjUzODUxLDk2OTYxNjQ4OCwxODY2Nj
-A4NTE4LDE3NzIzMTk3OTUsNDgxMzE5NTk3LDcyNTI1MDQ1OSwt
-MTAzODc3MzIzNywtMTM5NjM0MTk0LDE2OTkzNDk0ODJdfQ==
+eyJoaXN0b3J5IjpbLTEyNzA0MjE0ODIsOTY5NjE2NDg4LDE4Nj
+Y2MDg1MTgsMTc3MjMxOTc5NSw0ODEzMTk1OTcsNzI1MjUwNDU5
+LC0xMDM4NzczMjM3LC0xMzk2MzQxOTQsMTY5OTM0OTQ4Ml19
 -->
