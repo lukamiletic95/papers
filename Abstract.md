@@ -27,11 +27,13 @@ Herein, a theoretical analysis on various gossip-based message passing algorithm
 
 In addition, algorithms provided here are based on a network of nodes defined in the second section of this paper: `Definitions -> System model`. Although the network model is somewhat simplified  in comparison to the actual model used in Tendermint, ideas behind those algorithms are general and therefore could be modified, adjusted, and then practically implemented within Tendermint.
 
+<u>**Keywords:**</u> Tendermint, Mempool, Blockchain, Gossip
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODg3MTQxMywtMTc0OTA0MDcwOSwtMT
-Q2NjA5Njg2MywtMTI2MzMwNDA2LDEzMTg2MjQ1MTAsLTkyMDE0
-MDgwOSwxMjM4MjIwMjgxLC0xMjcwNDIxNDgyLDk2OTYxNjQ4OC
-wxODY2NjA4NTE4LDE3NzIzMTk3OTUsNDgxMzE5NTk3LDcyNTI1
-MDQ1OSwtMTAzODc3MzIzNywtMTM5NjM0MTk0LDE2OTkzNDk0OD
-JdfQ==
+eyJoaXN0b3J5IjpbODgyNTQzMiwxNzE4ODcxNDEzLC0xNzQ5MD
+QwNzA5LC0xNDY2MDk2ODYzLC0xMjYzMzA0MDYsMTMxODYyNDUx
+MCwtOTIwMTQwODA5LDEyMzgyMjAyODEsLTEyNzA0MjE0ODIsOT
+Y5NjE2NDg4LDE4NjY2MDg1MTgsMTc3MjMxOTc5NSw0ODEzMTk1
+OTcsNzI1MjUwNDU5LC0xMDM4NzczMjM3LC0xMzk2MzQxOTQsMT
+Y5OTM0OTQ4Ml19
 -->
