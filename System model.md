@@ -3,19 +3,21 @@
 ```mermaid
 graph LR
 
-subgraph A
- Validator2
- end
+subgraph N
+Validator1
+end
+
 subgraph B
- Validator3
- end
+Validator2
+end
+
 subgraph C
- Validator1
- end
+Validator3
+end
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTc4MzQ4MywtMTIzODA5NTM5Niw5Nj
-AxMDQzODhdfQ==
+eyJoaXN0b3J5IjpbNjcwMjQ5NzIsLTEyMzgwOTUzOTYsOTYwMT
+A0Mzg4XX0=
 -->
