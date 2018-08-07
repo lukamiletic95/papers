@@ -21,9 +21,11 @@ subgraph 1
 Validator_1
 end
 
+Validator_N-->Validator_1
+
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjkyMzgyOCwtMTIzODA5NTM5Niw5Nj
-AxMDQzODhdfQ==
+eyJoaXN0b3J5IjpbNDcwODc2NjMsLTEyMzgwOTUzOTYsOTYwMT
+A0Mzg4XX0=
 -->
