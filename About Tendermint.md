@@ -1,7 +1,4 @@
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+### About Tendermint
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3MDYxMDMzXX0=
+eyJoaXN0b3J5IjpbLTY2MzU2MjAwNSw2NDcwNjEwMzNdfQ==
 -->
