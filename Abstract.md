@@ -1,18 +1,3 @@
-
-Q&A:
-- *References?*
-
-Paper structure:
-1. Abstract
-2. Introduction
-* Background (will shortly describe the whole idea for using blockchain nowadays - describe blockchain here)
-* About Tendermint (will describe the Tendermint platform without attention to details - describe BFT here)
-3. Definitions
-* State Machine Replication
-* Mempool
-* Gossip communication protocol
-* System model
-
 <div align='center'> 
 	<h1>Abstract</h1>
 </div>
@@ -29,11 +14,11 @@ essential principles regarding the functioning of the Mempool  component remain 
 <u>**Keywords:**</u> Tendermint, Mempool, Blockchain, Gossip-based communication
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODIxMDU0Niw5ODQ4MDMyNTMsLTEyMT
-k3ODAxOTYsLTIwNjc2Mzk0NDIsLTQ0OTU5NjkzMiwxNzE4ODcx
-NDEzLC0xNzQ5MDQwNzA5LC0xNDY2MDk2ODYzLC0xMjYzMzA0MD
-YsMTMxODYyNDUxMCwtOTIwMTQwODA5LDEyMzgyMjAyODEsLTEy
-NzA0MjE0ODIsOTY5NjE2NDg4LDE4NjY2MDg1MTgsMTc3MjMxOT
-c5NSw0ODEzMTk1OTcsNzI1MjUwNDU5LC0xMDM4NzczMjM3LC0x
-Mzk2MzQxOTRdfQ==
+eyJoaXN0b3J5IjpbNDQzNjUyMDEyLC05MzgyMTA1NDYsOTg0OD
+AzMjUzLC0xMjE5NzgwMTk2LC0yMDY3NjM5NDQyLC00NDk1OTY5
+MzIsMTcxODg3MTQxMywtMTc0OTA0MDcwOSwtMTQ2NjA5Njg2My
+wtMTI2MzMwNDA2LDEzMTg2MjQ1MTAsLTkyMDE0MDgwOSwxMjM4
+MjIwMjgxLC0xMjcwNDIxNDgyLDk2OTYxNjQ4OCwxODY2NjA4NT
+E4LDE3NzIzMTk3OTUsNDgxMzE5NTk3LDcyNTI1MDQ1OSwtMTAz
+ODc3MzIzN119
 -->
