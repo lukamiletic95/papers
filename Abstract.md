@@ -1,3 +1,4 @@
+
 Q&A:
 - *References?*
 
@@ -22,9 +23,9 @@ This paper will present a formal analysis of the Tendermint Mempool component. T
 The aforementioned Mempool component is currently implemented in a way that it guarantees a certain outcome, yet it produces a large overhead. Herein, a theoretical analysis on gossip-based message passing will be provided, with the goal of reducing the overhead, but with the price of having only a probabilistic implementation of the Mempool component.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjMzMDQwNiwxMzE4NjI0NTEwLC05Mj
-AxNDA4MDksMTIzODIyMDI4MSwtMTI3MDQyMTQ4Miw5Njk2MTY0
-ODgsMTg2NjYwODUxOCwxNzcyMzE5Nzk1LDQ4MTMxOTU5Nyw3Mj
-UyNTA0NTksLTEwMzg3NzMyMzcsLTEzOTYzNDE5NCwxNjk5MzQ5
-NDgyXX0=
+eyJoaXN0b3J5IjpbNTI1MDg5MDA0LC0xMjYzMzA0MDYsMTMxOD
+YyNDUxMCwtOTIwMTQwODA5LDEyMzgyMjAyODEsLTEyNzA0MjE0
+ODIsOTY5NjE2NDg4LDE4NjY2MDg1MTgsMTc3MjMxOTc5NSw0OD
+EzMTk1OTcsNzI1MjUwNDU5LC0xMDM4NzczMjM3LC0xMzk2MzQx
+OTQsMTY5OTM0OTQ4Ml19
 -->
