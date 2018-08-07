@@ -1,8 +1,8 @@
 Paper structure:
 1. Abstract
 2. Introduction
-* Background (will describe the whole idea for using blockchain)
-* About Tendermint (will describe the Tendermint platform)
+* Background (will shortly describe the whole idea for using blockchain nowadays)
+* About Tendermint (will describe the Tendermint platform without attention to details)
 3. Definitions
 * Byzantine fault tolerance
 * State Machine Replication
@@ -17,7 +17,7 @@ Paper structure:
 This paper will present a formal analysis of the Tendermint Mempool component. Tendermint is a blockchain that operates on a daily basis and is used worldwide. Blockchain schemes have gained popularity in recent years, as they provide decentralization alongside irrefutability.  The aforementioned Mempool component is currently implemented in a way that it guarantees a certain outcome, yet it produces a large overhead. Herein, a theoretical analysis on gossip-based message passing will be provided, with the goal of reducing the overhead, but with the price of having only a probabilistic implementation of the Mempool component.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTkxNzcwLC05MjAxNDA4MDksMTIzOD
+eyJoaXN0b3J5IjpbNjgxODc4OTA4LC05MjAxNDA4MDksMTIzOD
 IyMDI4MSwtMTI3MDQyMTQ4Miw5Njk2MTY0ODgsMTg2NjYwODUx
 OCwxNzcyMzE5Nzk1LDQ4MTMxOTU5Nyw3MjUyNTA0NTksLTEwMz
 g3NzMyMzcsLTEzOTYzNDE5NCwxNjk5MzQ5NDgyXX0=
