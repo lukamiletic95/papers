@@ -1,7 +1,7 @@
+### System model
 
+graph LR
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwMTA0Mzg4XX0=
+eyJoaXN0b3J5IjpbLTIzNTAyMzEyNyw5NjAxMDQzODhdfQ==
 -->
