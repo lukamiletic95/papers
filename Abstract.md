@@ -25,15 +25,15 @@ The aforementioned Mempool component is currently implemented in a way that it g
 
 Herein, a theoretical analysis on various gossip-based message passing algorithms will be provided, with the goal of finding the most suitable solution to the overhead problem. However, achieving that requires paying a price - new algorithms cannot guarantee an outcome, they can only state that there is a high probability for an outcome to occur.
 
-In addition, algorithms provided here are based on a network of nodes defined in the second section of this paper: `Definitions -> System model`. Although the network model is somewhat simplified  in comparison to the actual model used in Tendermint, ideas behind those algorithms are general and therefore could be modified, adjusted, and then practically implemented within Tendermint.
+In addition, algorithms provided here are based on a network of nodes defined in the second section of this paper: `Definitions -> System model`. Although the network model is somewhat simplified  in comparison to the actual model used in Tendermint, the ideas behind those algorithms are general and therefore could be modified, adjusted, and then practically implemented within the Tendermint.
 
 <u>**Keywords:**</u> Tendermint, Mempool, Blockchain, Gossip-based communication
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTU5NjkzMiwxNzE4ODcxNDEzLC0xNz
-Q5MDQwNzA5LC0xNDY2MDk2ODYzLC0xMjYzMzA0MDYsMTMxODYy
-NDUxMCwtOTIwMTQwODA5LDEyMzgyMjAyODEsLTEyNzA0MjE0OD
-IsOTY5NjE2NDg4LDE4NjY2MDg1MTgsMTc3MjMxOTc5NSw0ODEz
-MTk1OTcsNzI1MjUwNDU5LC0xMDM4NzczMjM3LC0xMzk2MzQxOT
-QsMTY5OTM0OTQ4Ml19
+eyJoaXN0b3J5IjpbMTcxMTA1NTU4MCwtNDQ5NTk2OTMyLDE3MT
+g4NzE0MTMsLTE3NDkwNDA3MDksLTE0NjYwOTY4NjMsLTEyNjMz
+MDQwNiwxMzE4NjI0NTEwLC05MjAxNDA4MDksMTIzODIyMDI4MS
+wtMTI3MDQyMTQ4Miw5Njk2MTY0ODgsMTg2NjYwODUxOCwxNzcy
+MzE5Nzk1LDQ4MTMxOTU5Nyw3MjUyNTA0NTksLTEwMzg3NzMyMz
+csLTEzOTYzNDE5NCwxNjk5MzQ5NDgyXX0=
 -->
