@@ -13,10 +13,10 @@ Paper structure:
 	<h3>Abstract</h3>
 </div>
 
-This paper will present a formal analysis of the Tendermint Mempool component. Tendermint is a blockchain that operates on a daily basis and is used worldwide. Blockchain schemes have gained popularity in recent years, as they provide decentralization alongside irrefutability.  The aforementioned Mempool component is currently implemented in a way that it guarantees a certain outcome, yet it produces a large overhead. In this paper, a theoretical analysis on gossip-based message passing will be provided
+This paper will present a formal analysis of the Tendermint Mempool component. Tendermint is a blockchain that operates on a daily basis and is used worldwide. Blockchain schemes have gained popularity in recent years, as they provide decentralization alongside irrefutability.  The aforementioned Mempool component is currently implemented in a way that it guarantees a certain outcome, yet it produces a large overhead. Herein, a theoretical analysis on gossip-based message passing will be provided, with the goal of reducing the overhead, but with the price of having only a probabilistic 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDcwNTQwOSwtOTIwMTQwODA5LDEyMz
+eyJoaXN0b3J5IjpbLTc0ODYzNjU1MywtOTIwMTQwODA5LDEyMz
 gyMjAyODEsLTEyNzA0MjE0ODIsOTY5NjE2NDg4LDE4NjY2MDg1
 MTgsMTc3MjMxOTc5NSw0ODEzMTk1OTcsNzI1MjUwNDU5LC0xMD
 M4NzczMjM3LC0xMzk2MzQxOTQsMTY5OTM0OTQ4Ml19
