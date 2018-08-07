@@ -11,7 +11,7 @@ Paper structure:
 * Byzantine fault tolerance
 * State Machine Replication
 * Blockchain
-* 
+* Mempool
 * Gossip communication protocol
 * System model
 
@@ -26,9 +26,9 @@ The aforementioned Mempool component is currently implemented in a way that it g
 Herein, a theoretical analysis on gossip-based message passing will be provided, with the goal of reducing the overhead, but with the price of having only a probabilistic implementation of the Mempool component.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzk0MzQ1LC0xNDY2MDk2ODYzLC0xMj
-YzMzA0MDYsMTMxODYyNDUxMCwtOTIwMTQwODA5LDEyMzgyMjAy
-ODEsLTEyNzA0MjE0ODIsOTY5NjE2NDg4LDE4NjY2MDg1MTgsMT
-c3MjMxOTc5NSw0ODEzMTk1OTcsNzI1MjUwNDU5LC0xMDM4Nzcz
-MjM3LC0xMzk2MzQxOTQsMTY5OTM0OTQ4Ml19
+eyJoaXN0b3J5IjpbLTE4NDk3NTgyODAsLTE0NjYwOTY4NjMsLT
+EyNjMzMDQwNiwxMzE4NjI0NTEwLC05MjAxNDA4MDksMTIzODIy
+MDI4MSwtMTI3MDQyMTQ4Miw5Njk2MTY0ODgsMTg2NjYwODUxOC
+wxNzcyMzE5Nzk1LDQ4MTMxOTU5Nyw3MjUyNTA0NTksLTEwMzg3
+NzMyMzcsLTEzOTYzNDE5NCwxNjk5MzQ5NDgyXX0=
 -->
