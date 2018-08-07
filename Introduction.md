@@ -2,10 +2,10 @@
 	<h1>Introduction</h1>
 </div>
 
-In this section, a brief description of the concepts of blockchain will be provided in the`Background` subsection . Following that, in the second subsection there will be a 
+In this section, a brief description of the concepts of blockchain will be provided in the`Background` part. Following that, in the second subsection called `About Tendermint` there will be another
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDMzMDQ4LDExODAzMjc2NTUsMTc1MD
-E1Mjg1OF19
+eyJoaXN0b3J5IjpbMTM4NzUyMzA4NCwxMTgwMzI3NjU1LDE3NT
+AxNTI4NThdfQ==
 -->
