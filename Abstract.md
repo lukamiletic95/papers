@@ -23,12 +23,14 @@ This paper will present a formal analysis of the Tendermint Mempool component. T
 
 The aforementioned Mempool component is currently implemented in a way that it guarantees a certain outcome, yet it produces a large overhead. It relies on a peer-to-peer gossip communication between nodes within a distributed network. 
 
-Herein, a theoretical analysis on various gossip-based message passing algorithms will be provided, with the goal of finding the most suitable solution to reducing the overhead. However, achieving that requires paying a price - new algorithms cannot guarantee an outcome, they can only state that there is a high probability for an outcome to occur.
+Herein, a theoretical analysis on various gossip-based message passing algorithms will be provided, with the goal of finding the most suitable solution to the overhead problem. However, achieving that requires paying a price - new algorithms cannot guarantee an outcome, they can only state that there is a high probability for an outcome to occur.
+
+The theoretical analysis int
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTAwMTc3NzMsLTE0NjYwOTY4NjMsLT
-EyNjMzMDQwNiwxMzE4NjI0NTEwLC05MjAxNDA4MDksMTIzODIy
-MDI4MSwtMTI3MDQyMTQ4Miw5Njk2MTY0ODgsMTg2NjYwODUxOC
-wxNzcyMzE5Nzk1LDQ4MTMxOTU5Nyw3MjUyNTA0NTksLTEwMzg3
-NzMyMzcsLTEzOTYzNDE5NCwxNjk5MzQ5NDgyXX0=
+eyJoaXN0b3J5IjpbMTQwNjk2MzUzOSwtMTQ2NjA5Njg2MywtMT
+I2MzMwNDA2LDEzMTg2MjQ1MTAsLTkyMDE0MDgwOSwxMjM4MjIw
+MjgxLC0xMjcwNDIxNDgyLDk2OTYxNjQ4OCwxODY2NjA4NTE4LD
+E3NzIzMTk3OTUsNDgxMzE5NTk3LDcyNTI1MDQ1OSwtMTAzODc3
+MzIzNywtMTM5NjM0MTk0LDE2OTkzNDk0ODJdfQ==
 -->
