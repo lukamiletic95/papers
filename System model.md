@@ -22,16 +22,19 @@ It is assumed that a *C* node wants to have its **transaction** [^1] processed b
 
 > Every *V* node is also a *FN* node. However, vice-versa does not apply - *FN* node may or may not be a *V* node. In *Figure #*, it is assumed that every node marked as *FN* is not a *V* node.
 
-To achieve that, a *C* node may connect to
+To achieve that, a *C* node may connect to a *FN* node of its own choice. Upon establishing a connection with a *FN* node, a *C* node may send its transaction to the *FN* node.
+
+> 
 
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODA1MDU5LC00NDA2NTg1ODgsLTEyMT
-YzODc5NjQsODM1NTk2MjAwLDMxNDM1MTU0MCwxNjk0NDYwMjY3
-LDUyNzgyNDk1NiwtOTEwNTQ3NTcwLDYwMDU2ODk2MSwtMTA1OD
-YxOTA3Myw0NzIxMDQ5OTMsMTExNTg3MzczMywtMTEwNzM3ODYw
-MCw0NzA4NzY2MywtMTIzODA5NTM5Niw5NjAxMDQzODhdfQ==
+eyJoaXN0b3J5IjpbLTI1Mjk3NTcwMiwxNzA4MDUwNTksLTQ0MD
+Y1ODU4OCwtMTIxNjM4Nzk2NCw4MzU1OTYyMDAsMzE0MzUxNTQw
+LDE2OTQ0NjAyNjcsNTI3ODI0OTU2LC05MTA1NDc1NzAsNjAwNT
+Y4OTYxLC0xMDU4NjE5MDczLDQ3MjEwNDk5MywxMTE1ODczNzMz
+LC0xMTA3Mzc4NjAwLDQ3MDg3NjYzLC0xMjM4MDk1Mzk2LDk2MD
+EwNDM4OF19
 -->
