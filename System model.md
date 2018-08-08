@@ -20,14 +20,16 @@ It is assumed that a *C* node wants to have its **transaction** [^1] processed b
 1. A transaction must be executed.
 2. Evidence of that execution must be stored inside a blockchain.
 
+To achieve that, a *C* node may connect to
+
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQyNTQyNTEsLTEyMTYzODc5NjQsOD
-M1NTk2MjAwLDMxNDM1MTU0MCwxNjk0NDYwMjY3LDUyNzgyNDk1
-NiwtOTEwNTQ3NTcwLDYwMDU2ODk2MSwtMTA1ODYxOTA3Myw0Nz
-IxMDQ5OTMsMTExNTg3MzczMywtMTEwNzM3ODYwMCw0NzA4NzY2
-MywtMTIzODA5NTM5Niw5NjAxMDQzODhdfQ==
+eyJoaXN0b3J5IjpbLTQ0MDY1ODU4OCwtMTIxNjM4Nzk2NCw4Mz
+U1OTYyMDAsMzE0MzUxNTQwLDE2OTQ0NjAyNjcsNTI3ODI0OTU2
+LC05MTA1NDc1NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDczLDQ3Mj
+EwNDk5MywxMTE1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MDg3NjYz
+LC0xMjM4MDk1Mzk2LDk2MDEwNDM4OF19
 -->
