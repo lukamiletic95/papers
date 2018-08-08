@@ -20,7 +20,7 @@ Let there be a set of ***m*** *full nodes*. Nodes in this model are not part of 
 
 Additionally, every *FN* node has a *CFG* file stored locally. This file contains information about the peer subset, as well as about the connected clients.
 
-*CFG* file may be configured statically (e.g. with IP addresses of clients, peers and validators), or it may change dynamically at runtime (e.g. when a client/peer connects/disconnects). 
+*CFG* file may be configured statically (e.g. with IP addresses of clients and peers), or it may change dynamically at runtime (e.g. when a client/peer connects/disconnects). 
 
 It is assumed that a *C* node wants to have its **transaction** [^1] processed by the network. From the client's perspective, there are two important events that need to occur:
 1. A transaction must be executed.
@@ -37,7 +37,7 @@ When a *FN* node receives a transaction, it stores it inside its own Mempool. In
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDA0NDcwMywtMTc1MzEyMzY5NywtMz
-AzMTEzOTYyLDE2MzI2ODU0NTgsMTYxOTk1NDQwMCwxNzM4OTA3
-Nzk0XX0=
+eyJoaXN0b3J5IjpbMTM1NDQ3NzQ2NiwxNzM0MDQ0NzAzLC0xNz
+UzMTIzNjk3LC0zMDMxMTM5NjIsMTYzMjY4NTQ1OCwxNjE5OTU0
+NDAwLDE3Mzg5MDc3OTRdfQ==
 -->
