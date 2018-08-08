@@ -23,11 +23,11 @@ For that reason, there is a probability that the validator set will never change
 
 Each consensus instance consists of ***k*** rounds, where at each round a new ***proposer*** is potentially selected. 
 
-> Once again, it
+> Once again, it is possible that through each round *1 ... k*, the proposer remains the same.
 
 A proposer is a node that has the obligation to propose what the next block in the blockchain will be. It does so by selecting a certain number of transactions from its Mempool.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA4MDgzOTIsLTUzMTQ4NTQyNywxMj
+eyJoaXN0b3J5IjpbLTEwNTg4MTQxNzMsLTUzMTQ4NTQyNywxMj
 M1ODUzNTY4LDQ1MDgxMjYxMywxMTQ1ODY2MTQ3LDIxNzc1MjI5
 NCwtNDAyOTM1NzgyLDE4MTI4MjI4ODFdfQ==
 -->
