@@ -33,13 +33,13 @@ To achieve that, a *C* node may connect to a *FN* node of its own choice. Upon e
 
 When a *FN* node receives a transaction, it stores it inside its own Mempool. In addition, the transaction is gossiped over the network to all of the peers of that particular *FN* node, so that it could be stored inside their own Mempools. Then the peers re-gossip the received transaction and so forth.
 
-The followin
+The following text explains part of the system model that enables the occurrence of events important to a client (1 and 2).
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE3MDM2NzMsLTE3NDIzOTY1MjgsMT
+eyJoaXN0b3J5IjpbLTIwNzg3OTU4NDMsLTE3NDIzOTY1MjgsMT
 MwMDQ2NDA4NywxNDM2OTI0MjA4LDE3MDgwNTA1OSwtNDQwNjU4
 NTg4LC0xMjE2Mzg3OTY0LDgzNTU5NjIwMCwzMTQzNTE1NDAsMT
 Y5NDQ2MDI2Nyw1Mjc4MjQ5NTYsLTkxMDU0NzU3MCw2MDA1Njg5
