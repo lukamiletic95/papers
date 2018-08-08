@@ -19,13 +19,13 @@ Let us consider a client-server architecture that consists of different types of
 It is assumed that a *C* node wants to have its transaction [^1]
 
 
-[^1]: A transaction may represent any data processing that is usef
+[^1]: A transaction may represent any data processing that is useful to the client (e.g. money transactions).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDUzOTQ4NywtMTIxNjM4Nzk2NCw4Mz
-U1OTYyMDAsMzE0MzUxNTQwLDE2OTQ0NjAyNjcsNTI3ODI0OTU2
-LC05MTA1NDc1NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDczLDQ3Mj
-EwNDk5MywxMTE1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MDg3NjYz
-LC0xMjM4MDk1Mzk2LDk2MDEwNDM4OF19
+eyJoaXN0b3J5IjpbLTE5OTIyNzE2MTcsLTEyMTYzODc5NjQsOD
+M1NTk2MjAwLDMxNDM1MTU0MCwxNjk0NDYwMjY3LDUyNzgyNDk1
+NiwtOTEwNTQ3NTcwLDYwMDU2ODk2MSwtMTA1ODYxOTA3Myw0Nz
+IxMDQ5OTMsMTExNTg3MzczMywtMTEwNzM3ODYwMCw0NzA4NzY2
+MywtMTIzODA5NTM5Niw5NjAxMDQzODhdfQ==
 -->
