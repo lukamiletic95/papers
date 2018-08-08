@@ -19,6 +19,7 @@ Let there be a set of ***m*** *full nodes*. Nodes in this model are not part of 
 > Every *V* node is also a *FN* node. However, vice-versa does not apply - *FN* node may or may not be a *V* node. In *Figure #*, it is assumed that every node marked as *FN* is not a *V* node.
 
 Additionally, every *FN* node has a *CFG* file stored locally. This file contains information about the peer subset, connected clients, as well as about the ***validator set***.
+
 > The term *validator set* will be explained in further text. 
 
 *CFG* file may be configured statically (e.g. with IP addresses of clients, peers and validators), or it may change dynamically at runtime (e.g. when a client/peer connects/disconnects). 
@@ -44,17 +45,19 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 
 The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*.
 
+Each block inside the blockchain is described with a number 
+
 
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjY2NDIxMzAsNjU1ODI3OTk3LC01Nj
-I2NzAyMDAsLTE3NDIzOTY1MjgsMTMwMDQ2NDA4NywxNDM2OTI0
-MjA4LDE3MDgwNTA1OSwtNDQwNjU4NTg4LC0xMjE2Mzg3OTY0LD
-gzNTU5NjIwMCwzMTQzNTE1NDAsMTY5NDQ2MDI2Nyw1Mjc4MjQ5
-NTYsLTkxMDU0NzU3MCw2MDA1Njg5NjEsLTEwNTg2MTkwNzMsND
-cyMTA0OTkzLDExMTU4NzM3MzMsLTExMDczNzg2MDAsNDcwODc2
-NjNdfQ==
+eyJoaXN0b3J5IjpbLTI4NzM3NDY0LDY1NTgyNzk5NywtNTYyNj
+cwMjAwLC0xNzQyMzk2NTI4LDEzMDA0NjQwODcsMTQzNjkyNDIw
+OCwxNzA4MDUwNTksLTQ0MDY1ODU4OCwtMTIxNjM4Nzk2NCw4Mz
+U1OTYyMDAsMzE0MzUxNTQwLDE2OTQ0NjAyNjcsNTI3ODI0OTU2
+LC05MTA1NDc1NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDczLDQ3Mj
+EwNDk5MywxMTE1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MDg3NjYz
+XX0=
 -->
