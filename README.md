@@ -1,7 +1,7 @@
 
 Q&A:
 - *References?*
-- *Footnotes don't work on github only.*
+- *Footnotes don't work on github only?*
 
 Paper structure:
 1. Abstract
