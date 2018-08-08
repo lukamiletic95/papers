@@ -27,9 +27,9 @@ Each consensus instance consists of ***k*** rounds, where at each round a new **
 
 A proposer is a node that has the obligation to propose what the next block in the blockchain will be. It does so by selecting a certain number of transactions from its Mempool, creates a block, and then proposes it to the others in the validator set.
 
-Therefore, we come to a crucial conclusion regarding the Mempool and gossiping of transactions from it - **when a *FN* receives a *C* transaction inside its Mempool, it must gossip it in a way that it guarantees (or at least provides a high probability outcome)**
+Therefore, we come to a crucial conclusion regarding the Mempool and gossiping of transactions from it - **when a *FN* receives a *C* transaction inside its Mempool, it must gossip it in a way that it guarantees (or at least provides a high probability outcome) that the transaction will eventually reach a Mempool of at least one *V* node that is going to be a proposer in some round k**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4NzAwMjY2LC04ODgzODMyMzUsLTExNz
+eyJoaXN0b3J5IjpbNTA4MjExMTUzLC04ODgzODMyMzUsLTExNz
 E0MDQxODgsMTY5MDM2NjgxOSwtMTA1ODgxNDE3MywtNTMxNDg1
 NDI3LDEyMzU4NTM1NjgsNDUwODEyNjEzLDExNDU4NjYxNDcsMj
 E3NzUyMjk0LC00MDI5MzU3ODIsMTgxMjgyMjg4MV19
