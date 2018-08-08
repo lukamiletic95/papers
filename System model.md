@@ -14,10 +14,10 @@ Algorithms described in section four: `Algorithms`, rely on a network model expl
 * *V - Validator node*
 * *CFG - Configuration file*
 
-Let us consider a client-server architecture that consists of different types of nodes. In a practical situation, a node may be represented by either a single hardware device or multiple hardware devices. Therefore, this type of representation allows for a cert
+Let us consider a client-server architecture that consists of different types of nodes. In a practical situation, a node may be represented by either a single hardware device or multiple hardware devices. Therefore, this type of model representation allows for a certain level of abstraction
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTkzNDkwMjYsMTY5NDQ2MDI2Nyw1Mj
-c4MjQ5NTYsLTkxMDU0NzU3MCw2MDA1Njg5NjEsLTEwNTg2MTkw
-NzMsNDcyMTA0OTkzLDExMTU4NzM3MzMsLTExMDczNzg2MDAsND
-cwODc2NjMsLTEyMzgwOTUzOTYsOTYwMTA0Mzg4XX0=
+eyJoaXN0b3J5IjpbMzE0MzUxNTQwLDE2OTQ0NjAyNjcsNTI3OD
+I0OTU2LC05MTA1NDc1NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDcz
+LDQ3MjEwNDk5MywxMTE1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MD
+g3NjYzLC0xMjM4MDk1Mzk2LDk2MDEwNDM4OF19
 -->
