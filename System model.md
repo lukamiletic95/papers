@@ -9,10 +9,14 @@ Algorithms described in section four: `Algorithms`, rely on a network model expl
 	<h4>Figure # - Network model</h4>
 </div>
 
-Let us consider a client-server architecture
+*C - Client node*
+*FN - Full node*
+
+
+Let us consider a client-server architecture.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDQ2MDI2Nyw1Mjc4MjQ5NTYsLTkxMD
-U0NzU3MCw2MDA1Njg5NjEsLTEwNTg2MTkwNzMsNDcyMTA0OTkz
-LDExMTU4NzM3MzMsLTExMDczNzg2MDAsNDcwODc2NjMsLTEyMz
-gwOTUzOTYsOTYwMTA0Mzg4XX0=
+eyJoaXN0b3J5IjpbMTc5NDk5MDAwLDE2OTQ0NjAyNjcsNTI3OD
+I0OTU2LC05MTA1NDc1NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDcz
+LDQ3MjEwNDk5MywxMTE1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MD
+g3NjYzLC0xMjM4MDk1Mzk2LDk2MDEwNDM4OF19
 -->
