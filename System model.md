@@ -35,15 +35,17 @@ When a *FN* node receives a transaction, it stores it inside its own Mempool. In
 
 The following text explains part of the system model that enables the occurrence of events important to a client (1 and 2).
 
+It is assumed that, as a part of the system, there is a blockchain which is replicated on every *FN* node. This blockchain is shown in *Figure #*.
+
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzg3OTU4NDMsLTE3NDIzOTY1MjgsMT
-MwMDQ2NDA4NywxNDM2OTI0MjA4LDE3MDgwNTA1OSwtNDQwNjU4
-NTg4LC0xMjE2Mzg3OTY0LDgzNTU5NjIwMCwzMTQzNTE1NDAsMT
-Y5NDQ2MDI2Nyw1Mjc4MjQ5NTYsLTkxMDU0NzU3MCw2MDA1Njg5
-NjEsLTEwNTg2MTkwNzMsNDcyMTA0OTkzLDExMTU4NzM3MzMsLT
-ExMDczNzg2MDAsNDcwODc2NjMsLTEyMzgwOTUzOTYsOTYwMTA0
-Mzg4XX0=
+eyJoaXN0b3J5IjpbLTE1OTk0NjAyNiwtMTc0MjM5NjUyOCwxMz
+AwNDY0MDg3LDE0MzY5MjQyMDgsMTcwODA1MDU5LC00NDA2NTg1
+ODgsLTEyMTYzODc5NjQsODM1NTk2MjAwLDMxNDM1MTU0MCwxNj
+k0NDYwMjY3LDUyNzgyNDk1NiwtOTEwNTQ3NTcwLDYwMDU2ODk2
+MSwtMTA1ODYxOTA3Myw0NzIxMDQ5OTMsMTExNTg3MzczMywtMT
+EwNzM3ODYwMCw0NzA4NzY2MywtMTIzODA5NTM5Niw5NjAxMDQz
+ODhdfQ==
 -->
