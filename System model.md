@@ -20,7 +20,7 @@ Let there be a set of ***m*** *full nodes*. Processes in this model are not part
 
 > Every *V* node is also a *FN* node. However, vice-versa does not apply - *FN* node may or may not be a *V* node. In *Figure #*, it is assumed that every node marked as *FN* is not a *V* node.
 
-Additionally, every *FN* node has a *CFG* file stored local
+Additionally, every *FN* node has a *CFG* file stored locally. This file contains information about the peer subset, connected clients
 
 It is assumed that a *C* node wants to have its **transaction** [^1] processed by the network. From the client's perspective, there are two important events that need to occur:
 1. A transaction must be executed.
@@ -36,10 +36,10 @@ When a *FN* node receives a transaction, it stores it inside its own Mempool. In
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzMyNTM3MTksMTMwMDQ2NDA4NywxND
-M2OTI0MjA4LDE3MDgwNTA1OSwtNDQwNjU4NTg4LC0xMjE2Mzg3
-OTY0LDgzNTU5NjIwMCwzMTQzNTE1NDAsMTY5NDQ2MDI2Nyw1Mj
-c4MjQ5NTYsLTkxMDU0NzU3MCw2MDA1Njg5NjEsLTEwNTg2MTkw
-NzMsNDcyMTA0OTkzLDExMTU4NzM3MzMsLTExMDczNzg2MDAsND
-cwODc2NjMsLTEyMzgwOTUzOTYsOTYwMTA0Mzg4XX0=
+eyJoaXN0b3J5IjpbNzM2Nzc5ODk4LDEzMDA0NjQwODcsMTQzNj
+kyNDIwOCwxNzA4MDUwNTksLTQ0MDY1ODU4OCwtMTIxNjM4Nzk2
+NCw4MzU1OTYyMDAsMzE0MzUxNTQwLDE2OTQ0NjAyNjcsNTI3OD
+I0OTU2LC05MTA1NDc1NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDcz
+LDQ3MjEwNDk5MywxMTE1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MD
+g3NjYzLC0xMjM4MDk1Mzk2LDk2MDEwNDM4OF19
 -->
