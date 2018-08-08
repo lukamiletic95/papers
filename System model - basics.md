@@ -34,23 +34,11 @@ To achieve that, a *C* node may connect to a *FN* node of its own choice. Upon e
 
 When a *FN* node receives a transaction, it stores it inside its own Mempool. In addition, the transaction is gossiped over the network to all of the peers of that particular *FN* node, so that it could be stored inside their own Mempools. Then the peers re-gossip the received transaction and so forth.
 
-The following text explains part of the system model that enables the occurrence of events important to a client (1 and 2).
-
-It is assumed that, as a part of the system, there is a blockchain which is replicated on every *FN* node. This blockchain is shown in *Figure #*.
-
-![](https://github.com/lukamiletic95/papers/blob/master/images/fig2.png)
-<div align='center'> 
-	<h4>Figure # - Blockchain inside <i>FN</i> nodes</h4>
-</div>
-
-The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*. Each block inside the blockchain is described with a number - *height* (ordinal number of a block inside a blockchain). 
-
-In order to add a new block to the blockchain, a set of nodes - ***validator set*** must reach a consensus for each *height* ***h***. A validator set is a set of 
-
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTk1NDQwMCwxNzM4OTA3Nzk0XX0=
+eyJoaXN0b3J5IjpbLTIwMjUwMTcwNTgsMTYxOTk1NDQwMCwxNz
+M4OTA3Nzk0XX0=
 -->
