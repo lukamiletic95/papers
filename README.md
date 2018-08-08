@@ -14,6 +14,7 @@ Paper structure:
 * Gossip communication protocol
 * System model - basics
 * System model - consensus & gossip
+* System model - assumptions & summary
 4. Algorithms
 * Current Solution
 * ... my Solutions (includes analysis for each solution)
