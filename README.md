@@ -12,7 +12,8 @@ Paper structure:
 * State Machine Replication
 * Mempool
 * Gossip communication protocol
-* System model
+* System model - basics
+* System model - consensus & gossip
 4. Algorithms
 * Current Solution
 * ... my Solutions (includes analysis for each solution)
