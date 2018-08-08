@@ -16,11 +16,13 @@ Algorithms described in section four: `Algorithms`, rely on a network model expl
 
 Let us consider a client-server architecture that consists of different types of nodes (*C, FN, V, CFG*). In a practical situation, a node may be represented by either a single hardware device or multiple hardware devices. Therefore, this type of model representation allows for a certain level of abstraction that omits the hardware specification, yet enables a concise discussion without loss of generality.
 
+It is assumed that a *C* node wants to 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTYzODc5NjQsODM1NTk2MjAwLDMxND
-M1MTU0MCwxNjk0NDYwMjY3LDUyNzgyNDk1NiwtOTEwNTQ3NTcw
-LDYwMDU2ODk2MSwtMTA1ODYxOTA3Myw0NzIxMDQ5OTMsMTExNT
-g3MzczMywtMTEwNzM3ODYwMCw0NzA4NzY2MywtMTIzODA5NTM5
-Niw5NjAxMDQzODhdfQ==
+eyJoaXN0b3J5IjpbMTAxNjMwODI2MCwtMTIxNjM4Nzk2NCw4Mz
+U1OTYyMDAsMzE0MzUxNTQwLDE2OTQ0NjAyNjcsNTI3ODI0OTU2
+LC05MTA1NDc1NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDczLDQ3Mj
+EwNDk5MywxMTE1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MDg3NjYz
+LC0xMjM4MDk1Mzk2LDk2MDEwNDM4OF19
 -->
