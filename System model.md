@@ -24,17 +24,17 @@ It is assumed that a *C* node wants to have its **transaction** [^1] processed b
 
 To achieve that, a *C* node may connect to a *FN* node of its own choice. Upon establishing a connection with a *FN* node, a *C* node may send its transaction to the *FN* node.
 
-> 
+> It is assumed that each *FN* node has a public IP address, which enables a client to connect to it.
 
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Mjk3NTcwMiwxNzA4MDUwNTksLTQ0MD
-Y1ODU4OCwtMTIxNjM4Nzk2NCw4MzU1OTYyMDAsMzE0MzUxNTQw
-LDE2OTQ0NjAyNjcsNTI3ODI0OTU2LC05MTA1NDc1NzAsNjAwNT
-Y4OTYxLC0xMDU4NjE5MDczLDQ3MjEwNDk5MywxMTE1ODczNzMz
-LC0xMTA3Mzc4NjAwLDQ3MDg3NjYzLC0xMjM4MDk1Mzk2LDk2MD
-EwNDM4OF19
+eyJoaXN0b3J5IjpbNTg0MjIxNDI2LDE3MDgwNTA1OSwtNDQwNj
+U4NTg4LC0xMjE2Mzg3OTY0LDgzNTU5NjIwMCwzMTQzNTE1NDAs
+MTY5NDQ2MDI2Nyw1Mjc4MjQ5NTYsLTkxMDU0NzU3MCw2MDA1Nj
+g5NjEsLTEwNTg2MTkwNzMsNDcyMTA0OTkzLDExMTU4NzM3MzMs
+LTExMDczNzg2MDAsNDcwODc2NjMsLTEyMzgwOTUzOTYsOTYwMT
+A0Mzg4XX0=
 -->
