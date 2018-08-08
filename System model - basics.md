@@ -1,4 +1,4 @@
-### System model
+### System model - basics
 
 Algorithms described in section four: `Algorithms`, rely on a network model explained here.
 
@@ -52,5 +52,5 @@ In order to add a new block to the blockchain, a set of nodes - ***validator set
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODkwNzc5NF19
+eyJoaXN0b3J5IjpbMTYxOTk1NDQwMCwxNzM4OTA3Nzk0XX0=
 -->
