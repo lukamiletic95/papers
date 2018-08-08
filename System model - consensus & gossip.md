@@ -13,7 +13,7 @@ The blockchain consists of blocks that are linked in some way (e.g. every block 
 
 In order to add a new block to the blockchain, a set of nodes - ***validator set*** must reach a consensus for each *blockchain height* ***h***. 
 
-> Blockchain height is nothing but a height of a block to be added to the blockchain - it may be represented as a sum of all the blocks + 1 (Genesis block).
+> Blockchain height is nothing but a height of a block to be added to the blockchain - it represents a number of blocks inside the blockchain, excluding the Genesis block.
 
 A ***validator set*** is a set of *FN* nodes that is chosen for each consensus instance, which is executed whenever a new block at height *h* is to be added to the blockchain. Let the size of the validator set be denoted as ***n*** where ***n < m***. When a *FN* node is added to the validator set, it becomes a *V* node.
 
@@ -33,9 +33,9 @@ A proposer is a node that has the obligation to propose what the next block in t
 
 Therefore, we come to a crucial conclusion regarding the Mempool and gossiping of transactions from it - **when a *FN* receives a *C* transaction inside its Mempool, it must gossip it in a way that it guarantees (or at least provides a high probability outcome) that the transaction will eventually reach a Mempool of at least one *V* node that is going to be a proposer in some round k<sub>i</sub> at some blockchain height h<sub>j</sub> in the future**. That particular course of events will then lead to a client transaction being both executed and stored within a blockchain.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTEzMTU1NywtMTY2NzExODY0NywtOD
-g4MzgzMjM1LC0xMTcxNDA0MTg4LDE2OTAzNjY4MTksLTEwNTg4
-MTQxNzMsLTUzMTQ4NTQyNywxMjM1ODUzNTY4LDQ1MDgxMjYxMy
-wxMTQ1ODY2MTQ3LDIxNzc1MjI5NCwtNDAyOTM1NzgyLDE4MTI4
-MjI4ODFdfQ==
+eyJoaXN0b3J5IjpbMjkwNzI2NjIzLC0xNjY3MTE4NjQ3LC04OD
+gzODMyMzUsLTExNzE0MDQxODgsMTY5MDM2NjgxOSwtMTA1ODgx
+NDE3MywtNTMxNDg1NDI3LDEyMzU4NTM1NjgsNDUwODEyNjEzLD
+ExNDU4NjYxNDcsMjE3NzUyMjk0LC00MDI5MzU3ODIsMTgxMjgy
+Mjg4MV19
 -->
