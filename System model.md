@@ -16,7 +16,7 @@ Algorithms described in section four: `Algorithms`, rely on a network model expl
 
 Let us consider a client-server architecture that consists of different types of nodes (*C, FN, V, CFG*). In a practical situation, a node may be represented by either a single hardware device or multiple hardware devices (e.g. within an organization). Therefore, this type of model representation allows for a certain level of abstraction that omits the hardware specification, yet enables a concise discussion without loss of generality.
 
-Let there be a set of ***m*** *full nodes*. Processes in this model are not part of a single administration domain. Consequently, a full-mesh connection among them cannot be administered. Due to that reason, 
+Let there be a set of ***m*** *full nodes*. Processes in this model are not part of a single administration domain. Consequently, a full-mesh connection among them cannot be administered. Due to that reason, a non-client node inside the network may only be connected to a subset of other *full nodes*. That subset is called a ***peer subset***.
 
 > Every *V* node is also a *FN* node. However, vice-versa does not apply - *FN* node may or may not be a *V* node. In *Figure #*, it is assumed that every node marked as *FN* is not a *V* node.
 
@@ -34,7 +34,7 @@ When a *FN* node receives a transaction, it stores it inside its own Mempool. In
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0MTI5OTIzLDE0MzY5MjQyMDgsMTcwOD
+eyJoaXN0b3J5IjpbOTExODAyNTM1LDE0MzY5MjQyMDgsMTcwOD
 A1MDU5LC00NDA2NTg1ODgsLTEyMTYzODc5NjQsODM1NTk2MjAw
 LDMxNDM1MTU0MCwxNjk0NDYwMjY3LDUyNzgyNDk1NiwtOTEwNT
 Q3NTcwLDYwMDU2ODk2MSwtMTA1ODYxOTA3Myw0NzIxMDQ5OTMs
