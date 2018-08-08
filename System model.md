@@ -26,16 +26,16 @@ To achieve that, a *C* node may connect to a *FN* node of its own choice. Upon e
 
 > It is assumed that each *FN* node has a public IP address, which enables a client to connect to it.
 
-When a *FN* node receives a transaction, it stores it inside its own Mempool. In addition, the transaction is gossiped over the network t
+When a *FN* node receives a transaction, it stores it inside its own Mempool. In addition, the transaction is gossiped over the network to all of the peers of that particular *FN* node. Then the peers re-gossip that received transaction and so on.
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODQ1ODY5OSwxNzA4MDUwNTksLTQ0MD
-Y1ODU4OCwtMTIxNjM4Nzk2NCw4MzU1OTYyMDAsMzE0MzUxNTQw
-LDE2OTQ0NjAyNjcsNTI3ODI0OTU2LC05MTA1NDc1NzAsNjAwNT
-Y4OTYxLC0xMDU4NjE5MDczLDQ3MjEwNDk5MywxMTE1ODczNzMz
-LC0xMTA3Mzc4NjAwLDQ3MDg3NjYzLC0xMjM4MDk1Mzk2LDk2MD
-EwNDM4OF19
+eyJoaXN0b3J5IjpbLTE0MDg3OTI1MjksMTcwODA1MDU5LC00ND
+A2NTg1ODgsLTEyMTYzODc5NjQsODM1NTk2MjAwLDMxNDM1MTU0
+MCwxNjk0NDYwMjY3LDUyNzgyNDk1NiwtOTEwNTQ3NTcwLDYwMD
+U2ODk2MSwtMTA1ODYxOTA3Myw0NzIxMDQ5OTMsMTExNTg3Mzcz
+MywtMTEwNzM3ODYwMCw0NzA4NzY2MywtMTIzODA5NTM5Niw5Nj
+AxMDQzODhdfQ==
 -->
