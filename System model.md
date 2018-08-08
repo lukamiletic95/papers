@@ -11,7 +11,7 @@ Algorithms described in section four: `Algorithms`, rely on a network model expl
 
 * *C - Client node*
 * *FN - Full node*
-* *V - Validator node (is also a *FN*)*
+* *V - Validator node (is also a *FN* node)*
 * *CFG - Configuration file*
 
 Let us consider a client-server architecture that consists of different types of nodes (*C, FN, V, CFG*). In a practical situation, a node may be represented by either a single hardware device or multiple hardware devices (e.g. within an organization). Therefore, this type of model representation allows for a certain level of abstraction that omits the hardware specification, yet enables a concise discussion without loss of generality.
@@ -32,10 +32,10 @@ When a *FN* node receives a transaction, it
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTk5NzQ3NCwxNzA4MDUwNTksLTQ0MD
-Y1ODU4OCwtMTIxNjM4Nzk2NCw4MzU1OTYyMDAsMzE0MzUxNTQw
-LDE2OTQ0NjAyNjcsNTI3ODI0OTU2LC05MTA1NDc1NzAsNjAwNT
-Y4OTYxLC0xMDU4NjE5MDczLDQ3MjEwNDk5MywxMTE1ODczNzMz
-LC0xMTA3Mzc4NjAwLDQ3MDg3NjYzLC0xMjM4MDk1Mzk2LDk2MD
-EwNDM4OF19
+eyJoaXN0b3J5IjpbLTEyODA5Mjk3MzIsMTcwODA1MDU5LC00ND
+A2NTg1ODgsLTEyMTYzODc5NjQsODM1NTk2MjAwLDMxNDM1MTU0
+MCwxNjk0NDYwMjY3LDUyNzgyNDk1NiwtOTEwNTQ3NTcwLDYwMD
+U2ODk2MSwtMTA1ODYxOTA3Myw0NzIxMDQ5OTMsMTExNTg3Mzcz
+MywtMTEwNzM3ODYwMCw0NzA4NzY2MywtMTIzODA5NTM5Niw5Nj
+AxMDQzODhdfQ==
 -->
