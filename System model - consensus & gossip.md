@@ -9,7 +9,7 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 	<h4>Figure # - Blockchain inside <i>FN</i> nodes</h4>
 </div>
 
-The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*. Each block inside the blockchain is described with a number - *height* (ordinal number of a block inside a blockchain). 
+The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*. Each block inside the blockchain is described with a number - *height* (ordinal number of a block inside a blockchain).  Each block also contains a batch of transactions that are not only recorded permanently as a history of blockchain, but are also executed whenever a new 
 
 In order to add a new block to the blockchain, a set of nodes - ***validator set*** must reach a consensus for each *height* ***h***. A ***validator set*** is a set of *FN* nodes that is chosen for each consensus instance, which is executed whenever a new block at height *h* is to be added to the blockchain. Let the size of the validator set be denoted as ***n*** where ***n < m***.
 
@@ -27,7 +27,8 @@ Each consensus instance consists of ***k*** rounds, where at each round a new **
 
 A proposer is a node that has the obligation to propose what the next block in the blockchain will be. It does so by selecting a certain number of transactions from its Mempool.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDM2NjgxOSwtMTA1ODgxNDE3MywtNT
-MxNDg1NDI3LDEyMzU4NTM1NjgsNDUwODEyNjEzLDExNDU4NjYx
-NDcsMjE3NzUyMjk0LC00MDI5MzU3ODIsMTgxMjgyMjg4MV19
+eyJoaXN0b3J5IjpbNDQ0MDg4MjAxLDE2OTAzNjY4MTksLTEwNT
+g4MTQxNzMsLTUzMTQ4NTQyNywxMjM1ODUzNTY4LDQ1MDgxMjYx
+MywxMTQ1ODY2MTQ3LDIxNzc1MjI5NCwtNDAyOTM1NzgyLDE4MT
+I4MjI4ODFdfQ==
 -->
