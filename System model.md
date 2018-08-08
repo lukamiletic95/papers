@@ -43,20 +43,20 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 	<h4>Figure # - Blockchain inside <i>FN</i> nodes</h4>
 </div>
 
-The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*.
+The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*. Each block inside the blockchain is described with a number - *height* (ordinal number of a block inside a blockchain). 
 
-Each block inside the blockchain is described with a number - *height*. That number denotes the consensus algorithm ins
+In order to ad
 
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjg5Mjg0Myw2NTU4Mjc5OTcsLTU2Mj
-Y3MDIwMCwtMTc0MjM5NjUyOCwxMzAwNDY0MDg3LDE0MzY5MjQy
-MDgsMTcwODA1MDU5LC00NDA2NTg1ODgsLTEyMTYzODc5NjQsOD
-M1NTk2MjAwLDMxNDM1MTU0MCwxNjk0NDYwMjY3LDUyNzgyNDk1
-NiwtOTEwNTQ3NTcwLDYwMDU2ODk2MSwtMTA1ODYxOTA3Myw0Nz
-IxMDQ5OTMsMTExNTg3MzczMywtMTEwNzM3ODYwMCw0NzA4NzY2
-M119
+eyJoaXN0b3J5IjpbNjI0MzA4MTM0LDY1NTgyNzk5NywtNTYyNj
+cwMjAwLC0xNzQyMzk2NTI4LDEzMDA0NjQwODcsMTQzNjkyNDIw
+OCwxNzA4MDUwNTksLTQ0MDY1ODU4OCwtMTIxNjM4Nzk2NCw4Mz
+U1OTYyMDAsMzE0MzUxNTQwLDE2OTQ0NjAyNjcsNTI3ODI0OTU2
+LC05MTA1NDc1NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDczLDQ3Mj
+EwNDk5MywxMTE1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MDg3NjYz
+XX0=
 -->
