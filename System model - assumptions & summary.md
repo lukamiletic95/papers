@@ -1,7 +1,7 @@
 ### System model - assumptions & summary
 
-To summarize the complete definition of the system model, in further text all of the assumptions will be listed:
-
+To summarize the complete definition of the system model, in further text all of the assumptions made will be listed:
+* Full nodes have public IP addresses.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwMjA4NTU5LDM5ODc3ODQzN119
+eyJoaXN0b3J5IjpbMTMyNTQ4MjEwMCwzOTg3Nzg0MzddfQ==
 -->
