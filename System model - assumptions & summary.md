@@ -1,7 +1,6 @@
+### System model - assumptions & summary
 
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxMjk4MTk5XX0=
+eyJoaXN0b3J5IjpbMzk4Nzc4NDM3XX0=
 -->
