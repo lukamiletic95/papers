@@ -39,7 +39,7 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 
 ![](https://github.com/lukamiletic95/papers/blob/master/images/fig2.png)
 <div align='center'> 
-	<h4>Figure # - Blockchain inside *FN* nodes</h4>
+	<h4>Figure # - Blockchain inside <i>FN</i> nodes</h4>
 </div>
 
 
@@ -48,11 +48,11 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjY3MDIwMCwtMTc0MjM5NjUyOCwxMz
-AwNDY0MDg3LDE0MzY5MjQyMDgsMTcwODA1MDU5LC00NDA2NTg1
-ODgsLTEyMTYzODc5NjQsODM1NTk2MjAwLDMxNDM1MTU0MCwxNj
-k0NDYwMjY3LDUyNzgyNDk1NiwtOTEwNTQ3NTcwLDYwMDU2ODk2
-MSwtMTA1ODYxOTA3Myw0NzIxMDQ5OTMsMTExNTg3MzczMywtMT
-EwNzM3ODYwMCw0NzA4NzY2MywtMTIzODA5NTM5Niw5NjAxMDQz
-ODhdfQ==
+eyJoaXN0b3J5IjpbLTExNTMxMDM1ODksLTU2MjY3MDIwMCwtMT
+c0MjM5NjUyOCwxMzAwNDY0MDg3LDE0MzY5MjQyMDgsMTcwODA1
+MDU5LC00NDA2NTg1ODgsLTEyMTYzODc5NjQsODM1NTk2MjAwLD
+MxNDM1MTU0MCwxNjk0NDYwMjY3LDUyNzgyNDk1NiwtOTEwNTQ3
+NTcwLDYwMDU2ODk2MSwtMTA1ODYxOTA3Myw0NzIxMDQ5OTMsMT
+ExNTg3MzczMywtMTEwNzM3ODYwMCw0NzA4NzY2MywtMTIzODA5
+NTM5Nl19
 -->
