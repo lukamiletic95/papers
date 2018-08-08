@@ -45,17 +45,18 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 
 The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*.
 
+Each block inside the blockchain is described with a number *h
 
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5NDQyMjAsNjU1ODI3OTk3LC01NjI2Nz
-AyMDAsLTE3NDIzOTY1MjgsMTMwMDQ2NDA4NywxNDM2OTI0MjA4
-LDE3MDgwNTA1OSwtNDQwNjU4NTg4LC0xMjE2Mzg3OTY0LDgzNT
-U5NjIwMCwzMTQzNTE1NDAsMTY5NDQ2MDI2Nyw1Mjc4MjQ5NTYs
-LTkxMDU0NzU3MCw2MDA1Njg5NjEsLTEwNTg2MTkwNzMsNDcyMT
-A0OTkzLDExMTU4NzM3MzMsLTExMDczNzg2MDAsNDcwODc2NjNd
-fQ==
+eyJoaXN0b3J5IjpbMTgzMzU4NjM5Niw2NTU4Mjc5OTcsLTU2Mj
+Y3MDIwMCwtMTc0MjM5NjUyOCwxMzAwNDY0MDg3LDE0MzY5MjQy
+MDgsMTcwODA1MDU5LC00NDA2NTg1ODgsLTEyMTYzODc5NjQsOD
+M1NTk2MjAwLDMxNDM1MTU0MCwxNjk0NDYwMjY3LDUyNzgyNDk1
+NiwtOTEwNTQ3NTcwLDYwMDU2ODk2MSwtMTA1ODYxOTA3Myw0Nz
+IxMDQ5OTMsMTExNTg3MzczMywtMTEwNzM3ODYwMCw0NzA4NzY2
+M119
 -->
