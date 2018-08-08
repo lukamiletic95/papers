@@ -16,7 +16,7 @@ Algorithms described in section four: `Algorithms`, rely on a network model expl
 
 Let us consider a client-server architecture that consists of different types of nodes (*C, FN, V, CFG*). In a practical situation, a node may be represented by either a single hardware device or multiple hardware devices (e.g. within an organization). Therefore, this type of model representation allows for a certain level of abstraction that omits the hardware specification, yet enables a concise discussion without loss of generality.
 
-In this model, 
+
 
 It is assumed that a *C* node wants to have its **transaction** [^1] processed by the network. From the client's perspective, there are two important events that need to occur:
 1. A transaction must be executed.
@@ -34,7 +34,7 @@ When a *FN* node receives a transaction, it stores it inside its own Mempool. In
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTAwMTc1MiwxNzA4MDUwNTksLTQ0MD
+eyJoaXN0b3J5IjpbMTQzNjkyNDIwOCwxNzA4MDUwNTksLTQ0MD
 Y1ODU4OCwtMTIxNjM4Nzk2NCw4MzU1OTYyMDAsMzE0MzUxNTQw
 LDE2OTQ0NjAyNjcsNTI3ODI0OTU2LC05MTA1NDc1NzAsNjAwNT
 Y4OTYxLC0xMDU4NjE5MDczLDQ3MjEwNDk5MywxMTE1ODczNzMz
