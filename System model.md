@@ -1,7 +1,9 @@
 ### System model
 
-Algorithms described in section four rely on a network explained here.
+Algorithms described in section four: `Algorithms`, rely on a network model explained here.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDczNzg2MDAsNDcwODc2NjMsLTEyMz
-gwOTUzOTYsOTYwMTA0Mzg4XX0=
+eyJoaXN0b3J5IjpbNDcyMTA0OTkzLC0xMTA3Mzc4NjAwLDQ3MD
+g3NjYzLC0xMjM4MDk1Mzk2LDk2MDEwNDM4OF19
 -->
