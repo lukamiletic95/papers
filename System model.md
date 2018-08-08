@@ -9,9 +9,9 @@ Algorithms described in section four: `Algorithms`, rely on a network model expl
 	<h4>Figure # - Network model</h4>
 </div>
 
-Let us consider a system.
+Let us consider a client-server architecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzY4MDgzNiw1Mjc4MjQ5NTYsLTkxMD
+eyJoaXN0b3J5IjpbMTY5NDQ2MDI2Nyw1Mjc4MjQ5NTYsLTkxMD
 U0NzU3MCw2MDA1Njg5NjEsLTEwNTg2MTkwNzMsNDcyMTA0OTkz
 LDExMTU4NzM3MzMsLTExMDczNzg2MDAsNDcwODc2NjMsLTEyMz
 gwOTUzOTYsOTYwMTA0Mzg4XX0=
