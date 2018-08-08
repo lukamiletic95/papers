@@ -6,10 +6,12 @@ Algorithms described in section four: `Algorithms`, rely on a network model expl
 
 ![](https://github.com/lukamiletic95/papers/blob/master/images/fig1.png)
 
-![](https://github.com/lukamiletic95/papers/blob/master/images/fig2.png)
+###### Figure 1 - Network model
+
+Let us consider a system.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3ODI0OTU2LC05MTA1NDc1NzAsNjAwNT
-Y4OTYxLC0xMDU4NjE5MDczLDQ3MjEwNDk5MywxMTE1ODczNzMz
-LC0xMTA3Mzc4NjAwLDQ3MDg3NjYzLC0xMjM4MDk1Mzk2LDk2MD
-EwNDM4OF19
+eyJoaXN0b3J5IjpbMjEzNzM2NjkyOSw1Mjc4MjQ5NTYsLTkxMD
+U0NzU3MCw2MDA1Njg5NjEsLTEwNTg2MTkwNzMsNDcyMTA0OTkz
+LDExMTU4NzM3MzMsLTExMDczNzg2MDAsNDcwODc2NjMsLTEyMz
+gwOTUzOTYsOTYwMTA0Mzg4XX0=
 -->
