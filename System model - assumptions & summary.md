@@ -10,7 +10,7 @@ To summarize the complete definition of the system model, in further text all of
 * A *C* may change its *FN* node dynamically.
 * Information about clients and peers is stored within a *CFG* file.
 
-
+In the following sections, a current solution for gossiping transactions from Mempool, which is also used in Tendermint, will be described. After that, various alternatives wil
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDI0OTY1NywzOTg3Nzg0MzddfQ==
+eyJoaXN0b3J5IjpbMTUzMDU4MTU4MywzOTg3Nzg0MzddfQ==
 -->
