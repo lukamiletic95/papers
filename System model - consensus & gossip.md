@@ -11,7 +11,7 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 
 The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*. Each block inside the blockchain is described with a number - *height* (ordinal number of a block inside a blockchain).  Each block also contains a batch of transactions that are not only recorded permanently as a history of blockchain, but are also executed whenever a new block is added to the blockchain (**this satisfies 1 and 2 in** `System model → basics`).
 
-In order to add a new block to the blockchain, a set of nodes - ***validator set*** must reach a consensus for each *height* ***h***. A ***validator set*** is a set of *FN* nodes that is chosen for each consensus instance, which is executed whenever a new block at height *h* is to be added to the blockchain. Let the size of the validator set be denoted as ***n*** where ***n < m***.
+In order to add a new block to the blockchain, a set of nodes - ***validator set*** must reach a consensus for each *height* ***h***. A ***validator set*** is a set of *FN* nodes that is chosen for each consensus instance, which is executed whenever a new block at height *h* is to be added to the blockchain. Let the size of the validator set be denoted as ***n*** where ***n < m***. When a *FN* node is added to the validator set, it becomes a *V* node.
 
 > Consensus instance represents one execution of the Tendermint consensus algorithm. Mainly, that algorithm will be considered a black-box in this paper, with the exception of revealing minor details of its implementation that are relevant to the functioning of the Mempool component and gossiping transactions from the Mempool. Consensus algorithm is described in detail in [1].
 
@@ -27,8 +27,8 @@ Each consensus instance consists of ***k*** rounds, where at each round a new **
 
 A proposer is a node that has the obligation to propose what the next block in the blockchain will be. It does so by selecting a certain number of transactions from its Mempool.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTE1Njg0LC0xMTcxNDA0MTg4LDE2OT
-AzNjY4MTksLTEwNTg4MTQxNzMsLTUzMTQ4NTQyNywxMjM1ODUz
-NTY4LDQ1MDgxMjYxMywxMTQ1ODY2MTQ3LDIxNzc1MjI5NCwtND
-AyOTM1NzgyLDE4MTI4MjI4ODFdfQ==
+eyJoaXN0b3J5IjpbLTg4ODM4MzIzNSwtMTE3MTQwNDE4OCwxNj
+kwMzY2ODE5LC0xMDU4ODE0MTczLC01MzE0ODU0MjcsMTIzNTg1
+MzU2OCw0NTA4MTI2MTMsMTE0NTg2NjE0NywyMTc3NTIyOTQsLT
+QwMjkzNTc4MiwxODEyODIyODgxXX0=
 -->
