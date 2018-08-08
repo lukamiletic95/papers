@@ -25,10 +25,12 @@ Each consensus instance consists of ***k*** rounds, where at each round a new **
 
 > Once again, it is possible that through each round *1 ... k*, the proposer remains the same.
 
-A proposer is a node that has the obligation to propose what the next block in the blockchain will be. It does so by selecting a certain number of transactions from its Mempool.
+A proposer is a node that has the obligation to propose what the next block in the blockchain will be. It does so by selecting a certain number of transactions from its Mempool, creates a block, and then proposes it to the others in the validator set.
+
+Therefore, we come to a crucial conclusion regarding the Mempool and gossiping of transactions from it - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODM4MzIzNSwtMTE3MTQwNDE4OCwxNj
-kwMzY2ODE5LC0xMDU4ODE0MTczLC01MzE0ODU0MjcsMTIzNTg1
-MzU2OCw0NTA4MTI2MTMsMTE0NTg2NjE0NywyMTc3NTIyOTQsLT
-QwMjkzNTc4MiwxODEyODIyODgxXX0=
+eyJoaXN0b3J5IjpbLTU0MTEzOTQzOCwtODg4MzgzMjM1LC0xMT
+cxNDA0MTg4LDE2OTAzNjY4MTksLTEwNTg4MTQxNzMsLTUzMTQ4
+NTQyNywxMjM1ODUzNTY4LDQ1MDgxMjYxMywxMTQ1ODY2MTQ3LD
+IxNzc1MjI5NCwtNDAyOTM1NzgyLDE4MTI4MjI4ODFdfQ==
 -->
