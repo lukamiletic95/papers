@@ -11,7 +11,8 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 
 The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*. Each block inside the blockchain is described with a number - *height* (ordinal number of a block inside a blockchain). 
 
-In order to add a new block to the blockchain, a set of nodes - ***validator set*** must reach a consensus for each *height* ***h***. A validator set is a set of 
+In order to add a new block to the blockchain, a set of nodes - ***validator set*** must reach a consensus for each *height* ***h***. A ***validator set*** is a set of full nodes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjkzNTc4MiwxODEyODIyODgxXX0=
+eyJoaXN0b3J5IjpbMjE3NzUyMjk0LC00MDI5MzU3ODIsMTgxMj
+gyMjg4MV19
 -->
