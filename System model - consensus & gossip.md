@@ -13,7 +13,7 @@ The blockchain consists of blocks that are linked in some way (e.g. every block 
 
 In order to add a new block to the blockchain, a set of nodes - ***validator set*** must reach a consensus for each *height* ***h***. A ***validator set*** is a set of *FN* nodes that is chosen for each consensus instance, which is executed whenever a new block at height *h* is to be added to the blockchain.
 
-> Consensus instance represents one execution of the Tendermint consensus algorithm. Mainly, that algorithm will be considered a black-box in this paper, with the exception of revealing minor details of its implementation that are relevant to the functioning of the Mempool component and gossiping transactions from Mempool. Consensus algorithm is described in detail in [1].
+> Consensus instance represents one execution of the Tendermint consensus algorithm. Mainly, that algorithm will be considered a black-box in this paper, with the exception of revealing minor details of its implementation that are relevant to the functioning of the Mempool component and gossiping transactions from the Mempool. Consensus algorithm is described in detail in [1].
 
 Therefore, the validator set potentially changes at each "blockchain height".
 
@@ -23,7 +23,7 @@ For that reason, there is a probability that the validator set will never change
 
 However, that does not happen always, and because, the network protocol must ensure that each *FN* has fresh information about the validator set. This is the reason for storing the validator set inside the *CFG* file. -- ovo ne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTg1MzU2OCw0NTA4MTI2MTMsMTE0NT
-g2NjE0NywyMTc3NTIyOTQsLTQwMjkzNTc4MiwxODEyODIyODgx
-XX0=
+eyJoaXN0b3J5IjpbLTcxOTU3NzY0NywxMjM1ODUzNTY4LDQ1MD
+gxMjYxMywxMTQ1ODY2MTQ3LDIxNzc1MjI5NCwtNDAyOTM1Nzgy
+LDE4MTI4MjI4ODFdfQ==
 -->
