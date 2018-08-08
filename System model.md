@@ -16,7 +16,7 @@ Algorithms described in section four: `Algorithms`, rely on a network model expl
 
 Let us consider a client-server architecture that consists of different types of nodes (*C, FN, V, CFG*). In a practical situation, a node may be represented by either a single hardware device or multiple hardware devices (e.g. within an organization). Therefore, this type of model representation allows for a certain level of abstraction that omits the hardware specification, yet enables a concise discussion without loss of generality.
 
-Let there be a set of ***m*** processes marked as *
+Let there be a set of ***m*** processes marked as *FN*. Processes in this model are not part of a single administration domain. Consequently, a full-mesh connection among them cannot be administered. Due to that reason, 
 
 It is assumed that a *C* node wants to have its **transaction** [^1] processed by the network. From the client's perspective, there are two important events that need to occur:
 1. A transaction must be executed.
@@ -34,10 +34,10 @@ When a *FN* node receives a transaction, it stores it inside its own Mempool. In
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAxNzAwMjYsMTQzNjkyNDIwOCwxNz
-A4MDUwNTksLTQ0MDY1ODU4OCwtMTIxNjM4Nzk2NCw4MzU1OTYy
-MDAsMzE0MzUxNTQwLDE2OTQ0NjAyNjcsNTI3ODI0OTU2LC05MT
-A1NDc1NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDczLDQ3MjEwNDk5
-MywxMTE1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MDg3NjYzLC0xMj
-M4MDk1Mzk2LDk2MDEwNDM4OF19
+eyJoaXN0b3J5IjpbODgxNDI3NTAwLDE0MzY5MjQyMDgsMTcwOD
+A1MDU5LC00NDA2NTg1ODgsLTEyMTYzODc5NjQsODM1NTk2MjAw
+LDMxNDM1MTU0MCwxNjk0NDYwMjY3LDUyNzgyNDk1NiwtOTEwNT
+Q3NTcwLDYwMDU2ODk2MSwtMTA1ODYxOTA3Myw0NzIxMDQ5OTMs
+MTExNTg3MzczMywtMTEwNzM3ODYwMCw0NzA4NzY2MywtMTIzOD
+A5NTM5Niw5NjAxMDQzODhdfQ==
 -->
