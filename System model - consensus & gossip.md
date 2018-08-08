@@ -1,6 +1,6 @@
 ### System model - consensus & gossip
 
-The following text explains part of the system model that enables the occurrence of events important to a client (1 and 2 in `System model - basics`).
+The following text explains part of the system model that enables the occurrence of events important to a client (1 and 2 in `System model → basics`).
 
 It is assumed that, as a part of the system, there is a blockchain which is replicated on every *FN* node. This blockchain is shown in *Figure #*.
 
@@ -23,6 +23,7 @@ For that reason, there is a probability that the validator set will never change
 
 However, that does not happen always, and because, the network protocol must ensure that each *FN* has fresh information about the validator set. This is the reason for storing the validator set inside the *CFG* file. -- ovo ne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwODEyNjEzLDExNDU4NjYxNDcsMjE3Nz
-UyMjk0LC00MDI5MzU3ODIsMTgxMjgyMjg4MV19
+eyJoaXN0b3J5IjpbMTIzNTg1MzU2OCw0NTA4MTI2MTMsMTE0NT
+g2NjE0NywyMTc3NTIyOTQsLTQwMjkzNTc4MiwxODEyODIyODgx
+XX0=
 -->
