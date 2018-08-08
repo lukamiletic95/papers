@@ -21,8 +21,8 @@ Therefore, the validator set potentially changes at each "blockchain height".
 
 For that reason, there is a probability that the validator set will never change, for example in a network where there is a certain number of validators whose voting power dominates over others'. 
 
-However, that 
+However, that does not happen always, and because, the network protocol must ensure that each *FN* has fresh information about the validator set. This is the reason
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjYwNzA0OCwxMTQ1ODY2MTQ3LDIxNz
+eyJoaXN0b3J5IjpbMTI2MjgzNzk4MSwxMTQ1ODY2MTQ3LDIxNz
 c1MjI5NCwtNDAyOTM1NzgyLDE4MTI4MjI4ODFdfQ==
 -->
