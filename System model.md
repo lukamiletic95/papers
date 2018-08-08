@@ -2,8 +2,6 @@
 
 Algorithms described in section four: `Algorithms`, rely on a network model explained here.
 
-
-
 ![](https://github.com/lukamiletic95/papers/blob/master/images/fig1.png)
 <div align='center'> 
 	<h4>Figure # - Network model</h4>
@@ -36,10 +34,10 @@ When a *FN* node receives a transaction, it stores it inside its own Mempool. In
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjMyNjE3MCwxMzAwNDY0MDg3LDE0Mz
-Y5MjQyMDgsMTcwODA1MDU5LC00NDA2NTg1ODgsLTEyMTYzODc5
-NjQsODM1NTk2MjAwLDMxNDM1MTU0MCwxNjk0NDYwMjY3LDUyNz
-gyNDk1NiwtOTEwNTQ3NTcwLDYwMDU2ODk2MSwtMTA1ODYxOTA3
-Myw0NzIxMDQ5OTMsMTExNTg3MzczMywtMTEwNzM3ODYwMCw0Nz
-A4NzY2MywtMTIzODA5NTM5Niw5NjAxMDQzODhdfQ==
+eyJoaXN0b3J5IjpbNDI5NTU2ODc0LDEzMDA0NjQwODcsMTQzNj
+kyNDIwOCwxNzA4MDUwNTksLTQ0MDY1ODU4OCwtMTIxNjM4Nzk2
+NCw4MzU1OTYyMDAsMzE0MzUxNTQwLDE2OTQ0NjAyNjcsNTI3OD
+I0OTU2LC05MTA1NDc1NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDcz
+LDQ3MjEwNDk5MywxMTE1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MD
+g3NjYzLC0xMjM4MDk1Mzk2LDk2MDEwNDM4OF19
 -->
