@@ -9,15 +9,15 @@ Algorithms described in section four: `Algorithms`, rely on a network model expl
 	<h4>Figure # - Network model</h4>
 </div>
 
-*C - Client node*
-*FN - Full node*
-*V - Validator node*
-*CFG - Configuration file*
+* *C - Client node*
+* *FN - Full node*
+* *V - Validator node*
+* *CFG - Configuration file*
 
-Let us consider a client-server architecture that consists of different types of nodes. In a practical situation, a node may be represented by a single or multiple hardware machines, therefo
+Let us consider a client-server architecture that consists of different types of nodes. In a practical situation, a node may be represented by a single or multiple hardware machines. Therefore, this type of representation allows for
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDA5NTYxLDE2OTQ0NjAyNjcsNTI3OD
-I0OTU2LC05MTA1NDc1NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDcz
-LDQ3MjEwNDk5MywxMTE1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MD
-g3NjYzLC0xMjM4MDk1Mzk2LDk2MDEwNDM4OF19
+eyJoaXN0b3J5IjpbMTUyNjQwNTk4NywxNjk0NDYwMjY3LDUyNz
+gyNDk1NiwtOTEwNTQ3NTcwLDYwMDU2ODk2MSwtMTA1ODYxOTA3
+Myw0NzIxMDQ5OTMsMTExNTg3MzczMywtMTEwNzM3ODYwMCw0Nz
+A4NzY2MywtMTIzODA5NTM5Niw5NjAxMDQzODhdfQ==
 -->
