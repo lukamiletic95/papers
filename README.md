@@ -12,3 +12,8 @@ Paper structure:
 * Mempool
 * Gossip communication protocol
 * System model
+4. Algorithms
+* Current Solution
+* ... my Solutions (includes analysis for each solution)
+5. Conclusion
+6. References
