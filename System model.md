@@ -20,7 +20,7 @@ It is assumed that a *C* node wants to have its **transaction** [^1] processed b
 1. A transaction must be executed.
 2. Evidence of that execution must be stored inside a blockchain.
 
-> *V* node is 
+> Every *V* node is also a *FN* node, b
 
 To achieve that, a *C* node may connect to
 
@@ -29,7 +29,7 @@ To achieve that, a *C* node may connect to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI1ODg3MTYsLTQ0MDY1ODU4OCwtMT
+eyJoaXN0b3J5IjpbLTE3MDU2NjM2NzksLTQ0MDY1ODU4OCwtMT
 IxNjM4Nzk2NCw4MzU1OTYyMDAsMzE0MzUxNTQwLDE2OTQ0NjAy
 NjcsNTI3ODI0OTU2LC05MTA1NDc1NzAsNjAwNTY4OTYxLC0xMD
 U4NjE5MDczLDQ3MjEwNDk5MywxMTE1ODczNzMzLC0xMTA3Mzc4
