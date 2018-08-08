@@ -42,17 +42,19 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 	<h4>Figure # - Blockchain inside <i>FN</i> nodes</h4>
 </div>
 
+The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the prevou
+
 
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTMxMDM1ODksLTU2MjY3MDIwMCwtMT
-c0MjM5NjUyOCwxMzAwNDY0MDg3LDE0MzY5MjQyMDgsMTcwODA1
-MDU5LC00NDA2NTg1ODgsLTEyMTYzODc5NjQsODM1NTk2MjAwLD
-MxNDM1MTU0MCwxNjk0NDYwMjY3LDUyNzgyNDk1NiwtOTEwNTQ3
-NTcwLDYwMDU2ODk2MSwtMTA1ODYxOTA3Myw0NzIxMDQ5OTMsMT
-ExNTg3MzczMywtMTEwNzM3ODYwMCw0NzA4NzY2MywtMTIzODA5
-NTM5Nl19
+eyJoaXN0b3J5IjpbLTczMTE0NTUwNiwtNTYyNjcwMjAwLC0xNz
+QyMzk2NTI4LDEzMDA0NjQwODcsMTQzNjkyNDIwOCwxNzA4MDUw
+NTksLTQ0MDY1ODU4OCwtMTIxNjM4Nzk2NCw4MzU1OTYyMDAsMz
+E0MzUxNTQwLDE2OTQ0NjAyNjcsNTI3ODI0OTU2LC05MTA1NDc1
+NzAsNjAwNTY4OTYxLC0xMDU4NjE5MDczLDQ3MjEwNDk5MywxMT
+E1ODczNzMzLC0xMTA3Mzc4NjAwLDQ3MDg3NjYzLC0xMjM4MDk1
+Mzk2XX0=
 -->
