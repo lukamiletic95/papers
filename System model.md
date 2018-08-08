@@ -42,7 +42,7 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 	<h4>Figure # - Blockchain inside <i>FN</i> nodes</h4>
 </div>
 
-The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and it contains 
+The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*.
 
 
 
@@ -50,7 +50,7 @@ The blockchain consists of blocks that are linked in some way (e.g. every block 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE1OTUzNDgsNjU1ODI3OTk3LC01Nj
+eyJoaXN0b3J5IjpbLTIxMjY2NDIxMzAsNjU1ODI3OTk3LC01Nj
 I2NzAyMDAsLTE3NDIzOTY1MjgsMTMwMDQ2NDA4NywxNDM2OTI0
 MjA4LDE3MDgwNTA1OSwtNDQwNjU4NTg4LC0xMjE2Mzg3OTY0LD
 gzNTU5NjIwMCwzMTQzNTE1NDAsMTY5NDQ2MDI2Nyw1Mjc4MjQ5
