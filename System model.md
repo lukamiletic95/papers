@@ -45,14 +45,14 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 
 The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*.
 
-Each block inside the blockchain is described with a number *h
+Each block inside the blockchain is described with a number - *height*. That number denotes the consensus algorithm ins
 
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzU4NjM5Niw2NTU4Mjc5OTcsLTU2Mj
+eyJoaXN0b3J5IjpbMTcwMjg5Mjg0Myw2NTU4Mjc5OTcsLTU2Mj
 Y3MDIwMCwtMTc0MjM5NjUyOCwxMzAwNDY0MDg3LDE0MzY5MjQy
 MDgsMTcwODA1MDU5LC00NDA2NTg1ODgsLTEyMTYzODc5NjQsOD
 M1NTk2MjAwLDMxNDM1MTU0MCwxNjk0NDYwMjY3LDUyNzgyNDk1
