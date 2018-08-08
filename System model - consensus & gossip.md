@@ -17,8 +17,10 @@ In order to add a new block to the blockchain, a set of nodes - ***validator set
 
 Therefore, the validator set potentially changes at each "blockchain height".
 
-> The validator set is always chosen in a way to maximize the utilization of their voting power. [1] - p. 5, III - TENDERMINT CONSENSUS ALGORITHM 
+> The validator set is always chosen in a way to maximize the utilization of their voting power. [1] - p. 5, III - TENDERMINT CONSENSUS ALGORITHM
+
+For that reason, there is a probability that the validator set will never change, for example in a network where there is a certain number of validator whose voting  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTAzMjIwNCwxMTQ1ODY2MTQ3LDIxNz
+eyJoaXN0b3J5IjpbMTIwMzAxMzk2MiwxMTQ1ODY2MTQ3LDIxNz
 c1MjI5NCwtNDAyOTM1NzgyLDE4MTI4MjI4ODFdfQ==
 -->
