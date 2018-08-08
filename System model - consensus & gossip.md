@@ -19,11 +19,11 @@ Therefore, the validator set potentially changes at each "blockchain height".
 
 > The validator set is always chosen in a way to maximize the utilization of their voting power. [1] - p. 5, III - TENDERMINT CONSENSUS ALGORITHM
 
-For that reason, there is a probability that the validator set will never change, for example in a network where there is a certain number of validators whose voting power dominates over others'. 
+For that reason, there is a probability that the validator set will never change, for example in a network where there is a certain number of validators whose voting power dominates over others'. But in general, this must not be a presumption.
 
-However, that does not happen always, and because, the network protocol must ensure that each *FN* has fresh information about the validator set. This is the reason for storing the validator set inside the *CFG* file. -- ovo ne
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTU3NzY0NywxMjM1ODUzNTY4LDQ1MD
+eyJoaXN0b3J5IjpbLTUzMTQ4NTQyNywxMjM1ODUzNTY4LDQ1MD
 gxMjYxMywxMTQ1ODY2MTQ3LDIxNzc1MjI5NCwtNDAyOTM1Nzgy
 LDE4MTI4MjI4ODFdfQ==
 -->
