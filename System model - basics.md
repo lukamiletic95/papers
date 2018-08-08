@@ -35,10 +35,10 @@ To achieve that, a *C* node may connect to a *FN* node of its own choice. Upon e
 When a *FN* node receives a transaction, it stores it inside its own Mempool. In addition, the transaction is gossiped over the network to all of the peers of that particular *FN* node, so that it could be stored inside their own Mempools. Then the peers re-gossip the received transaction and so forth.
 
 
-[^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
+[^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them). Implementation-wise, a transaction is nothing but a *byte array*.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjY4NTQ1OCwxNjE5OTU0NDAwLDE3Mz
-g5MDc3OTRdfQ==
+eyJoaXN0b3J5IjpbLTMwMzExMzk2MiwxNjMyNjg1NDU4LDE2MT
+k5NTQ0MDAsMTczODkwNzc5NF19
 -->
