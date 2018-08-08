@@ -37,11 +37,18 @@ The following text explains part of the system model that enables the occurrence
 
 It is assumed that, as a part of the system, there is a blockchain which is replicated on every *FN* node. This blockchain is shown in *Figure #*.
 
+![](https://github.com/lukamiletic95/papers/blob/master/images/fig2.png)
+<div align='center'> 
+	<h4>Figure # - Blockchain inside *FN* nodes</h4>
+</div>
+
+
+
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTk0NjAyNiwtMTc0MjM5NjUyOCwxMz
+eyJoaXN0b3J5IjpbLTU2MjY3MDIwMCwtMTc0MjM5NjUyOCwxMz
 AwNDY0MDg3LDE0MzY5MjQyMDgsMTcwODA1MDU5LC00NDA2NTg1
 ODgsLTEyMTYzODc5NjQsODM1NTk2MjAwLDMxNDM1MTU0MCwxNj
 k0NDYwMjY3LDUyNzgyNDk1NiwtOTEwNTQ3NTcwLDYwMDU2ODk2
