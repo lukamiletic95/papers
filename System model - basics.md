@@ -12,7 +12,7 @@ Algorithms described in section four: `Algorithms`, rely on a network model expl
 * *V - Validator node (is also a *FN* node)*
 * *CFG - Configuration file*
 
-Let us consider a client-server architecture that consists of different types of nodes (*C, FN, V, CFG*). In a practical situation, a node may be represented by either a single hardware device or multiple hardware devices (e.g. within an organization). Therefore, this type of model representation allows for a certain level of abstraction that omits the hardware specification, yet enables a concise discussion without loss of generality.
+Let us consider a client-server architecture that consists of different types of nodes (*C, FN, V*). In a practical situation, a node may be represented by either a single hardware device or multiple hardware devices (e.g. within an organization). Therefore, this type of model representation allows for a certain level of abstraction that omits the hardware specification, yet enables a concise discussion without loss of generality.
 
 Let there be a set of ***m*** *full nodes*. Nodes in this model are not part of a single administrative domain. Consequently, a full-mesh connection among them cannot be administered. Due to that reason, a non-client node inside the network may only be connected to a subset of other *full nodes*. That subset is called a ***peer subset***.
 
@@ -39,6 +39,6 @@ When a *FN* node receives a transaction, it stores it inside its own Mempool. In
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjUwMTcwNTgsMTYxOTk1NDQwMCwxNz
-M4OTA3Nzk0XX0=
+eyJoaXN0b3J5IjpbMTYzMjY4NTQ1OCwxNjE5OTU0NDAwLDE3Mz
+g5MDc3OTRdfQ==
 -->
