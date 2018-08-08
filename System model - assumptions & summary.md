@@ -5,6 +5,9 @@ To summarize the complete definition of the system model, in further text all of
 * Validator set is a subset of full nodes set - *n < m*.
 * Validator set is a dynamic one - it changes potentially for each block to be added to the blockchain.
 * The connection among the nodes in the network is not a full mesh, but a peer-to-peer connection.
+* A *FN* may change its peer subset dynamically.
+* A *C* may change its *FN* node dynamically.
+* Information about *C* -
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjM4NjgwMzAsMzk4Nzc4NDM3XX0=
+eyJoaXN0b3J5IjpbLTQ1MzQ3ODI4NCwzOTg3Nzg0MzddfQ==
 -->
