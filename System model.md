@@ -20,7 +20,7 @@ It is assumed that a *C* node wants to have its **transaction** [^1] processed b
 1. A transaction must be executed.
 2. Evidence of that execution must be stored inside a blockchain.
 
-> Every *V* node is also a *FN* node. However, vice-versa does not apply - *FN* may or may not be a *V* node. In *Figure #*, it is assumed that every node marked as *FN* is not a *V* node.
+> Every *V* node is also a *FN* node. However, vice-versa does not apply - *FN* node may or may not be a *V* node. In *Figure #*, it is assumed that every node marked as *FN* is not a *V* node.
 
 To achieve that, a *C* node may connect to
 
@@ -29,9 +29,9 @@ To achieve that, a *C* node may connect to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDMzMTM3NywtNDQwNjU4NTg4LC0xMj
-E2Mzg3OTY0LDgzNTU5NjIwMCwzMTQzNTE1NDAsMTY5NDQ2MDI2
-Nyw1Mjc4MjQ5NTYsLTkxMDU0NzU3MCw2MDA1Njg5NjEsLTEwNT
-g2MTkwNzMsNDcyMTA0OTkzLDExMTU4NzM3MzMsLTExMDczNzg2
-MDAsNDcwODc2NjMsLTEyMzgwOTUzOTYsOTYwMTA0Mzg4XX0=
+eyJoaXN0b3J5IjpbMTcwODA1MDU5LC00NDA2NTg1ODgsLTEyMT
+YzODc5NjQsODM1NTk2MjAwLDMxNDM1MTU0MCwxNjk0NDYwMjY3
+LDUyNzgyNDk1NiwtOTEwNTQ3NTcwLDYwMDU2ODk2MSwtMTA1OD
+YxOTA3Myw0NzIxMDQ5OTMsMTExNTg3MzczMywtMTEwNzM3ODYw
+MCw0NzA4NzY2MywtMTIzODA5NTM5Niw5NjAxMDQzODhdfQ==
 -->
