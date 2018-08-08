@@ -1,7 +1,6 @@
+### References
 
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwMDg1Nzc2XX0=
+eyJoaXN0b3J5IjpbLTI5MjU3NzM5M119
 -->
