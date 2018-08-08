@@ -21,9 +21,13 @@ Therefore, the validator set potentially changes at each "blockchain height".
 
 For that reason, there is a probability that the validator set will never change, for example in a network where there is a certain number of validators whose voting power dominates over others'. But in general, this must not be a presumption.
 
-Each consensus instance consists of ***k*** rounds, where at each round a new ***proposer*** is potentialy
+Each consensus instance consists of ***k*** rounds, where at each round a new ***proposer*** is potentially selected. 
+
+> Once again, it
+
+A proposer is a node that has the obligation to propose what the next block in the blockchain will be. It does so by selecting a certain number of transactions from its Mempool.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY0OTc1MDYsLTUzMTQ4NTQyNywxMj
+eyJoaXN0b3J5IjpbLTE2NjA4MDgzOTIsLTUzMTQ4NTQyNywxMj
 M1ODUzNTY4LDQ1MDgxMjYxMywxMTQ1ODY2MTQ3LDIxNzc1MjI5
 NCwtNDAyOTM1NzgyLDE4MTI4MjI4ODFdfQ==
 -->
