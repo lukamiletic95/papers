@@ -45,14 +45,14 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 
 The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*. Each block inside the blockchain is described with a number - *height* (ordinal number of a block inside a blockchain). 
 
-In order to ad
+In order to add a new block to a blockchain, a set of nodes - ***validator set*** must reach a consensus for 
 
 
 [^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0MzA4MTM0LDY1NTgyNzk5NywtNTYyNj
+eyJoaXN0b3J5IjpbNDIxMzU4MzU3LDY1NTgyNzk5NywtNTYyNj
 cwMjAwLC0xNzQyMzk2NTI4LDEzMDA0NjQwODcsMTQzNjkyNDIw
 OCwxNzA4MDUwNTksLTQ0MDY1ODU4OCwtMTIxNjM4Nzk2NCw4Mz
 U1OTYyMDAsMzE0MzUxNTQwLDE2OTQ0NjAyNjcsNTI3ODI0OTU2
