@@ -1,7 +1,8 @@
 ### Background
 
-*To-Do*: Papers regarding blockchain - References.
+*To-Do*: 
+* Papers regarding blockchain - References.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzUxNzU5NzksMTAxODU3NDQyNywtND
-Q4NDg4NDIwXX0=
+eyJoaXN0b3J5IjpbLTM1ODkyOTM3OSwxMDE4NTc0NDI3LC00ND
+g0ODg0MjBdfQ==
 -->
