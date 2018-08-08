@@ -17,8 +17,8 @@ In order to add a new block to the blockchain, a set of nodes - ***validator set
 
 Therefore, the validator set potentially changes at each "blockchain height".
 
-> The validator set is always chosen 
+> The validator set is always chosen in a way to maximize the utilization of their voting power.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjU5ODY4NywxMTQ1ODY2MTQ3LDIxNz
-c1MjI5NCwtNDAyOTM1NzgyLDE4MTI4MjI4ODFdfQ==
+eyJoaXN0b3J5IjpbOTEwMDM5MjI3LDExNDU4NjYxNDcsMjE3Nz
+UyMjk0LC00MDI5MzU3ODIsMTgxMjgyMjg4MV19
 -->
