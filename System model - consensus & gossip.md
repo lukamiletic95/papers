@@ -19,7 +19,7 @@ A ***validator set*** is a set of *FN* nodes that is chosen for each consensus i
 
 > Consensus instance represents one execution of the Tendermint consensus algorithm. Mainly, that algorithm will be considered a black-box in this paper, with the exception of revealing minor details of its implementation that are relevant to the functioning of the Mempool component and gossiping transactions from the Mempool. Consensus algorithm is described in detail in [1].
 
-Therefore, the validator set potentially changes at each "blockchain height".
+Therefore, the validator set potentially changes at each blockchain height.
 
 > The validator set is always chosen in a way to maximize the utilization of their voting power. [1] - p. 5, III - TENDERMINT CONSENSUS ALGORITHM
 
@@ -33,9 +33,9 @@ A proposer is a node that has the obligation to propose what the next block in t
 
 Therefore, we come to a crucial conclusion regarding the Mempool and gossiping of transactions from it - **when a *FN* receives a *C* transaction inside its Mempool, it must gossip it in a way that it guarantees (or at least provides a high probability outcome) that the transaction will eventually reach a Mempool of at least one *V* node that is going to be a proposer in some round k<sub>i</sub> at some blockchain height h<sub>j</sub> in the future**. That particular course of events will then lead to a client transaction being both executed and stored within a blockchain.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwNzI2NjIzLC0xNjY3MTE4NjQ3LC04OD
-gzODMyMzUsLTExNzE0MDQxODgsMTY5MDM2NjgxOSwtMTA1ODgx
-NDE3MywtNTMxNDg1NDI3LDEyMzU4NTM1NjgsNDUwODEyNjEzLD
-ExNDU4NjYxNDcsMjE3NzUyMjk0LC00MDI5MzU3ODIsMTgxMjgy
-Mjg4MV19
+eyJoaXN0b3J5IjpbLTkyNjM3MTIzMywyOTA3MjY2MjMsLTE2Nj
+cxMTg2NDcsLTg4ODM4MzIzNSwtMTE3MTQwNDE4OCwxNjkwMzY2
+ODE5LC0xMDU4ODE0MTczLC01MzE0ODU0MjcsMTIzNTg1MzU2OC
+w0NTA4MTI2MTMsMTE0NTg2NjE0NywyMTc3NTIyOTQsLTQwMjkz
+NTc4MiwxODEyODIyODgxXX0=
 -->
