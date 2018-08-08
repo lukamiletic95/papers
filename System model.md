@@ -20,7 +20,7 @@ Let there be a set of ***m*** *full nodes*. Processes in this model are not part
 
 > Every *V* node is also a *FN* node. However, vice-versa does not apply - *FN* node may or may not be a *V* node. In *Figure #*, it is assumed that every node marked as *FN* is not a *V* node.
 
-Additionally, every *FN* node has a *CFG* file stored locally. This file contains information about the peer subset, connected clients, as well as about the ***validator set*** (this term will be explained in further text). *CFG* file may be configured statically (e.g. with IP addresses of clients, peers and validators), or it may change dynamically at runtime. 
+Additionally, every *FN* node has a *CFG* file stored locally. This file contains information about the peer subset, connected clients, as well as about the ***validator set*** (this term will be explained in further text). *CFG* file may be configured statically (e.g. with IP addresses of clients, peers and validators), or it may change dynamically at runtime (e.g. when a client/peer connects/disconnects). 
 
 It is assumed that a *C* node wants to have its **transaction** [^1] processed by the network. From the client's perspective, there are two important events that need to occur:
 1. A transaction must be executed.
@@ -36,7 +36,7 @@ When a *FN* node receives a transaction, it stores it inside its own Mempool. In
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTM1MzU4OSwxMzAwNDY0MDg3LDE0Mz
+eyJoaXN0b3J5IjpbLTgxMjMyNjE3MCwxMzAwNDY0MDg3LDE0Mz
 Y5MjQyMDgsMTcwODA1MDU5LC00NDA2NTg1ODgsLTEyMTYzODc5
 NjQsODM1NTk2MjAwLDMxNDM1MTU0MCwxNjk0NDYwMjY3LDUyNz
 gyNDk1NiwtOTEwNTQ3NTcwLDYwMDU2ODk2MSwtMTA1ODYxOTA3
