@@ -21,9 +21,9 @@ Therefore, the validator set potentially changes at each "blockchain height".
 
 For that reason, there is a probability that the validator set will never change, for example in a network where there is a certain number of validators whose voting power dominates over others'. But in general, this must not be a presumption.
 
-
+Each consensus instance consists of ***k*** rounds, where at each round a new ***proposer*** is potentialy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTQ4NTQyNywxMjM1ODUzNTY4LDQ1MD
-gxMjYxMywxMTQ1ODY2MTQ3LDIxNzc1MjI5NCwtNDAyOTM1Nzgy
-LDE4MTI4MjI4ODFdfQ==
+eyJoaXN0b3J5IjpbLTIwMjY0OTc1MDYsLTUzMTQ4NTQyNywxMj
+M1ODUzNTY4LDQ1MDgxMjYxMywxMTQ1ODY2MTQ3LDIxNzc1MjI5
+NCwtNDAyOTM1NzgyLDE4MTI4MjI4ODFdfQ==
 -->
