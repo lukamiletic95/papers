@@ -8,7 +8,7 @@ Problem number two would be a situation where someone could somehow deny a parti
 
 Those two particular problems cast doubt on the current model being used. There is always a third party organization that we completely confide in. Since this model has been proven to be unreliable, it raises a question: *"How to solve the aforesaid issues?"*.
 
-So, in recent years, a new model has gained in popularity. This model is based on decentralization and indisputability. What if our private data could now be stored in multiple places (thus eliminating the *single point of failure* problem, along with it being completely resilient to modification by malicious third parties? As stated in [3], *it is easier to steal a cookie from a cookie jar, kept in a secluded place, than stealing the cookie from a cookie jar kept in a market place, being observed by thousands of people*.
+So, in recent years, a new model has gained in popularity. This model is based on decentralization and indisputability. What if our private data could now be stored in multiple places (thus eliminating the *single point of failure* problem, along with it being completely resilient to modification by malicious third parties? It is easier to steal something if it is monitored by a single person, rather than a large group of people.
 
 This is where blockchain comes into picture. Blockchain drew attention in the past years, primarily due to its utilization within the Bitcoin transaction system [2]. Bitcoin is a cryptocurrency that relies on a distributed blockchain ledger which uses cryptography to achieve confidentiality as well as irrefutability. 
 
@@ -20,10 +20,10 @@ It is evident that blockchain became increasingly popular due to Bitcoin, howeve
 
 That particular idea, that a transaction in a blockchain can be pretty much anything, is used in Tendermint.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjgyNTIwNCwtMTM5MzU2ODc0MywtMj
-A5MTc2OTc2NCwtNjk2NzUyNjExLC0yMDcxMTkzNjQ3LC04NDU3
-NDkzMDMsMjEzMTk0NDI4NSwtMTg5MTE0MDc4NywtNzY1ODI3Mj
-kyLC04NjkxNTY2NjEsLTEzMTk0MzQxMTksLTIxMTE1NTQyNTIs
-LTE0ODY5MDkxNzcsLTE5ODIyMjc5MTUsLTM1ODkyOTM3OSwxMD
-E4NTc0NDI3LC00NDg0ODg0MjBdfQ==
+eyJoaXN0b3J5IjpbLTk2OTIyOTMyNywxMDQ2ODI1MjA0LC0xMz
+kzNTY4NzQzLC0yMDkxNzY5NzY0LC02OTY3NTI2MTEsLTIwNzEx
+OTM2NDcsLTg0NTc0OTMwMywyMTMxOTQ0Mjg1LC0xODkxMTQwNz
+g3LC03NjU4MjcyOTIsLTg2OTE1NjY2MSwtMTMxOTQzNDExOSwt
+MjExMTU1NDI1MiwtMTQ4NjkwOTE3NywtMTk4MjIyNzkxNSwtMz
+U4OTI5Mzc5LDEwMTg1NzQ0MjcsLTQ0ODQ4ODQyMF19
 -->
