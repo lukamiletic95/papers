@@ -18,7 +18,7 @@ Let there be a set of ***m*** *full nodes*. Nodes in this model are not part of 
 
 > Every *V* node is also a *FN* node. However, vice-versa does not apply - *FN* node may or may not be a *V* node. In *Figure #*, it is assumed that every node marked as *FN* is not a *V* node.
 
-> **It is assumed that a minimum size of a peer subset is 1. Consequently, there cannot exist a *FN* node which is disconnected from every other node.**
+**It is assumed that a minimum size of a peer subset is 1. Consequently, there cannot exist a *FN* node which is disconnected from every other node.**
 
 Additionally, every *FN* node has a *CFG* file stored locally. This file contains information about the peer subset, as well as about the connected clients.
 
@@ -38,7 +38,7 @@ When a *FN* node receives a transaction, it stores it inside its own Mempool. In
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY1MzQ2NzEsMjEzNjQ3ODg3OCwtMT
+eyJoaXN0b3J5IjpbLTE3ODEzMDU5NjUsMjEzNjQ3ODg3OCwtMT
 U5ODQ0MzkyLDEzNTQ0Nzc0NjYsMTczNDA0NDcwMywtMTc1MzEy
 MzY5NywtMzAzMTEzOTYyLDE2MzI2ODU0NTgsMTYxOTk1NDQwMC
 wxNzM4OTA3Nzk0XX0=
