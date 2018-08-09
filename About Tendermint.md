@@ -6,14 +6,14 @@ Tendermint consensus algorithm shows that unanimity can be achieved in an unreli
 
 The Tendermint network model is more complex than the one assumed in this paper (`System model - basics`) [^1]. Apart from *FN* nodes and *V* nodes, it also contains: 
 * *Sentry* nodes, that are a special type of wrapper nodes to other *V* nodes.
-* *Seed* nodes, which are useful when a new node becomes a part of the network - they provide it with a list on 
+* *Seed* nodes, which are useful when a new node becomes a part of the network - they provide it with a list of known peers.
 
 [^1]: Detailed explanation on Tendermint node types can be found at: <https://github.com/tendermint/tendermint/blob/master/docs/spec/p2p/node.md>
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzExNjQ2OCwyOTU2MDI2NDgsMjE0Nz
+eyJoaXN0b3J5IjpbMTAzNTQwODE4MiwyOTU2MDI2NDgsMjE0Nz
 I1ODAxMSwtMTkyMTk0MzcxOCwtMTg5NTc3MzI5NSwtMTExODMy
 NTY4OSwxMDY0NDIyNTgxLC02NjM1NjIwMDUsNjQ3MDYxMDMzXX
 0=
