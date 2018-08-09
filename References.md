@@ -6,13 +6,13 @@
 
 [2] S. Nakamoto, "Bitcoin: A peer-to-peer electronic cash system" 2009. [Online]. Available: <http://www.bitcoin.org/bitcoin.pdf> 
 
-[3] M. Crosby, Nachiappan, P. Pattanayak and S. Verma, V. Kalyanaraman, "Blockchain technology - beyond Bitcoin". [Online]. Available: <https://j2-capital.com/wp-content/uploads/2017/11/AIR-2016-Blockchain.pdf>
+[3] M. Crosby, Nachiappan, P. Pattanayak and S. Verma, V. Kalyanaraman, "Blockchain technology - beyond Bitcoin" 2017. [Online]. Available: <https://j2-capital.com/wp-content/uploads/2017/11/AIR-2016-Blockchain.pdf>
 
-[4] G. Zyskind, O. Nathan and  A. Pentland, "Decentralizing privacy: using Blockchain to protect personal data". [Online]. Available: <https://ieeexplore.ieee.org/document/7163223/>
+[4] G. Zyskind, O. Nathan and  A. Pentland, "Decentralizing privacy: using Blockchain to protect personal data" 2015. [Online]. Available: <https://ieeexplore.ieee.org/document/7163223/>
 
-[5] J. Kwon
+[5] J. Kwon, "Tendermint - consensus without mining"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Nzg3MTIwMSwtMTcwMjk5OTg4NSwxMj
-UyNDY0OTIyLC0xNjI1NjAxNDkxLC0xNTE2NTEzOTg5LC0yOTI1
-NzczOTNdfQ==
+eyJoaXN0b3J5IjpbMTEzNTI1NzU5LC0xNzAyOTk5ODg1LDEyNT
+I0NjQ5MjIsLTE2MjU2MDE0OTEsLTE1MTY1MTM5ODksLTI5MjU3
+NzM5M119
 -->
