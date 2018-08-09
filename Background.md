@@ -8,9 +8,9 @@ Problem number two would be a situation where someone could somehow deny a parti
 
 Those two particular problems cast doubt on the current model being used. There is always a third party organization that we completely confide in. Since this model has been proven to be unreliable, it raises a question: *"How to solve the aforesaid issues?"*.
 
-So, in recent years, a new model has gained in popularity. This model is based on decentralization and indisputability. What if our private data could now be stored in multiple places (thus eliminating the *single point of failure* problem, along with it being completely resilient to modification by malicious third parties. As stated in [3], 
+So, in recent years, a new model has gained in popularity. This model is based on decentralization and indisputability. What if our private data could now be stored in multiple places (thus eliminating the *single point of failure* problem, along with it being completely resilient to modification by malicious third parties. As stated in [3], *it is easier to steal a cookie from a cookie jar, kept in a secluded place, than stealing the cookie from a cookie jar kept in a market place, being observed by thousands of people*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODgyNjI0OCwtODQ1NzQ5MzAzLDIxMz
+eyJoaXN0b3J5IjpbMTg2Mzg4MzYyMiwtODQ1NzQ5MzAzLDIxMz
 E5NDQyODUsLTE4OTExNDA3ODcsLTc2NTgyNzI5MiwtODY5MTU2
 NjYxLC0xMzE5NDM0MTE5LC0yMTExNTU0MjUyLC0xNDg2OTA5MT
 c3LC0xOTgyMjI3OTE1LC0zNTg5MjkzNzksMTAxODU3NDQyNywt
