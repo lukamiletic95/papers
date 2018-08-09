@@ -1,7 +1,7 @@
 ### Background
 
-
+In the modern era, when people
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODIyMjc5MTUsLTM1ODkyOTM3OSwxMD
-E4NTc0NDI3LC00NDg0ODg0MjBdfQ==
+eyJoaXN0b3J5IjpbMTUwOTk2NTg3MywtMTk4MjIyNzkxNSwtMz
+U4OTI5Mzc5LDEwMTg1NzQ0MjcsLTQ0ODQ4ODQyMF19
 -->
