@@ -18,12 +18,12 @@ Blockchain is, in its essence, nothing more than a linked list of blocks which c
 
 It is evident that blockchain became increasingly popular due to Bitcoin, however, it can be applied in a much more general way. It can be used not only for financial transactions, but also for any transactions that carry instructions, such as storing, querying and sharing data [4].
 
-That particular idea, t
+That particular idea, that a transaction in a blockchain can be pretty much anything, is used in Tendermint.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDEyOTA1MywtMjA5MTc2OTc2NCwtNj
-k2NzUyNjExLC0yMDcxMTkzNjQ3LC04NDU3NDkzMDMsMjEzMTk0
-NDI4NSwtMTg5MTE0MDc4NywtNzY1ODI3MjkyLC04NjkxNTY2Nj
-EsLTEzMTk0MzQxMTksLTIxMTE1NTQyNTIsLTE0ODY5MDkxNzcs
-LTE5ODIyMjc5MTUsLTM1ODkyOTM3OSwxMDE4NTc0NDI3LC00ND
-g0ODg0MjBdfQ==
+eyJoaXN0b3J5IjpbLTEzOTM1Njg3NDMsLTIwOTE3Njk3NjQsLT
+Y5Njc1MjYxMSwtMjA3MTE5MzY0NywtODQ1NzQ5MzAzLDIxMzE5
+NDQyODUsLTE4OTExNDA3ODcsLTc2NTgyNzI5MiwtODY5MTU2Nj
+YxLC0xMzE5NDM0MTE5LC0yMTExNTU0MjUyLC0xNDg2OTA5MTc3
+LC0xOTgyMjI3OTE1LC0zNTg5MjkzNzksMTAxODU3NDQyNywtND
+Q4NDg4NDIwXX0=
 -->
