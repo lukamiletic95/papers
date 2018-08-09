@@ -11,10 +11,10 @@ Let us assume that a *C* node wants to have its transaction *T* processed by the
 
 Current Tendermint algorithm works as follows:
 
-<textarea name="11"></textarea>
+	When a FN receives a transaction T, it stores it inside its own Mempool.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTMxMTYzNSwxODk2NDI0MzY4LC0xMT
-YyNzMwMDY2LC0zOTMxMjUzMzIsMzEzNDcxMjc0XX0=
+eyJoaXN0b3J5IjpbLTExMTI0MTc0NzksMTg5NjQyNDM2OCwtMT
+E2MjczMDA2NiwtMzkzMTI1MzMyLDMxMzQ3MTI3NF19
 -->
