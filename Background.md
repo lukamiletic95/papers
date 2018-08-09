@@ -10,11 +10,11 @@ Those two particular problems cast doubt on the current model being used. There 
 
 So, in recent years, a new model has gained in popularity. This model is based on decentralization and indisputability. What if our private data could now be stored in multiple places (thus eliminating the *single point of failure* problem, along with it being completely resilient to modification by malicious third parties? As stated in [3], *it is easier to steal a cookie from a cookie jar, kept in a secluded place, than stealing the cookie from a cookie jar kept in a market place, being observed by thousands of people*.
 
-This is where blockchain comes into picture. Blockchain drew attention in the past ten years, primarily due to its 
+This is where blockchain comes into picture. Blockchain drew attention in the past ten years, primarily due to its utilization within the Bitcoin transaction system.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY1NDc3OCwtODQ1NzQ5MzAzLDIxMz
-E5NDQyODUsLTE4OTExNDA3ODcsLTc2NTgyNzI5MiwtODY5MTU2
-NjYxLC0xMzE5NDM0MTE5LC0yMTExNTU0MjUyLC0xNDg2OTA5MT
-c3LC0xOTgyMjI3OTE1LC0zNTg5MjkzNzksMTAxODU3NDQyNywt
-NDQ4NDg4NDIwXX0=
+eyJoaXN0b3J5IjpbLTIwNzExOTM2NDcsLTg0NTc0OTMwMywyMT
+MxOTQ0Mjg1LC0xODkxMTQwNzg3LC03NjU4MjcyOTIsLTg2OTE1
+NjY2MSwtMTMxOTQzNDExOSwtMjExMTU1NDI1MiwtMTQ4NjkwOT
+E3NywtMTk4MjIyNzkxNSwtMzU4OTI5Mzc5LDEwMTg1NzQ0Mjcs
+LTQ0ODQ4ODQyMF19
 -->
