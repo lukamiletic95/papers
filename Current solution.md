@@ -7,10 +7,10 @@
 
 * *T - Transaction request*
 
-Let us assume that a *C* node wants to have its transaction *T* processed by the Tendermint network, in a way explained earlier in the text .
+Let us assume that a *C* node wants to have its transaction *T* processed by the Tendermint network, in a way explained earlier in the text.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjE3Mjc2NiwtMzkzMTI1MzMyLDMxMz
-Q3MTI3NF19
+eyJoaXN0b3J5IjpbLTExNjI3MzAwNjYsLTM5MzEyNTMzMiwzMT
+M0NzEyNzRdfQ==
 -->
