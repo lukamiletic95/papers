@@ -9,12 +9,14 @@
 
 Let us assume that a *C* node wants to have its transaction *T* processed by the Tendermint network, in a way explained earlier in the text.
 
-Current Tendermint algorithm works as follows:
+Current Tendermint Mempool gossiping algorithm works as follows:
 
-	When a FN receives a transaction T, it stores it inside its own Mempool.
+	1. When a FN receives a transaction T, it stores it inside its own Mempool.
+	2. 
+	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI0MTc0NzksMTg5NjQyNDM2OCwtMT
-E2MjczMDA2NiwtMzkzMTI1MzMyLDMxMzQ3MTI3NF19
+eyJoaXN0b3J5IjpbMTg5MDYyMDIxNCwxODk2NDI0MzY4LC0xMT
+YyNzMwMDY2LC0zOTMxMjUzMzIsMzEzNDcxMjc0XX0=
 -->
