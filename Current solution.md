@@ -11,10 +11,10 @@ Let us assume that a *C* node wants to have its transaction *T* processed by the
 
 Current Tendermint algorithm works as follows:
 
-	When a FN receives a transaction T, it stores it inside its own Mempool.
+	When a FN receives a transaction T, it stores it inside its own Mempool.When a FN receives a transaction T, it stores it inside its own Mempool.When a FN receives a transaction T, it stores it inside its own Mempool.When a FN receives a transaction T, it stores it inside its own Mempool.When a FN receives a transaction T, it stores it inside its own Mempool.When a FN receives a transaction T, it stores it inside its own Mempool.When a FN receives a transaction T, it stores it inside its own Mempool.When a FN receives a transaction T, it stores it inside its own Mempool.When a FN receives a transaction T, it stores it inside its own Mempool.When a FN receives a transaction T, it stores it inside its own Mempool.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI0MTc0NzksLTExNjI3MzAwNjYsLT
-M5MzEyNTMzMiwzMTM0NzEyNzRdfQ==
+eyJoaXN0b3J5IjpbMTg5NjQyNDM2OCwtMTE2MjczMDA2NiwtMz
+kzMTI1MzMyLDMxMzQ3MTI3NF19
 -->
