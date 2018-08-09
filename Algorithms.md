@@ -2,9 +2,12 @@
 	<h1>Algorithms</h1>
 </div>
 
-In this section, before all else, a current algorithm used int Tendermint for gossiping transactions from a node's Mempool is described:
+In this section, before all else, a current algorithm used in Tendermint for gossiping transactions from a node's Mempool is described in a subsection:
 
 * `Current solution` 
+
+Following, analysis of other algorithms is provided.
+*To-Do:* finish this.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg4OTI5OTldfQ==
+eyJoaXN0b3J5IjpbNjY5OTM5MDQxXX0=
 -->
