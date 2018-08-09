@@ -1,6 +1,6 @@
 ### System model - consensus & gossip
 
-The following text explains part of the system model that enables the occurrence of events important to a client (1 and 2 in `System model → basics`).
+The following text explains part of the system model that enables the occurrence of events important to a client (1 and 2 in `System model - basics`).
 
 It is assumed that, as a part of the system, there is a blockchain which is replicated on every *FN* node. This blockchain is shown in *Figure #*.
 
@@ -9,7 +9,7 @@ It is assumed that, as a part of the system, there is a blockchain which is repl
 	<h4>Figure # - Blockchain inside <i>FN</i> nodes</h4>
 </div>
 
-The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*. Each block inside the blockchain is described with a number - *height* (ordinal number of a block inside a blockchain).  Each block also contains a batch of transactions that are not only recorded permanently as a history of blockchain, but are also executed whenever a new block is added to the blockchain (**this satisfies 1 and 2 in** `System model → basics`).
+The blockchain consists of blocks that are linked in some way (e.g. every block contains a hash function of the previous block). The first block in the blockchain is called a *Genesis* block, and every other block can trace its lineage back to it. In addition, the *Genesis* block also contains information about the first ever *validator set*. Each block inside the blockchain is described with a number - *height* (ordinal number of a block inside a blockchain).  Each block also contains a batch of transactions that are not only recorded permanently as a history of blockchain, but are also executed whenever a new block is added to the blockchain (**this satisfies 1 and 2 in** `System model - basics`).
 
 In order to add a new block to the blockchain, a set of nodes - ***validator set*** must reach a consensus for each *blockchain height* ***h***. 
 
@@ -33,9 +33,10 @@ A proposer is a node that has the obligation to propose what the next block in t
 
 Therefore, we come to a crucial conclusion regarding the Mempool and gossiping of transactions from it - **when a *FN* receives a *C* transaction inside its Mempool, it must gossip it in a way that guarantees (or at least provides a high probability outcome) that the transaction will eventually reach a Mempool of at least one *V* node that is going to be a proposer in some round k<sub>i</sub> at some blockchain height h<sub>j</sub> in the future**. That particular course of events will then lead to a client transaction being both executed and stored within a blockchain.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzNTEyMDM1LDgxMTE1NDExMiwyOTA3Mj
-Y2MjMsLTE2NjcxMTg2NDcsLTg4ODM4MzIzNSwtMTE3MTQwNDE4
-OCwxNjkwMzY2ODE5LC0xMDU4ODE0MTczLC01MzE0ODU0MjcsMT
-IzNTg1MzU2OCw0NTA4MTI2MTMsMTE0NTg2NjE0NywyMTc3NTIy
-OTQsLTQwMjkzNTc4MiwxODEyODIyODgxXX0=
+eyJoaXN0b3J5IjpbLTIwNDQ0NDI3OTEsODAzNTEyMDM1LDgxMT
+E1NDExMiwyOTA3MjY2MjMsLTE2NjcxMTg2NDcsLTg4ODM4MzIz
+NSwtMTE3MTQwNDE4OCwxNjkwMzY2ODE5LC0xMDU4ODE0MTczLC
+01MzE0ODU0MjcsMTIzNTg1MzU2OCw0NTA4MTI2MTMsMTE0NTg2
+NjE0NywyMTc3NTIyOTQsLTQwMjkzNTc4MiwxODEyODIyODgxXX
+0=
 -->
