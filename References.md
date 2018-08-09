@@ -6,8 +6,8 @@
 
 [2] S. Nakamoto, "Bitcoin: A peer-to-peer electronic cash system" 2009. [Online]. Available: http://www.bitcoin.org/bitcoin.pdf 
 
-[3] M. Crosby, Nachiappan, P. Pattanayak, S. Verma, V. Kalyanaraman
+[3] M. Crosby, Nachiappan, P. Pattanayak, S. Verma, V. Kalyanaraman, "Blockchain technology - beyond Bitcoin". [Online]. Available: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTM4NzMyNDIsMTI1MjQ2NDkyMiwtMT
-YyNTYwMTQ5MSwtMTUxNjUxMzk4OSwtMjkyNTc3MzkzXX0=
+eyJoaXN0b3J5IjpbMzk1NjU0NjgyLDEyNTI0NjQ5MjIsLTE2Mj
+U2MDE0OTEsLTE1MTY1MTM5ODksLTI5MjU3NzM5M119
 -->
