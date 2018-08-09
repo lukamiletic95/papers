@@ -12,7 +12,7 @@ So, in recent years, a new model has gained in popularity. This model is based o
 
 This is where blockchain comes into picture. Blockchain drew attention in the past ten years, primarily due to its utilization within the Bitcoin transaction system [2]. Bitcoin is a cryptocurrency that relies on a distributed blockchain ledger which uses cryptography to achieve confidentiality as well as irrefutability. 
 
-Blockchain is, in its essence, nothing more than a linked list of blocks which contain particular data. Links are modeled using cryptographic hash functions. Since it is replicated on many devices within a distributed network, a consensus protocol must be defined, so that all the devices can unanimously decide what the next block will be. Blockchain is based on a *State machine replication approach*.
+Blockchain is, in its essence, nothing more than a linked list of blocks which contain particular data [3]. Links are modeled using cryptographic hash functions. Since it is replicated on many devices within a distributed network, a consensus protocol must be defined, so that all the devices can unanimously decide what the next block will be. Blockchain is based on a *State machine replication approach*.
 
 > State machine replication approach will b discussed later.
 
@@ -20,10 +20,10 @@ It is evident that blockchain became increasingly popular due to Bitcoin, howeve
 
 That particular idea, that a transaction in a blockchain can be pretty much anything, is used in Tendermint.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTM1Njg3NDMsLTIwOTE3Njk3NjQsLT
-Y5Njc1MjYxMSwtMjA3MTE5MzY0NywtODQ1NzQ5MzAzLDIxMzE5
-NDQyODUsLTE4OTExNDA3ODcsLTc2NTgyNzI5MiwtODY5MTU2Nj
-YxLC0xMzE5NDM0MTE5LC0yMTExNTU0MjUyLC0xNDg2OTA5MTc3
-LC0xOTgyMjI3OTE1LC0zNTg5MjkzNzksMTAxODU3NDQyNywtND
-Q4NDg4NDIwXX0=
+eyJoaXN0b3J5IjpbLTExMTc2NzcxMzIsLTEzOTM1Njg3NDMsLT
+IwOTE3Njk3NjQsLTY5Njc1MjYxMSwtMjA3MTE5MzY0NywtODQ1
+NzQ5MzAzLDIxMzE5NDQyODUsLTE4OTExNDA3ODcsLTc2NTgyNz
+I5MiwtODY5MTU2NjYxLC0xMzE5NDM0MTE5LC0yMTExNTU0MjUy
+LC0xNDg2OTA5MTc3LC0xOTgyMjI3OTE1LC0zNTg5MjkzNzksMT
+AxODU3NDQyNywtNDQ4NDg4NDIwXX0=
 -->
