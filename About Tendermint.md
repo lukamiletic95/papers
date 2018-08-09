@@ -18,15 +18,15 @@ Tendermint consensus algorithm guarantees successful termination, when the sum o
 
 To summarize, Tendermint is a client-server platform which enables clients to execute their transactions, guarantees their proper completion and records them in a blockchain. It does so even if the network contains malicious nodes.
 
-In `Section 3 - Definitions`, some of the important terms and ideas relevant to the algorithm discussion
+In `Section 3 - Definitions`, some of the important terms and ideas relevant to the algorithm discussion (`Section 4 - Algorithms`) will be explained. Following
 
 [^1]: Detailed explanation on Tendermint node types can be found at: <https://github.com/tendermint/tendermint/blob/master/docs/spec/p2p/node.md>
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3Njc2MzIwLDQ5MTQ0MTA2OSwtMTc2OT
-I4NjM1NCw3MTYzNTI2MDUsMjk1NjAyNjQ4LDIxNDcyNTgwMTEs
-LTE5MjE5NDM3MTgsLTE4OTU3NzMyOTUsLTExMTgzMjU2ODksMT
-A2NDQyMjU4MSwtNjYzNTYyMDA1LDY0NzA2MTAzM119
+eyJoaXN0b3J5IjpbLTE5MzQ4NzgyNDcsNDkxNDQxMDY5LC0xNz
+Y5Mjg2MzU0LDcxNjM1MjYwNSwyOTU2MDI2NDgsMjE0NzI1ODAx
+MSwtMTkyMTk0MzcxOCwtMTg5NTc3MzI5NSwtMTExODMyNTY4OS
+wxMDY0NDIyNTgxLC02NjM1NjIwMDUsNjQ3MDYxMDMzXX0=
 -->
