@@ -6,10 +6,11 @@ However, most of the information accumulated by different organizations is store
 
 Problem number two would be a situation where someone could somehow deny a particular action (e.g. executing a bank transaction or signing a contract).
 
-Those two particular problems cast doubt on the current model being used. 
+Those two particular problems cast doubt on the current model being used. As stated in [3], 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTk0NDI4NSwtMTg5MTE0MDc4NywtNz
-Y1ODI3MjkyLC04NjkxNTY2NjEsLTEzMTk0MzQxMTksLTIxMTE1
-NTQyNTIsLTE0ODY5MDkxNzcsLTE5ODIyMjc5MTUsLTM1ODkyOT
-M3OSwxMDE4NTc0NDI3LC00NDg0ODg0MjBdfQ==
+eyJoaXN0b3J5IjpbOTA3MjA2NDk2LDIxMzE5NDQyODUsLTE4OT
+ExNDA3ODcsLTc2NTgyNzI5MiwtODY5MTU2NjYxLC0xMzE5NDM0
+MTE5LC0yMTExNTU0MjUyLC0xNDg2OTA5MTc3LC0xOTgyMjI3OT
+E1LC0zNTg5MjkzNzksMTAxODU3NDQyNywtNDQ4NDg4NDIwXX0=
+
 -->
