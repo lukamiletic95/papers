@@ -2,10 +2,10 @@
 	<h1>Definitions</h1>
 </div>
 
-In this section, relevant ideas that the Tendermint platform relies on, will be explained. Those ideas are provided in the following subsections:
+In this section, relevant ideas that the Tendermint platform relies on, and that are directly connected to the analysis in this paper, will be explained. Those ideas are provided in the following subsections:
 
-* State 
+* `State machine replication`
+* `Gossip communication protocol`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjI4NTI4MjIsLTE2ODM5NDgyNTZdfQ
-==
+eyJoaXN0b3J5IjpbLTI4MDI5OTI3MCwtMTY4Mzk0ODI1Nl19
 -->
