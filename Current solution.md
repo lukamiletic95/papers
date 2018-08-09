@@ -27,9 +27,5 @@ However, Tendermint consensus algorithm is also gossip-based. Every time a propo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTM4MTkzNywtNzQ1MzYyOTU2LC02OD
-M3ODExMTMsMTU2NzIxODQyOCw2Njc3OTQwNTksLTE4Njk0NzUz
-MDIsLTQzMzIwMjQ3Miw0NDQ5ODcxNTYsMTE1MzcwNjQyNiwtMT
-I2MTMxMjM2Myw1MjQwMzM1MDQsMTg5NjQyNDM2OCwtMTE2Mjcz
-MDA2NiwtMzkzMTI1MzMyLDMxMzQ3MTI3NF19
+eyJoaXN0b3J5IjpbMTU0NTM4MTkzN119
 -->
