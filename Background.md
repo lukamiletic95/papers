@@ -14,16 +14,16 @@ This is where blockchain comes into picture. Blockchain drew attention in the pa
 
 Blockchain is, in its essence, nothing more than a linked list of blocks which contain particular data [3]. Links are modeled using cryptographic hash functions. Since it is replicated on many devices within a distributed network, a consensus protocol must be defined, so that all the devices can unanimously decide what the next block will be. Blockchain is based on a *State machine replication approach*.
 
-> State machine replication approach will b discussed later.
+> State machine replication approach will be discussed later.
 
 It is evident that blockchain became increasingly popular due to Bitcoin, however, it can be applied in a much more general way. It can be used not only for financial transactions, but also for any transactions that carry instructions, such as storing, querying and sharing data [4].
 
 That particular idea, that a transaction in a blockchain can be pretty much anything, is used in Tendermint.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTc2NzcxMzIsLTEzOTM1Njg3NDMsLT
-IwOTE3Njk3NjQsLTY5Njc1MjYxMSwtMjA3MTE5MzY0NywtODQ1
-NzQ5MzAzLDIxMzE5NDQyODUsLTE4OTExNDA3ODcsLTc2NTgyNz
-I5MiwtODY5MTU2NjYxLC0xMzE5NDM0MTE5LC0yMTExNTU0MjUy
-LC0xNDg2OTA5MTc3LC0xOTgyMjI3OTE1LC0zNTg5MjkzNzksMT
-AxODU3NDQyNywtNDQ4NDg4NDIwXX0=
+eyJoaXN0b3J5IjpbMTg2NDMyNDc1OSwtMTM5MzU2ODc0MywtMj
+A5MTc2OTc2NCwtNjk2NzUyNjExLC0yMDcxMTkzNjQ3LC04NDU3
+NDkzMDMsMjEzMTk0NDI4NSwtMTg5MTE0MDc4NywtNzY1ODI3Mj
+kyLC04NjkxNTY2NjEsLTEzMTk0MzQxMTksLTIxMTE1NTQyNTIs
+LTE0ODY5MDkxNzcsLTE5ODIyMjc5MTUsLTM1ODkyOTM3OSwxMD
+E4NTc0NDI3LC00NDg0ODg0MjBdfQ==
 -->
