@@ -17,8 +17,10 @@ Blockchain is, in its essence, nothing more than a linked list of blocks which c
 > State machine replication approach will b discussed later.
 
 It is evident that blockchain became increasingly popular due to Bitcoin, however, it can be applied in a much more general way. It can be used not only for financial transactions, but also for any transactions that carry instructions, such as storing, querying and sharing data [4].
+
+That particular idea, t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTkwMjgyMCwtMjA5MTc2OTc2NCwtNj
+eyJoaXN0b3J5IjpbMjA0MDEyOTA1MywtMjA5MTc2OTc2NCwtNj
 k2NzUyNjExLC0yMDcxMTkzNjQ3LC04NDU3NDkzMDMsMjEzMTk0
 NDI4NSwtMTg5MTE0MDc4NywtNzY1ODI3MjkyLC04NjkxNTY2Nj
 EsLTEzMTk0MzQxMTksLTIxMTE1NTQyNTIsLTE0ODY5MDkxNzcs
