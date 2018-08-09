@@ -26,10 +26,12 @@ However, Tendermint consensus algorithm is also gossip-based. Every time a propo
 
 From all of the above, it may be concluded that a current solution used in Tendermint produces a large overhead, and that there is space for improving it.
 
-> Simple improvement would be that, during the Mempool gossiping phase, a transaction *T* would not be broadca
+> Simple improvement would be that, during the Mempool gossiping phase, a transaction *T* would not be broadcasted to a *FN* whom it was just received from.
+
+Yet, this solution guarantees that 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3ODU4OTkxLDE1NDUzODE5MzddfQ==
+eyJoaXN0b3J5IjpbLTExMTA2NzAyODYsMTU0NTM4MTkzN119
 -->
