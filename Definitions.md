@@ -2,8 +2,10 @@
 	<h1>Definitions</h1>
 </div>
 
-In this section, relevant ideas that both the Tendermi
+In this section, relevant ideas that the Tendermint platform relies on, will be explained. Those ideas are provided in the following subsections:
+
+* State 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjY1NDQ1MTAsLTE2ODM5NDgyNTZdfQ
+eyJoaXN0b3J5IjpbLTEwNjI4NTI4MjIsLTE2ODM5NDgyNTZdfQ
 ==
 -->
