@@ -5,7 +5,7 @@ Tendermint ([1], [5]) is a Byzantine fault-tolerant blockchain. Its consensus al
 Tendermint consensus algorithm shows that unanimity can be achieved in an unreliable distributed system, under adversarial conditions.
 
 The Tendermint network model is more complex than the one assumed in this paper (`System model - basics`) [^1]. Apart from *FN* nodes and *V* nodes, it also contains: 
-* *Sentry* nodes, that are a special type of wrapper nodes to other *V* nodes.
+* *Sentry* nodes, that are a special type of wrapper nodes to other *V* nodes. Sentry nodes establish a private connection with a certain *V* node. * 
 * *Seed* nodes, which are useful when a new node becomes a part of the network - they provide it with a list of known peers.
 
 Tendermint is a distributed network of nodes that have their own
@@ -15,8 +15,8 @@ Tendermint is a distributed network of nodes that have their own
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2MzUyNjA1LDI5NTYwMjY0OCwyMTQ3Mj
-U4MDExLC0xOTIxOTQzNzE4LC0xODk1NzczMjk1LC0xMTE4MzI1
-Njg5LDEwNjQ0MjI1ODEsLTY2MzU2MjAwNSw2NDcwNjEwMzNdfQ
-==
+eyJoaXN0b3J5IjpbLTE5MDYxNjMzNDMsNzE2MzUyNjA1LDI5NT
+YwMjY0OCwyMTQ3MjU4MDExLC0xOTIxOTQzNzE4LC0xODk1Nzcz
+Mjk1LC0xMTE4MzI1Njg5LDEwNjQ0MjI1ODEsLTY2MzU2MjAwNS
+w2NDcwNjEwMzNdfQ==
 -->
