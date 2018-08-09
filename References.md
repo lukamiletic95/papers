@@ -6,8 +6,8 @@
 
 [2] S. Nakamoto, "Bitcoin: A peer-to-peer electronic cash system" 2009. [Online]. Available: http://www.bitcoin.org/bitcoin.pdf 
 
-[3] M. Crosby, 
+[3] M. Crosby, Nachiappan, P. Pattanayak, S. Verma, V. Kalyanaraman
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDMyMzk2NSwxMjUyNDY0OTIyLC0xNj
-I1NjAxNDkxLC0xNTE2NTEzOTg5LC0yOTI1NzczOTNdfQ==
+eyJoaXN0b3J5IjpbLTE1OTM4NzMyNDIsMTI1MjQ2NDkyMiwtMT
+YyNTYwMTQ5MSwtMTUxNjUxMzk4OSwtMjkyNTc3MzkzXX0=
 -->
