@@ -6,11 +6,11 @@ However, most of the information accumulated by different organizations is store
 
 Problem number two would be a situation where someone could somehow deny a particular action (e.g. executing a bank transaction or signing a contract).
 
-Those two particular problems cast doubt on the current model being used. There is always a third party organization that we completely confide in. Since this model has been proven 
+Those two particular problems cast doubt on the current model being used. There is always a third party organization that we completely confide in. Since this model has been proven to be unreliable, it raises a question: *"How to solve the aforesaid problems?"*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjIyNzI3ODIsMjEzMTk0NDI4NSwtMT
-g5MTE0MDc4NywtNzY1ODI3MjkyLC04NjkxNTY2NjEsLTEzMTk0
-MzQxMTksLTIxMTE1NTQyNTIsLTE0ODY5MDkxNzcsLTE5ODIyMj
-c5MTUsLTM1ODkyOTM3OSwxMDE4NTc0NDI3LC00NDg0ODg0MjBd
-fQ==
+eyJoaXN0b3J5IjpbMTIwNTI0MzE2MiwyMTMxOTQ0Mjg1LC0xOD
+kxMTQwNzg3LC03NjU4MjcyOTIsLTg2OTE1NjY2MSwtMTMxOTQz
+NDExOSwtMjExMTU1NDI1MiwtMTQ4NjkwOTE3NywtMTk4MjIyNz
+kxNSwtMzU4OTI5Mzc5LDEwMTg1NzQ0MjcsLTQ0ODQ4ODQyMF19
+
 -->
