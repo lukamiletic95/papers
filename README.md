@@ -7,7 +7,7 @@ Q&A:
   1. Node A receives T which is not inside its Mempool.
   2. Node A stores T inside its Mempool and gossips T.
   3. Node N connects to the network as a new full node, whose peer_subset = { A }.
-  4. How will node N find out about T?
+  4. How will node N find out about T? Does it request a copy of its peers' Mempools?
 
 Paper structure:
 1. Abstract
