@@ -8,12 +8,13 @@ The Tendermint network model is more complex than the one assumed in this paper 
 * *Sentry* nodes, that are a special type of wrapper nodes to other *V* nodes.
 * *Seed* nodes, which are useful when a new node becomes a part of the network - they provide it with a list of known peers.
 
+
 [^1]: Detailed explanation on Tendermint node types can be found at: <https://github.com/tendermint/tendermint/blob/master/docs/spec/p2p/node.md>
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTQwODE4MiwyOTU2MDI2NDgsMjE0Nz
+eyJoaXN0b3J5IjpbLTc0NDk2NTI0MCwyOTU2MDI2NDgsMjE0Nz
 I1ODAxMSwtMTkyMTk0MzcxOCwtMTg5NTc3MzI5NSwtMTExODMy
 NTY4OSwxMDY0NDIyNTgxLC02NjM1NjIwMDUsNjQ3MDYxMDMzXX
 0=
