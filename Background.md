@@ -1,7 +1,8 @@
 ### Background
 
-In the modern era, when people so
+In the modern era, which may as well be referred to as the Data are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODY5MDkxNzcsLTE5ODIyMjc5MTUsLT
-M1ODkyOTM3OSwxMDE4NTc0NDI3LC00NDg0ODg0MjBdfQ==
+eyJoaXN0b3J5IjpbNTc3MDQyMTgwLC0xNDg2OTA5MTc3LC0xOT
+gyMjI3OTE1LC0zNTg5MjkzNzksMTAxODU3NDQyNywtNDQ4NDg4
+NDIwXX0=
 -->
