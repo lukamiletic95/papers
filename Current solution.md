@@ -28,10 +28,10 @@ From all of the above, it may be concluded that a current solution used in Tende
 
 > Simple improvement would be that, during the Mempool gossiping phase, a transaction *T* would not be broadcasted to a *FN* whom it was just received from.
 
-Yet, this solution guarantees that the message will, eventually, be proposed and therefore added to the blockchain and be executed.
+Yet, this solution guarantees that the message will eventually be proposed and therefore added to the blockchain and executed.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjkwNDc4MCwxNTQ1MzgxOTM3XX0=
+eyJoaXN0b3J5IjpbMTM0MjAyNTkyNSwxNTQ1MzgxOTM3XX0=
 -->
