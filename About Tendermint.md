@@ -16,14 +16,14 @@ Tendermint is a distributed network of nodes that have their own blockchain repl
 
 Tendermint consensus algorithm guarantees successful termination, when the sum of voting power values of faulty processes does not exceed *f*.
 
-To summarize, Tendermint is a client-server platform which enables clients to execute their transactions, guarantees their proper 
+To summarize, Tendermint is a client-server platform which enables clients to execute their transactions, guarantees their proper completion and records them in a blockchain. It does so even if the network contains malicious nodes,
 
 [^1]: Detailed explanation on Tendermint node types can be found at: <https://github.com/tendermint/tendermint/blob/master/docs/spec/p2p/node.md>
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDI0MDAzNDksNDkxNDQxMDY5LC0xNz
+eyJoaXN0b3J5IjpbLTEwMjA1NDI2MTIsNDkxNDQxMDY5LC0xNz
 Y5Mjg2MzU0LDcxNjM1MjYwNSwyOTU2MDI2NDgsMjE0NzI1ODAx
 MSwtMTkyMTk0MzcxOCwtMTg5NTc3MzI5NSwtMTExODMyNTY4OS
 wxMDY0NDIyNTgxLC02NjM1NjIwMDUsNjQ3MDYxMDMzXX0=
