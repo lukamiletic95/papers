@@ -17,12 +17,12 @@ Current Tendermint Mempool gossiping algorithm works as follows (this is execute
 	4. If 2 == false, FN stores T inside its Mempool.
 	5. FN then gossips (broadcasts) T to everyone in its peer subset.
 	
-If we assume that the network (excluding *C* nodes) is modeled via a connected graph, then the number of messages that are exchanged for one transaction *T* is equal *2 * num_of_vertices*, although the optimal number of messages is equal to number of *FN* node
+If we assume that the network (excluding *C* nodes) is modeled via a connected graph, then the number of messages that are exchanged for one transaction *T* is equal *2 * num_of_vertices*, although the optimal number of messages is equal to number of *FN* nodes decreased by 1 (*C* →*FN* message isn't taken into account since it is not a part of the gossi
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI0NTk3NDYsNjY3Nzk0MDU5LC0xOD
+eyJoaXN0b3J5IjpbLTIwNjExNTk1MzUsNjY3Nzk0MDU5LC0xOD
 Y5NDc1MzAyLC00MzMyMDI0NzIsNDQ0OTg3MTU2LDExNTM3MDY0
 MjYsLTEyNjEzMTIzNjMsNTI0MDMzNTA0LDE4OTY0MjQzNjgsLT
 ExNjI3MzAwNjYsLTM5MzEyNTMzMiwzMTM0NzEyNzRdfQ==
