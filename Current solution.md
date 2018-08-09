@@ -24,10 +24,12 @@ On the other hand, this algorithm guarantees that a message will reach everyone 
 **nisam siguran za ovo?**
 However, Tendermint consensus algorithm is also gossip-based. Every time a proposer wishes to propose a block, it sends a special type of message - *PROPOSAL MESSAGE* [1]. That message contains a proposed block (which contains a batch of transactions), and is again gossiped to the peers of the round's selected proposer, and so forth. That may lead to some node receiving information about a transaction which it already received during the Mempool gossip phase, which is again a redundancy.
 
-From all of the above, it may be concluded that a current solution used in Tendermint produces a l
+From all of the above, it may be concluded that a current solution used in Tendermint produces a large overhead, and that there is space for improving it.
+
+> Simple improvement would be that, during the Mempool gossiping phase, a transaction *T* would not be broadca
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDU3NTQ1MTMsMTU0NTM4MTkzN119
+eyJoaXN0b3J5IjpbNzk3ODU4OTkxLDE1NDUzODE5MzddfQ==
 -->
