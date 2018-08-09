@@ -11,8 +11,10 @@
 [4] G. Zyskind, O. Nathan and  A. Pentland, "Decentralizing privacy: using Blockchain to protect personal data" 2015. [Online]. Available: <https://ieeexplore.ieee.org/document/7163223/>
 
 [5] J. Kwon, "Tendermint - consensus without mining" 2014. [Online]. Available: <https://cdn.relayto.com/media/files/LPgoWO18TCeMIggJVakt_tendermint.pdf>
+
+[6] L. Lamport, R. Shostak
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjQwNTAxMywtMTcwMjk5OTg4NSwxMj
-UyNDY0OTIyLC0xNjI1NjAxNDkxLC0xNTE2NTEzOTg5LC0yOTI1
-NzczOTNdfQ==
+eyJoaXN0b3J5IjpbMTkyNTE5MzQ3NSwxMjkyNDA1MDEzLC0xNz
+AyOTk5ODg1LDEyNTI0NjQ5MjIsLTE2MjU2MDE0OTEsLTE1MTY1
+MTM5ODksLTI5MjU3NzM5M119
 -->
