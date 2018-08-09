@@ -6,7 +6,7 @@ However, most of the information accumulated by different organizations is store
 
 Problem number two would be a situation where someone could somehow deny a particular action (e.g. executing a bank transaction or signing a contract).
 
-Those two particular problems cast doubt on the current model being used. There is always a third party organization that we completely confide in. Since this model has been proven to be unreliable, it raises a question: *"How to solve the aforesaid issues?"*.
+Those two problems cast doubt on the current model being used. There is always a third party organization that we completely confide in. Since this model has been proven to be unreliable, it raises a question: *"How to solve the aforesaid issues?"*.
 
 So, in recent years, a new model has gained in popularity. This model is based on decentralization and indisputability. What if our private data could now be stored in multiple places (thus eliminating the *single point of failure* problem, along with it being completely resilient to modification by malicious third parties? It is easier to steal something if it is monitored by a single person, rather than a large group of people.
 
@@ -20,11 +20,11 @@ It is evident that blockchain became increasingly popular due to Bitcoin, howeve
 
 That particular idea, that a transaction in a blockchain can be pretty much anything, is used in Tendermint.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjM2MjEwNSwtOTY5MjI5MzI3LDEwND
-Y4MjUyMDQsLTEzOTM1Njg3NDMsLTIwOTE3Njk3NjQsLTY5Njc1
-MjYxMSwtMjA3MTE5MzY0NywtODQ1NzQ5MzAzLDIxMzE5NDQyOD
-UsLTE4OTExNDA3ODcsLTc2NTgyNzI5MiwtODY5MTU2NjYxLC0x
-MzE5NDM0MTE5LC0yMTExNTU0MjUyLC0xNDg2OTA5MTc3LC0xOT
-gyMjI3OTE1LC0zNTg5MjkzNzksMTAxODU3NDQyNywtNDQ4NDg4
-NDIwXX0=
+eyJoaXN0b3J5IjpbLTE5MDU3NzM2NzYsMTc2NjM2MjEwNSwtOT
+Y5MjI5MzI3LDEwNDY4MjUyMDQsLTEzOTM1Njg3NDMsLTIwOTE3
+Njk3NjQsLTY5Njc1MjYxMSwtMjA3MTE5MzY0NywtODQ1NzQ5Mz
+AzLDIxMzE5NDQyODUsLTE4OTExNDA3ODcsLTc2NTgyNzI5Miwt
+ODY5MTU2NjYxLC0xMzE5NDM0MTE5LC0yMTExNTU0MjUyLC0xND
+g2OTA5MTc3LC0xOTgyMjI3OTE1LC0zNTg5MjkzNzksMTAxODU3
+NDQyNywtNDQ4NDg4NDIwXX0=
 -->
