@@ -12,11 +12,12 @@ Let us assume that a *C* node wants to have its transaction *T* processed by the
 Current Tendermint Mempool gossiping algorithm works as follows:
 
 	1. When a FN receives a transaction T, it stores it inside its own Mempool.
-	2. 
+	2. Then it broadcasts the transaction to all of the peers in its peer subset.
+	3. 
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDYyMDIxNCwxODk2NDI0MzY4LC0xMT
-YyNzMwMDY2LC0zOTMxMjUzMzIsMzEzNDcxMjc0XX0=
+eyJoaXN0b3J5IjpbMTEyNzEyMDI0LDE4OTY0MjQzNjgsLTExNj
+I3MzAwNjYsLTM5MzEyNTMzMiwzMTM0NzEyNzRdfQ==
 -->
