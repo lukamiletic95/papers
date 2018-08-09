@@ -10,7 +10,7 @@ Those two particular problems cast doubt on the current model being used. There 
 
 So, in recent years, a new model has gained in popularity. This model is based on decentralization and indisputability. What if our private data could now be stored in multiple places (thus eliminating the *single point of failure* problem, along with it being completely resilient to modification by malicious third parties? As stated in [3], *it is easier to steal a cookie from a cookie jar, kept in a secluded place, than stealing the cookie from a cookie jar kept in a market place, being observed by thousands of people*.
 
-This is where blockchain comes into picture. Blockchain drew attention in the past ten years, primarily due to its utilization within the Bitcoin transaction system [2]. Bitcoin is a cryptocurrency that relies on a distributed blockchain ledger which uses cryptography to achieve confidentiality as well as irrefutability. 
+This is where blockchain comes into picture. Blockchain drew attention in the past years, primarily due to its utilization within the Bitcoin transaction system [2]. Bitcoin is a cryptocurrency that relies on a distributed blockchain ledger which uses cryptography to achieve confidentiality as well as irrefutability. 
 
 Blockchain is, in its essence, nothing more than a linked list of blocks which contain particular data [3]. Links are modeled using cryptographic hash functions. Since it is replicated on many devices within a distributed network, a consensus protocol must be defined, so that all the devices can unanimously decide what the next block will be. Blockchain is based on a *State machine replication approach*.
 
@@ -20,7 +20,7 @@ It is evident that blockchain became increasingly popular due to Bitcoin, howeve
 
 That particular idea, that a transaction in a blockchain can be pretty much anything, is used in Tendermint.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDMyNDc1OSwtMTM5MzU2ODc0MywtMj
+eyJoaXN0b3J5IjpbMTA0NjgyNTIwNCwtMTM5MzU2ODc0MywtMj
 A5MTc2OTc2NCwtNjk2NzUyNjExLC0yMDcxMTkzNjQ3LC04NDU3
 NDkzMDMsMjEzMTk0NDI4NSwtMTg5MTE0MDc4NywtNzY1ODI3Mj
 kyLC04NjkxNTY2NjEsLTEzMTk0MzQxMTksLTIxMTE1NTQyNTIs
