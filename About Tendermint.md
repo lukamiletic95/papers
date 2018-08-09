@@ -12,7 +12,7 @@ The Tendermint network model is more complex than the one assumed in this paper 
 
 Tendermint is a distributed network of nodes that have their own blockchain replicas in order to preserve the valid state of the system. In order for that to be able, Tendermint defines a constant ***f***, which represents a maximum value for the voting power of faulty processes in the network.
 
-> Voting power is a number 
+> Voting power is a number that is a property of each *V* node and it determines its "strength" when voting to reach a consensus. [1] - p. 5, III - TENDERMINT CONSENSUS ALGORITHM
 
 
 [^1]: Detailed explanation on Tendermint node types can be found at: <https://github.com/tendermint/tendermint/blob/master/docs/spec/p2p/node.md>
@@ -20,8 +20,8 @@ Tendermint is a distributed network of nodes that have their own blockchain repl
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTgwMzU4LC0xNzY5Mjg2MzU0LDcxNj
-M1MjYwNSwyOTU2MDI2NDgsMjE0NzI1ODAxMSwtMTkyMTk0Mzcx
-OCwtMTg5NTc3MzI5NSwtMTExODMyNTY4OSwxMDY0NDIyNTgxLC
-02NjM1NjIwMDUsNjQ3MDYxMDMzXX0=
+eyJoaXN0b3J5IjpbLTE2Mzg2ODU2OTIsLTE3NjkyODYzNTQsNz
+E2MzUyNjA1LDI5NTYwMjY0OCwyMTQ3MjU4MDExLC0xOTIxOTQz
+NzE4LC0xODk1NzczMjk1LC0xMTE4MzI1Njg5LDEwNjQ0MjI1OD
+EsLTY2MzU2MjAwNSw2NDcwNjEwMzNdfQ==
 -->
