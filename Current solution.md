@@ -19,10 +19,12 @@ Current Tendermint Mempool gossiping algorithm works as follows (this is execute
 	
 If we assume that the network (excluding *C* nodes) is modeled via a connected graph, then the number of messages that are exchanged for one transaction *T* is equal to *2 * num_of_vertices*, although the optimal number of messages is equal to the number of *FN* nodes decreased by 1 (*C* → *FN* message isn't taken into account since it is not a part of the gossiping protocol).
 	
-On the other hand, this algorithm guarantees that a message will reach everyone within the network, since we assumed that the minimum size of the peer subset 
+On the other hand, this algorithm guarantees that a message will reach everyone within the network, since we assumed that the minimum size of the peer subset is 1, and therefore there are no disconnected *FN* nodes.
+
+Despite
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDQyMTI5NywtNzQ1MzYyOTU2LC02OD
+eyJoaXN0b3J5IjpbLTU0OTg4OTgzNCwtNzQ1MzYyOTU2LC02OD
 M3ODExMTMsMTU2NzIxODQyOCw2Njc3OTQwNTksLTE4Njk0NzUz
 MDIsLTQzMzIwMjQ3Miw0NDQ5ODcxNTYsMTE1MzcwNjQyNiwtMT
 I2MTMxMjM2Myw1MjQwMzM1MDQsMTg5NjQyNDM2OCwtMTE2Mjcz
