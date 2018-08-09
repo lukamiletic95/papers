@@ -14,14 +14,15 @@ Tendermint is a distributed network of nodes that have their own blockchain repl
 
 > Voting power is a number that is the property of each *V* node and it determines its "strength" when voting to reach a consensus. [1] - p. 5, III - TENDERMINT CONSENSUS ALGORITHM
 
+Tendermint consensus algorithm guarantees successful termination, when the sum of voting power values of faulty proces
 
 [^1]: Detailed explanation on Tendermint node types can be found at: <https://github.com/tendermint/tendermint/blob/master/docs/spec/p2p/node.md>
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDA0NTg3MzIsLTE3NjkyODYzNTQsNz
-E2MzUyNjA1LDI5NTYwMjY0OCwyMTQ3MjU4MDExLC0xOTIxOTQz
-NzE4LC0xODk1NzczMjk1LC0xMTE4MzI1Njg5LDEwNjQ0MjI1OD
-EsLTY2MzU2MjAwNSw2NDcwNjEwMzNdfQ==
+eyJoaXN0b3J5IjpbMTUyNjAxMjY5NCwtMTc2OTI4NjM1NCw3MT
+YzNTI2MDUsMjk1NjAyNjQ4LDIxNDcyNTgwMTEsLTE5MjE5NDM3
+MTgsLTE4OTU3NzMyOTUsLTExMTgzMjU2ODksMTA2NDQyMjU4MS
+wtNjYzNTYyMDA1LDY0NzA2MTAzM119
 -->
