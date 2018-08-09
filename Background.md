@@ -6,9 +6,9 @@ However, most of the information accumulated by different organizations is store
 
 Problem number two would be a situation where someone could somehow deny a particular action (e.g. executing a bank transaction or signing a contract).
 
-Those two particular problems cast doubt on the current model being used. There is always 
+Those two particular problems cast doubt on the current model being used. There is always a third party organization that we completely confide in. Since this model has been proven 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTMwODQwNTgsMjEzMTk0NDI4NSwtMT
+eyJoaXN0b3J5IjpbLTE3MjIyNzI3ODIsMjEzMTk0NDI4NSwtMT
 g5MTE0MDc4NywtNzY1ODI3MjkyLC04NjkxNTY2NjEsLTEzMTk0
 MzQxMTksLTIxMTE1NTQyNTIsLTE0ODY5MDkxNzcsLTE5ODIyMj
 c5MTUsLTM1ODkyOTM3OSwxMDE4NTc0NDI3LC00NDg0ODg0MjBd
