@@ -9,8 +9,12 @@
 
 Let us assume that a *C* node wants to have its transaction *T* processed by the Tendermint network, in a way explained earlier in the text.
 
+Current Tendermint algorithm works as follows:
+
+	When a *FN*
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI3MzAwNjYsLTM5MzEyNTMzMiwzMT
-M0NzEyNzRdfQ==
+eyJoaXN0b3J5IjpbLTIwOTUxMTg4OTEsLTExNjI3MzAwNjYsLT
+M5MzEyNTMzMiwzMTM0NzEyNzRdfQ==
 -->
