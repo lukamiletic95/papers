@@ -22,9 +22,11 @@ Additionally, every *FN* node has a *CFG* file stored locally. This file contain
 
 *CFG* file may be configured statically (e.g. with IP addresses of clients and peers), or it may change dynamically at runtime (e.g. when a client/peer connects/disconnects). 
 
-It is assumed that a *C* node wants to have its **transaction** [^1] processed by the network. From the client's perspective, there are two important events that need to occur:
+It is assumed that a *C* node wants to have its **transaction** processed by the network. From the client's perspective, there are two important events that need to occur:
 1. A transaction must be executed.
 2. Evidence of that execution must be stored inside a blockchain.
+
+> A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them). Implementation-wise, a transaction is nothing but a *byte array*.
 
 To achieve that, a *C* node may connect to a *FN* node of its own choice. Upon establishing a connection with a *FN* node, a *C* node may send its transaction to the *FN* node. A client may, at any point in time, disconnect from a connected *FN* node, and connect to another one.
 
@@ -33,11 +35,9 @@ To achieve that, a *C* node may connect to a *FN* node of its own choice. Upon e
 When a *FN* node receives a transaction, it stores it inside its own Mempool. In addition, the transaction is gossiped over the network to all of the peers of that particular *FN* node, so that it could be stored inside their own Mempools. Then the peers re-gossip the received transaction and so forth.
 
 
-[^1]: A transaction may represent any data that, when processed, is useful to the client (e.g. storing money transactions in a blockchain alongside executing them). Implementation-wise, a transaction is nothing but a *byte array*.
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg0NDM5MiwxMzU0NDc3NDY2LDE3Mz
-QwNDQ3MDMsLTE3NTMxMjM2OTcsLTMwMzExMzk2MiwxNjMyNjg1
-NDU4LDE2MTk5NTQ0MDAsMTczODkwNzc5NF19
+eyJoaXN0b3J5IjpbMjEzNjQ3ODg3OCwtMTU5ODQ0MzkyLDEzNT
+Q0Nzc0NjYsMTczNDA0NDcwMywtMTc1MzEyMzY5NywtMzAzMTEz
+OTYyLDE2MzI2ODU0NTgsMTYxOTk1NDQwMCwxNzM4OTA3Nzk0XX
+0=
 -->
