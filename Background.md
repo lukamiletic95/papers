@@ -16,12 +16,12 @@ Blockchain is, in its essence, nothing more than a linked list of blocks which c
 
 > State machine replication approach will b discussed later.
 
-Furthermore, it is evident that blockchain 
+It is evident that blockchain became increasingly popular due to Bitcoin, however, it can be applied in a much more general way. It can be used not only for financial transactions, but also for smart 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI2MDE2NjQsLTIwOTE3Njk3NjQsLT
-Y5Njc1MjYxMSwtMjA3MTE5MzY0NywtODQ1NzQ5MzAzLDIxMzE5
-NDQyODUsLTE4OTExNDA3ODcsLTc2NTgyNzI5MiwtODY5MTU2Nj
-YxLC0xMzE5NDM0MTE5LC0yMTExNTU0MjUyLC0xNDg2OTA5MTc3
-LC0xOTgyMjI3OTE1LC0zNTg5MjkzNzksMTAxODU3NDQyNywtND
-Q4NDg4NDIwXX0=
+eyJoaXN0b3J5IjpbODU2NTgxNjc5LC0yMDkxNzY5NzY0LC02OT
+Y3NTI2MTEsLTIwNzExOTM2NDcsLTg0NTc0OTMwMywyMTMxOTQ0
+Mjg1LC0xODkxMTQwNzg3LC03NjU4MjcyOTIsLTg2OTE1NjY2MS
+wtMTMxOTQzNDExOSwtMjExMTU1NDI1MiwtMTQ4NjkwOTE3Nywt
+MTk4MjIyNzkxNSwtMzU4OTI5Mzc5LDEwMTg1NzQ0MjcsLTQ0OD
+Q4ODQyMF19
 -->
