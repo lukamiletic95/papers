@@ -10,8 +10,9 @@ In this section, relevant ideas that the Tendermint platform relies on, and that
 
 After that, a system model used throughout the analysis will be defined, in three subsections:
 
-* ``
-* *
+* `System model - basics`
+* `System model - consensus & gossip`
+* `System model - assumptions & summary`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTYyNTU1NywtMTY4Mzk0ODI1Nl19
+eyJoaXN0b3J5IjpbLTY0OTA1MzYzLC0xNjgzOTQ4MjU2XX0=
 -->
