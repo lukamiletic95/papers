@@ -5,10 +5,12 @@
 	<h4>Figure # - Mempool transaction gossiping in Tendermint</h4>
 </div>
 
-Let us assume that a *C* node wants to have its 
+* *T - Transaction request*
+
+Let us assume that a *C* node wants to have its tr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzM1NDk5NCwtMzkzMTI1MzMyLDMxMz
+eyJoaXN0b3J5IjpbLTE0MjM0MTE4NCwtMzkzMTI1MzMyLDMxMz
 Q3MTI3NF19
 -->
