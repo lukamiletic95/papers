@@ -18,9 +18,11 @@ Current Tendermint Mempool gossiping algorithm works as follows (this is execute
 	5. FN then gossips (broadcasts) T to everyone in its peer subset.
 	
 
+	
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0OTg3MTU2LDExNTM3MDY0MjYsLTEyNj
-EzMTIzNjMsNTI0MDMzNTA0LDE4OTY0MjQzNjgsLTExNjI3MzAw
-NjYsLTM5MzEyNTMzMiwzMTM0NzEyNzRdfQ==
+eyJoaXN0b3J5IjpbLTQzMzIwMjQ3Miw0NDQ5ODcxNTYsMTE1Mz
+cwNjQyNiwtMTI2MTMxMjM2Myw1MjQwMzM1MDQsMTg5NjQyNDM2
+OCwtMTE2MjczMDA2NiwtMzkzMTI1MzMyLDMxMzQ3MTI3NF19
 -->
