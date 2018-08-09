@@ -12,12 +12,14 @@ Let us assume that a *C* node wants to have its transaction *T* processed by the
 Current Tendermint Mempool gossiping algorithm works as follows:
 
 	1. FN receives T, either from a C, or from another FN.
-	2. FN checks if T is already in its 
+	2. FN checks if T is already in its Mempool.
+	3. If 2 == true, FN drops the message and does nothing.
+	4. 
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODI1MzI3OSw1MjQwMzM1MDQsMTg5Nj
-QyNDM2OCwtMTE2MjczMDA2NiwtMzkzMTI1MzMyLDMxMzQ3MTI3
-NF19
+eyJoaXN0b3J5IjpbLTEyNjEzMTIzNjMsNTI0MDMzNTA0LDE4OT
+Y0MjQzNjgsLTExNjI3MzAwNjYsLTM5MzEyNTMzMiwzMTM0NzEy
+NzRdfQ==
 -->
