@@ -8,9 +8,9 @@ Problem number two would be a situation where someone could somehow deny a parti
 
 Those two particular problems cast doubt on the current model being used. There is always a third party organization that we completely confide in. Since this model has been proven to be unreliable, it raises a question: *"How to solve the aforesaid issues?"*.
 
-So, in recent years, a new model has gained in popularity. This model is based on decentralization and indisputability. What if our private data could now be stored in multiple places (thus eliminating the *single point of failure* , along with it being completely 
+So, in recent years, a new model has gained in popularity. This model is based on decentralization and indisputability. What if our private data could now be stored in multiple places (thus eliminating the *single point of failure* problem, along with it being completely 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTQ3MDIwNCwyMTMxOTQ0Mjg1LC0xOD
+eyJoaXN0b3J5IjpbLTg0NTc0OTMwMywyMTMxOTQ0Mjg1LC0xOD
 kxMTQwNzg3LC03NjU4MjcyOTIsLTg2OTE1NjY2MSwtMTMxOTQz
 NDExOSwtMjExMTU1NDI1MiwtMTQ4NjkwOTE3NywtMTk4MjIyNz
 kxNSwtMzU4OTI5Mzc5LDEwMTg1NzQ0MjcsLTQ0ODQ4ODQyMF19
