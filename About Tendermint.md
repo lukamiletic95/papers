@@ -10,14 +10,14 @@ The Tendermint network model is more complex than the one assumed in this paper 
 
 * *Seed* nodes, which are useful when a new node becomes a part of the network - they provide it with a list of known peers.
 
-Tendermint is a distributed network of nodes that have their own
+Tendermint is a distributed network of nodes that have their own blockchain replicas in order to preserve the valid state of the system. In order for that to be able, Tendermint defines a constant ***f***, which represents a 
 
 [^1]: Detailed explanation on Tendermint node types can be found at: <https://github.com/tendermint/tendermint/blob/master/docs/spec/p2p/node.md>
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDExOTczMyw3MTYzNTI2MDUsMjk1Nj
+eyJoaXN0b3J5IjpbMTA5NDE5NDE1MCw3MTYzNTI2MDUsMjk1Nj
 AyNjQ4LDIxNDcyNTgwMTEsLTE5MjE5NDM3MTgsLTE4OTU3NzMy
 OTUsLTExMTgzMjU2ODksMTA2NDQyMjU4MSwtNjYzNTYyMDA1LD
 Y0NzA2MTAzM119
