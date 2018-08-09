@@ -12,9 +12,9 @@
 
 [5] J. Kwon, "Tendermint - consensus without mining" 2014. [Online]. Available: <https://cdn.relayto.com/media/files/LPgoWO18TCeMIggJVakt_tendermint.pdf>
 
-[6] L. Lamport, R. Shostak
+[6] L. Lamport, R. Shostak and M. Pease, "The Byzantine Generals problem" 1982. [Online]. Available: <https://dl.acm.org/citation.cfm?id=357176>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTE5MzQ3NSwxMjkyNDA1MDEzLC0xNz
+eyJoaXN0b3J5IjpbLTcyNzIxMTQ0MiwxMjkyNDA1MDEzLC0xNz
 AyOTk5ODg1LDEyNTI0NjQ5MjIsLTE2MjU2MDE0OTEsLTE1MTY1
 MTM5ODksLTI5MjU3NzM5M119
 -->
