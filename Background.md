@@ -12,7 +12,7 @@ So, in recent years, a new model has gained in popularity. This model is based o
 
 This is where blockchain comes into picture. Blockchain drew attention in the past years, primarily due to its utilization within the Bitcoin transaction system [2]. Bitcoin is a cryptocurrency that relies on a distributed blockchain ledger which uses cryptography to achieve confidentiality as well as irrefutability. 
 
-Blockchain is, in its essence, nothing more than a linked list of blocks which contain particular data [3]. Links are modeled using cryptographic hash functions. Since it is replicated on many devices within a distributed network, a consensus protocol must be defined, so that all the devices can unanimously decide what the next block will be. Blockchain is based on a *State machine replication approach*.
+Blockchain is, in its essence, nothing more than a linked list of blocks which contain particular data [3]. Links are modeled using cryptographic hash functions. Since it is replicated on many devices within a distributed network, a consensus protocol must be defined, so that all the devices can unanimously decide what the next block will be. Blockchain is based on a *State machine replication* approach.
 
 > State machine replication approach will be discussed later.
 
@@ -20,10 +20,11 @@ It is evident that blockchain became increasingly popular due to Bitcoin, howeve
 
 That particular idea, that a transaction in a blockchain can be pretty much anything, is used in Tendermint.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTIyOTMyNywxMDQ2ODI1MjA0LC0xMz
-kzNTY4NzQzLC0yMDkxNzY5NzY0LC02OTY3NTI2MTEsLTIwNzEx
-OTM2NDcsLTg0NTc0OTMwMywyMTMxOTQ0Mjg1LC0xODkxMTQwNz
-g3LC03NjU4MjcyOTIsLTg2OTE1NjY2MSwtMTMxOTQzNDExOSwt
-MjExMTU1NDI1MiwtMTQ4NjkwOTE3NywtMTk4MjIyNzkxNSwtMz
-U4OTI5Mzc5LDEwMTg1NzQ0MjcsLTQ0ODQ4ODQyMF19
+eyJoaXN0b3J5IjpbMjU4ODEwOTg5LC05NjkyMjkzMjcsMTA0Nj
+gyNTIwNCwtMTM5MzU2ODc0MywtMjA5MTc2OTc2NCwtNjk2NzUy
+NjExLC0yMDcxMTkzNjQ3LC04NDU3NDkzMDMsMjEzMTk0NDI4NS
+wtMTg5MTE0MDc4NywtNzY1ODI3MjkyLC04NjkxNTY2NjEsLTEz
+MTk0MzQxMTksLTIxMTE1NTQyNTIsLTE0ODY5MDkxNzcsLTE5OD
+IyMjc5MTUsLTM1ODkyOTM3OSwxMDE4NTc0NDI3LC00NDg0ODg0
+MjBdfQ==
 -->
