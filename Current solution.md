@@ -4,6 +4,9 @@
 <div align='center'> 
 	<h4>Figure # - Mempool transaction gossiping in Tendermint</h4>
 </div>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzEyNTMzMiwzMTM0NzEyNzRdfQ==
+eyJoaXN0b3J5IjpbNDgwMDk3NTQ0LC0zOTMxMjUzMzIsMzEzND
+cxMjc0XX0=
 -->
