@@ -6,7 +6,7 @@ Tendermint consensus algorithm shows that unanimity can be achieved in an unreli
 
 The Tendermint network model is more complex than the one assumed in this paper (`System model - basics`) [^1]. Apart from *FN* nodes and *V* nodes, it also contains: 
 
-* *Sentry* nodes, that are a special type of wrapper nodes to other *V* nodes. Sentry nodes establish a private connection with a certain *V* node. *V* nodes communicate among themselves via Sentry nodes. Therefore, Sentry nodes connected to different *V* nodes can be connected. The type of that connection can be a private, public or a secure VPN connection. 
+* *Sentry* nodes, that are a special type of wrapper nodes to other *V* nodes. Sentry nodes establish a private connection with a certain *V* node. *V* nodes communicate among themselves via Sentry nodes. Therefore, Sentry nodes are connected to different *V* nodes can be connected. The type of that connection can be a private, public or a secure VPN connection. 
 
 * *Seed* nodes, which are useful when a new node becomes a part of the network - they provide it with a list of known peers.
 
@@ -25,7 +25,7 @@ In `Section 3 - Definitions`, some of the important terms and ideas relevant to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDUyNTk5MCwxNDg1NjM5MjI3LDQ5MT
+eyJoaXN0b3J5IjpbLTQ5MjI0Njc5OCwxNDg1NjM5MjI3LDQ5MT
 Q0MTA2OSwtMTc2OTI4NjM1NCw3MTYzNTI2MDUsMjk1NjAyNjQ4
 LDIxNDcyNTgwMTEsLTE5MjE5NDM3MTgsLTE4OTU3NzMyOTUsLT
 ExMTgzMjU2ODksMTA2NDQyMjU4MSwtNjYzNTYyMDA1LDY0NzA2
