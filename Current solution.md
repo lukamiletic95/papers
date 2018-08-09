@@ -11,11 +11,12 @@ Let us assume that a *C* node wants to have its transaction *T* processed by the
 
 Current Tendermint Mempool gossiping algorithm works as follows:
 
-	1. When a FN receives 
+	1. FN receives T, either from a C, or from another FN.
+	2. FN checks if 
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Njk3NTE4MiwxODk2NDI0MzY4LC0xMT
-YyNzMwMDY2LC0zOTMxMjUzMzIsMzEzNDcxMjc0XX0=
+eyJoaXN0b3J5IjpbNTI0MDMzNTA0LDE4OTY0MjQzNjgsLTExNj
+I3MzAwNjYsLTM5MzEyNTMzMiwzMTM0NzEyNzRdfQ==
 -->
