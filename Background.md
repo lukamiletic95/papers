@@ -12,11 +12,11 @@ So, in recent years, a new model has gained in popularity. This model is based o
 
 This is where blockchain comes into picture. Blockchain drew attention in the past ten years, primarily due to its utilization within the Bitcoin transaction system [2]. Bitcoin is a cryptocurrency that relies on a distributed blockchain ledger which uses cryptography to achieve confidentiality as well as irrefutability. 
 
-Blockchain is, in its essence, nothing more than a linked list of blocks which contain particular data. Links are modeled using cryptographic hash functions. Since it is replicated on many devices within a distributed network, a co
+Blockchain is, in its essence, nothing more than a linked list of blocks which contain particular data. Links are modeled using cryptographic hash functions. Since it is replicated on many devices within a distributed network, a consensus protocol must be defined, so that all the devices can unanimously decide what the next block will be.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA3OTMyOCwtNjk2NzUyNjExLC0yMD
-cxMTkzNjQ3LC04NDU3NDkzMDMsMjEzMTk0NDI4NSwtMTg5MTE0
-MDc4NywtNzY1ODI3MjkyLC04NjkxNTY2NjEsLTEzMTk0MzQxMT
-ksLTIxMTE1NTQyNTIsLTE0ODY5MDkxNzcsLTE5ODIyMjc5MTUs
-LTM1ODkyOTM3OSwxMDE4NTc0NDI3LC00NDg0ODg0MjBdfQ==
+eyJoaXN0b3J5IjpbLTIwOTE3Njk3NjQsLTY5Njc1MjYxMSwtMj
+A3MTE5MzY0NywtODQ1NzQ5MzAzLDIxMzE5NDQyODUsLTE4OTEx
+NDA3ODcsLTc2NTgyNzI5MiwtODY5MTU2NjYxLC0xMzE5NDM0MT
+E5LC0yMTExNTU0MjUyLC0xNDg2OTA5MTc3LC0xOTgyMjI3OTE1
+LC0zNTg5MjkzNzksMTAxODU3NDQyNywtNDQ4NDg4NDIwXX0=
 -->
