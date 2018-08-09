@@ -14,7 +14,7 @@ Tendermint is a distributed network of nodes that have their own blockchain repl
 
 > Voting power is a number that is the property of each *V* node and it determines its "strength" when voting to reach a consensus. [1] - p. 5, III - TENDERMINT CONSENSUS ALGORITHM
 
-Tendermint consensus algorithm guarantees successful termination, when the total voting power of nodes (marked as ***n***), is greater than *3f* - *n > 3f*.
+Tendermint consensus algorithm guarantees successful termination, when the total voting power of nodes (marked as ***n***), is greater than *3f* - *n > 3f*. Therefore, the total voting power of faulty processes must be smaller than one third of the total voting power of all processes [0.
 
 To summarize, Tendermint is a client-server platform which enables clients to execute their transactions, guarantees their proper completion and records them in a blockchain. It does so even if the network contains malicious nodes.
 
@@ -25,7 +25,7 @@ In `Section 3 - Definitions`, some of the important terms and ideas relevant to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjMzMDYwNSwxNDg1NjM5MjI3LDQ5MT
+eyJoaXN0b3J5IjpbLTQ1NTAxMTc0MSwxNDg1NjM5MjI3LDQ5MT
 Q0MTA2OSwtMTc2OTI4NjM1NCw3MTYzNTI2MDUsMjk1NjAyNjQ4
 LDIxNDcyNTgwMTEsLTE5MjE5NDM3MTgsLTE4OTU3NzMyOTUsLT
 ExMTgzMjU2ODksMTA2NDQyMjU4MSwtNjYzNTYyMDA1LDY0NzA2
