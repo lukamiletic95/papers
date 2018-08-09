@@ -14,12 +14,13 @@ Current Tendermint Mempool gossiping algorithm works as follows:
 	1. FN receives T, either from a C, or from another FN.
 	2. FN checks if T is already in its Mempool.
 	3. If 2 == true, FN drops the message and does nothing.
-	4. 
+	4. If 2 == false, FN stores T inside its Mempool.
+	5. FN then gossips (broadcasts) T to everyone in its peer subset.
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjEzMTIzNjMsNTI0MDMzNTA0LDE4OT
-Y0MjQzNjgsLTExNjI3MzAwNjYsLTM5MzEyNTMzMiwzMTM0NzEy
-NzRdfQ==
+eyJoaXN0b3J5IjpbMTE1MzcwNjQyNiwtMTI2MTMxMjM2Myw1Mj
+QwMzM1MDQsMTg5NjQyNDM2OCwtMTE2MjczMDA2NiwtMzkzMTI1
+MzMyLDMxMzQ3MTI3NF19
 -->
