@@ -4,12 +4,12 @@ In the modern era, which may as well be referred to as the *Data era*, collectio
 
 However, most of the information accumulated by different organizations is stored within those very organizations. Ergo, we may state that our private information is a part of a *single point of failure* system, meaning it could easily become compromised. What's more, there have been many security breaches which resulted in revealing one's personal data. This would be problem number one.
 
-Problem number two would be a situation where someone could somehow deny a particular action (e.g. executing a bank transaction or signing a contract). 
+Problem number two would be a situation where someone could somehow deny a particular action (e.g. executing a bank transaction or signing a contract).
 
 Those two particular problems cast doubt on the current model being used. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTExNDA3ODcsLTc2NTgyNzI5MiwtOD
-Y5MTU2NjYxLC0xMzE5NDM0MTE5LC0yMTExNTU0MjUyLC0xNDg2
-OTA5MTc3LC0xOTgyMjI3OTE1LC0zNTg5MjkzNzksMTAxODU3ND
-QyNywtNDQ4NDg4NDIwXX0=
+eyJoaXN0b3J5IjpbMjEzMTk0NDI4NSwtMTg5MTE0MDc4NywtNz
+Y1ODI3MjkyLC04NjkxNTY2NjEsLTEzMTk0MzQxMTksLTIxMTE1
+NTQyNTIsLTE0ODY5MDkxNzcsLTE5ODIyMjc5MTUsLTM1ODkyOT
+M3OSwxMDE4NTc0NDI3LC00NDg0ODg0MjBdfQ==
 -->
