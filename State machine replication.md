@@ -17,7 +17,12 @@ Therefore, we assume another, more advanced and reliable client-server architect
 <div align='center'> 
 	<h4>Figure # - Replicating servers</h4>
 </div>
+
+* *C - Client*
+* * SR - Server replica*
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDgxMDgwMCwxMDQ3MTU5NzU2LC0xND
-E3MzkyNzk5LDE0NzU4ODI2NTEsMTc0ODE3OTY4XX0=
+eyJoaXN0b3J5IjpbLTU3NzQ2MTg1MCwtODI0ODEwODAwLDEwND
+cxNTk3NTYsLTE0MTczOTI3OTksMTQ3NTg4MjY1MSwxNzQ4MTc5
+NjhdfQ==
 -->
