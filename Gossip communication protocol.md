@@ -8,7 +8,7 @@ That protocol is a ***gossiping protocol***, which could simply be described as 
 
 > This paper primarily focuses on optimizing the current Mempool gossiping communication protocol.
 
-
+Gossip communication protocol
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDM2MDI1NSwtMzM4MDcxOTYzXX0=
+eyJoaXN0b3J5IjpbLTc0ODk0NTk4NCwtMzM4MDcxOTYzXX0=
 -->
