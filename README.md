@@ -16,8 +16,7 @@ Paper structure:
 * About Tendermint (will describe the Tendermint platform without attention to details - describe BFT here)
 3. Definitions
 * State Machine Replication
-* Mempool
-* Gossip communication protocol
+* Mempool - describe gossip protocol generally here
 * System model - basics
 * System model - consensus & gossip
 * System model - assumptions & summary
