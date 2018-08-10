@@ -20,9 +20,10 @@ For now, we assume that the request "somehow" reaches all servers. When it does,
 
 Until that moment arrives, the request is stored within the server's Mempool. Mempool is simply a RAM memory which holds requests that haven't been processed yet. When a consensus is reached and it is decided that a particular request may be processed (and therefore the state machine can make a transition into a new state), the request is removed from all of the Mempools.
 
-Speaking in terms of blockchain, Mempool is a bottleneck of the system. It contains unconfirmed transactions, and the faster it is emptied, the better user experience it is to a client. In a situation where one server's Mempool becomes overloaded, there may come to that server crashing.
+Speaking in terms of blockchain, Mempool is a bottleneck of the system. It contains unconfirmed transactions, and the faster it is emptied, the better user experience it is to a client. In a situation where one server's Mempool becomes overloaded, it may lead to that server crashing.
 
 Therefore, it is vital to ensure "liveliness" of a Mempool, in the sense that it should constantly release processed transactions, in order to provide more space for the ones to come in the future. Speed of clearing a Mempool is tightly connected to a gossiping protocol used within the network.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTMzNTg2NywtODE4OTMxNzkzXX0=
+eyJoaXN0b3J5IjpbLTg1MzUwMDkzNiwxNzYxMzM1ODY3LC04MT
+g5MzE3OTNdfQ==
 -->
