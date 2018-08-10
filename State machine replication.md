@@ -33,6 +33,8 @@ The solution that the ***state machine*** approach defines is - every *SR* will 
 	<h4>Figure # - State machine within a <i>SR</i></h4>
 </div>
 
+* *ST - State*
+
 The state machine has to be deterministic. If it were non-deterministic, it would have the property of being able to make a transition to different states in case of the same input. Therefore, it would be possible that there is a state machine (or state machines) whose current state would be inconsistent with the states of others.
 
 As Schneider states [7], the key for implementing this state machine is:
@@ -44,9 +46,9 @@ As Schneider states [7], the key for implementing this state machine is:
 
 This approach also enables resilience to both Byzantine failures and Start-Stop failures (simply by assuming that there will never be more than a certain number of faulty *SR*). It is the main idea behind blockchain, where reaching a consensus on what the next block will be is nothing more than deciding collectively what the next state of the state machine replica within a particular server will be.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwODc4NDgwLDE4MDExOTg3MzIsMTA1NT
-IwNjQ3OSwzNTQ0MzE4OTAsMzU0NDMxODkwLDgzNjQzNjI0NSwt
-MTU0NDk2MDAyNiwtMTU3NzI1MDMzMSwtNDM5ODExNzEwLC04Mj
-Q4MTA4MDAsMTA0NzE1OTc1NiwtMTQxNzM5Mjc5OSwxNDc1ODgy
-NjUxLDE3NDgxNzk2OF19
+eyJoaXN0b3J5IjpbLTEyMTc0NzUzMSw0NTA4Nzg0ODAsMTgwMT
+E5ODczMiwxMDU1MjA2NDc5LDM1NDQzMTg5MCwzNTQ0MzE4OTAs
+ODM2NDM2MjQ1LC0xNTQ0OTYwMDI2LC0xNTc3MjUwMzMxLC00Mz
+k4MTE3MTAsLTgyNDgxMDgwMCwxMDQ3MTU5NzU2LC0xNDE3Mzky
+Nzk5LDE0NzU4ODI2NTEsMTc0ODE3OTY4XX0=
 -->
