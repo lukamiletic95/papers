@@ -32,9 +32,9 @@ As Schneider states [7], there key for implementing this state machine is:
 * **Replica coordination** - all replicas receive and process the same sequence of requests. This can be further decomposed into:
 
 	* **Agreement** - every non-faulty *SR* receives every request.
-	* 
+	* **Order** - every non-fault *SR* processes the requests it receives in the same relative order.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU3MTY0ODUsLTQzOTgxMTcxMCwtOD
-I0ODEwODAwLDEwNDcxNTk3NTYsLTE0MTczOTI3OTksMTQ3NTg4
-MjY1MSwxNzQ4MTc5NjhdfQ==
+eyJoaXN0b3J5IjpbNDQyODQzMDExLC00Mzk4MTE3MTAsLTgyND
+gxMDgwMCwxMDQ3MTU5NzU2LC0xNDE3MzkyNzk5LDE0NzU4ODI2
+NTEsMTc0ODE3OTY4XX0=
 -->
