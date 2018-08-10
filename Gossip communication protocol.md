@@ -7,6 +7,8 @@ It should be noted that not all of the servers are interconnected, therefore, a 
 That protocol is a ***gossiping protocol***, which could simply be described as a network communication protocol used in large peer-to-peer distributed systems, for disseminating data among nodes within the network. 
 
 > This paper primarily focuses on optimizing the current Mempool gossiping communication protocol.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzODA3MTk2M119
+eyJoaXN0b3J5IjpbLTQwMDM2MDI1NSwtMzM4MDcxOTYzXX0=
 -->
