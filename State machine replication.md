@@ -1,7 +1,4 @@
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+### State machine replication
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTE4MTc4MV19
+eyJoaXN0b3J5IjpbMTc0ODE3OTY4XX0=
 -->
