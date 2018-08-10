@@ -8,7 +8,9 @@ Let us assume a standard client-server architecture. Server provides a service f
 </div>
 
 * *C - Client*
+
+Although this is the simplest approach in implementing a client-server service, its main 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzE1OTc1NiwtMTQxNzM5Mjc5OSwxND
-c1ODgyNjUxLDE3NDgxNzk2OF19
+eyJoaXN0b3J5IjpbMjE0MzAyNzAzOCwxMDQ3MTU5NzU2LC0xND
+E3MzkyNzk5LDE0NzU4ODI2NTEsMTc0ODE3OTY4XX0=
 -->
