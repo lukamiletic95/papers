@@ -18,7 +18,7 @@ A client *C* may send its request to a server, in order to receive a response. A
 
 For now, we assume that the request "somehow" reaches all servers. When it does, it is apparent that it cannot be processed instantly, not only because one server may currently be processing another request, but also due to the fact that a global consensus must be reached on what the next state of all the state machine replicas will be.
 
-Until that moment arrives, the request is stored within the server's Mempool. Mempool is simply a RAM memory which holds requests that haven't been processed yet
+Until that moment arrives, the request is stored within the server's Mempool. Mempool is simply a RAM memory which holds requests that haven't been processed yet. When a consensus is reached and it is decided that a particular request may be processed (
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5NzkwMTYxLC04MTg5MzE3OTNdfQ==
+eyJoaXN0b3J5IjpbMTQzMjY2ODgzLC04MTg5MzE3OTNdfQ==
 -->
