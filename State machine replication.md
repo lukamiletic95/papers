@@ -11,7 +11,7 @@ Let us assume a standard client-server architecture. Server provides a service f
 
 Although this is the simplest approach in implementing a client-server service, its main disadvantage is in having only one server. In case that server becomes faulty, the whole service will be unavailable to a client. That one server may be considered a single point of failure.
 
-Therefore, we assume another, more advanced and reliable client-server architecture, shown in *Figure #*, which is based on replicating servers using ***state machine*** approach.
+Therefore, we assume another, more advanced and reliable client-server architecture, shown in *Figure #*, which is based on replicating servers using the ***state machine*** approach.
 
 ![](https://github.com/lukamiletic95/papers/blob/master/images/fig5.png)
 <div align='center'> 
@@ -27,7 +27,7 @@ Let us consider a following situation: client *C* connects to a server replica *
 
 The solution that the ***state machine*** approach defines is - every *SR* will be implemented as a deterministic state machine, which consists of states and transitions, and whenever a client sends a request to be executed, it will be executed on all *SR*, thus leading to a transition to another state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTE1MDgzNzIsLTQzOTgxMTcxMCwtOD
-I0ODEwODAwLDEwNDcxNTk3NTYsLTE0MTczOTI3OTksMTQ3NTg4
-MjY1MSwxNzQ4MTc5NjhdfQ==
+eyJoaXN0b3J5IjpbMTIyMDI4NDYwNSwtNDM5ODExNzEwLC04Mj
+Q4MTA4MDAsMTA0NzE1OTc1NiwtMTQxNzM5Mjc5OSwxNDc1ODgy
+NjUxLDE3NDgxNzk2OF19
 -->
