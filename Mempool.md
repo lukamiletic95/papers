@@ -16,7 +16,7 @@ A client *C* may send its request to a server, in order to receive a response. A
 
 > Gossip communication protocol will be discussed in the following subsection.
 
-For now, we assume that the request "somehow" reaches all servers. When it does, it is apparent that there is a possibility it cannot be processed instantly (e.g. server is currently processing another request
+For now, we assume that the request "somehow" reaches all servers. When it does, it is apparent that it cannot be processed instantly, not only because one server may currently be processing another request, but also due to the fact that a global consensus must be reached on what the next state of all the state machine replicas will be. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyNjM3NTExLC04MTg5MzE3OTNdfQ==
+eyJoaXN0b3J5IjpbLTE1NzI3NTIxMTcsLTgxODkzMTc5M119
 -->
