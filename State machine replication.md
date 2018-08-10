@@ -27,10 +27,8 @@ Let us consider a following situation: client *C* connects to a server replica *
 
 The solution that the ***state machine*** approach defines is - every *SR* will be implemented as a deterministic state machine, which consists of states and transitions, and whenever a client sends a request to be executed, it will be executed on all *SR*, thus leading to a transition to another state. This approach also states that transitions between states on all *SR* replicas must be exactly the same. Consequently, when a situation mentioned before occurs, since the new *SR* will be in the same state as the crashed *SR*, it can easily continue where the former one left off.
 
-
-![](https://github.com/lukamiletic95/papers/blob/master/images/fig6.png)
 <div align='center'> 
-<img src="https://github.com/lukamiletic95/papers/blob/master/images/fig4.png" />
+<img src="https://github.com/lukamiletic95/papers/blob/master/images/fig6.png" />
 	<h4>Figure # - State machine within a <i>SR</i></h4>
 </div>
 
@@ -43,7 +41,7 @@ As Schneider states [7], the key for implementing this state machine is:
 
 This approach also enables resilience to both Byzantine failures and Start-Stop failures. It is the main idea behind blockchain, where reaching a consensus on what the next block will be is nothing more then deciding collectively what the next state of the state machine replica within a particular server will be.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTEwODc5MCwtMTU3NzI1MDMzMSwtND
-M5ODExNzEwLC04MjQ4MTA4MDAsMTA0NzE1OTc1NiwtMTQxNzM5
-Mjc5OSwxNDc1ODgyNjUxLDE3NDgxNzk2OF19
+eyJoaXN0b3J5IjpbLTE1NDQ5NjAwMjYsLTE1NzcyNTAzMzEsLT
+QzOTgxMTcxMCwtODI0ODEwODAwLDEwNDcxNTk3NTYsLTE0MTcz
+OTI3OTksMTQ3NTg4MjY1MSwxNzQ4MTc5NjhdfQ==
 -->
