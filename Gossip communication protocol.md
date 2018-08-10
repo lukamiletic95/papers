@@ -8,9 +8,9 @@ That protocol is a ***gossiping protocol***, which could simply be described as 
 
 > This paper primarily focuses on optimizing the current Mempool gossiping communication protocol.
 
-Gossip communication protocol is based on (in most cases) randomly selecting a peer, and then gossiping some information to it. This can lead to a very quick spread of the information, although it provides a certain redundancy - it is possible for a node in the network to receive a gossip message which contains data about something it already knows. The protocol can easily be compared to real life gossiping.
+Gossip communication protocol is based on (in most cases) randomly selecting a peer, and then gossiping (sending) some information to it. This can lead to a very quick spread of the information, although it provides a certain redundancy - it is possible for a node in the network to receive a gossip message which contains data about something it already knows. The protocol can easily be compared to real life gossiping.
 
 Although this protocol includes some overhead, it is reliable, scalable and easy to deploy. Furthermore, in case a peer crashes or its message gets lost in transport, that overhead would actually be useful - the receiving node would eventually get the message via some other peer.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTkzNjI3OTcsLTMzODA3MTk2M119
+eyJoaXN0b3J5IjpbLTE4MTU4MDQyNjAsLTMzODA3MTk2M119
 -->
