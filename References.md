@@ -13,8 +13,10 @@
 [5] J. Kwon, "Tendermint - consensus without mining" 2014. [Online]. Available: <https://cdn.relayto.com/media/files/LPgoWO18TCeMIggJVakt_tendermint.pdf>
 
 [6] L. Lamport, R. Shostak and M. Pease, "The Byzantine Generals problem" 1982. [Online]. Available: <https://dl.acm.org/citation.cfm?id=357176>
+
+[7] F. B. Schneider, "Implementing fault-tolerant services using the state machine approach - a tutorial"<https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzIxMTQ0MiwxMjkyNDA1MDEzLC0xNz
-AyOTk5ODg1LDEyNTI0NjQ5MjIsLTE2MjU2MDE0OTEsLTE1MTY1
-MTM5ODksLTI5MjU3NzM5M119
+eyJoaXN0b3J5IjpbLTIyNDcwNTcwOCwtNzI3MjExNDQyLDEyOT
+I0MDUwMTMsLTE3MDI5OTk4ODUsMTI1MjQ2NDkyMiwtMTYyNTYw
+MTQ5MSwtMTUxNjUxMzk4OSwtMjkyNTc3MzkzXX0=
 -->
