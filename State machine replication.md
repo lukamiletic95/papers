@@ -25,9 +25,9 @@ In *Figure #*, it can be noticed that a client is still provided with a single s
 
 Let us consider a following situation: client *C* connects to a server replica *SR*, and communicates with it in order to obtain responses and send requests. Throughout time, that *SR* becomes faulty (e.g. crashes and is no longer available). The aforementioned protocol must re-connect a client to another server replica, which will then continue to provide the client with responses, with all that being completely transparent to the client. Question arises - *"How will the new server replica know what the last one was doing?"*. Additionally, all *SR* can potentially provide the service to different clients. 
 
-The solution that the ***state machine*** approach defines is - every *SR* will be implemented as a deterministic state machine, which consists of states and transitions, and whenever a client sends a request to be executed, it will be executed on all *SR* 
+The solution that the ***state machine*** approach defines is - every *SR* will be implemented as a deterministic state machine, which consists of states and transitions, and whenever a client sends a request to be executed, it will be executed on all *SR*, thus leading to a transition to another state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzMjI1ODkyLC00Mzk4MTE3MTAsLTgyND
-gxMDgwMCwxMDQ3MTU5NzU2LC0xNDE3MzkyNzk5LDE0NzU4ODI2
-NTEsMTc0ODE3OTY4XX0=
+eyJoaXN0b3J5IjpbLTE3OTE1MDgzNzIsLTQzOTgxMTcxMCwtOD
+I0ODEwODAwLDEwNDcxNTk3NTYsLTE0MTczOTI3OTksMTQ3NTg4
+MjY1MSwxNzQ4MTc5NjhdfQ==
 -->
