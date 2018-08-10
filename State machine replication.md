@@ -44,11 +44,11 @@ As Schneider states [7], the key for implementing this state machine is:
 	* **Agreement** - every non-faulty *SR* receives every request.
 	* **Order** - every non-faulty *SR* processes the requests it receives in the same relative order.
 
-This approach also enables resilience to both Byzantine failures and Start-Stop failures (simply by assuming that there will never be more than a certain number of faulty *SR*). It is the main idea behind blockchain, where reaching a consensus on what the next block will be is nothing more than deciding collectively what the next state of the state machine replica within a particular server will be.
+This approach also enables resilience to both Byzantine failures and Start-Stop failures (simply by assuming that there will never be more than a certain number of faulty *SR*). It is the main idea behind blockchain, where reaching a consensus on what the next block will be is nothing more than deciding collectively what the next state of all the state machine replicas will be.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc0NzUzMSw0NTA4Nzg0ODAsMTgwMT
-E5ODczMiwxMDU1MjA2NDc5LDM1NDQzMTg5MCwzNTQ0MzE4OTAs
-ODM2NDM2MjQ1LC0xNTQ0OTYwMDI2LC0xNTc3MjUwMzMxLC00Mz
-k4MTE3MTAsLTgyNDgxMDgwMCwxMDQ3MTU5NzU2LC0xNDE3Mzky
-Nzk5LDE0NzU4ODI2NTEsMTc0ODE3OTY4XX0=
+eyJoaXN0b3J5IjpbNTM0Mzk2OTczLC0xMjE3NDc1MzEsNDUwOD
+c4NDgwLDE4MDExOTg3MzIsMTA1NTIwNjQ3OSwzNTQ0MzE4OTAs
+MzU0NDMxODkwLDgzNjQzNjI0NSwtMTU0NDk2MDAyNiwtMTU3Nz
+I1MDMzMSwtNDM5ODExNzEwLC04MjQ4MTA4MDAsMTA0NzE1OTc1
+NiwtMTQxNzM5Mjc5OSwxNDc1ODgyNjUxLDE3NDgxNzk2OF19
 -->
