@@ -9,8 +9,8 @@ Let us assume a standard client-server architecture. Server provides a service f
 
 * *C - Client*
 
-Although this is the simplest approach in implementing a client-server service, its main disadvantage is in having only one server In case that server becomes faulty, the whole service becomes unavailable to a client.
+Although this is the simplest approach in implementing a client-server service, its main disadvantage is in having only one server. In case that server becomes faulty, the whole service will be unavailable to a client.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3ODY1NTAyLDEwNDcxNTk3NTYsLTE0MT
-czOTI3OTksMTQ3NTg4MjY1MSwxNzQ4MTc5NjhdfQ==
+eyJoaXN0b3J5IjpbMjExODYwNjA2MSwxMDQ3MTU5NzU2LC0xND
+E3MzkyNzk5LDE0NzU4ODI2NTEsMTc0ODE3OTY4XX0=
 -->
