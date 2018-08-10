@@ -29,9 +29,9 @@ The solution that the ***state machine*** approach defines is - every *SR* will 
 
 As Schneider states [7], there key for implementing this state machine is:
 
-* **Replica coordination** - all replicas receive and process the samesequenceofrequests.
+* **Replica coordination** - all replicas receive and process the same sequence of requests.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ4NTkzOTUsLTQzOTgxMTcxMCwtOD
-I0ODEwODAwLDEwNDcxNTk3NTYsLTE0MTczOTI3OTksMTQ3NTg4
-MjY1MSwxNzQ4MTc5NjhdfQ==
+eyJoaXN0b3J5IjpbLTkzNTY3MDE3MSwtNDM5ODExNzEwLC04Mj
+Q4MTA4MDAsMTA0NzE1OTc1NiwtMTQxNzM5Mjc5OSwxNDc1ODgy
+NjUxLDE3NDgxNzk2OF19
 -->
