@@ -22,7 +22,7 @@ Until that moment arrives, the request is stored within the server's Mempool. Me
 
 Speaking in terms of blockchain, Mempool is a bottleneck of the system. It contains unconfirmed transactions, and the faster it is emptied, the better user experience it is to a client. In a situation where one server's Mempool becomes overloaded, there may come to that server crashing.
 
-Therefore, it is vital to ensure "liveliness" of a Mempool, in the sense of it constantly releasing processed transactions, in order to provide more space for the ones to come in the future. Speed of clearing a Mempool is tightly connected to a gossiping protocol used within the network.
+Therefore, it is vital to ensure "liveliness" of a Mempool, in the sense that it should constantly release processed transactions, in order to provide more space for the ones to come in the future. Speed of clearing a Mempool is tightly connected to a gossiping protocol used within the network.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTQzNDI3NSwtODE4OTMxNzkzXX0=
+eyJoaXN0b3J5IjpbMTc2MTMzNTg2NywtODE4OTMxNzkzXX0=
 -->
