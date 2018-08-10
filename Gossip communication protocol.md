@@ -10,8 +10,8 @@ Gossip communication protocol is based on (in most cases) randomly selecting a p
 
 Although this protocol includes some overhead, it is reliable, scalable and easy to deploy. Furthermore, in case a peer crashes or its message gets lost in transport, that overhead would actually be useful - the receiving node would eventually get the message via some other peer.
 
-This paper primarily focuses on optimizing the current Mempool gossiping communication protocol. In the following subsections, a system model assumed herein, will be explained.
+This paper primarily focuses on optimizing the current Mempool gossiping communication protocol. In the following subsections, a system model assumed herein will be explained.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTUxMzA1OSwxMzMxOTkyNTU3LDU3Mj
-AwMTEwMSwtMzM4MDcxOTYzXX0=
+eyJoaXN0b3J5IjpbLTEyMTczODY0MTcsMTMzMTk5MjU1Nyw1Nz
+IwMDExMDEsLTMzODA3MTk2M119
 -->
