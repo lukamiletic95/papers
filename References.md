@@ -15,8 +15,11 @@
 [6] L. Lamport, R. Shostak and M. Pease, "The Byzantine Generals problem" 1982. [Online]. Available: <https://dl.acm.org/citation.cfm?id=357176>
 
 [7] F. B. Schneider, "Implementing fault-tolerant services using the state machine approach - a tutorial" 1990. [Online]. Available: <https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf>
+
+[8] A. Montresor, "Gossip and Epidemic Protocols"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTA5NDAwNywtNzI3MjExNDQyLDEyOT
-I0MDUwMTMsLTE3MDI5OTk4ODUsMTI1MjQ2NDkyMiwtMTYyNTYw
-MTQ5MSwtMTUxNjUxMzk4OSwtMjkyNTc3MzkzXX0=
+eyJoaXN0b3J5IjpbLTM0NTU1NjU3NiwxNzE1MDk0MDA3LC03Mj
+cyMTE0NDIsMTI5MjQwNTAxMywtMTcwMjk5OTg4NSwxMjUyNDY0
+OTIyLC0xNjI1NjAxNDkxLC0xNTE2NTEzOTg5LC0yOTI1NzczOT
+NdfQ==
 -->
