@@ -12,7 +12,7 @@ So, in recent years, a new model has gained in popularity. This model is based o
 
 This is where blockchain comes into picture. Blockchain drew attention in the past years, primarily due to its utilization within the Bitcoin transaction system [2]. Bitcoin is a cryptocurrency that relies on a distributed blockchain ledger which uses cryptography to achieve confidentiality as well as irrefutability. 
 
-Blockchain is, in its essence, nothing more than a linked list of blocks which contain particular data [3]. Links are modeled using cryptographic hash functions. Since it is replicated on many devices within a distributed network, a consensus protocol must be defined, so that all the devices can unanimously decide what the next block will be. Blockchain is based on a *State machine replication* approach.
+Blockchain is, in its essence, nothing more than a linked list of blocks which contain particular data [3]. Links are modeled using cryptographic hash functions. Since it is replicated on many devices within a distributed network, a consensus protocol must be defined, so that all the devices can unanimously decide what the next block will be. Blockchain is based on a ***State machine replication*** approach.
 
 > State machine replication will be discussed later.
 
@@ -20,11 +20,11 @@ It is evident that blockchain became increasingly popular due to Bitcoin, howeve
 
 That particular idea, that a transaction in a blockchain can be pretty much anything, is used in Tendermint.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzc0NDgxNiwtMTkwNTc3MzY3NiwxNz
-Y2MzYyMTA1LC05NjkyMjkzMjcsMTA0NjgyNTIwNCwtMTM5MzU2
-ODc0MywtMjA5MTc2OTc2NCwtNjk2NzUyNjExLC0yMDcxMTkzNj
-Q3LC04NDU3NDkzMDMsMjEzMTk0NDI4NSwtMTg5MTE0MDc4Nywt
-NzY1ODI3MjkyLC04NjkxNTY2NjEsLTEzMTk0MzQxMTksLTIxMT
-E1NTQyNTIsLTE0ODY5MDkxNzcsLTE5ODIyMjc5MTUsLTM1ODky
-OTM3OSwxMDE4NTc0NDI3XX0=
+eyJoaXN0b3J5IjpbLTE4NzE0MTg2NzIsLTE5MDU3NzM2NzYsMT
+c2NjM2MjEwNSwtOTY5MjI5MzI3LDEwNDY4MjUyMDQsLTEzOTM1
+Njg3NDMsLTIwOTE3Njk3NjQsLTY5Njc1MjYxMSwtMjA3MTE5Mz
+Y0NywtODQ1NzQ5MzAzLDIxMzE5NDQyODUsLTE4OTExNDA3ODcs
+LTc2NTgyNzI5MiwtODY5MTU2NjYxLC0xMzE5NDM0MTE5LC0yMT
+ExNTU0MjUyLC0xNDg2OTA5MTc3LC0xOTgyMjI3OTE1LC0zNTg5
+MjkzNzksMTAxODU3NDQyN119
 -->
