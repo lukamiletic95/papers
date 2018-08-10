@@ -14,9 +14,9 @@
 
 [6] L. Lamport, R. Shostak and M. Pease, "The Byzantine Generals problem" 1982. [Online]. Available: <https://dl.acm.org/citation.cfm?id=357176>
 
-[7] F. B. Schneider, "Implementing fault-tolerant services using the state machine approach - a tutorial"<https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf>
+[7] F. B. Schneider, "Implementing fault-tolerant services using the state machine approach - a tutorial" 1990. [Online]. Available: <https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDcwNTcwOCwtNzI3MjExNDQyLDEyOT
+eyJoaXN0b3J5IjpbMTcxNTA5NDAwNywtNzI3MjExNDQyLDEyOT
 I0MDUwMTMsLTE3MDI5OTk4ODUsMTI1MjQ2NDkyMiwtMTYyNTYw
 MTQ5MSwtMTUxNjUxMzk4OSwtMjkyNTc3MzkzXX0=
 -->
