@@ -2,6 +2,7 @@
 
 Let us assume a standard client-server architecture. Server provides a service for a client, and in order for a client to make use of that service, it has to send a request, and wait for a response.
 
+<br/>
 <div align='center'> 
 	<img src="https://github.com/lukamiletic95/papers/blob/master/images/fig4.png" />
 	<h4>Figure # - Standard client-server architecture</h4>
@@ -41,8 +42,8 @@ As Schneider states [7], the key for implementing this state machine is:
 
 This approach also enables resilience to both Byzantine failures and Start-Stop failures. It is the main idea behind blockchain, where reaching a consensus on what the next block will be is nothing more then deciding collectively what the next state of the state machine replica within a particular server will be.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NDM2MjQ1LC0xNTQ0OTYwMDI2LC0xNT
-c3MjUwMzMxLC00Mzk4MTE3MTAsLTgyNDgxMDgwMCwxMDQ3MTU5
-NzU2LC0xNDE3MzkyNzk5LDE0NzU4ODI2NTEsMTc0ODE3OTY4XX
-0=
+eyJoaXN0b3J5IjpbMzU0NDMxODkwLDgzNjQzNjI0NSwtMTU0ND
+k2MDAyNiwtMTU3NzI1MDMzMSwtNDM5ODExNzEwLC04MjQ4MTA4
+MDAsMTA0NzE1OTc1NiwtMTQxNzM5Mjc5OSwxNDc1ODgyNjUxLD
+E3NDgxNzk2OF19
 -->
