@@ -11,8 +11,8 @@ Let us assume a standard client-server architecture. Server provides a service f
 
 Although this is the simplest approach in implementing a client-server service, its main disadvantage is in having only one server. In case that server becomes faulty, the whole service will be unavailable to a client.
 
-Therefore, we assume another, more advanced an reliable client-server architecture, shown in *Figure #*, and which is based on replicating servers using ***state machine*** approach.
+Therefore, we assume another, more advanced and reliable client-server architecture, shown in *Figure #*, and which is based on replicating servers using ***state machine*** approach.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTE0Njk1MTMsMTA0NzE1OTc1NiwtMT
-QxNzM5Mjc5OSwxNDc1ODgyNjUxLDE3NDgxNzk2OF19
+eyJoaXN0b3J5IjpbNjMwMDkxMzUxLDEwNDcxNTk3NTYsLTE0MT
+czOTI3OTksMTQ3NTg4MjY1MSwxNzQ4MTc5NjhdfQ==
 -->
