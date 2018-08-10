@@ -21,9 +21,10 @@ Therefore, we assume another, more advanced and reliable client-server architect
 * *C - Client*
 * *SR - Server replica*
 
+In *Figure #*, it may be noticed that a client is still provided with a single service. On the other hand, there ar
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4MDkxMzMwLC04MjQ4MTA4MDAsMTA0Nz
+eyJoaXN0b3J5IjpbOTUyMTU4MzA3LC04MjQ4MTA4MDAsMTA0Nz
 E1OTc1NiwtMTQxNzM5Mjc5OSwxNDc1ODgyNjUxLDE3NDgxNzk2
 OF19
 -->
