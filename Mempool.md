@@ -14,7 +14,7 @@ Again, let us assume a standard client-server architecture, where each server ha
 
 A client *C* may send its request to a server, in order to receive a response. According to the *state machine replication* approach, this means that each server must receive this request and then process it. Yet, as shown in *Figure #*, a client *C* is connected to only one server *S*. In order for that request to reach other servers in the network, a protocol of some sort must be used. In Tendermint, the protocol being used is the ***gossip communication protocol***. This paper is primarily focused on optimizing the current Mempool gossiping algorithm used in Tendermint.
 
- > Gossip communication protocol represents a way
+ > Gossip communication protocol represents a way of disseminating information in a distributed system. It is founded on
 
 For now, we assume that the request "somehow" reaches all servers. When it does, it is apparent that it cannot be processed instantly, not only because one server may currently be processing another request, but also due to the fact that a global consensus must be reached on what the next state of all the state machine replicas will be.
 
@@ -24,6 +24,6 @@ Speaking in terms of blockchain, Mempool is a bottleneck of the system. It conta
 
 Therefore, it is vital to ensure "liveliness" of a Mempool, in the sense that it should constantly release processed transactions, in order to provide more space for the ones to come in the future. Speed of clearing a Mempool is tightly connected to a gossiping protocol used within the network.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc5MTgxMjMsLTg1MzUwMDkzNiwxNz
+eyJoaXN0b3J5IjpbLTE5OTM5NjE3NTYsLTg1MzUwMDkzNiwxNz
 YxMzM1ODY3LC04MTg5MzE3OTNdfQ==
 -->
