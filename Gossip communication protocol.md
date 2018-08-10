@@ -4,7 +4,7 @@ We consider the same scenario described in the preceding subsection, only now, t
 
 It should be noted that not all of the servers are interconnected, therefore, a full-mesh connection is not established within the assumed network. Due to that, for a client's request to reach all of the servers, the request must be transferred via some sort of a protocol that guarantees that, eventually, the information will reach everyone to whom it is of interest.
 
-That protocol is a ***gossiping protocol***, which could simply be described as a network communication protocol used in large peer-to-peer distributed systems, for disseminating data among nodes (servers) within the network. 
+That protocol is a ***gossiping protocol***, which could simply be described as a network communication protocol used in large peer-to-peer distributed systems, for disseminating data among nodes (servers) within the network [8]. 
 
 > This paper primarily focuses on optimizing the current Mempool gossiping communication protocol.
 
@@ -12,5 +12,6 @@ Gossip communication protocol is based on (in most cases) randomly selecting a p
 
 Although this protocol includes some overhead, it is reliable, scalable and easy to deploy. Furthermore, in case a peer crashes or its message gets lost in transport, that overhead would actually be useful - the receiving node would eventually get the message via some other peer.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyMDAxMTAxLC0zMzgwNzE5NjNdfQ==
+eyJoaXN0b3J5IjpbMTMzMTk5MjU1Nyw1NzIwMDExMDEsLTMzOD
+A3MTk2M119
 -->
