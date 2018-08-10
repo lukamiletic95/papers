@@ -30,6 +30,7 @@ The solution that the ***state machine*** approach defines is - every *SR* will 
 
 ![](https://github.com/lukamiletic95/papers/blob/master/images/fig6.png)
 <div align='center'> 
+<img src="https://github.com/lukamiletic95/papers/blob/master/images/fig4.png" />
 	<h4>Figure # - State machine within a <i>SR</i></h4>
 </div>
 
@@ -42,7 +43,7 @@ As Schneider states [7], the key for implementing this state machine is:
 
 This approach also enables resilience to both Byzantine failures and Start-Stop failures. It is the main idea behind blockchain, where reaching a consensus on what the next block will be is nothing more then deciding collectively what the next state of the state machine replica within a particular server will be.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzcyNTAzMzEsLTQzOTgxMTcxMCwtOD
-I0ODEwODAwLDEwNDcxNTk3NTYsLTE0MTczOTI3OTksMTQ3NTg4
-MjY1MSwxNzQ4MTc5NjhdfQ==
+eyJoaXN0b3J5IjpbMTI5NTEwODc5MCwtMTU3NzI1MDMzMSwtND
+M5ODExNzEwLC04MjQ4MTA4MDAsMTA0NzE1OTc1NiwtMTQxNzM5
+Mjc5OSwxNDc1ODgyNjUxLDE3NDgxNzk2OF19
 -->
