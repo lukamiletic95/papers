@@ -16,18 +16,20 @@ Tendermint is a distributed network of nodes that have their own blockchain repl
 
 Tendermint consensus algorithm guarantees successful termination, when the total voting power of nodes (marked as ***n***), is greater than *3f* → *n > 3f*. Therefore, the total voting power of faulty processes must be smaller than one third of the total voting power of all processes [1].
 
-To summarize, Tendermint is a client-server platform which enables clients to execute their transactions, guarantees their proper completion and records them in a blockchain. It does so even if the network contains malicious nodes. Tendermint was at first a private blockchain, but is currently building towards becoming a public blockchain
+To summarize, Tendermint is a client-server platform which enables clients to execute their transactions, guarantees their proper completion and records them in a blockchain. It does so even if the network contains malicious nodes. Tendermint was at first a private blockchain, but is currently building towards becoming a public blockchain. [^2]
 
 In `Section 3 - Definitions`, some of the important terms and ideas relevant to the algorithm discussion (`Section 4 - Algorithms`) will be explained alongside the system model used in this paper. Following, in the fourth section, a current solution along with the analysis of possible new solutions will be provided. This paper concludes in `Section 5 - Conclusion`.
 
 [^1]: Detailed explanation on Tendermint node types can be found at: <https://github.com/tendermint/tendermint/blob/master/docs/spec/p2p/node.md>
 
+[^2]: Tendermint's public blockchain is named Cosmos, and can be found at: <https://cosmos.network/>
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY5MDE2ODksMTQ4NTYzOTIyNyw0OT
-E0NDEwNjksLTE3NjkyODYzNTQsNzE2MzUyNjA1LDI5NTYwMjY0
-OCwyMTQ3MjU4MDExLC0xOTIxOTQzNzE4LC0xODk1NzczMjk1LC
-0xMTE4MzI1Njg5LDEwNjQ0MjI1ODEsLTY2MzU2MjAwNSw2NDcw
-NjEwMzNdfQ==
+eyJoaXN0b3J5IjpbNzE1NTUyOTU4LDE0ODU2MzkyMjcsNDkxND
+QxMDY5LC0xNzY5Mjg2MzU0LDcxNjM1MjYwNSwyOTU2MDI2NDgs
+MjE0NzI1ODAxMSwtMTkyMTk0MzcxOCwtMTg5NTc3MzI5NSwtMT
+ExODMyNTY4OSwxMDY0NDIyNTgxLC02NjM1NjIwMDUsNjQ3MDYx
+MDMzXX0=
 -->
