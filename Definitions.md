@@ -5,7 +5,6 @@
 In this section, relevant ideas that the Tendermint platform relies on, and that are directly connected to the analysis in this paper, will be explained. Those ideas are provided in the following subsections:
 
 * `State machine replication`
-* `Mempool`
 * `Gossip communication protocol`
 
 After that, a system model used throughout the analysis will be defined, in three subsections:
@@ -14,5 +13,6 @@ After that, a system model used throughout the analysis will be defined, in thre
 * `System model - consensus & gossip`
 * `System model - assumptions & summary`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTA1MzYzLC0xNjgzOTQ4MjU2XX0=
+eyJoaXN0b3J5IjpbLTIxMDk1MTA4NjQsLTY0OTA1MzYzLC0xNj
+gzOTQ4MjU2XX0=
 -->
