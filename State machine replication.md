@@ -19,10 +19,11 @@ Therefore, we assume another, more advanced and reliable client-server architect
 </div>
 
 * *C - Client*
-* * SR - Server replica*
+* *SR - Server replica*
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzQ2MTg1MCwtODI0ODEwODAwLDEwND
-cxNTk3NTYsLTE0MTczOTI3OTksMTQ3NTg4MjY1MSwxNzQ4MTc5
-NjhdfQ==
+eyJoaXN0b3J5IjpbNzU4MDkxMzMwLC04MjQ4MTA4MDAsMTA0Nz
+E1OTc1NiwtMTQxNzM5Mjc5OSwxNDc1ODgyNjUxLDE3NDgxNzk2
+OF19
 -->
