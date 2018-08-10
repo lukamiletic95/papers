@@ -21,10 +21,10 @@ Therefore, we assume another, more advanced and reliable client-server architect
 * *C - Client*
 * *SR - Server replica*
 
-In *Figure #*, it may be noticed that a client is still provided with a single service. On the other hand, there ar
+In *Figure #*, it can be noticed that a client is still provided with a single service. On the other hand, there are many server replicas that provide that particular service. They are completely transparent to a client. Due to that, there must be defined a protocol that coordinates client interactions with server replicas.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMTU4MzA3LC04MjQ4MTA4MDAsMTA0Nz
-E1OTc1NiwtMTQxNzM5Mjc5OSwxNDc1ODgyNjUxLDE3NDgxNzk2
-OF19
+eyJoaXN0b3J5IjpbLTQzOTgxMTcxMCwtODI0ODEwODAwLDEwND
+cxNTk3NTYsLTE0MTczOTI3OTksMTQ3NTg4MjY1MSwxNzQ4MTc5
+NjhdfQ==
 -->
