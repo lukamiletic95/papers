@@ -1,6 +1,6 @@
 ### Mempool
 
-Again, let us assume a standard client-server architecture, where every server has its own blockchain replica. 
+Again, let us assume a standard client-server architecture, where every server has its own state machine replica. 
 
 <br/>
 <div align='center'> 
@@ -12,7 +12,7 @@ Again, let us assume a standard client-server architecture, where every server h
 * *S - Server*
 * *MP - Mempool (Memory Pool)*
 
-A client *C* may send its request to a specific server, in order to receive a specific response. According to the *state machine replication* approach, this means that each server
+A client *C* may send its request to a specific server, in order to receive a specific response. According to the *state machine replication* approach, this means that each server must receive this request, process it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjEwNzI0NzIsLTgxODkzMTc5M119
+eyJoaXN0b3J5IjpbLTIxMzc0NTgxMTksLTgxODkzMTc5M119
 -->
