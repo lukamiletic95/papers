@@ -16,10 +16,10 @@
 
 [7] F. B. Schneider, "Implementing fault-tolerant services using the state machine approach - a tutorial" 1990. [Online]. Available: <https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf>
 
-[8] A. Montresor, "Gossip and Epidemic Protocols"
+[8] A. Montresor, "Gossip and Epidemic Protocols" 2017. [Onli
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTU1NjU3NiwxNzE1MDk0MDA3LC03Mj
-cyMTE0NDIsMTI5MjQwNTAxMywtMTcwMjk5OTg4NSwxMjUyNDY0
-OTIyLC0xNjI1NjAxNDkxLC0xNTE2NTEzOTg5LC0yOTI1NzczOT
-NdfQ==
+eyJoaXN0b3J5IjpbLTE1NDQyMjg3MDUsMTcxNTA5NDAwNywtNz
+I3MjExNDQyLDEyOTI0MDUwMTMsLTE3MDI5OTk4ODUsMTI1MjQ2
+NDkyMiwtMTYyNTYwMTQ5MSwtMTUxNjUxMzk4OSwtMjkyNTc3Mz
+kzXX0=
 -->
