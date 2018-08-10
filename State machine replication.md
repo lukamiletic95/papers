@@ -27,9 +27,11 @@ Let us consider a following situation: client *C* connects to a server replica *
 
 The solution that the ***state machine*** approach defines is - every *SR* will be implemented as a deterministic state machine, which consists of states and transitions, and whenever a client sends a request to be executed, it will be executed on all *SR*, thus leading to a transition to another state. This approach also states that transitions between states on all *SR* replicas must be exactly the same. Consequently, when a situation mentioned before occurs, since the new *SR* will be in the same state as the crashed *SR*, it can easily continue where the former one left off.
 
-As Schneider states [7], there key for implementing this 
+As Schneider states [7], there key for implementing this state machine is:
+
+* **Replica coordination** - all replicas receive and process the samesequenceofrequests.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDU3OTA1MSwtNDM5ODExNzEwLC04Mj
-Q4MTA4MDAsMTA0NzE1OTc1NiwtMTQxNzM5Mjc5OSwxNDc1ODgy
-NjUxLDE3NDgxNzk2OF19
+eyJoaXN0b3J5IjpbLTEyNDQ4NTkzOTUsLTQzOTgxMTcxMCwtOD
+I0ODEwODAwLDEwNDcxNTk3NTYsLTE0MTczOTI3OTksMTQ3NTg4
+MjY1MSwxNzQ4MTc5NjhdfQ==
 -->
