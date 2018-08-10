@@ -14,7 +14,7 @@ Although this is the simplest approach in implementing a client-server service, 
 
 Therefore, we assume another, more advanced and reliable client-server architecture, shown in *Figure #*, which is based on replicating servers using the ***state machine*** approach.
 
-![](https://github.com/lukamiletic95/papers/blob/master/images/fig1.png)
+![](https://github.com/lukamiletic95/papers/blob/master/images/fig5.png)
 <div align='center'> 
 	<h4>Figure # - Replicating servers</h4>
 </div>
@@ -42,8 +42,8 @@ As Schneider states [7], the key for implementing this state machine is:
 
 This approach also enables resilience to both Byzantine failures and Start-Stop failures. It is the main idea behind blockchain, where reaching a consensus on what the next block will be is nothing more then deciding collectively what the next state of the state machine replica within a particular server will be.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTM2NzUxMjIsMzU0NDMxODkwLDgzNj
-QzNjI0NSwtMTU0NDk2MDAyNiwtMTU3NzI1MDMzMSwtNDM5ODEx
-NzEwLC04MjQ4MTA4MDAsMTA0NzE1OTc1NiwtMTQxNzM5Mjc5OS
-wxNDc1ODgyNjUxLDE3NDgxNzk2OF19
+eyJoaXN0b3J5IjpbMzU0NDMxODkwLDM1NDQzMTg5MCw4MzY0Mz
+YyNDUsLTE1NDQ5NjAwMjYsLTE1NzcyNTAzMzEsLTQzOTgxMTcx
+MCwtODI0ODEwODAwLDEwNDcxNTk3NTYsLTE0MTczOTI3OTksMT
+Q3NTg4MjY1MSwxNzQ4MTc5NjhdfQ==
 -->
