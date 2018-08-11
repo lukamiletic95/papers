@@ -5,6 +5,11 @@
 	<h4>Figure # - Mempool transaction gossiping in Tendermint</h4>
 </div>
 
+
+* *C - Client node*
+* *FN - Full node*
+* *V - Validator node (is also a *FN* node)*
+* *CFG - Configuration file*
 * *T - Transaction request*
 
 Let us assume that a *C* node wants to have its transaction *T* processed by the Tendermint network, in a way explained earlier in the text.
@@ -33,6 +38,6 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNT
-Q1MzgxOTM3XX0=
+eyJoaXN0b3J5IjpbMjAzNTE2ODkyMywtMTQyNTA5NTQ2OSwxMz
+QyMDI1OTI1LDE1NDUzODE5MzddfQ==
 -->
