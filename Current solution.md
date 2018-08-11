@@ -5,7 +5,6 @@
 	<h4>Figure # - Mempool transaction gossiping in Tendermint</h4>
 </div>
 
-
 * *C - Client node*
 * *FN - Full node*
 * *V - Validator node (is also a *FN* node)*
@@ -38,6 +37,6 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTE2ODkyMywtMTQyNTA5NTQ2OSwxMz
+eyJoaXN0b3J5IjpbMTczNjgzNDk1MywtMTQyNTA5NTQ2OSwxMz
 QyMDI1OTI1LDE1NDUzODE5MzddfQ==
 -->
