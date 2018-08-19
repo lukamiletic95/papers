@@ -10,7 +10,7 @@ Gossip communication protocol is based on (in most cases) randomly selecting a p
 
 Although this protocol includes some overhead, it is reliable, scalable and easy to deploy. Furthermore, in case a peer crashes or its message gets lost in transport, that overhead would actually be useful - the receiving node would eventually get the message via some other peer.
 
-General idea behind the gossiping protocol is described well in [9] - p. 2, 2.1 - GOSSIP PROTOCOL. Therein,  pseudocode of a probabilistic gossiping algorithm is provided. That pseudocode, applied to the idea of this paper, and therefore modified accordingly, would be as follows:
+General idea behind the gossiping protocol is described in [9] - p. 2, 2.1 - GOSSIP PROTOCOL. Therein,  pseudocode of a probabilistic gossiping algorithm is provided. That pseudocode, applied to the idea of this paper, and therefore modified accordingly, would be as follows:
 
 ``` java
 
@@ -20,7 +20,7 @@ System.out.println("Hello world!");
 
 This paper primarily focuses on optimizing the current Mempool gossiping communication protocol. In the following subsections, a system model assumed herein will be explained.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzc4NTU1NjYsMTA3NzQxODI1OSw3OT
-YzMjA1ODMsMTU5Njg4NzMzMCwtMTIxNzM4NjQxNywxMzMxOTky
-NTU3LDU3MjAwMTEwMSwtMzM4MDcxOTYzXX0=
+eyJoaXN0b3J5IjpbNTM5NjgxMTU0LDEwNzc0MTgyNTksNzk2Mz
+IwNTgzLDE1OTY4ODczMzAsLTEyMTczODY0MTcsMTMzMTk5MjU1
+Nyw1NzIwMDExMDEsLTMzODA3MTk2M119
 -->
