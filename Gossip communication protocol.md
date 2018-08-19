@@ -12,7 +12,10 @@ Although this protocol includes some overhead, it is reliable, scalable and easy
 
 General idea behind the gossiping protocol is described in [9] - p. 2, 2.1 - GOSSIP PROTOCOL. Therein,  pseudocode of a probabilistic gossiping algorithm is provided. That pseudocode, applied to the idea of this paper, and therefore modified accordingly, would be as follows:
 
+> Gossiping algorithm
+
 ``` java
+
 
 
 
@@ -20,7 +23,7 @@ General idea behind the gossiping protocol is described in [9] - p. 2, 2.1 - GOS
 
 This paper primarily focuses on optimizing the current Mempool gossiping communication protocol. In the following subsections, a system model assumed herein will be explained.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA1OTE4MSwxMDc3NDE4MjU5LDc5Nj
-MyMDU4MywxNTk2ODg3MzMwLC0xMjE3Mzg2NDE3LDEzMzE5OTI1
-NTcsNTcyMDAxMTAxLC0zMzgwNzE5NjNdfQ==
+eyJoaXN0b3J5IjpbNzI1ODkxMTg3LDEwNzc0MTgyNTksNzk2Mz
+IwNTgzLDE1OTY4ODczMzAsLTEyMTczODY0MTcsMTMzMTk5MjU1
+Nyw1NzIwMDExMDEsLTMzODA3MTk2M119
 -->
