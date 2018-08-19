@@ -12,8 +12,12 @@ Although this protocol includes some overhead, it is reliable, scalable and easy
 
 ``` java
 
+System.out.println("Hello world!");
+
+```
+
 This paper primarily focuses on optimizing the current Mempool gossiping communication protocol. In the following subsections, a system model assumed herein will be explained.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjE3MTk4OSwtMTIxNzM4NjQxNywxMz
+eyJoaXN0b3J5IjpbMTU5Njg4NzMzMCwtMTIxNzM4NjQxNywxMz
 MxOTkyNTU3LDU3MjAwMTEwMSwtMzM4MDcxOTYzXX0=
 -->
