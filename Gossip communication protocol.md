@@ -14,13 +14,13 @@ General idea behind the gossiping protocol is described in [9] - p. 2, 2.1 - GOS
 
 ``` java
 
-wait()
+
 
 ```
 
 This paper primarily focuses on optimizing the current Mempool gossiping communication protocol. In the following subsections, a system model assumed herein will be explained.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTgwNTE1NSwxMDc3NDE4MjU5LDc5Nj
+eyJoaXN0b3J5IjpbLTEzMjA1OTE4MSwxMDc3NDE4MjU5LDc5Nj
 MyMDU4MywxNTk2ODg3MzMwLC0xMjE3Mzg2NDE3LDEzMzE5OTI1
 NTcsNTcyMDAxMTAxLC0zMzgwNzE5NjNdfQ==
 -->
