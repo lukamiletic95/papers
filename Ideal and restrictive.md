@@ -59,24 +59,24 @@ func send(T transaction) bool {
 	Set<Node> validatorSet = provider.requestValidatorSet();
 
 	for (Node node : validatorSet) {
-		Time before = system.currentTime();
+		bool success = node.receive(transaction, self);
 		
-		node.receive(transaction, self);
-		
-		
+		if (success == false) {
+			return false;
+		}
 	}
 
-	return success;
+	return true;
 }
 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDYyMzUzNzMsMjU1NTU4Njk0LC0xNz
-AzNjA2MjI3LC03ODQ0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAx
-NjIyOSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MT
-QsLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkz
-NTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX
-0=
+eyJoaXN0b3J5IjpbMTg0MTM4NDEyNCwyNTU1NTg2OTQsLTE3MD
+M2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgwNjIzLC0xMjA5MDE2
+MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOTYsMTcyNzc2NTQxNC
+wtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1
+MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ
+==
 -->
