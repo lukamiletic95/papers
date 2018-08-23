@@ -81,7 +81,7 @@ At the beginning, a *C* node tries to establish a connection with a selected *FN
 
 ```go
 
-// Pseudocode for a C node
+// Pseudocode for a FN/V node
 
 CFGFile CFG;
 Set<Node> requesters = ...;
@@ -125,10 +125,10 @@ func receive(T transaction) : bool {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NTQyNTcxLDE2MTM5MTEyMjEsMjU1NT
-U4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAwNDYsLTQ5Njk4MDYy
-MywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LD
-E3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5
-NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOT
-I4ODY2MzM5XX0=
+eyJoaXN0b3J5IjpbLTk1NDAyMzYxOSwxNjEzOTExMjIxLDI1NT
+U1ODY5NCwtMTcwMzYwNjIyNywtNzg0NDAwMDQ2LC00OTY5ODA2
+MjMsLTEyMDkwMTYyMjksMTAwMTE2NTQ1OSwtMTc5OTU2MzI5Ni
+wxNzI3NzY1NDE0LC01NzcwMTkyODAsMzg4NTQyNjQyLDYxNzIz
+OTUzLC0xNzE5MzUzNTU3LDg0NDk0MDMwMSwtOTA4MzgzNzksLT
+kyODg2NjMzOV19
 -->
