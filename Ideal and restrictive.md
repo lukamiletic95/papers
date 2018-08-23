@@ -18,11 +18,11 @@ The system loops through five different states:
 
 * **Update CFG files →** Apart from containing information about the peer subset and connected clients, *CFG* file now contains information about the validator set that will be used in the next consensus instance. *CFG* files are updated in this state.
 
-* **Answer clients' requests →** It should be observed that a client may send its request completely asynchronously, when the system is in any of the five possible states. However, client will not be provided with information about the validator set until the system reaches this state.
+1. **Answer clients' requests →** It should be observed that a client may send its request completely asynchronously, when the system is in any of the five possible states. However, client will not be provided with information about the validator set until the system reaches this state.
 
-* **Timeout for clients' transactions →** Upon all the *C* that made a request being provided with the validator set to-be, the system will wait for a certain *timeout*, so that all the *C* nodes can send their transactions to appropriate *V* nodes.
+2. **Timeout for clients' transactions →** Upon all the *C* that made a request being provided with the validator set to-be, the system will wait for a certain *timeout*, so that all the *C* nodes can send their transactions to appropriate *V* nodes.
 
-* **Consensus instance →** When all the transactions have been sent, a consensus instance may be initiated, so as to determine the next block of transactions within the blockchain.
+3. **Consensus instance →** When all the transactions have been sent, a consensus instance may be initiated, so as to determine the next block of transactions within the blockchain.
 
 <br/><br/><br/>
 <div align='center'> 
@@ -36,9 +36,9 @@ The system loops through five different states:
 * *CFG - Configuration file*
 <br/><br/>
 
-*C* node can connect to a *FN* of its own choice (
+*C* node can connect to a *FN* node of its own choice. When it does, it requests IP addresses of the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzczMzMyOCw2MTcyMzk1MywtMTcxOT
+eyJoaXN0b3J5IjpbMTg2Mjc1ODI3Miw2MTcyMzk1MywtMTcxOT
 M1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzld
 fQ==
 -->
