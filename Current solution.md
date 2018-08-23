@@ -25,15 +25,17 @@ Current Tendermint Mempool gossiping algorithm works as follows (this is execute
 
 Note that in step 2, a validity check would not have to be performed if the transaction *T* was received from a *FN* node, since we assume that the network is non-fault-tolerant and therefore, peers can trust each other unconditionally. However, since Tendermint is a Byzantine fault-tolerant network, step 2 is always performed, due to the fact that the transaction could have been received from a malicious peer.
 
-```javascript
+```go
 
 // Mempool gossiping algorithm in Tendermint - pseudocode
 
-function receive(T transaction, NodeType sender) {
+func receive(T transaction, NodeType sender) {
 	// NodeType = {C, FN, V}
 
-	if (sender == C) { // in Tendermint - this condition 
+	if (sender == C) { 
+	// in Tendermint - this condition does not exist
 	
+	bool valid = checkTx(transaction);
 	}
 }
 
@@ -54,8 +56,8 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDc3NzkxMCwtMTIyNDgzMDk4MSwxMD
-c1MTQ1ODQyLDEzODgyMDEwOSwxMDkxMzk4MzcxLDE3MzY4MzQ5
-NTMsLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNTQ1MzgxOTM3XX
-0=
+eyJoaXN0b3J5IjpbMTE2NzA0ODU3LC0xMjI0ODMwOTgxLDEwNz
+UxNDU4NDIsMTM4ODIwMTA5LDEwOTEzOTgzNzEsMTczNjgzNDk1
+MywtMTQyNTA5NTQ2OSwxMzQyMDI1OTI1LDE1NDUzODE5MzddfQ
+==
 -->
