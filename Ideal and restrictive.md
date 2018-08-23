@@ -45,11 +45,11 @@ Let us consider a following scenario:
 	3. C node starts sending T to all the members of the validator set.
 	4. What if the size of some validator's Mempool would exceed the maximum number of transactions per block?
 
-If the aforesaid scenario occurred, and the 
+If the aforesaid scenario occurred, and the *FN* node added the transaction to its Mempool, thus exceeding the size of the block, it would be possible that the transaction would never be executed. Since the validator set changes dynamically, 
 
 Therefore, Mempool of a particular *V* node can never exceed the size of *M*. If that were to happen, a *C* transaction might never be executed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ2MjQ2NjMsMTcyNzc2NTQxNCwtNT
-c3MDE5MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1
-Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ==
+eyJoaXN0b3J5IjpbNjcwMTc0OTcxLDE3Mjc3NjU0MTQsLTU3Nz
+AxOTI4MCwzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcs
+ODQ0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
