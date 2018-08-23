@@ -19,7 +19,7 @@ A ***validator set*** is a set of *FN* nodes that is chosen for each consensus i
 
 > Consensus instance represents one execution of the Tendermint consensus algorithm. Mainly, that algorithm will be considered a black-box in this paper, with the exception of revealing minor details of its implementation that are relevant to the functioning of the Mempool component and gossiping transactions from the Mempool. Consensus algorithm is described in detail in [1].
 
-Therefore, the validator set potentially changes at each blockchain height. Validators are expected to be online, and the set of validators is curated by some external process. 
+Therefore, the validator set potentially changes at each blockchain height. Validators are expected to be online, and the set of validators is curated by some external process. [^1]
 
 > The validator set is always chosen in a way to maximize the utilization of their voting power. [1] - p. 5, III - TENDERMINT CONSENSUS ALGORITHM
 
@@ -32,12 +32,14 @@ Each consensus instance consists of ***k*** rounds, where at each round a new **
 A ***proposer*** is a node that has the obligation to propose what the next block in the blockchain will be. It does so by selecting a certain number of transactions from its Mempool, creating a block, and then proposing it to the others in the validator set. If the proposition becomes accepted in that consensus round, then there will be no more rounds for that particular blockchain height due to the fact that the consensus was reached. New round is initiated whenever a consensus could not be reached in the previous round.
 
 Hence, we come to a crucial conclusion regarding the Mempool and gossiping of transactions from it - **when a *FN* receives a *C* transaction inside its Mempool, it must gossip it in a way that guarantees (or at least provides a high probability outcome) that the transaction will eventually reach a Mempool of at least one *FN* node that will be a member of the validator set (hence, a *V* node) and a *proposer* in some round k<sub>i</sub> at some blockchain height h<sub>j</sub> in the future**. That particular course of events will then lead to a client transaction being both executed and stored within a blockchain.
+
+[^1]: This line was taken from Tendermint documentation: <https://github.com/tendermint/tendermint/wiki/Validators>. Algorithms for determining a validator set for each blockchain height is beyond the scope of this paper. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMyNzU1MTYsMzk0NzMwMjY1LDQ2Mz
-AzNjQ1MywxNzk5ODI5MDk4LC0yMTE4NDUxMDIsMTE1MDA0MDMw
-MCwtMjA0NDQ0Mjc5MSw4MDM1MTIwMzUsODExMTU0MTEyLDI5MD
-cyNjYyMywtMTY2NzExODY0NywtODg4MzgzMjM1LC0xMTcxNDA0
-MTg4LDE2OTAzNjY4MTksLTEwNTg4MTQxNzMsLTUzMTQ4NTQyNy
-wxMjM1ODUzNTY4LDQ1MDgxMjYxMywxMTQ1ODY2MTQ3LDIxNzc1
-MjI5NF19
+eyJoaXN0b3J5IjpbMzAxNTY4NDgyLDM5NDczMDI2NSw0NjMwMz
+Y0NTMsMTc5OTgyOTA5OCwtMjExODQ1MTAyLDExNTAwNDAzMDAs
+LTIwNDQ0NDI3OTEsODAzNTEyMDM1LDgxMTE1NDExMiwyOTA3Mj
+Y2MjMsLTE2NjcxMTg2NDcsLTg4ODM4MzIzNSwtMTE3MTQwNDE4
+OCwxNjkwMzY2ODE5LC0xMDU4ODE0MTczLC01MzE0ODU0MjcsMT
+IzNTg1MzU2OCw0NTA4MTI2MTMsMTE0NTg2NjE0NywyMTc3NTIy
+OTRdfQ==
 -->
