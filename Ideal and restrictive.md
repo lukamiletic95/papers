@@ -85,6 +85,7 @@ At the beginning, a *C* node tries to establish a connection with a selected *FN
 
 CFGFile CFG;
 
+
 func main() {
 	Set<Node> validatorSet = determineValidatorSet();
 	
@@ -106,10 +107,10 @@ func receive(T transaction, Node sender) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDc2NDUzOCwxNjEzOTExMjIxLDI1NT
-U1ODY5NCwtMTcwMzYwNjIyNywtNzg0NDAwMDQ2LC00OTY5ODA2
-MjMsLTEyMDkwMTYyMjksMTAwMTE2NTQ1OSwtMTc5OTU2MzI5Ni
-wxNzI3NzY1NDE0LC01NzcwMTkyODAsMzg4NTQyNjQyLDYxNzIz
-OTUzLC0xNzE5MzUzNTU3LDg0NDk0MDMwMSwtOTA4MzgzNzksLT
-kyODg2NjMzOV19
+eyJoaXN0b3J5IjpbLTE3MjUxNDI5MjQsMTYxMzkxMTIyMSwyNT
+U1NTg2OTQsLTE3MDM2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgw
+NjIzLC0xMjA5MDE2MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOT
+YsMTcyNzc2NTQxNCwtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcy
+Mzk1MywtMTcxOTM1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC
+05Mjg4NjYzMzldfQ==
 -->
