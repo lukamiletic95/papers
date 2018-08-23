@@ -47,10 +47,10 @@ Let us consider a following scenario:
 
 If the aforesaid scenario occurred, and the *FN* node added the transaction to its Mempool, thus exceeding the size of the block, it would be possible that the transaction would never be executed. There is a probability that the size of Mempools of all nodes in the validator set already equals maximum number of transactions per block, and that the added transaction will not be proposed in the following consensus instance. Since the validator set changes dynamically, none of the *FN* nodes in the current validator set may ever again appear in the validator set. Therefore, a client transaction could potentially get lost, due to the fact it had never been proposed.
 
-To solve this, it is assumed that a *V* node remains in the validator set until its Mempool is emptied. A transaction is removed from a node's Mempool when it has become a part of the block to be added to the blockchain - meaning a consensus was reached on executing it. This guarantees that a transaction *T* will be executed  in one of the future consensus instances.
+To solve this, it is assumed that a *V* node remains in the validator set until its Mempool is emptied. A transaction is removed from a node's Mempool when it has become a part of the block to be added to the blockchain - meaning a consensus was reached on executing it. This guarantees that a transaction *T* will be executed  in one of the future consensus instances. It is also advisable that the algorithm for selecting a proposer is unbiased, and that it uniformly selects a node from the validator set.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyODc3ODU1LC0xMjA5MDE2MjI5LDEwMD
-ExNjU0NTksLTE3OTk1NjMyOTYsMTcyNzc2NTQxNCwtNTc3MDE5
-MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1Nyw4ND
-Q5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ==
+eyJoaXN0b3J5IjpbLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMD
+AxMTY1NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAx
+OTI4MCwzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsOD
+Q0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
