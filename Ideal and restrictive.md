@@ -40,9 +40,9 @@ The system loops through five different states:
 
 > It is assumed that there is a global constant ***M***, that denotes the number of transactions in a block.
 
-Therefore, Mempool of a particular *V* node can never exceed the size of *M*
+Therefore, Mempool of a particular *V* node can never exceed the size of *M*. If that were to happen, a *C* transaction might never be executed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODU1NDEwNyw2MTcyMzk1MywtMTcxOT
-M1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzld
-fQ==
+eyJoaXN0b3J5IjpbMzg4NTQyNjQyLDYxNzIzOTUzLC0xNzE5Mz
+UzNTU3LDg0NDk0MDMwMSwtOTA4MzgzNzksLTkyODg2NjMzOV19
+
 -->
