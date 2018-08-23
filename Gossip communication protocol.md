@@ -12,7 +12,8 @@ Although this protocol includes some overhead, it is reliable, scalable and easy
 
 This paper primarily focuses on optimizing the current Mempool gossiping communication protocol. In the following subsections, a system model assumed herein will be explained.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTczODY0MTcsMTA3NzQxODI1OSw3OT
-YzMjA1ODMsMTU5Njg4NzMzMCwtMTIxNzM4NjQxNywxMzMxOTky
-NTU3LDU3MjAwMTEwMSwtMzM4MDcxOTYzXX0=
+eyJoaXN0b3J5IjpbLTk4MTQwNjk3NSwtMTIxNzM4NjQxNywxMD
+c3NDE4MjU5LDc5NjMyMDU4MywxNTk2ODg3MzMwLC0xMjE3Mzg2
+NDE3LDEzMzE5OTI1NTcsNTcyMDAxMTAxLC0zMzgwNzE5NjNdfQ
+==
 -->
