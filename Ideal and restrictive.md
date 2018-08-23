@@ -132,11 +132,11 @@ As mentioned before, the system (therefore every *FN*/*V* node in the system) lo
 
 The idea provided here most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. First of all, not even all *FN* nodes receive the transaction. Instead, only the ones that will propose it in a future consensus instance are actually provided with it. Even if it were only a single node, the *T* will still be executed at some point. Distributing a *T* to multiple *V* nodes only increases the chances of *T* being executed sooner.
 
-On the other hand, it imposes restrictions that may hamper the performance of the algorithm. Primarily, system goes through different states, and is not constantly available to a *C* node. Client has to wait for the system to reach the appropriate state in order to respond with a requested validator set. Additionally, the value used for *timeout* must be carefully chosen. It determines the time period throughout a system can receive transactions from clie
+On the other hand, it imposes restrictions that may hamper the performance of the algorithm. Primarily, system goes through different states, and is not constantly available to a *C* node. Client has to wait for the system to reach the appropriate state in order to respond with a requested validator set. Furthermore, the value used for *timeout* must be carefully chosen. It determines the time period throughout which a system can receive transactions from client nodes. The longer it is, the more clients can send their transactions before a consensus instance is initiated. This algorithm also requires a *C* node having to possibly
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTcxODQ2OTEsLTk1NDAyMzYxOSwxNj
+eyJoaXN0b3J5IjpbLTE5NjM1NTM0MjgsLTk1NDAyMzYxOSwxNj
 EzOTExMjIxLDI1NTU1ODY5NCwtMTcwMzYwNjIyNywtNzg0NDAw
 MDQ2LC00OTY5ODA2MjMsLTEyMDkwMTYyMjksMTAwMTE2NTQ1OS
 wtMTc5OTU2MzI5NiwxNzI3NzY1NDE0LC01NzcwMTkyODAsMzg4
