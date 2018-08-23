@@ -130,13 +130,14 @@ As mentioned before, the system (therefore every *FN*/*V* node in the system) lo
 
 #### Performance analysis
 
+The idea provided here most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. On the other hand, it imposes restrictions that may hamper the performance in 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzUxMTUzMTQsLTk1NDAyMzYxOSwxNj
-EzOTExMjIxLDI1NTU1ODY5NCwtMTcwMzYwNjIyNywtNzg0NDAw
-MDQ2LC00OTY5ODA2MjMsLTEyMDkwMTYyMjksMTAwMTE2NTQ1OS
-wtMTc5OTU2MzI5NiwxNzI3NzY1NDE0LC01NzcwMTkyODAsMzg4
-NTQyNjQyLDYxNzIzOTUzLC0xNzE5MzUzNTU3LDg0NDk0MDMwMS
-wtOTA4MzgzNzksLTkyODg2NjMzOV19
+eyJoaXN0b3J5IjpbMTk2NjIwNDM0MywtOTU0MDIzNjE5LDE2MT
+M5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAw
+NDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC
+0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1
+NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC
+05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
