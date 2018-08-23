@@ -128,14 +128,15 @@ func receive(T transaction) : bool {
 
 As mentioned before, the system (therefore every *FN*/*V* node in the system) loops through five states. First, a validator set is determined using some external process (this is determined by the implementation of *determineValidatorSet()* function. After that, the system transitions to its second state, where it stores the current validator set inside its local configuration file. Observe that the function *requestValidatorSet()* can be called completely asynchronously. Therefore, synchronization is required, so that a *C* node will never get a response before the system reaches state 3. For that reason, a call to *requestValidatorSet()* function simply adds a requester to a current subscription list of nodes who await for the response regarding the validator set, and then blocks the calling thread (e.g. using a semaphore). Upon releasing all the calling threads (*releaseAllRequesters()*), the configuration file will have already been updated with the freshest information about the validator set (*CFG.setValidatorSet(...)*), and can then be used as a return value in the function *requestValidatorSet()*. After answering all the clients' requests, a *FN* reaches a state where it starts a timer for a certain *TIMEOUT*. Throughout that period, it can receive clients' transactions via the *receive()* function. In that function, it is checked whether the timer has expired - this means that the system can no longer receive transactions because it will instantiate a new round of consensus instance.
 
-It is evident that the system responsive
+#### Performance analysis
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDg2MjYyMywtOTU0MDIzNjE5LDE2MT
-M5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAw
-NDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC
-0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1
-NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC
-05MDgzODM3OSwtOTI4ODY2MzM5XX0=
+eyJoaXN0b3J5IjpbLTE5MzUxMTUzMTQsLTk1NDAyMzYxOSwxNj
+EzOTExMjIxLDI1NTU1ODY5NCwtMTcwMzYwNjIyNywtNzg0NDAw
+MDQ2LC00OTY5ODA2MjMsLTEyMDkwMTYyMjksMTAwMTE2NTQ1OS
+wtMTc5OTU2MzI5NiwxNzI3NzY1NDE0LC01NzcwMTkyODAsMzg4
+NTQyNjQyLDYxNzIzOTUzLC0xNzE5MzUzNTU3LDg0NDk0MDMwMS
+wtOTA4MzgzNzksLTkyODg2NjMzOV19
 -->
