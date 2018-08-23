@@ -67,7 +67,7 @@ func send(T transaction, IPaddress providerIP) bool {
 	for (Node node : validatorSet) {
 		bool success = node.receive(transaction, self);
 		
-		if (success == false) {
+		if (success == true) {
 			numberReceived++;
 		}
 	}
@@ -82,7 +82,7 @@ At the beginning, a *C* node tries to establish a connection with a selected *FN
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDA1NzMzMSwxNjEzOTExMjIxLDI1NT
+eyJoaXN0b3J5IjpbMTA4NjcyNTgxNCwxNjEzOTExMjIxLDI1NT
 U1ODY5NCwtMTcwMzYwNjIyNywtNzg0NDAwMDQ2LC00OTY5ODA2
 MjMsLTEyMDkwMTYyMjksMTAwMTE2NTQ1OSwtMTc5OTU2MzI5Ni
 wxNzI3NzY1NDE0LC01NzcwMTkyODAsMzg4NTQyNjQyLDYxNzIz
