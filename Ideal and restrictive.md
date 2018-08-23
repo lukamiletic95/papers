@@ -79,12 +79,20 @@ func send(T transaction, IPaddress providerIP) bool {
 
 At the beginning, a *C* node tries to establish a connection with a selected *FN* node, in order to obtain the validator set. In case the connection was not established successfully, the function returns false.  After that, a call of the *requestValidatorSet()* returns the validator set for the following consensus instance. Note that this is a blocking call, and the client awaits until it receives the information. Finally, *C* loops through all the members of the validator set and tries to provide them with the transaction *T*. In case the timeout expires or any other error occurs, the *receive()* function will return false. A counter variable *numberReceived* is used to denote the number of *V* nodes that have successfully received the clients transaction. If at least one *V* node had received *T*, it means that it will definitely be executed at some point in the future (due to the restriction regarding the validator set). However, the more members of the validator set receive *T*, the larger is the probability of it becoming proposed and executed earlier.
 
+```go
 
+// Pseudocode for a C node
+
+while (true) {
+	validatorSet validatorSet
+}
+
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTAxOTAxOCwxNjEzOTExMjIxLDI1NT
+eyJoaXN0b3J5IjpbMTQxOTk3OTQ1MCwxNjEzOTExMjIxLDI1NT
 U1ODY5NCwtMTcwMzYwNjIyNywtNzg0NDAwMDQ2LC00OTY5ODA2
 MjMsLTEyMDkwMTYyMjksMTAwMTE2NTQ1OSwtMTc5OTU2MzI5Ni
 wxNzI3NzY1NDE0LC01NzcwMTkyODAsMzg4NTQyNjQyLDYxNzIz
