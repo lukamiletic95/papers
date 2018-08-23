@@ -49,9 +49,9 @@ If the aforesaid scenario occurred, and the *FN* node added the transaction to i
 
 > To solve this, we assume that there is a global constant ***M***, that denotes the number of transactions in a block.
 
-This implies that the Mempool of a particular *V* node can never exceed the size of *M*. 
+This implies that the Mempool of a particular *V* node can never exceed the size of *M*. Furthermore, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjMwMTM1NiwtMTc5OTU2MzI5NiwxNz
+eyJoaXN0b3J5IjpbMTAwMTE2NTQ1OSwtMTc5OTU2MzI5NiwxNz
 I3NzY1NDE0LC01NzcwMTkyODAsMzg4NTQyNjQyLDYxNzIzOTUz
 LC0xNzE5MzUzNTU3LDg0NDk0MDMwMSwtOTA4MzgzNzksLTkyOD
 g2NjMzOV19
