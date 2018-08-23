@@ -14,6 +14,6 @@ To summarize the complete definition of the system model, in further text all of
 
 In the following sections, a current solution for gossiping transactions from a Mempool, which is a solution currently used in Tendermint, will be described. After that, various alternatives will be discussed and analyzed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzI2NDcxOCw5MzI2NDM4MzIsMzk4Nz
-c4NDM3XX0=
+eyJoaXN0b3J5IjpbLTE1ODA1MTA0MDEsLTMzNzI2NDcxOCw5Mz
+I2NDM4MzIsMzk4Nzc4NDM3XX0=
 -->
