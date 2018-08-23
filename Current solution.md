@@ -16,7 +16,7 @@ Let us assume that a *C* node wants to have its transaction *T* processed by the
 Current Tendermint Mempool gossiping algorithm works as follows (this is executed on each *FN* node):
 
 	1. FN receives T, either from a C, or from another FN.
-	2. FN checks if T is valid (only if the sender is a C node).
+	2. FN checks if T is valid (only if the sender is a C node - in our model, in Tendermint - always).
 	3. If 2 == false, FN drops the message and does nothing.
 	4. If 2 == true, FN checks if T is already in its Mempool.
 	5. If 4 == true, FN drops the message and does nothing.
@@ -40,8 +40,8 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzI4OTQ4LC0xMjI0ODMwOTgxLDEwNz
-UxNDU4NDIsMTM4ODIwMTA5LDEwOTEzOTgzNzEsMTczNjgzNDk1
-MywtMTQyNTA5NTQ2OSwxMzQyMDI1OTI1LDE1NDUzODE5MzddfQ
-==
+eyJoaXN0b3J5IjpbMjA0NzcxNDczNiwtMTIyNDgzMDk4MSwxMD
+c1MTQ1ODQyLDEzODgyMDEwOSwxMDkxMzk4MzcxLDE3MzY4MzQ5
+NTMsLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNTQ1MzgxOTM3XX
+0=
 -->
