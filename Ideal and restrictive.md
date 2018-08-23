@@ -77,12 +77,12 @@ func send(T transaction, IPaddress providerIP) bool {
 
 ```
 
-At the beginning, a *C* node tries to establish a connection with a selected *FN* node, in order to obtain the validator set. In case the connection was not established successfully, the function returns false.  After that, a call of the *requestValidatorSet()* returns the validator set for the following consensus instance. Note that this is a blocking call, and the client awaits until it receives the information. Finally, *C* loops through all the members of the validator set and tries to provide them with the transaction *T*. **In case the timeout expires, the *receive()* function will return false**. This means that the client's transaction did not manage to reach any validator node in the validator set. If a client wishes, it may re-send the same transaction and try again.
+At the beginning, a *C* node tries to establish a connection with a selected *FN* node, in order to obtain the validator set. In case the connection was not established successfully, the function returns false.  After that, a call of the *requestValidatorSet()* returns the validator set for the following consensus instance. Note that this is a blocking call, and the client awaits until it receives the information. Finally, *C* loops through all the members of the validator set and tries to provide them with the transaction *T*. In case the timeout expires or any other error occurs, the *receive()* function will return false. A counter variable *numberReceived* is used to denote the number of *V* nodes that have successfully received the clients transaction. If at least one *V* node had received *T*, it means that it will definitely be executed at some point in the future (due 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDc1Nzc1OCwxNjEzOTExMjIxLDI1NT
+eyJoaXN0b3J5IjpbMTQxOTQ1MTE2MCwxNjEzOTExMjIxLDI1NT
 U1ODY5NCwtMTcwMzYwNjIyNywtNzg0NDAwMDQ2LC00OTY5ODA2
 MjMsLTEyMDkwMTYyMjksMTAwMTE2NTQ1OSwtMTc5OTU2MzI5Ni
 wxNzI3NzY1NDE0LC01NzcwMTkyODAsMzg4NTQyNjQyLDYxNzIz
