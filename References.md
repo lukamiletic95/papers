@@ -18,8 +18,8 @@
 
 [8] A. Montresor, "Gossip and Epidemic Protocols" 2017. [Online]. Available: <http://disi.unitn.it/~montreso/ds/papers/montresor17.pdf>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjMwOTY3NCwxNzE1MDk0MDA3LC03Mj
-cyMTE0NDIsMTI5MjQwNTAxMywtMTcwMjk5OTg4NSwxMjUyNDY0
-OTIyLC0xNjI1NjAxNDkxLC0xNTE2NTEzOTg5LC0yOTI1NzczOT
-NdfQ==
+eyJoaXN0b3J5IjpbMjQ5ODc3MjA2LDExNDYzMDk2NzQsMTcxNT
+A5NDAwNywtNzI3MjExNDQyLDEyOTI0MDUwMTMsLTE3MDI5OTk4
+ODUsMTI1MjQ2NDkyMiwtMTYyNTYwMTQ5MSwtMTUxNjUxMzk4OS
+wtMjkyNTc3MzkzXX0=
 -->
