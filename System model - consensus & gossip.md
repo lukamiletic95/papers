@@ -29,11 +29,11 @@ Each consensus instance consists of ***k*** rounds, where at each round a new **
 
 > Once again, it is possible that through each round *1 ... k*, the proposer remains the same.
 
-A ***proposer*** is a node that has the obligation to propose what the next block in the blockchain will be. It does so by selecting a certain number of transactions from its Mempool, creating a block, and then proposing it to the others in the validator set. If the proposition becomes accepted in that consensus round, then there will be no more rounds due to the fact that the consensus was reached. New round is initiated whenever a consensus could not be reached in the previous round.
+A ***proposer*** is a node that has the obligation to propose what the next block in the blockchain will be. It does so by selecting a certain number of transactions from its Mempool, creating a block, and then proposing it to the others in the validator set. If the proposition becomes accepted in that consensus round, then there will be no more rounds for that particular blockchain height due to the fact that the consensus was reached. New round is initiated whenever a consensus could not be reached in the previous round.
 
 Hence, we come to a crucial conclusion regarding the Mempool and gossiping of transactions from it - **when a *FN* receives a *C* transaction inside its Mempool, it must gossip it in a way that guarantees (or at least provides a high probability outcome) that the transaction will eventually reach a Mempool of at least one *FN* node that will be a member of the validator set (hence, a *V* node) and a *proposer* in some round k<sub>i</sub> at some blockchain height h<sub>j</sub> in the future**. That particular course of events will then lead to a client transaction being both executed and stored within a blockchain.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5NDM2ODk5LDQ2MzAzNjQ1MywxNzk5OD
+eyJoaXN0b3J5IjpbMzk0NzMwMjY1LDQ2MzAzNjQ1MywxNzk5OD
 I5MDk4LC0yMTE4NDUxMDIsMTE1MDA0MDMwMCwtMjA0NDQ0Mjc5
 MSw4MDM1MTIwMzUsODExMTU0MTEyLDI5MDcyNjYyMywtMTY2Nz
 ExODY0NywtODg4MzgzMjM1LC0xMTcxNDA0MTg4LDE2OTAzNjY4
