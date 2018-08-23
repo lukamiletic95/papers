@@ -47,12 +47,10 @@ Let us consider a following scenario:
 
 If the aforesaid scenario occurred, and the *FN* node added the transaction to its Mempool, thus exceeding the size of the block, it would be possible that the transaction would never be executed. There is a probability that the size of Mempools of all nodes in the validator set already equals maximum number of transactions per block, and that the added transaction will not be proposed in the following consensus instance. Since the validator set changes dynamically, none of the *FN* nodes in the current validator set may ever again appear in the validator set. Therefore, a client transaction could potentially get lost, due to the fact it had never been proposed.
 
-> To solve this, we assume that there is a global constant ***M***, that denotes the number of transactions in a block.
-
-This implies that the Mempool of a particular *V* node can never exceed the size of *M*. Furthermore, 
+To solve this, it is assumed that a *V* node remains in the validator set un
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Njg2NjE5LC0xMjA5MDE2MjI5LDEwMD
-ExNjU0NTksLTE3OTk1NjMyOTYsMTcyNzc2NTQxNCwtNTc3MDE5
-MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1Nyw4ND
-Q5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ==
+eyJoaXN0b3J5IjpbLTY4MTM3NDQ3NCwtMTIwOTAxNjIyOSwxMD
+AxMTY1NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAx
+OTI4MCwzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsOD
+Q0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
