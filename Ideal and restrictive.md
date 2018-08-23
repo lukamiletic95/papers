@@ -11,6 +11,8 @@ First of all, let us assume that the system now transitions between five states,
 
 The core idea of this solution is that the client can always find out IP addresses of nodes that will be in the validator set in the next consensus instance. When it does, it can send its transaction to all the nodes within that set. Even though a consensus instance may consist of multiple rounds (where ***k*** represents the number of those rounds) and each round may have a different proposer, if a *C* node sends its transaction to the entire validator set, it is **guaranteed** that *T* will be both executed and stored inside a blockchain because a proposer is always chosen from the validator set.
 
+As stated before, the system loops through five different states:
+
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig9.png" />
 	<h4>Figure # - Client interaction with the system</h4>
@@ -21,6 +23,6 @@ The core idea of this solution is that the client can always find out IP address
 * *V - Validator node (is also a *FN* node)*
 * *CFG - Configuration file*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTMwODcxOCwtMTcxOTM1MzU1Nyw4ND
-Q5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ==
+eyJoaXN0b3J5IjpbLTE0NjE5MzA0MjcsLTE3MTkzNTM1NTcsOD
+Q0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
