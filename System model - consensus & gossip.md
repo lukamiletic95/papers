@@ -33,9 +33,9 @@ A ***proposer*** is a node that has the obligation to propose what the next bloc
 
 Hence, we come to a crucial conclusion regarding the Mempool and gossiping of transactions from it - **when a *FN* receives a *C* transaction inside its Mempool, it must gossip it in a way that guarantees (or at least provides a high probability outcome) that the transaction will eventually reach a Mempool of at least one *FN* node that will be a member of the validator set (hence, a *V* node) and a *proposer* in some round k<sub>i</sub> at some blockchain height h<sub>j</sub> in the future**. That particular course of events will then lead to a client transaction being both executed and stored within a blockchain.
 
-[^1]: This information was extracted from Tendermint documentation: <https://github.com/tendermint/tendermint/wiki/Validators>. Algorithms for determining a validator set for each blockchain height is beyond the scope of this paper. 
+[^1]: This information was extracted from the Tendermint documentation: <https://github.com/tendermint/tendermint/wiki/Validators>. Algorithms for determining a validator set for each blockchain height is beyond the scope of this paper. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzI3NDk1OSwzOTQ3MzAyNjUsNDYzMD
+eyJoaXN0b3J5IjpbLTE3MzY4MTg5MCwzOTQ3MzAyNjUsNDYzMD
 M2NDUzLDE3OTk4MjkwOTgsLTIxMTg0NTEwMiwxMTUwMDQwMzAw
 LC0yMDQ0NDQyNzkxLDgwMzUxMjAzNSw4MTExNTQxMTIsMjkwNz
 I2NjIzLC0xNjY3MTE4NjQ3LC04ODgzODMyMzUsLTExNzE0MDQx
