@@ -14,15 +14,15 @@ First of all, let us assume that the system now transitions between five states,
 The core idea of this solution is that a client can always find out IP addresses of nodes that will be in the validator set in the next consensus instance. When it does, it can send its transaction to all the nodes within that set. Even though a consensus instance may consist of multiple rounds (where ***k*** represents the number of those rounds) and each round may have a different proposer, if a *C* node sends its transaction to the entire validator set, it is **guaranteed** that *T* will be both executed and stored inside a blockchain, because a proposer is always chosen from the validator set.
 
 The system loops through five different states:
-* **Determine validator set →** This is done by an external process. Upon determining the members of the validator set, *CFG* files of all *FN* nodes must be updated.
+1. **Determine validator set →** This is done by an external process. Upon determining the members of the validator set, *CFG* files of all *FN* nodes must be updated.
 
-* **Update CFG files →** Apart from containing information about the peer subset and connected clients, *CFG* file now contains information about the validator set that will be used in the next consensus instance. *CFG* files are updated in this state.
+2. **Update CFG files →** Apart from containing information about the peer subset and connected clients, *CFG* file now contains information about the validator set that will be used in the next consensus instance. *CFG* files are updated in this state.
 
-1. **Answer clients' requests →** It should be observed that a client may send its request completely asynchronously, when the system is in any of the five possible states. However, client will not be provided with information about the validator set until the system reaches this state.
+3. **Answer clients' requests →** It should be observed that a client may send its request completely asynchronously, when the system is in any of the five possible states. However, client will not be provided with information about the validator set until the system reaches this state.
 
-2. **Timeout for clients' transactions →** Upon all the *C* that made a request being provided with the validator set to-be, the system will wait for a certain *timeout*, so that all the *C* nodes can send their transactions to appropriate *V* nodes.
+4. **Timeout for clients' transactions →** Upon all the *C* that made a request being provided with the validator set to-be, the system will wait for a certain *timeout*, so that all the *C* nodes can send their transactions to appropriate *V* nodes.
 
-3. **Consensus instance →** When all the transactions have been sent, a consensus instance may be initiated, so as to determine the next block of transactions within the blockchain.
+5. **Consensus instance →** When all the transactions have been sent, a consensus instance may be initiated, so as to determine the next block of transactions within the blockchain.
 
 <br/><br/><br/>
 <div align='center'> 
@@ -38,7 +38,7 @@ The system loops through five different states:
 
 *C* node can connect to a *FN* node of its own choice. When it does, it requests IP addresses of the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Mjc1ODI3Miw2MTcyMzk1MywtMTcxOT
+eyJoaXN0b3J5IjpbLTgzMjAzNDgyMyw2MTcyMzk1MywtMTcxOT
 M1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzld
 fQ==
 -->
