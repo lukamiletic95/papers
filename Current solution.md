@@ -23,7 +23,7 @@ Current Tendermint Mempool gossiping algorithm works as follows (this is execute
 	
 If we assume that the network (excluding *C* nodes) is modeled via a connected graph, then the number of messages that are exchanged for one transaction *T* is equal to *2 * num_of_vertices*, although the optimal number of messages is equal to the number of *FN* nodes decreased by 1 (*C* → *FN* message isn't taken into account since it is not a part of the gossiping protocol).
 	
-On the other hand, this algorithm guarantees that a message will reach everyone within the network, since we assumed that the minimum size of the peer subset is 1, and therefore there are no disconnected *FN* nodes.
+On the other hand, this algorithm **guarantees** that a message will reach everyone within the network, since we assumed that the minimum size of the peer subset is 1, and therefore there are no disconnected *FN* nodes.
 
 **nisam siguran za ovo?** →
 However, Tendermint consensus algorithm is also gossip-based. Every time a proposer wishes to propose a block, it sends a special type of message - *PROPOSAL MESSAGE* [1]. That message contains a proposed block (which contains a batch of transactions), and is again gossiped to the peers of the round's selected proposer, and so forth. That may lead to some node receiving information about a transaction which it already received during the Mempool gossip phase, which is again a redundancy.
@@ -37,6 +37,7 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTM5ODM3MSwxNzM2ODM0OTUzLC0xND
-I1MDk1NDY5LDEzNDIwMjU5MjUsMTU0NTM4MTkzN119
+eyJoaXN0b3J5IjpbMzAyNDYzNTIzLDEwOTEzOTgzNzEsMTczNj
+gzNDk1MywtMTQyNTA5NTQ2OSwxMzQyMDI1OTI1LDE1NDUzODE5
+MzddfQ==
 -->
