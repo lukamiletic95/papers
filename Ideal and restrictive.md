@@ -36,9 +36,9 @@ The system loops through five different states:
 * *CFG - Configuration file*
 <br/><br/>
 
-*C* node can connect to a *FN* node of its own choice. That node could currently be a member of the validator set. Therefore, a *C* node can connect to either a *FN* or a *V* node. When it does, it requests IP addresses of the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait
+*C* node can connect to a *FN* node of its own choice. That node could currently be a member of the validator set. Therefore, a *C* node can connect to either a *FN* or a *V* node. When it does, it requests IP addresses of the nodes in the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait  until the system reaches *state 3*, in order to receive a response. When that occurs, a *C* node has to send its transact*T*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzE0NTYwODAsNjE3MjM5NTMsLTE3MT
-kzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5
-XX0=
+eyJoaXN0b3J5IjpbODc1MTI1ODU2LDYxNzIzOTUzLC0xNzE5Mz
+UzNTU3LDg0NDk0MDMwMSwtOTA4MzgzNzksLTkyODg2NjMzOV19
+
 -->
