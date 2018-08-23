@@ -75,14 +75,15 @@ func send(T transaction, IPaddress providerIP) bool {
 
 ```
 
-At the beginning, a *C* node tries to establish a connection with a selected *FN* node, in order to obtain the validator set. In case the connection was not established successfully, the function returns false.  If everything 
+At the beginning, a *C* node tries to establish a connection with a selected *FN* node, in order to obtain the validator set. In case the connection was not established successfully, the function returns false.  After that, a call of the *requestValidatorSet() * returns the validator set for the following consensus instance. Note that this is a blocking call, and the client awaits until it receives the information. Finally, *C* loops through all the members of the validator set and tries
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1NzU0MjY4LDI1NTU1ODY5NCwtMTcwMz
-YwNjIyNywtNzg0NDAwMDQ2LC00OTY5ODA2MjMsLTEyMDkwMTYy
-MjksMTAwMTE2NTQ1OSwtMTc5OTU2MzI5NiwxNzI3NzY1NDE0LC
-01NzcwMTkyODAsMzg4NTQyNjQyLDYxNzIzOTUzLC0xNzE5MzUz
-NTU3LDg0NDk0MDMwMSwtOTA4MzgzNzksLTkyODg2NjMzOV19
+eyJoaXN0b3J5IjpbMTY1MDIzMjcxMywyNTU1NTg2OTQsLTE3MD
+M2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgwNjIzLC0xMjA5MDE2
+MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOTYsMTcyNzc2NTQxNC
+wtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1
+MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ
+==
 -->
