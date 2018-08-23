@@ -36,7 +36,7 @@ The system loops through five different states:
 * *CFG - Configuration file*
 <br/><br/>
 
-*C* node can connect to a *FN* node of its own choice. That node could currently be a member of the validator set. Therefore, a *C* node can connect to either a *FN* or a *V* node. When it does, it requests IP addresses of the nodes in the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait  until the system reaches *state 3*, in order to receive a response. When that occurs, a *C* node has to send its transaction *T* to all of the nodes in the validator set. Note that *C* sends *T* only once, and the validator set potentially changes at each blockchain height. 
+*C* node can connect to a *FN* node of its own choice. That node could currently be a member of the validator set. Therefore, a *C* node can connect to either a *FN* or a *V* node. When it does, it requests IP addresses of the nodes in the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait  until the system reaches *state 3*, in order to receive a response. When that occurs, a *C* node has to send its transaction *T* to all of the nodes in the validator set. **Note that *C* sends *T* only once, and the validator set potentially changes at each blockchain height.** 
 
 Let us consider a following scenario: 
 
@@ -51,8 +51,8 @@ If the aforesaid scenario occurred, and the *FN* node added the transaction to i
 
 This implies that the Mempool of a particular *V* node can never exceed the size of *M*. Furthermore, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDkwMTYyMjksMTAwMTE2NTQ1OSwtMT
-c5OTU2MzI5NiwxNzI3NzY1NDE0LC01NzcwMTkyODAsMzg4NTQy
-NjQyLDYxNzIzOTUzLC0xNzE5MzUzNTU3LDg0NDk0MDMwMSwtOT
-A4MzgzNzksLTkyODg2NjMzOV19
+eyJoaXN0b3J5IjpbMTA4Njg2NjE5LC0xMjA5MDE2MjI5LDEwMD
+ExNjU0NTksLTE3OTk1NjMyOTYsMTcyNzc2NTQxNCwtNTc3MDE5
+MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1Nyw4ND
+Q5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ==
 -->
