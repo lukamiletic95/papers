@@ -48,7 +48,7 @@ func receive(T transaction, Node sender) {
 	
 	addMempool(transaction);
 	for (Node node : getPeerSubset()) {
-		node.receive(transaction, self)
+		node.receive(transaction, self);
 	}
 }
 
@@ -69,8 +69,8 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzU3MjQ0NzUsLTEyMjQ4MzA5ODEsMT
-A3NTE0NTg0MiwxMzg4MjAxMDksMTA5MTM5ODM3MSwxNzM2ODM0
-OTUzLC0xNDI1MDk1NDY5LDEzNDIwMjU5MjUsMTU0NTM4MTkzN1
-19
+eyJoaXN0b3J5IjpbMTQzNjkwOTExNiwtMTIyNDgzMDk4MSwxMD
+c1MTQ1ODQyLDEzODgyMDEwOSwxMDkxMzk4MzcxLDE3MzY4MzQ5
+NTMsLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNTQ1MzgxOTM3XX
+0=
 -->
