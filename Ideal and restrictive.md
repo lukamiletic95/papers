@@ -40,13 +40,13 @@ The system loops through five different states:
 
 Let us consider a following scenario:
 
-	1. C node request 
+	1. C node requests...
 
 > It is assumed that there is a global constant ***M***, that denotes the number of transactions in a block.
 
 Therefore, Mempool of a particular *V* node can never exceed the size of *M*. If that were to happen, a *C* transaction might never be executed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg2MDMwNjMsMzg4NTQyNjQyLDYxNz
-IzOTUzLC0xNzE5MzUzNTU3LDg0NDk0MDMwMSwtOTA4MzgzNzks
-LTkyODg2NjMzOV19
+eyJoaXN0b3J5IjpbLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3Mj
+M5NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwt
+OTI4ODY2MzM5XX0=
 -->
