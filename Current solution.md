@@ -29,26 +29,26 @@ Note that in step 2, a validity check would not have to be performed if the tran
 
 // Mempool gossiping algorithm in Tendermint - pseudocode
 
-func receive(T transaction, NodeType sender) {
-	// NodeType = {C, FN, V}
+func receive(T transaction, Node sender) {
+	// Node = {C, FN, V}
 
 	if (sender == C) { 
 		// in Tendermint - this condition does not exist
 	
 		bool valid = checkTx(transaction);
-	
 		if (valid == false) {
 			return;
 		}
 	}
 
 	bool isInMyMempool = checkMempool(transaction);
-
 	if (isInMyMempool == true) {
 		return;
 	}
-
 	
+	addMempool(transaction);
+	for (Node node : getPeerSubset()) {
+}
 }
 
 ```
@@ -68,8 +68,8 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTQ4NTc2OCwtMTIyNDgzMDk4MSwxMD
-c1MTQ1ODQyLDEzODgyMDEwOSwxMDkxMzk4MzcxLDE3MzY4MzQ5
-NTMsLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNTQ1MzgxOTM3XX
-0=
+eyJoaXN0b3J5IjpbLTE0ODQ0MjYyMTksLTEyMjQ4MzA5ODEsMT
+A3NTE0NTg0MiwxMzg4MjAxMDksMTA5MTM5ODM3MSwxNzM2ODM0
+OTUzLC0xNDI1MDk1NDY5LDEzNDIwMjU5MjUsMTU0NTM4MTkzN1
+19
 -->
