@@ -5,10 +5,10 @@ The solution provided here solves the overhead problem that exists within the cu
 First of all, let us assume that the system now transitions between five states, as shown in *Figure #*.
 
 <div align='center'> 
-<img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig8.png" />
+<img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig9.png" />
 	<h4>Figure # - Five states of the system</h4>
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0OTQwMzAxLC05MDgzODM3OSwtOTI4OD
-Y2MzM5XX0=
+eyJoaXN0b3J5IjpbLTE3OTk4OTAxOTYsODQ0OTQwMzAxLC05MD
+gzODM3OSwtOTI4ODY2MzM5XX0=
 -->
