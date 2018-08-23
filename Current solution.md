@@ -33,9 +33,13 @@ func receive(T transaction, NodeType sender) {
 	// NodeType = {C, FN, V}
 
 	if (sender == C) { 
-	// in Tendermint - this condition does not exist
+		// in Tendermint - this condition does not exist
 	
-	bool valid = checkTx(transaction);
+		bool valid = checkTx(transaction);
+	
+		if (valid == false) {
+			return;
+		}
 	}
 }
 
@@ -56,7 +60,7 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NzA0ODU3LC0xMjI0ODMwOTgxLDEwNz
+eyJoaXN0b3J5IjpbNzAwNDIxNDA1LC0xMjI0ODMwOTgxLDEwNz
 UxNDU4NDIsMTM4ODIwMTA5LDEwOTEzOTgzNzEsMTczNjgzNDk1
 MywtMTQyNTA5NTQ2OSwxMzQyMDI1OTI1LDE1NDUzODE5MzddfQ
 ==
