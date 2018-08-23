@@ -20,7 +20,7 @@ The system loops through five different states:
 
 * **Timeout for clients' transactions →** Upon being provided with the validator set to-be, the system will wait for a certain *timeout*, so that all the *C* nodes can send their transactions to appropriate *V* nodes.
 
-* **Consensus instance →** When all the transactions have been sent
+* **Consensus instance →** When all the transactions have been sent, a consensus instance may be initiated, so as to determine the next block of transactions within the blockchain.
 
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig9.png" />
@@ -32,6 +32,6 @@ The system loops through five different states:
 * *V - Validator node (is also a *FN* node)*
 * *CFG - Configuration file*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ0NjY3MjgsLTE3MTkzNTM1NTcsOD
-Q0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
+eyJoaXN0b3J5IjpbNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OT
+QwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
