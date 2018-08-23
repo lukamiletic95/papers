@@ -8,7 +8,9 @@ First of all, let us assume that the system now transitions between five states,
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig8.png" />
 	<h4>Figure # - Five states of the system</h4>
 </div>
+
+Core
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0OTQwMzAxLDg0NDk0MDMwMSwtOTA4Mz
-gzNzksLTkyODg2NjMzOV19
+eyJoaXN0b3J5IjpbMTA3NjI4NTU3OCw4NDQ5NDAzMDEsLTkwOD
+M4Mzc5LC05Mjg4NjYzMzldfQ==
 -->
