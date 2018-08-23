@@ -53,7 +53,7 @@ To solve this, it is assumed that a *V* node remains in the validator set until 
 
 // Pseudocode for a C node
 
-func send(T transaction) {
+func send(T transaction) bool {
 	Node provider = establishConnection();
 	
 	Set<Node> validatorSet = provider.requestValidatorSet();
@@ -62,14 +62,20 @@ func send(T transaction) {
 
 	for (Node node : validatorSet) {
 		success = node.receive(transaction, self);
+		
+		if (success == false) {
+			return success;
+		}
 	}
+
+	return success;
 }
 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1MjczNjU4LC0xNzAzNjA2MjI3LC03OD
+eyJoaXN0b3J5IjpbMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03OD
 Q0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1
 NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MC
 wzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQw
