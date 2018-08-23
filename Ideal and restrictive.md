@@ -65,7 +65,7 @@ func send(T transaction, IPaddress providerIP) bool {
 	int numberReceived = 0;
 
 	for (Node node : validatorSet) {
-		bool success = node.receive(transaction, self);
+		bool success = node.receive(transaction);
 		
 		if (success == true) {
 			numberReceived++;
@@ -104,15 +104,20 @@ func requestValidatorSet(Node requester) {
 	return CFG.getValidatorSet();
 }
 
-func receive(T transaction, Node sender) : bool {
+func receive(T transaction) : bool {
 	if (timeoutExpired(TIMEOUT)) {
-		retu
+		return false;
 	}
+	
 	bool valid = checkTx(transaction);
 	
 	if (valid == false) {
-		retur false;
+		return false;
 	}
+
+	addMempool(transaction);
+
+	return true;
 }
 
 ```
@@ -120,10 +125,10 @@ func receive(T transaction, Node sender) : bool {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE5NTQ5MjMsMTYxMzkxMTIyMSwyNT
-U1NTg2OTQsLTE3MDM2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgw
-NjIzLC0xMjA5MDE2MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOT
-YsMTcyNzc2NTQxNCwtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcy
-Mzk1MywtMTcxOTM1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC
-05Mjg4NjYzMzldfQ==
+eyJoaXN0b3J5IjpbMzg3NTQyNTcxLDE2MTM5MTEyMjEsMjU1NT
+U4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAwNDYsLTQ5Njk4MDYy
+MywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LD
+E3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5
+NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOT
+I4ODY2MzM5XX0=
 -->
