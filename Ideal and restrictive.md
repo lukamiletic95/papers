@@ -36,7 +36,7 @@ The system loops through five different states:
 * *CFG - Configuration file*
 <br/><br/>
 
-*C* node can connect to a *FN* node of its own choice. That node could currently be a member of the validator set. Therefore, a *C* node can connect to either a *FN* or a *V* node. When it does, it requests IP addresses of the nodes in the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait  until the system reaches *state 3*, in order to receive a response. When that occurs, a *C* node has to send its transaction *T* to all of the nodes in the validator set. **Note that *C* sends *T* only once, and the validator set potentially changes at each blockchain height.** 
+*C* node can connect to a *FN* node of its own choice. That node could currently be a member of the validator set. Therefore, a *C* node can connect to either a *FN* or a *V* node, as shown in *Figure #*. When it does, it requests IP addresses of the nodes in the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait  until the system reaches *state 3*, in order to receive a response. When that occurs, a *C* node has to send its transaction *T* to all of the nodes in the validator set. **Note that *C* sends *T* only once, and the validator set potentially changes at each blockchain height.** 
 
 Let us consider a following scenario: 
 
@@ -136,10 +136,10 @@ However, it most certainly eliminates the overhead problem that exists in the cu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzgyMjE4NiwtOTU0MDIzNjE5LDE2MT
-M5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAw
-NDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC
-0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1
-NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC
-05MDgzODM3OSwtOTI4ODY2MzM5XX0=
+eyJoaXN0b3J5IjpbODg4MjEyNjksMjEyNzgyMjE4NiwtOTU0MD
+IzNjE5LDE2MTM5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3
+LC03ODQ0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMD
+AxMTY1NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAx
+OTI4MCwzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsOD
+Q0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
