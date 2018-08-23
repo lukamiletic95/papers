@@ -36,11 +36,11 @@ The system loops through five different states:
 * *CFG - Configuration file*
 <br/><br/>
 
-*C* node can connect to a *FN* node of its own choice. That node could currently be a member of the validator set. Therefore, a *C* node can connect to either a *FN* or a *V* node. When it does, it requests IP addresses of the nodes in the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait  until the system reaches *state 3*, in order to receive a response. When that occurs, a *C* node has to send its transaction *T* to all the nodes in the validator set. 
+*C* node can connect to a *FN* node of its own choice. That node could currently be a member of the validator set. Therefore, a *C* node can connect to either a *FN* or a *V* node. When it does, it requests IP addresses of the nodes in the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait  until the system reaches *state 3*, in order to receive a response. When that occurs, a *C* node has to send its transaction *T* to all of the nodes in the validator set. For a *C* transaction to be processed, it must be proposed in the round to come, because *C* sends a request only once, and the validator set potentially changes at each blockchain height. 
 
-> It is assumed that there is a global constant ***M***, that denotes the number of transactions in a block. For a *C* transaction to be processed, it must be proposed in the round to come, because *C* sends a request only once,
+> It is assumed that there is a global constant ***M***, that denotes the number of transactions in a block.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4NjczNzQ5LDYxNzIzOTUzLC0xNzE5Mz
-UzNTU3LDg0NDk0MDMwMSwtOTA4MzgzNzksLTkyODg2NjMzOV19
-
+eyJoaXN0b3J5IjpbMTA1NzYwODAyMSw2MTcyMzk1MywtMTcxOT
+M1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzld
+fQ==
 -->
