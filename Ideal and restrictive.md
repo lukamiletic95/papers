@@ -38,15 +38,15 @@ The system loops through five different states:
 
 *C* node can connect to a *FN* node of its own choice. That node could currently be a member of the validator set. Therefore, a *C* node can connect to either a *FN* or a *V* node. When it does, it requests IP addresses of the nodes in the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait  until the system reaches *state 3*, in order to receive a response. When that occurs, a *C* node has to send its transaction *T* to all of the nodes in the validator set. For a *C* transaction to be processed, it must be inside the proposed block in the consensus instance to come, because *C* sends a request only once, and the validator set potentially changes at each blockchain height. 
 
-Let us consider a following scenario:
+Let us consider a following scenario: 
 
-	1. C node requests...
+	1. C node requests IP addresses of the validator set from a chosen FN node.
 
 > It is assumed that there is a global constant ***M***, that denotes the number of transactions in a block.
 
 Therefore, Mempool of a particular *V* node can never exceed the size of *M*. If that were to happen, a *C* transaction might never be executed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3Mj
-M5NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwt
-OTI4ODY2MzM5XX0=
+eyJoaXN0b3J5IjpbLTE2OTE0MzkwNDgsLTU3NzAxOTI4MCwzOD
+g1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAx
+LC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
