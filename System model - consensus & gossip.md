@@ -19,7 +19,7 @@ A ***validator set*** is a set of *FN* nodes that is chosen for each consensus i
 
 > Consensus instance represents one execution of the Tendermint consensus algorithm. Mainly, that algorithm will be considered a black-box in this paper, with the exception of revealing minor details of its implementation that are relevant to the functioning of the Mempool component and gossiping transactions from the Mempool. Consensus algorithm is described in detail in [1].
 
-Therefore, the validator set potentially changes at each blockchain height.
+Therefore, the validator set potentially changes at each blockchain height. Validators are expected to be online, and the set of validators is curated by some external process. 
 
 > The validator set is always chosen in a way to maximize the utilization of their voting power. [1] - p. 5, III - TENDERMINT CONSENSUS ALGORITHM
 
@@ -33,11 +33,11 @@ A ***proposer*** is a node that has the obligation to propose what the next bloc
 
 Hence, we come to a crucial conclusion regarding the Mempool and gossiping of transactions from it - **when a *FN* receives a *C* transaction inside its Mempool, it must gossip it in a way that guarantees (or at least provides a high probability outcome) that the transaction will eventually reach a Mempool of at least one *FN* node that will be a member of the validator set (hence, a *V* node) and a *proposer* in some round k<sub>i</sub> at some blockchain height h<sub>j</sub> in the future**. That particular course of events will then lead to a client transaction being both executed and stored within a blockchain.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0NzMwMjY1LDQ2MzAzNjQ1MywxNzk5OD
-I5MDk4LC0yMTE4NDUxMDIsMTE1MDA0MDMwMCwtMjA0NDQ0Mjc5
-MSw4MDM1MTIwMzUsODExMTU0MTEyLDI5MDcyNjYyMywtMTY2Nz
-ExODY0NywtODg4MzgzMjM1LC0xMTcxNDA0MTg4LDE2OTAzNjY4
-MTksLTEwNTg4MTQxNzMsLTUzMTQ4NTQyNywxMjM1ODUzNTY4LD
-Q1MDgxMjYxMywxMTQ1ODY2MTQ3LDIxNzc1MjI5NCwtNDAyOTM1
-NzgyXX0=
+eyJoaXN0b3J5IjpbLTIwMjMyNzU1MTYsMzk0NzMwMjY1LDQ2Mz
+AzNjQ1MywxNzk5ODI5MDk4LC0yMTE4NDUxMDIsMTE1MDA0MDMw
+MCwtMjA0NDQ0Mjc5MSw4MDM1MTIwMzUsODExMTU0MTEyLDI5MD
+cyNjYyMywtMTY2NzExODY0NywtODg4MzgzMjM1LC0xMTcxNDA0
+MTg4LDE2OTAzNjY4MTksLTEwNTg4MTQxNzMsLTUzMTQ4NTQyNy
+wxMjM1ODUzNTY4LDQ1MDgxMjYxMywxMTQ1ODY2MTQ3LDIxNzc1
+MjI5NF19
 -->
