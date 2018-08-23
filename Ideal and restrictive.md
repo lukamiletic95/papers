@@ -4,6 +4,7 @@ The solution provided here solves the overhead problem that exists in the curren
 
 First of all, let us assume that the system now transitions between five states, as shown in *Figure #*.
 
+<br/><br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig8.png" />
 	<h4>Figure # - Five states of the system</h4>
@@ -33,7 +34,7 @@ The system loops through five different states:
 * *V - Validator node (is also a *FN* node)*
 * *CFG - Configuration file*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQzMjg4NDcsNjE3MjM5NTMsLTE3MT
-kzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5
-XX0=
+eyJoaXN0b3J5IjpbLTczNDM1MDQ3OCw2MTcyMzk1MywtMTcxOT
+M1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzld
+fQ==
 -->
