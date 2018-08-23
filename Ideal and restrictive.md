@@ -14,7 +14,7 @@ The core idea of this solution is that a client can always find out IP addresses
 The system loops through five different states:
 * **Determine validator set →** This is done by an external process. Upon determining the members of the validator set, *CFG* files of all *FN* nodes must be updated.
 
-* **Update CFG files →** Apart from containing information about the peer subset and connected clients, *CFG* file now contains infor  
+* **Update CFG files →** Apart from containing information about the peer subset and connected clients, *CFG* file now contains information about the validator set that will be used in the next consensus instance.  
 
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig9.png" />
@@ -26,6 +26,6 @@ The system loops through five different states:
 * *V - Validator node (is also a *FN* node)*
 * *CFG - Configuration file*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4NzQwMzE4LC0xNzE5MzUzNTU3LDg0ND
-k0MDMwMSwtOTA4MzgzNzksLTkyODg2NjMzOV19
+eyJoaXN0b3J5IjpbLTY3NzYyMzAzMCwtMTcxOTM1MzU1Nyw4ND
+Q5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ==
 -->
