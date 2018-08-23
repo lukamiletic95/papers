@@ -22,6 +22,8 @@ Current Tendermint Mempool gossiping algorithm works as follows (this is execute
 	5. If 4 == true, FN drops the message and does nothing.
 	6. If 4 == false, FN stores T inside its Mempool.
 	7. FN then gossips (broadcasts) T to everyone in its peer subset.
+
+Note that in step 2, a validity check would not have to be performed
 	
 If we assume that the network (excluding *C* nodes) is modeled via a connected graph, then the number of messages that are exchanged for one transaction *T* is equal to *2 * num_of_vertices*, although the optimal number of messages is equal to the number of *FN* nodes decreased by 1 (*C* → *FN* message isn't taken into account since it is not a part of the gossiping protocol).
 	
@@ -38,7 +40,8 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQ4MzA5ODEsMTA3NTE0NTg0MiwxMz
-g4MjAxMDksMTA5MTM5ODM3MSwxNzM2ODM0OTUzLC0xNDI1MDk1
-NDY5LDEzNDIwMjU5MjUsMTU0NTM4MTkzN119
+eyJoaXN0b3J5IjpbLTIxMzAyMzMwNDQsLTEyMjQ4MzA5ODEsMT
+A3NTE0NTg0MiwxMzg4MjAxMDksMTA5MTM5ODM3MSwxNzM2ODM0
+OTUzLC0xNDI1MDk1NDY5LDEzNDIwMjU5MjUsMTU0NTM4MTkzN1
+19
 -->
