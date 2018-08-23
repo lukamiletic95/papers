@@ -83,10 +83,12 @@ At the beginning, a *C* node tries to establish a connection with a selected *FN
 
 // Pseudocode for a C node
 
-Set<Node> requesters = ...;
+File CFG;
 
 func main() {
-	Set<Node> ntilDeterminingTheValidatorSetIsFinished();
+	Set<Node> validatorSet = determineValidatorSet();
+
+
 	
 }
 
@@ -103,7 +105,7 @@ func receive(T transaction, Node sender) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5MDM1MDAwLDE2MTM5MTEyMjEsMjU1NT
+eyJoaXN0b3J5IjpbOTQzNjI1NjE0LDE2MTM5MTEyMjEsMjU1NT
 U4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAwNDYsLTQ5Njk4MDYy
 MywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LD
 E3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5
