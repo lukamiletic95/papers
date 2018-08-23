@@ -41,6 +41,14 @@ func receive(T transaction, NodeType sender) {
 			return;
 		}
 	}
+
+	bool isInMyMempool = checkMempool(transaction);
+
+	if (isInMyMempool == true) {
+		return;
+	}
+
+	
 }
 
 ```
@@ -60,8 +68,8 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwNDIxNDA1LC0xMjI0ODMwOTgxLDEwNz
-UxNDU4NDIsMTM4ODIwMTA5LDEwOTEzOTgzNzEsMTczNjgzNDk1
-MywtMTQyNTA5NTQ2OSwxMzQyMDI1OTI1LDE1NDUzODE5MzddfQ
-==
+eyJoaXN0b3J5IjpbLTM3NTQ4NTc2OCwtMTIyNDgzMDk4MSwxMD
+c1MTQ1ODQyLDEzODgyMDEwOSwxMDkxMzk4MzcxLDE3MzY4MzQ5
+NTMsLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNTQ1MzgxOTM3XX
+0=
 -->
