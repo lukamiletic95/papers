@@ -55,6 +55,10 @@ To solve this, it is assumed that a *V* node remains in the validator set until 
 
 func send(T transaction) bool {
 	Node provider = establishConnection();
+
+	if (provider == nil) {
+		return false;
+	}
 	
 	Set<Node> validatorSet = provider.requestValidatorSet();
 
@@ -74,11 +78,12 @@ func send(T transaction) bool {
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTgwMTExMiwyNTU1NTg2OTQsLTE3MD
-M2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgwNjIzLC0xMjA5MDE2
-MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOTYsMTcyNzc2NTQxNC
-wtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1
-MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ
-==
+eyJoaXN0b3J5IjpbLTE0MzAxMDY0NDAsMjU1NTU4Njk0LC0xNz
+AzNjA2MjI3LC03ODQ0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAx
+NjIyOSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MT
+QsLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkz
+NTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX
+0=
 -->
