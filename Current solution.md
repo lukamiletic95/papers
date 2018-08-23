@@ -54,7 +54,7 @@ func receive(T transaction, Node sender) {
 
 ```
 
-*C* node calls function *receive()* whenever it wants to have its transaction processed by the Tendermint network.
+*C* node calls function *receive()* whenever it wants to have its transaction *T* processed by the Tendermint network. Type *Node* contains all the necessary information about a particular Node, and 
 	
 If we assume that the network (excluding *C* nodes) is modeled via a connected graph, then the number of messages that are exchanged for one transaction *T* is equal to *2 * num_of_vertices*, although the optimal number of messages is equal to the number of *FN* nodes decreased by 1 (*C* → *FN* message isn't taken into account since it is not a part of the gossiping protocol).
 	
@@ -71,7 +71,7 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODQ5NzMwNSwtMTIyNDgzMDk4MSwxMD
+eyJoaXN0b3J5IjpbMTU0Mzc1MjIxOSwtMTIyNDgzMDk4MSwxMD
 c1MTQ1ODQyLDEzODgyMDEwOSwxMDkxMzk4MzcxLDE3MzY4MzQ5
 NTMsLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNTQ1MzgxOTM3XX
 0=
