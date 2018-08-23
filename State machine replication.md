@@ -49,5 +49,6 @@ This approach also enables resilience to both Byzantine failures and Start-Stop 
 
 [^1]: Discussing this particular protocol is beyond the scope of this paper.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDUwMjg4NSw2NjE4NjQxNzldfQ==
+eyJoaXN0b3J5IjpbMTczMzQ3NTMwNiwtMjcwNTAyODg1LDY2MT
+g2NDE3OV19
 -->
