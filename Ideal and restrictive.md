@@ -18,7 +18,9 @@ The system loops through five different states:
 
 * **Answer clients' requests →** It should be observed that a client may send its request completely asynchronously, when the system is in any of the five possible states. However, client will not be provided with information about the validator set until the system reaches this state.
 
-* **Timeout for clients' transactions →** Upon being provided with the validator set to-be, a
+* **Timeout for clients' transactions →** Upon being provided with the validator set to-be, the system will wait for a certain *timeout*, so that all the *C* nodes can send their transactions to appropriate *V* nodes.
+
+* **Consensus instance →** When all the transactions have been sent
 
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig9.png" />
@@ -30,6 +32,6 @@ The system loops through five different states:
 * *V - Validator node (is also a *FN* node)*
 * *CFG - Configuration file*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE4NDkyNTEsLTE3MTkzNTM1NTcsOD
+eyJoaXN0b3J5IjpbLTE2NDQ0NjY3MjgsLTE3MTkzNTM1NTcsOD
 Q0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
