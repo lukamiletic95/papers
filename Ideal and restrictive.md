@@ -42,13 +42,14 @@ Let us consider a following scenario:
 
 	1. C node requests IP addresses of the validator set from a chosen FN node.
 	2. C node receives the requested IP addresses.
-	3. C node 
+	3. C node starts sending T to all the members of the validator set.
+	4. What if the size of some validator's Mempool exceeds size
 
 > It is assumed that there is a global constant ***M***, that denotes the number of transactions in a block.
 
 Therefore, Mempool of a particular *V* node can never exceed the size of *M*. If that were to happen, a *C* transaction might never be executed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzk4MTI1MjEsMTcyNzc2NTQxNCwtNT
-c3MDE5MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1
-Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ==
+eyJoaXN0b3J5IjpbLTg3NTkxMDI3MSwxNzI3NzY1NDE0LC01Nz
+cwMTkyODAsMzg4NTQyNjQyLDYxNzIzOTUzLC0xNzE5MzUzNTU3
+LDg0NDk0MDMwMSwtOTA4MzgzNzksLTkyODg2NjMzOV19
 -->
