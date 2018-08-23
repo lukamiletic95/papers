@@ -35,8 +35,10 @@ The system loops through five different states:
 * *V - Validator node (is also a *FN* node)*
 * *CFG - Configuration file*
 <br/><br/>
+
+*C* node can connect to a *FN* of its own choice (
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTc0NDI4MTcsNjE3MjM5NTMsLTE3MT
-kzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5
-XX0=
+eyJoaXN0b3J5IjpbLTM0NzczMzMyOCw2MTcyMzk1MywtMTcxOT
+M1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzld
+fQ==
 -->
