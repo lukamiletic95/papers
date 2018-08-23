@@ -132,14 +132,14 @@ As mentioned before, the system (therefore every *FN*/*V* node in the system) lo
 
 The idea provided here imposes restrictions that may hamper the performance of the algorithm. Primarily, system goes through different states, and is not constantly available to a *C* node. Client has to wait for the system to reach the appropriate state in order to respond with a requested validator set. Furthermore, the value used for *timeout* must be carefully chosen. It determines the time period throughout which a system can receive transactions from client nodes. The longer it is, the more clients can send their transactions before a consensus instance is initiated. This algorithm also makes a *C* node possibly have to re-send its transaction, in case it hadn't reached any of the *V* nodes.
 
-However, it most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. First of all, not even all *FN* nodes receive the transaction. Instead, only the ones that will propose it in a future consensus instance are actually provided with it. Even if it were only a single node, the *T* will still be executed at some point. Distributing a *T* to multiple *V* nodes only increases the chances of *T* being executed sooner.
+However, it most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. First of all, not even all *FN* nodes receive the transaction. Instead, only the ones that will propose it in a future consensus instance are actually provided with it. Even if it were only a single node that receives it, the *T* will still be executed at some point. Distributing a *T* to multiple *V* nodes only increases the chances of *T* being executed sooner.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4MTIyNjM0LC05NTQwMjM2MTksMTYxMz
-kxMTIyMSwyNTU1NTg2OTQsLTE3MDM2MDYyMjcsLTc4NDQwMDA0
-NiwtNDk2OTgwNjIzLC0xMjA5MDE2MjI5LDEwMDExNjU0NTksLT
-E3OTk1NjMyOTYsMTcyNzc2NTQxNCwtNTc3MDE5MjgwLDM4ODU0
-MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1Nyw4NDQ5NDAzMDEsLT
-kwODM4Mzc5LC05Mjg4NjYzMzldfQ==
+eyJoaXN0b3J5IjpbMjEyNzgyMjE4NiwtOTU0MDIzNjE5LDE2MT
+M5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAw
+NDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC
+0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1
+NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC
+05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
