@@ -22,7 +22,7 @@ The system loops through five different states:
 
 * **Consensus instance →** When all the transactions have been sent, a consensus instance may be initiated, so as to determine the next block of transactions within the blockchain.
 
-<br/>
+<br/><br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig9.png" />
 	<h4>Figure # - Client interaction with the system</h4>
@@ -33,7 +33,7 @@ The system loops through five different states:
 * *V - Validator node (is also a *FN* node)*
 * *CFG - Configuration file*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTIwNDY1LDYxNzIzOTUzLC0xNzE5Mz
-UzNTU3LDg0NDk0MDMwMSwtOTA4MzgzNzksLTkyODg2NjMzOV19
-
+eyJoaXN0b3J5IjpbLTE1NTQzMjg4NDcsNjE3MjM5NTMsLTE3MT
+kzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5
+XX0=
 -->
