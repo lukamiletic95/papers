@@ -86,15 +86,15 @@ Simple improvement would be that, during the Mempool gossiping phase, a transact
 
 ```
 
-Yet, this solution guarantees that the message will eventually be proposed and therefore added to the blockchain and executed.
+Yet, the current solution guarantees that the message will eventually be proposed and therefore added to the blockchain and executed.
 
 [^1]: Implementation of *checkTx()* function can be found at: <https://github.com/tendermint/tendermint/blob/master/mempool/mempool.go>
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzM0ODM1MywyMDQzNjUwNTk2LC0xMj
-I0ODMwOTgxLDEwNzUxNDU4NDIsMTM4ODIwMTA5LDEwOTEzOTgz
-NzEsMTczNjgzNDk1MywtMTQyNTA5NTQ2OSwxMzQyMDI1OTI1LD
-E1NDUzODE5MzddfQ==
+eyJoaXN0b3J5IjpbNTcxOTc4Mjk5LDIwNDM2NTA1OTYsLTEyMj
+Q4MzA5ODEsMTA3NTE0NTg0MiwxMzg4MjAxMDksMTA5MTM5ODM3
+MSwxNzM2ODM0OTUzLC0xNDI1MDk1NDY5LDEzNDIwMjU5MjUsMT
+U0NTM4MTkzN119
 -->
