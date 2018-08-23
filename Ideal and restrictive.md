@@ -45,11 +45,11 @@ Let us consider a following scenario:
 	3. C node starts sending T to all the members of the validator set.
 	4. What if the size of some validator's Mempool would exceed the maximum number of transactions per block?
 
-> It is assumed that there is a global constant ***M***, that denotes the number of transactions within a block.
+If the aforesaid scenario occurred, and the 
 
 Therefore, Mempool of a particular *V* node can never exceed the size of *M*. If that were to happen, a *C* transaction might never be executed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI0OTY2NjEsMTcyNzc2NTQxNCwtNT
+eyJoaXN0b3J5IjpbLTExNzQ2MjQ2NjMsMTcyNzc2NTQxNCwtNT
 c3MDE5MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1
 Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ==
 -->
