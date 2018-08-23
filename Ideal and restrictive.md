@@ -38,9 +38,9 @@ The system loops through five different states:
 
 *C* node can connect to a *FN* node of its own choice. That node could currently be a member of the validator set. Therefore, a *C* node can connect to either a *FN* or a *V* node. When it does, it requests IP addresses of the nodes in the validator set in the next consensus instance. Due to the fact that the system transitions between states, *C* node may have to wait  until the system reaches *state 3*, in order to receive a response. When that occurs, a *C* node has to send its transaction *T* to all the nodes in the validator set. 
 
-It is assumed that there is a global constant ***M***, that denotes the number of transactions in a block. For a *C* 
+> It is assumed that there is a global constant ***M***, that denotes the number of transactions in a block. For a *C* transaction to be processed, it must be proposed in the round to come, because *C* sends a request only once,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwNjMzNDg4LDYxNzIzOTUzLC0xNzE5Mz
+eyJoaXN0b3J5IjpbMjU4NjczNzQ5LDYxNzIzOTUzLC0xNzE5Mz
 UzNTU3LDg0NDk0MDMwMSwtOTA4MzgzNzksLTkyODg2NjMzOV19
 
 -->
