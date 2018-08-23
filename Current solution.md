@@ -25,8 +25,7 @@ If we assume that the network (excluding *C* nodes) is modeled via a connected g
 	
 On the other hand, this algorithm **guarantees** that a message will reach everyone within the network, since we assumed that the minimum size of the peer subset is 1, and therefore there are no disconnected *FN* nodes.
 
-**nisam siguran za ovo?** →
-However, Tendermint consensus algorithm is also gossip-based. Every time a proposer wishes to propose a block, it sends a special type of message - *PROPOSAL MESSAGE* [1]. That message contains a proposed block (which contains a batch of transactions), and is again gossiped to the peers of the round's selected proposer, and so forth. That may lead to some node receiving information about a transaction which it already received during the Mempool gossip phase, which is again a redundancy.
+Furthermore, Tendermint consensus algorithm is also gossip-based. Every time a proposer wishes to propose a block, it sends a special type of message - *PROPOSAL MESSAGE* [1]. That message contains a proposed block (which contains a batch of transactions), and is again gossiped to the peers of the round's selected proposer, and so forth. That may lead to some node receiving information about a transaction which it already received during the Mempool gossip phase, which is again a redundancy.
 
 From all of the above, it may be concluded that a current solution used in Tendermint produces a large overhead, and that there is space for improving it.
 
@@ -37,7 +36,7 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyNDYzNTIzLDEwOTEzOTgzNzEsMTczNj
+eyJoaXN0b3J5IjpbMTM4ODIwMTA5LDEwOTEzOTgzNzEsMTczNj
 gzNDk1MywtMTQyNTA5NTQ2OSwxMzQyMDI1OTI1LDE1NDUzODE5
 MzddfQ==
 -->
