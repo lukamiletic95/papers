@@ -9,7 +9,7 @@ First of all, let us assume that the system now transitions between five states,
 	<h4>Figure # - Five states of the system</h4>
 </div>
 
-The core idea of this solution is that the client can always find out IP addresses of nodes that will be in the validator set in the next consensus instance. When it does, it can send its transaction to all the nodes within that set. Even though a consensus instance may consist of multiple rounds (***k***
+The core idea of this solution is that the client can always find out IP addresses of nodes that will be in the validator set in the next consensus instance. When it does, it can send its transaction to all the nodes within that set. Even though a consensus instance may consist of multiple rounds (where ***k*** represents the number of those rounds), if a *C* node sends its transaction to the entire validator set, **it is guaranteed**
 
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig9.png" />
@@ -21,6 +21,6 @@ The core idea of this solution is that the client can always find out IP address
 * *V - Validator node (is also a *FN* node)*
 * *CFG - Configuration file*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc0NDEyNDMsODQ0OTQwMzAxLC05MD
+eyJoaXN0b3J5IjpbLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC05MD
 gzODM3OSwtOTI4ODY2MzM5XX0=
 -->
