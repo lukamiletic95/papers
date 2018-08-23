@@ -65,9 +65,9 @@ If we assume that the network (excluding *C* nodes) is modeled via a connected g
 	
 On the other hand, this algorithm **guarantees** that a message will reach everyone within the network, since we assumed that the minimum size of the peer subset is 1, and therefore there are no disconnected *FN* nodes.
 
-It should also be observed that this solution **guarantees** a **FIFO distribution** of all *C* transactions. If a *C* node sends multiple transactions, they are received in the same order in which they have been sent, and are therefore also gossiped in-order.
+It should also be observed that this solution **guarantees** a **FIFO distribution** of all *C* transactions. If a *C* node sends multiple transactions, they are received in the same order in which they have been sent, and are therefore also gossiped in-order. 
 
-Furthermore, Tendermint consensus algorithm is also gossip-based. Every time a proposer wishes to propose a block, it sends a special type of message - *PROPOSAL MESSAGE* [1]. That message contains a proposed block (which contains a batch of transactions), and is again gossiped to the peers of the round's selected proposer, and so forth. That may lead to some node which is not a part of the current validator set receiving information about a transaction which it already received during the Mempool gossip phase, which is again a redundancy.
+Tendermint consensus algorithm is also gossip-based. Every time a proposer wishes to propose a block, it sends a special type of message - *PROPOSAL MESSAGE* [1]. That message contains a proposed block (which contains a batch of transactions), and is again gossiped to the peers of the round's selected proposer, and so forth. That may lead to some node which is not a part of the current validator set receiving information about a transaction which it already received during the Mempool gossip phase, which is again a redundancy.
 
 From all of the above, it may be concluded that a current solution used in Tendermint produces a large overhead, and that there is space for improving it.
 
@@ -95,7 +95,7 @@ Yet, the current solution guarantees that the message will eventually be propose
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzI3ODY2MywxOTYwMTgyOTgzLDIwMz
+eyJoaXN0b3J5IjpbLTg2NjI2MTQyOCwxOTYwMTgyOTgzLDIwMz
 Q0Nzg3MzAsLTExNjQzNzMyODIsNTcxOTc4Mjk5LDIwNDM2NTA1
 OTYsLTEyMjQ4MzA5ODEsMTA3NTE0NTg0MiwxMzg4MjAxMDksMT
 A5MTM5ODM3MSwxNzM2ODM0OTUzLC0xNDI1MDk1NDY5LDEzNDIw
