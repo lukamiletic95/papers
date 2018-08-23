@@ -86,11 +86,12 @@ At the beginning, a *C* node tries to establish a connection with a selected *FN
 Set<Node> requesters = ...;
 
 func main() {
+	Set<Node> ntilDeterminingTheValidatorSetIsFinished();
 	
 }
 
 func requestValidatorSet(Node requester) Set<Node> {
-	requesters
+	
 }
 
 func receive(T transaction, Node sender) {
@@ -102,10 +103,10 @@ func receive(T transaction, Node sender) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODU1NjA3MDUsMTYxMzkxMTIyMSwyNT
-U1NTg2OTQsLTE3MDM2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgw
-NjIzLC0xMjA5MDE2MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOT
-YsMTcyNzc2NTQxNCwtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcy
-Mzk1MywtMTcxOTM1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC
-05Mjg4NjYzMzldfQ==
+eyJoaXN0b3J5IjpbNzA5MDM1MDAwLDE2MTM5MTEyMjEsMjU1NT
+U4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAwNDYsLTQ5Njk4MDYy
+MywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LD
+E3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5
+NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOT
+I4ODY2MzM5XX0=
 -->
