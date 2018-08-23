@@ -30,8 +30,11 @@ Note that in step 2, a validity check would not have to be performed if the tran
 // Mempool gossiping algorithm in Tendermint - pseudocode
 
 function receive(T transaction, NodeType sender) {
-  // NodeType = {C, FN, V}
+	// NodeType = {C, FN, V}
 
+	if (sender == C) { // in Tendermint - this condition 
+	
+	}
 }
 
 ```
@@ -51,8 +54,8 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzA5NDUxLC0xMjI0ODMwOTgxLDEwNz
-UxNDU4NDIsMTM4ODIwMTA5LDEwOTEzOTgzNzEsMTczNjgzNDk1
-MywtMTQyNTA5NTQ2OSwxMzQyMDI1OTI1LDE1NDUzODE5MzddfQ
-==
+eyJoaXN0b3J5IjpbMjAwMDc3NzkxMCwtMTIyNDgzMDk4MSwxMD
+c1MTQ1ODQyLDEzODgyMDEwOSwxMDkxMzk4MzcxLDE3MzY4MzQ5
+NTMsLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNTQ1MzgxOTM3XX
+0=
 -->
