@@ -41,12 +41,14 @@ The system loops through five different states:
 Let us consider a following scenario: 
 
 	1. C node requests IP addresses of the validator set from a chosen FN node.
+	2. C node receives the requested IP addresses.
+	3. C node starts
 
 > It is assumed that there is a global constant ***M***, that denotes the number of transactions in a block.
 
 Therefore, Mempool of a particular *V* node can never exceed the size of *M*. If that were to happen, a *C* transaction might never be executed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE0MzkwNDgsLTU3NzAxOTI4MCwzOD
-g1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAx
-LC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
+eyJoaXN0b3J5IjpbMTcyNzc2NTQxNCwtNTc3MDE5MjgwLDM4OD
+U0MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1Nyw4NDQ5NDAzMDEs
+LTkwODM4Mzc5LC05Mjg4NjYzMzldfQ==
 -->
