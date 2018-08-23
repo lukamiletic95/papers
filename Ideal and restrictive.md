@@ -58,16 +58,20 @@ func send(T transaction) {
 	
 	Set<Node> validatorSet = provider.requestValidatorSet();
 
-	
+	bool success = true;
+
+	for (Node node : validatorSet) {
+		success = node.receive(transaction, self);
+	}
 }
 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTgwOTgwNiwtMTcwMzYwNjIyNywtNz
-g0NDAwMDQ2LC00OTY5ODA2MjMsLTEyMDkwMTYyMjksMTAwMTE2
-NTQ1OSwtMTc5OTU2MzI5NiwxNzI3NzY1NDE0LC01NzcwMTkyOD
-AsMzg4NTQyNjQyLDYxNzIzOTUzLC0xNzE5MzUzNTU3LDg0NDk0
-MDMwMSwtOTA4MzgzNzksLTkyODg2NjMzOV19
+eyJoaXN0b3J5IjpbNzg1MjczNjU4LC0xNzAzNjA2MjI3LC03OD
+Q0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1
+NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MC
+wzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQw
+MzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
