@@ -13,6 +13,7 @@ Q&A:
 - *Consensus - gossip based?*
 - *FIFO distribution and FIFO execution?*
 - *Metrics?*
+- *Fault-tolerant or not?*
 
 Paper structure:
 1. Abstract
