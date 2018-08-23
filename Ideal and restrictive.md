@@ -126,12 +126,12 @@ func receive(T transaction) : bool {
 
 ```
 
-As mentioned before, the system (therefore every *FN*/*V* node in the system) loops through five states. First, a validator set is determined using some external process (this is determined by the implementation of *determineValidatorSet()* function. After that, the system transitions to its second state, where it stores the current validator set inside its local configuration file. Observe that the function *requestValidatorSet()* can be called completely asynchronously. Therefore, synchronization is required, so that a *C* node will never get a response before the system reaches state 3. For that reason, a call to *requestValidatorSet()* function simply adds a requester to a current subscription list of nodes who await for the response regarding the validator set, and then blocks the calling thread (e.g. using a semaphore). Upon releasing all the calling threads (*releaseAllRequesters()*), the configuration file will have already been updated with the freshest information about the validator set
+As mentioned before, the system (therefore every *FN*/*V* node in the system) loops through five states. First, a validator set is determined using some external process (this is determined by the implementation of *determineValidatorSet()* function. After that, the system transitions to its second state, where it stores the current validator set inside its local configuration file. Observe that the function *requestValidatorSet()* can be called completely asynchronously. Therefore, synchronization is required, so that a *C* node will never get a response before the system reaches state 3. For that reason, a call to *requestValidatorSet()* function simply adds a requester to a current subscription list of nodes who await for the response regarding the validator set, and then blocks the calling thread (e.g. using a semaphore). Upon releasing all the calling threads (*releaseAllRequesters()*), the configuration file will have already been updated with the freshest information about the validator set (CFG.setValidatorSet(...)), and can then be used as a return value in the function *requestValidatorSet()*. After answering all the clients' requests, a *FN* reaches a state where it starts a timer for a certain 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODk2NTQyNiwtOTU0MDIzNjE5LDE2MT
+eyJoaXN0b3J5IjpbLTE4NTA5NzYyMiwtOTU0MDIzNjE5LDE2MT
 M5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAw
 NDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC
 0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1
