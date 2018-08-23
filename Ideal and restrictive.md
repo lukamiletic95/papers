@@ -9,8 +9,8 @@ First of all, let us assume that the system now transitions between five states,
 	<h4>Figure # - Five states of the system</h4>
 </div>
 
-Core
+The core idea of this solution is that the client can always find out IP addresses of nodes that will be in the validator set in the next consensus instance. When a client wishes to have its transaction processed by the network, it first 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjI4NTU3OCw4NDQ5NDAzMDEsLTkwOD
-M4Mzc5LC05Mjg4NjYzMzldfQ==
+eyJoaXN0b3J5IjpbLTEwMzIzNDk5NTAsODQ0OTQwMzAxLC05MD
+gzODM3OSwtOTI4ODY2MzM5XX0=
 -->
