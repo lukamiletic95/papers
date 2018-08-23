@@ -20,7 +20,7 @@ The system loops through five different states:
 
 3. **Answer clients' requests →** It should be observed that a client may send its request completely asynchronously, when the system is in any of the five possible states. However, client will not be provided with information about the validator set until the system reaches this state.
 
-4. **Timeout for clients' transactions →** Upon all the *C* that made a request being provided with the validator set to-be, the system will wait for a certain *timeout*, so that all the *C* nodes can send their transactions to appropriate *V* nodes.
+4. **Timeout for clients' transactions →** Upon all the *C* that made a request being provided with the validator set to-be, the system will wait for a certain ***timeout***, so that all the *C* nodes can send their transactions to appropriate *V* nodes.
 
 5. **Consensus instance →** When all the transactions have been sent, a consensus instance may be initiated, so as to determine the next block of transactions within the blockchain.
 
@@ -48,7 +48,7 @@ Let us consider a following scenario:
 
 Therefore, Mempool of a particular *V* node can never exceed the size of *M*. If that were to happen, a *C* transaction might never be executed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMwMDIzNDUsMTcyNzc2NTQxNCwtNT
+eyJoaXN0b3J5IjpbLTE4Nzk4MTI1MjEsMTcyNzc2NTQxNCwtNT
 c3MDE5MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1
 Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ==
 -->
