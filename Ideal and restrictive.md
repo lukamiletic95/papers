@@ -60,7 +60,7 @@ func send(T transaction, IPaddress providerIP) bool {
 		return false;
 	}
 	
-	Set<Node> validatorSet = provider.requestValidatorSet();
+	Set<Node> validatorSet = provider.requestValidatorSet(self);
 
 	int numberReceived = 0;
 
@@ -83,12 +83,14 @@ At the beginning, a *C* node tries to establish a connection with a selected *FN
 
 // Pseudocode for a C node
 
+Set<Node> requesters = ...;
+
 func main() {
 	
 }
 
-func requestValidatorSet() Set<Node> {
-	if (state 
+func requestValidatorSet(Node requester) Set<Node> {
+	requesters
 }
 
 func receive(T transaction, Node sender) {
@@ -100,7 +102,7 @@ func receive(T transaction, Node sender) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY4MDE4NzMsMTYxMzkxMTIyMSwyNT
+eyJoaXN0b3J5IjpbLTEyODU1NjA3MDUsMTYxMzkxMTIyMSwyNT
 U1NTg2OTQsLTE3MDM2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgw
 NjIzLC0xMjA5MDE2MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOT
 YsMTcyNzc2NTQxNCwtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcy
