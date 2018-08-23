@@ -29,11 +29,14 @@ Note that in step 2, a validity check would not have to be performed if the tran
 
 // Mempool gossiping algorithm in Tendermint - pseudocode
 
+// C node calls this function when it wants to have its transaction processed by the network
 func receive(T transaction, Node sender) {
 	// Node = {C, FN, V}
 
 	if (sender == C) { 
 		// in Tendermint - this condition does not exist
+		// checkTx is a Tendermint built-in function that checks the transactions validity
+		// its im
 	
 		bool valid = checkTx(transaction);
 		if (valid == false) {
@@ -69,7 +72,7 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjkwOTExNiwtMTIyNDgzMDk4MSwxMD
+eyJoaXN0b3J5IjpbMTExNjIyMzAyNCwtMTIyNDgzMDk4MSwxMD
 c1MTQ1ODQyLDEzODgyMDEwOSwxMDkxMzk4MzcxLDE3MzY4MzQ5
 NTMsLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNTQ1MzgxOTM3XX
 0=
