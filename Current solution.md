@@ -71,6 +71,19 @@ From all of the above, it may be concluded that a current solution used in Tende
 
 Simple improvement would be that, during the Mempool gossiping phase, a transaction *T* would not be broadcasted to a *FN* whom it was just received from. The aforementioned *receive()* function would be changed accordingly:
 
+```go
+
+// ...
+	addMempool(transaction);
+	for (Node node : getPeerSubset()) {
+		if (node == sender) {
+			continue;
+		}
+		
+		node.receive(transaction, self);
+	}
+//...
+
 ```
 
 Yet, this solution guarantees that the message will eventually be proposed and therefore added to the blockchain and executed.
@@ -80,7 +93,7 @@ Yet, this solution guarantees that the message will eventually be proposed and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDU3MTI1OCwyMDQzNjUwNTk2LC0xMj
+eyJoaXN0b3J5IjpbLTI4NzM0ODM1MywyMDQzNjUwNTk2LC0xMj
 I0ODMwOTgxLDEwNzUxNDU4NDIsMTM4ODIwMTA5LDEwOTEzOTgz
 NzEsMTczNjgzNDk1MywtMTQyNTA5NTQ2OSwxMzQyMDI1OTI1LD
 E1NDUzODE5MzddfQ==
