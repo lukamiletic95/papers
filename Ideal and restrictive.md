@@ -4,11 +4,12 @@ The solution provided here solves the overhead problem that exists in the curren
 
 First of all, let us assume that the system now transitions between five states, as shown in *Figure #*.
 
-<br/><br/><br/>
+<br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig8.png" />
 	<h4>Figure # - Five states of the system</h4>
 </div>
+<br/><br/>
 
 The core idea of this solution is that a client can always find out IP addresses of nodes that will be in the validator set in the next consensus instance. When it does, it can send its transaction to all the nodes within that set. Even though a consensus instance may consist of multiple rounds (where ***k*** represents the number of those rounds) and each round may have a different proposer, if a *C* node sends its transaction to the entire validator set, it is **guaranteed** that *T* will be both executed and stored inside a blockchain, because a proposer is always chosen from the validator set.
 
@@ -33,8 +34,9 @@ The system loops through five different states:
 * *FN - Full node*
 * *V - Validator node (is also a *FN* node)*
 * *CFG - Configuration file*
+<br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDM1MDQ3OCw2MTcyMzk1MywtMTcxOT
-M1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzld
-fQ==
+eyJoaXN0b3J5IjpbLTExNTc0NDI4MTcsNjE3MjM5NTMsLTE3MT
+kzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5
+XX0=
 -->
