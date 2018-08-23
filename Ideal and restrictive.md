@@ -128,13 +128,15 @@ func receive(T transaction) : bool {
 
 As mentioned before, the system (therefore every *FN*/*V* node in the system) loops through five states. First, a validator set is determined using some external process (this is determined by the implementation of *determineValidatorSet()* function. After that, the system transitions to its second state, where it stores the current validator set inside its local configuration file. Observe that the function *requestValidatorSet()* can be called completely asynchronously. Therefore, synchronization is required, so that a *C* node will never get a response before the system reaches *state 3*. For that reason, a call to *requestValidatorSet()* function simply adds a requester to a current subscription list of nodes who await for the response regarding the validator set, and then blocks the calling thread (e.g. using a semaphore). Upon releasing all the calling threads (*releaseAllRequesters()*), the configuration file will have already been updated with the freshest information about the validator set (*CFG.setValidatorSet(...)*), and can then be used as a return value in the function *requestValidatorSet()*. After answering all the clients' requests, a *FN* reaches a state where it starts a timer for a certain *TIMEOUT*. Throughout that period, it can receive clients' transactions via the *receive()* function. In that function, it is checked whether the timer has expired - this means that the system can no longer receive transactions because it will instantiate a new round of consensus instance.
 
-#### Performance analysis
+#### Concluding the idea
 
-The idea provided here most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. First of all, not even all *FN* nodes receive the transaction. Only the ones that will propose it in the following consensus instance,  On the other hand, it imposes restrictions that may hamper the performance of the algorithm.
+The idea provided here most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. First of all, not even all *FN* nodes receive the transaction. Instead, only the ones that will propose it in a future consensus instance are actually provided with it.
+
+On the other hand, it imposes restrictions that may hamper the performance of the algorithm. Algorithm 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjUyMjA5OSwtOTU0MDIzNjE5LDE2MT
+eyJoaXN0b3J5IjpbMjA1NDk5NzE3NywtOTU0MDIzNjE5LDE2MT
 M5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAw
 NDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC
 0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1
