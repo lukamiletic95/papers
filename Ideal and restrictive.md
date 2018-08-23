@@ -126,12 +126,12 @@ func receive(T transaction) : bool {
 
 ```
 
-As mentioned before, the system (therefore every *FN*/*V* node in the system) loops through five states. First, a validator set is determined using some external process (this is determined by the implementation of *determineValidatorSet()* function. After that, the system transitions to its second state, where it stores the current validator set inside its local configuration file.
+As mentioned before, the system (therefore every *FN*/*V* node in the system) loops through five states. First, a validator set is determined using some external process (this is determined by the implementation of *determineValidatorSet()* function. After that, the system transitions to its second state, where it stores the current validator set inside its local configuration file. Observe that the function *requestValidatorSet()* can be called completely asynchronously. Therefore, synchronization is required, so that a *C* node will never get a response
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTgxNTQ1OSwtOTU0MDIzNjE5LDE2MT
+eyJoaXN0b3J5IjpbLTE0MzA5NDY4NiwtOTU0MDIzNjE5LDE2MT
 M5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAw
 NDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC
 0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1
