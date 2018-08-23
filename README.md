@@ -12,6 +12,7 @@ Q&A:
 - *FEC - adding forward error correction as a redundancy?*
 - *Consensus - gossip based?*
 - *FIFO distribution and FIFO execution?*
+- *Metrics?*
 
 Paper structure:
 1. Abstract
