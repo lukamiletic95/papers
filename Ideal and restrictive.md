@@ -85,6 +85,7 @@ At the beginning, a *C* node tries to establish a connection with a selected *FN
 
 CFGFile CFG;
 Set<Node> requesters = ...;
+const int TIMEOUT = ...;
 
 func main() {
 	Set<Node> validatorSet = determineValidatorSet();
@@ -94,7 +95,7 @@ func main() {
 	releaseAllRequesters();
 	requesters.empty();
 
-	startTimer(TI
+	startTimer(TIMEOUT);
 }
 
 func requestValidatorSet(Node requester) {
@@ -103,8 +104,15 @@ func requestValidatorSet(Node requester) {
 	return CFG.getValidatorSet();
 }
 
-func receive(T transaction, Node sender) {
-
+func receive(T transaction, Node sender) : bool {
+	if (timeoutExpired(TIMEOUT)) {
+		retu
+	}
+	bool valid = checkTx(transaction);
+	
+	if (valid == false) {
+		retur false;
+	}
 }
 
 ```
@@ -112,7 +120,7 @@ func receive(T transaction, Node sender) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY0MzkyMDAsMTYxMzkxMTIyMSwyNT
+eyJoaXN0b3J5IjpbLTE5NzE5NTQ5MjMsMTYxMzkxMTIyMSwyNT
 U1NTg2OTQsLTE3MDM2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgw
 NjIzLC0xMjA5MDE2MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOT
 YsMTcyNzc2NTQxNCwtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcy
