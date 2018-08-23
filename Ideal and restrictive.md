@@ -58,14 +58,8 @@ func send(T transaction) bool {
 	
 	Set<Node> validatorSet = provider.requestValidatorSet();
 
-	bool success = true;
-
 	for (Node node : validatorSet) {
-		success = node.receive(transaction, self);
-		
-		if (success == false) {
-			return success;
-		}
+		node.receive(transaction, self);
 	}
 
 	return success;
@@ -75,9 +69,10 @@ func send(T transaction) bool {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03OD
-Q0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1
-NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MC
-wzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQw
-MzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX0=
+eyJoaXN0b3J5IjpbLTEwNTgwMjc3MTUsMjU1NTU4Njk0LC0xNz
+AzNjA2MjI3LC03ODQ0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAx
+NjIyOSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MT
+QsLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkz
+NTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2MzM5XX
+0=
 -->
