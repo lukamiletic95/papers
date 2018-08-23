@@ -1,6 +1,6 @@
 ### Ideal and restrictive
 
-The solution provided here solves the overhead problem that exists in the current one. It does so by enabling a client transaction to be sent only to nodes that are inside the validator set (only *V* nodes in the current consensus instance will receive the transaction *T*). Be that as it may, it imposes a certain level of restrictiveness, owing to the fact that some additional assumptions have to be made (including the original ones from `System model - assumptions & summary`).
+The solution provided here solves the overhead problem that exists in the current solution. It does so by enabling a client transaction to be sent only to nodes that are inside the validator set (only *V* nodes in the current consensus instance will receive the transaction *T*). Be that as it may, it imposes a certain level of restrictiveness, owing to the fact that some additional assumptions have to be made (including the original ones from `System model - assumptions & summary`).
 
 First of all, let us assume that the system now transitions between five states, as shown in *Figure #*.
 
@@ -51,9 +51,9 @@ To solve this, it is assumed that a *V* node remains in the validator set until 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDc0MTUwOTEsLTQ5Njk4MDYyMywtMT
-IwOTAxNjIyOSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LDE3Mjc3
-NjU0MTQsLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5NTMsLT
-E3MTkzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3OSwtOTI4ODY2
-MzM5XX0=
+eyJoaXN0b3J5IjpbLTY2NzUxMjIzNiwtNDk2OTgwNjIzLC0xMj
+A5MDE2MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOTYsMTcyNzc2
+NTQxNCwtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMT
+cxOTM1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYz
+MzldfQ==
 -->
