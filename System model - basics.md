@@ -34,12 +34,12 @@ To achieve that, a *C* node may connect to a *FN* node of its own choice. Upon e
 
 > It is assumed that each *FN* node has a public IP address, which enables a client to connect to it.
 
-When a *FN* node receives a transaction, it checks its validity. If the transaction is valid, the node stores it inside its own Mempool. In addition, the transaction is gossiped over the network to all of the peers of that particular *FN* node, so that it could be stored inside their own Mempools. Then the peers re-gossip the received transaction and so forth.
+When a *FN* node receives a transaction, it checks its validity [^1]. If the transaction is valid, the node stores it inside its own Mempool. In addition, the transaction is gossiped over the network to all of the peers of that particular *FN* node, so that it could be stored inside their own Mempools. Then the peers re-gossip the received transaction and so forth.
 
-
+[^1]: Client may also send a transaction which is invalid according to some system-related metrics. That transaction is rejected and not processed by the Tendermint network.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTIwMTY1MywzNTY2MTMxNDEsLTE3OD
-EzMDU5NjUsMjEzNjQ3ODg3OCwtMTU5ODQ0MzkyLDEzNTQ0Nzc0
-NjYsMTczNDA0NDcwMywtMTc1MzEyMzY5NywtMzAzMTEzOTYyLD
-E2MzI2ODU0NTgsMTYxOTk1NDQwMCwxNzM4OTA3Nzk0XX0=
+eyJoaXN0b3J5IjpbLTE0MDUyOTM2OTMsMzU2NjEzMTQxLC0xNz
+gxMzA1OTY1LDIxMzY0Nzg4NzgsLTE1OTg0NDM5MiwxMzU0NDc3
+NDY2LDE3MzQwNDQ3MDMsLTE3NTMxMjM2OTcsLTMwMzExMzk2Mi
+wxNjMyNjg1NDU4LDE2MTk5NTQ0MDAsMTczODkwNzc5NF19
 -->
