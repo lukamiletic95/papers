@@ -54,7 +54,7 @@ func receive(T transaction, Node sender) {
 
 ```
 
-*C* node calls function *receive()* whenever it wants to have its transaction *T* processed by the Tendermint network. Type *Node* contains all the necessary information about a particular Node, and 
+*C* node calls function *receive()* whenever it wants to have its transaction *T* processed by the Tendermint network. Type *Node* contains all the necessary information about a particular Node, and that is implementation-dependent. Function *checkTx()* is a Tendermint built-in function that checks the validity of a transaction [^1].
 	
 If we assume that the network (excluding *C* nodes) is modeled via a connected graph, then the number of messages that are exchanged for one transaction *T* is equal to *2 * num_of_vertices*, although the optimal number of messages is equal to the number of *FN* nodes decreased by 1 (*C* → *FN* message isn't taken into account since it is not a part of the gossiping protocol).
 	
@@ -68,11 +68,13 @@ From all of the above, it may be concluded that a current solution used in Tende
 
 Yet, this solution guarantees that the message will eventually be proposed and therefore added to the blockchain and executed.
 
+[^1]: Implementation of *checkTx()* function can be found at: <>
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Mzc1MjIxOSwtMTIyNDgzMDk4MSwxMD
-c1MTQ1ODQyLDEzODgyMDEwOSwxMDkxMzk4MzcxLDE3MzY4MzQ5
-NTMsLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNTQ1MzgxOTM3XX
-0=
+eyJoaXN0b3J5IjpbLTEyNjYyOTY1OTksLTEyMjQ4MzA5ODEsMT
+A3NTE0NTg0MiwxMzg4MjAxMDksMTA5MTM5ODM3MSwxNzM2ODM0
+OTUzLC0xNDI1MDk1NDY5LDEzNDIwMjU5MjUsMTU0NTM4MTkzN1
+19
 -->
