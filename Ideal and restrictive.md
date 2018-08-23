@@ -130,13 +130,13 @@ As mentioned before, the system (therefore every *FN*/*V* node in the system) lo
 
 #### Concluding the idea
 
-The idea provided here most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. First of all, not even all *FN* nodes receive the transaction. Instead, only the ones that will propose it in a future consensus instance are actually provided with it.
+The idea provided here most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. First of all, not even all *FN* nodes receive the transaction. Instead, only the ones that will propose it in a future consensus instance are actually provided with it. Even if it were only a single node, the *T* will still be executed at some point. 
 
-On the other hand, it imposes restrictions that may hamper the performance of the algorithm. Algorithm 
+On the other hand, it imposes restrictions that may hamper the performance of the algorithm. Primarily, system goes through different states, and is not constantly available to a *C* node. Client has to wait for the system to reach the appropriate state in order to respond with a requested validator set.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDk5NzE3NywtOTU0MDIzNjE5LDE2MT
+eyJoaXN0b3J5IjpbLTE4MjI0ODkyMCwtOTU0MDIzNjE5LDE2MT
 M5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAw
 NDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC
 0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1
