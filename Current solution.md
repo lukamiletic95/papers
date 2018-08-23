@@ -68,13 +68,13 @@ From all of the above, it may be concluded that a current solution used in Tende
 
 Yet, this solution guarantees that the message will eventually be proposed and therefore added to the blockchain and executed.
 
-[^1]: Implementation of *checkTx()* function can be found at: <>
+[^1]: Implementation of *checkTx()* function can be found at: <https://github.com/tendermint/tendermint/blob/master/mempool/mempool.go>
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjYyOTY1OTksLTEyMjQ4MzA5ODEsMT
-A3NTE0NTg0MiwxMzg4MjAxMDksMTA5MTM5ODM3MSwxNzM2ODM0
-OTUzLC0xNDI1MDk1NDY5LDEzNDIwMjU5MjUsMTU0NTM4MTkzN1
-19
+eyJoaXN0b3J5IjpbMTYxNjM0ODc0NywtMTIyNDgzMDk4MSwxMD
+c1MTQ1ODQyLDEzODgyMDEwOSwxMDkxMzk4MzcxLDE3MzY4MzQ5
+NTMsLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNTQ1MzgxOTM3XX
+0=
 -->
