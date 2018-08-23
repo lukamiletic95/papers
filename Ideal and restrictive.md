@@ -88,14 +88,18 @@ Set<Node> requesters = ...;
 const int TIMEOUT = ...;
 
 func main() {
-	Set<Node> validatorSet = determineValidatorSet();
-	
-	CFG.setValidatorSet(validatorSet);
+	while (true) {
+		Set<Node> validatorSet = determineValidatorSet();
+		
+		CFG.setValidatorSet(validatorSet);
 
-	releaseAllRequesters();
-	requesters.empty();
+		releaseAllRequesters();
+		requesters.empty();
 
-	startTimer(TIMEOUT);
+		startTimer(TIMEOUT);
+
+		reachConsensus();
+	}
 }
 
 func requestValidatorSet(Node requester) {
@@ -125,10 +129,10 @@ func receive(T transaction) : bool {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDAyMzYxOSwxNjEzOTExMjIxLDI1NT
-U1ODY5NCwtMTcwMzYwNjIyNywtNzg0NDAwMDQ2LC00OTY5ODA2
-MjMsLTEyMDkwMTYyMjksMTAwMTE2NTQ1OSwtMTc5OTU2MzI5Ni
-wxNzI3NzY1NDE0LC01NzcwMTkyODAsMzg4NTQyNjQyLDYxNzIz
-OTUzLC0xNzE5MzUzNTU3LDg0NDk0MDMwMSwtOTA4MzgzNzksLT
-kyODg2NjMzOV19
+eyJoaXN0b3J5IjpbLTkyNzg1MzM0MSwtOTU0MDIzNjE5LDE2MT
+M5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAw
+NDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC
+0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1
+NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC
+05MDgzODM3OSwtOTI4ODY2MzM5XX0=
 -->
