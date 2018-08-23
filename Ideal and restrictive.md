@@ -54,6 +54,10 @@ To solve this, it is assumed that a *V* node remains in the validator set until 
 // Pseudocode for a C node
 
 func send(T transaction) {
+	Node provider = establishConnection();
+	
+	Set<Node> validatorSet = provider.requestValidatorSet();
+
 	
 }
 
@@ -61,9 +65,9 @@ func send(T transaction) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ4MjYyODAsLTE3MDM2MDYyMjcsLT
-c4NDQwMDA0NiwtNDk2OTgwNjIzLC0xMjA5MDE2MjI5LDEwMDEx
-NjU0NTksLTE3OTk1NjMyOTYsMTcyNzc2NTQxNCwtNTc3MDE5Mj
-gwLDM4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1Nyw4NDQ5
-NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYzMzldfQ==
+eyJoaXN0b3J5IjpbMTQxNTgwOTgwNiwtMTcwMzYwNjIyNywtNz
+g0NDAwMDQ2LC00OTY5ODA2MjMsLTEyMDkwMTYyMjksMTAwMTE2
+NTQ1OSwtMTc5OTU2MzI5NiwxNzI3NzY1NDE0LC01NzcwMTkyOD
+AsMzg4NTQyNjQyLDYxNzIzOTUzLC0xNzE5MzUzNTU3LDg0NDk0
+MDMwMSwtOTA4MzgzNzksLTkyODg2NjMzOV19
 -->
