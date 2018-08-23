@@ -12,10 +12,10 @@ First of all, let us assume that the system now transitions between five states,
 The core idea of this solution is that the client can always find out IP addresses of nodes that will be in the validator set in the next consensus instance. 
 
 <div align='center'> 
-<img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig8.png" />
+<img src="https://github.com/lukamiletic95/papers/blob/algorithm1/images/fig9.png" />
 	<h4>Figure # - Five states of the system</h4>
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTI5NTE2MCw4NDQ5NDAzMDEsLTkwOD
+eyJoaXN0b3J5IjpbMTM0NDg0MTYzOSw4NDQ5NDAzMDEsLTkwOD
 M4Mzc5LC05Mjg4NjYzMzldfQ==
 -->
