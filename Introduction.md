@@ -8,7 +8,7 @@ In this section, a brief description of the general concepts of blockchain will 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDMyMTgyMjcsLTE3OTAxNTE2OTksLT
-c4ODY4NTYyNSwtMTc4MDEyOTExOSwxMTgwMzI3NjU1LDE3NTAx
-NTI4NThdfQ==
+eyJoaXN0b3J5IjpbLTE2OTEyNDU2NzMsLTE4NDMyMTgyMjcsLT
+E3OTAxNTE2OTksLTc4ODY4NTYyNSwtMTc4MDEyOTExOSwxMTgw
+MzI3NjU1LDE3NTAxNTI4NThdfQ==
 -->
