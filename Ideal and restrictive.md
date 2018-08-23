@@ -91,14 +91,16 @@ func main() {
 	
 	CFG.setValidatorSet(validatorSet);
 
-	for (Node node : requester) {
-		node.s
-	}
+	releaseAllRequesters();
+	requesters.empty();
+
+	startTimer(TI
 }
 
 func requestValidatorSet(Node requester) {
 	requesters.add(requester);
 	waitUntilReleased();
+	return CFG.getValidatorSet();
 }
 
 func receive(T transaction, Node sender) {
@@ -110,7 +112,7 @@ func receive(T transaction, Node sender) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTkwOTE4ODQsMTYxMzkxMTIyMSwyNT
+eyJoaXN0b3J5IjpbLTE3MTY0MzkyMDAsMTYxMzkxMTIyMSwyNT
 U1NTg2OTQsLTE3MDM2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgw
 NjIzLC0xMjA5MDE2MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOT
 YsMTcyNzc2NTQxNCwtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcy
