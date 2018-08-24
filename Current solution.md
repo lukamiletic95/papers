@@ -65,7 +65,7 @@ If we assume that the network (excluding *C* nodes) is modeled via a connected g
 	
 On the other hand, this algorithm **guarantees** that a message will reach everyone within the network, since we assumed that the minimum size of the peer subset is 1, and therefore there are no disconnected *FN* nodes.
 
-It should also be observed that this solution **guarantees** a **FIFO distribution** of all the transactions. If a *C* node sends multiple transactions, they are received in the same order in which they have been sent, and are therefore also gossiped in-order. If a **FIFO execution** is required, then the consensus algorithm should always take a certain number of transactions from the Mempool in a first-in-first-out manner. This is the case inside the Tendermint network, if a node whose proposed block was finally selected was not Byzantine fault-tolerant. If it is Byzantine faulty, then there are no guarantees as to what its behavior could be.
+It should also be observed that this solution **guarantees** a **FIFO distribution** of all the transactions. If a *C* node sends multiple transactions, they are received in the same order in which they have been sent, and are therefore also gossiped in-order. If a **FIFO execution** is required, then the consensus algorithm should always take a certain number of transactions from the Mempool in a first-in-first-out manner. This is the case inside the Tendermint network, if a node whose proposed block was finally selected was not Byzantine fault-tolerant. If the node is Byzantine faulty, then there are no guarantees as to what its behavior could be.
 
 One more thing is that the Tendermint consensus algorithm is also gossip-based. Every time a proposer wishes to propose a block, it sends a special type of message - *PROPOSAL MESSAGE* [1]. That message contains a proposed block (which contains a batch of transactions), and is again gossiped to the peers of the round's selected proposer, and so forth. That may lead to some node which is not a part of the current validator set receiving information about a transaction which it already received during the Mempool gossip phase, which is again a redundancy.
 
@@ -95,10 +95,10 @@ Yet, the current solution guarantees that the message will eventually be propose
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDY3Mzg3OSwxMTM4OTQ5OTIyLDE0Mz
-A0NzMxMjIsMTk2MDE4Mjk4MywyMDM0NDc4NzMwLC0xMTY0Mzcz
-MjgyLDU3MTk3ODI5OSwyMDQzNjUwNTk2LC0xMjI0ODMwOTgxLD
-EwNzUxNDU4NDIsMTM4ODIwMTA5LDEwOTEzOTgzNzEsMTczNjgz
-NDk1MywtMTQyNTA5NTQ2OSwxMzQyMDI1OTI1LDE1NDUzODE5Mz
-ddfQ==
+eyJoaXN0b3J5IjpbLTE0MjE1NDg3MzksMTEzODk0OTkyMiwxND
+MwNDczMTIyLDE5NjAxODI5ODMsMjAzNDQ3ODczMCwtMTE2NDM3
+MzI4Miw1NzE5NzgyOTksMjA0MzY1MDU5NiwtMTIyNDgzMDk4MS
+wxMDc1MTQ1ODQyLDEzODgyMDEwOSwxMDkxMzk4MzcxLDE3MzY4
+MzQ5NTMsLTE0MjUwOTU0NjksMTM0MjAyNTkyNSwxNTQ1MzgxOT
+M3XX0=
 -->
