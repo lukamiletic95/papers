@@ -113,7 +113,7 @@ func receive(T transaction) : bool {
 		return false;
 	}
 	
-	// transaction is always received f
+	// transaction is always received from a C node, therefore it must be checked
 	bool valid = checkTx(transaction);
 	
 	if (valid == false) {
@@ -137,11 +137,11 @@ However, it most certainly eliminates the overhead problem that exists in the cu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk0MDQ4NTMsMzgxODM0NDM5LDIwMj
-M3NTYyMjgsODg4MjEyNjksMjEyNzgyMjE4NiwtOTU0MDIzNjE5
-LDE2MTM5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03OD
-Q0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1
-NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MC
-wzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQw
-MzAxXX0=
+eyJoaXN0b3J5IjpbLTQ1MjQ2NDkzMSwzODE4MzQ0MzksMjAyMz
+c1NjIyOCw4ODgyMTI2OSwyMTI3ODIyMTg2LC05NTQwMjM2MTks
+MTYxMzkxMTIyMSwyNTU1NTg2OTQsLTE3MDM2MDYyMjcsLTc4ND
+QwMDA0NiwtNDk2OTgwNjIzLC0xMjA5MDE2MjI5LDEwMDExNjU0
+NTksLTE3OTk1NjMyOTYsMTcyNzc2NTQxNCwtNTc3MDE5MjgwLD
+M4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1Nyw4NDQ5NDAz
+MDFdfQ==
 -->
