@@ -129,7 +129,7 @@ func receive(T transaction) : bool {
 
 ```
 
-As mentioned before, the system (therefore every *FN*/*V* node in the system) loops through five states. First, a validator set is determined using some external process (this is determined by the implementation of *determineValidatorSet()* function). After that, the system transitions to its second state, where it stores the current validator set inside its local configuration file. Observe that the function *requestValidatorSet()* can be called completely asynchronously. Therefore, synchronization is required, so that a *C* node will never get a response before the system reaches *state 3*. For that reason, a call to *requestValidatorSet()* function simply adds a requester to a current subscription list of nodes who await for the response regarding the validator set, and then blocks the calling thread (e.g. using a semaphore). Upon releasing all the calling threads (*releaseAllRequesters()*), the configuration file will have already been updated with the freshest information about the validator set (*CFG.setValidatorSet(...)*), and can then be used as a return value in the function *requestValidatorSet()*. After answering all the clients' requests, a *FN* reaches a state where it starts a timer for a certain *TIMEOUT*. Throughout that period, it can receive clients' transactions via the *receive()* function. In that function, it is checked whether the timer has expired - this means that the system can no longer receive transactions because it will instantiate a new round of consensus instance.
+As mentioned before, the system (therefore every *FN*/*V* node in the system) loops through five states. First, a validator set is determined using some external process (this is determined by the implementation of *determineValidatorSet()* function). After that, the node transitions to its second state, where it stores the current validator set inside its local configuration file. Observe that the function *requestValidatorSet()* can be called completely asynchronously. Therefore, synchronization is required, so that a *C* node will never get a response before the system reaches *state 3*. For that reason, a call to *requestValidatorSet()* function simply adds a requester to a current subscription list of nodes who await for the response regarding the validator set, and then blocks the calling thread (e.g. using a semaphore). Upon releasing all the calling threads (*releaseAllRequesters()*), the configuration file will have already been updated with the freshest information about the validator set (*CFG.setValidatorSet(...)*), and can then be used as a return value in the function *requestValidatorSet()*. After answering all the clients' requests, a *FN* reaches a state where it starts a timer for a certain *TIMEOUT*. Throughout that period, it can receive clients' transactions via the *receive()* function. In that function, it is checked whether the timer has expired - this means that the system can no longer receive transactions because it will instantiate a new round of consensus instance.
 
 In case of Byzantine faults, if a *FN* is malicious, it may provide a client with an invalid validator set.  To solve this, a *C* node may request the validator set from multiple *FN* nodes, and than compare the results to determine which validator set is probably the credible one.
 
@@ -145,11 +145,11 @@ For one *C* transaction request *T*, maximum number of messages that are sent eq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDY2MjY5OSwtMjM1NDc1MTY2LC01OT
-Y2OTU0MzksMTM1NzM0NDU3LC00NTI0NjQ5MzEsMzgxODM0NDM5
-LDIwMjM3NTYyMjgsODg4MjEyNjksMjEyNzgyMjE4NiwtOTU0MD
-IzNjE5LDE2MTM5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3
-LC03ODQ0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMD
-AxMTY1NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAx
-OTI4MF19
+eyJoaXN0b3J5IjpbLTEzODAyOTcwMjYsLTIzNTQ3NTE2NiwtNT
+k2Njk1NDM5LDEzNTczNDQ1NywtNDUyNDY0OTMxLDM4MTgzNDQz
+OSwyMDIzNzU2MjI4LDg4ODIxMjY5LDIxMjc4MjIxODYsLTk1ND
+AyMzYxOSwxNjEzOTExMjIxLDI1NTU1ODY5NCwtMTcwMzYwNjIy
+NywtNzg0NDAwMDQ2LC00OTY5ODA2MjMsLTEyMDkwMTYyMjksMT
+AwMTE2NTQ1OSwtMTc5OTU2MzI5NiwxNzI3NzY1NDE0LC01Nzcw
+MTkyODBdfQ==
 -->
