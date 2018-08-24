@@ -45,7 +45,7 @@ Let us consider a following scenario:
 	3. C node starts sending T to all the members of the validator set.
 	4.* What if the size of some validator's Mempool exceeds the maximum number of transactions per block?
 
-If the aforesaid scenario occurred, and the *FN* node added the transaction to its Mempool, thus exceeding the size of the block, it would be possible that the transaction would never be executed. There is a probability that the size of Mempools of all nodes in the validator set already equals maximum number of transactions per block, and that the added transaction will not be proposed in the following consensus instance. Since the validator set changes dynamically, none of the *FN* nodes in the current validator set may ever again appear in the validator set. Therefore, a client transaction could potentially get lost, due to the fact it had never been proposed.
+If the aforesaid scenario occurred, and the *FN* node added the transaction to its Mempool, thus exceeding the size of the block, it would be possible that the transaction would never be executed. This is true because there is a probability that the size of Mempools of all nodes in the validator set already equals maximum number of transactions per block, and that the added transaction will not be proposed in the following consensus instance. Since the validator set changes dynamically, none of the *FN* nodes in the current validator set may ever again appear in the validator set. Therefore, a client transaction could potentially get lost, due to the fact it had never been proposed.
 
 To solve this, it is assumed that a *V* node remains in the validator set until its Mempool is emptied. A transaction is removed from a node's Mempool when it has become a part of the block to be added to the blockchain - meaning a consensus was reached on executing it. This guarantees that a transaction *T* will be executed  in one of the future consensus instances. It is also advisable that the algorithm for selecting a proposer is unbiased, and that it uniformly selects a node from the validator set.
 
@@ -136,11 +136,11 @@ However, it most certainly eliminates the overhead problem that exists in the cu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMzc1NjIyOCw4ODgyMTI2OSwyMTI3OD
-IyMTg2LC05NTQwMjM2MTksMTYxMzkxMTIyMSwyNTU1NTg2OTQs
-LTE3MDM2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgwNjIzLC0xMj
-A5MDE2MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOTYsMTcyNzc2
-NTQxNCwtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcyMzk1MywtMT
-cxOTM1MzU1Nyw4NDQ5NDAzMDEsLTkwODM4Mzc5LC05Mjg4NjYz
-MzldfQ==
+eyJoaXN0b3J5IjpbLTcyMTI2MDk4MCwyMDIzNzU2MjI4LDg4OD
+IxMjY5LDIxMjc4MjIxODYsLTk1NDAyMzYxOSwxNjEzOTExMjIx
+LDI1NTU1ODY5NCwtMTcwMzYwNjIyNywtNzg0NDAwMDQ2LC00OT
+Y5ODA2MjMsLTEyMDkwMTYyMjksMTAwMTE2NTQ1OSwtMTc5OTU2
+MzI5NiwxNzI3NzY1NDE0LC01NzcwMTkyODAsMzg4NTQyNjQyLD
+YxNzIzOTUzLC0xNzE5MzUzNTU3LDg0NDk0MDMwMSwtOTA4Mzgz
+NzldfQ==
 -->
