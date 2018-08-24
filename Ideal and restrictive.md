@@ -137,13 +137,15 @@ The idea provided here imposes restrictions that may hamper the performance of t
 
 However, it most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. First of all, not even all *FN* nodes receive the transaction. Instead, only the ones that will propose it in a future consensus instance are actually provided with it. Even if it were only a single node that received it, the *T* will still be executed at some point. Distributing a *T* to multiple *V* nodes only increases the chances of *T* being executed sooner.
 
+For one *C* transaction request *T*, maximum number of messages that are sent equals to *validatorSet.size() + 1* (plus one because the initial message to a provider node is included).
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzM0NDU3LC00NTI0NjQ5MzEsMzgxOD
-M0NDM5LDIwMjM3NTYyMjgsODg4MjEyNjksMjEyNzgyMjE4Niwt
-OTU0MDIzNjE5LDE2MTM5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNj
-A2MjI3LC03ODQ0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIy
-OSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLT
-U3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1
-NTddfQ==
+eyJoaXN0b3J5IjpbLTE2ODExNzIyNDUsMTM1NzM0NDU3LC00NT
+I0NjQ5MzEsMzgxODM0NDM5LDIwMjM3NTYyMjgsODg4MjEyNjks
+MjEyNzgyMjE4NiwtOTU0MDIzNjE5LDE2MTM5MTEyMjEsMjU1NT
+U4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAwNDYsLTQ5Njk4MDYy
+MywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LD
+E3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5
+NTNdfQ==
 -->
