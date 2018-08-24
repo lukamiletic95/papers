@@ -129,7 +129,7 @@ func receive(T transaction) : bool {
 
 As mentioned before, the system (therefore every *FN*/*V* node in the system) loops through five states. First, a validator set is determined using some external process (this is determined by the implementation of *determineValidatorSet()* function. After that, the system transitions to its second state, where it stores the current validator set inside its local configuration file. Observe that the function *requestValidatorSet()* can be called completely asynchronously. Therefore, synchronization is required, so that a *C* node will never get a response before the system reaches *state 3*. For that reason, a call to *requestValidatorSet()* function simply adds a requester to a current subscription list of nodes who await for the response regarding the validator set, and then blocks the calling thread (e.g. using a semaphore). Upon releasing all the calling threads (*releaseAllRequesters()*), the configuration file will have already been updated with the freshest information about the validator set (*CFG.setValidatorSet(...)*), and can then be used as a return value in the function *requestValidatorSet()*. After answering all the clients' requests, a *FN* reaches a state where it starts a timer for a certain *TIMEOUT*. Throughout that period, it can receive clients' transactions via the *receive()* function. In that function, it is checked whether the timer has expired - this means that the system can no longer receive transactions because it will instantiate a new round of consensus instance.
 
-
+In case of Byzantine faults, if a *FN* is malicious, it may provide a client with an invalid validator set. Furthermore, if a *V* node is malicious, it may choose to never propose a client's transaction. In those cases, it would be better that the *
 
 #### Concluding the idea
 
@@ -141,11 +141,11 @@ For one *C* transaction request *T*, maximum number of messages that are sent eq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjU1NDE4NCwxMzU3MzQ0NTcsLTQ1Mj
-Q2NDkzMSwzODE4MzQ0MzksMjAyMzc1NjIyOCw4ODgyMTI2OSwy
-MTI3ODIyMTg2LC05NTQwMjM2MTksMTYxMzkxMTIyMSwyNTU1NT
-g2OTQsLTE3MDM2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgwNjIz
-LC0xMjA5MDE2MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOTYsMT
-cyNzc2NTQxNCwtNTc3MDE5MjgwLDM4ODU0MjY0Miw2MTcyMzk1
-M119
+eyJoaXN0b3J5IjpbLTE0MDE3Mjg3OTUsMTM1NzM0NDU3LC00NT
+I0NjQ5MzEsMzgxODM0NDM5LDIwMjM3NTYyMjgsODg4MjEyNjks
+MjEyNzgyMjE4NiwtOTU0MDIzNjE5LDE2MTM5MTEyMjEsMjU1NT
+U4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAwNDYsLTQ5Njk4MDYy
+MywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LD
+E3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5
+NTNdfQ==
 -->
