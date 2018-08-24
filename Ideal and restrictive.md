@@ -129,6 +129,8 @@ func receive(T transaction) : bool {
 
 As mentioned before, the system (therefore every *FN*/*V* node in the system) loops through five states. First, a validator set is determined using some external process (this is determined by the implementation of *determineValidatorSet()* function. After that, the system transitions to its second state, where it stores the current validator set inside its local configuration file. Observe that the function *requestValidatorSet()* can be called completely asynchronously. Therefore, synchronization is required, so that a *C* node will never get a response before the system reaches *state 3*. For that reason, a call to *requestValidatorSet()* function simply adds a requester to a current subscription list of nodes who await for the response regarding the validator set, and then blocks the calling thread (e.g. using a semaphore). Upon releasing all the calling threads (*releaseAllRequesters()*), the configuration file will have already been updated with the freshest information about the validator set (*CFG.setValidatorSet(...)*), and can then be used as a return value in the function *requestValidatorSet()*. After answering all the clients' requests, a *FN* reaches a state where it starts a timer for a certain *TIMEOUT*. Throughout that period, it can receive clients' transactions via the *receive()* function. In that function, it is checked whether the timer has expired - this means that the system can no longer receive transactions because it will instantiate a new round of consensus instance.
 
+
+
 #### Concluding the idea
 
 The idea provided here imposes restrictions that may hamper the performance of the algorithm. Primarily, system goes through different states, and is not constantly available to a *C* node. Client has to wait for the system to reach the appropriate state in order to respond with a requested validator set. Furthermore, the value used for *timeout* must be carefully chosen. It determines the time period throughout which a system can receive transactions from client nodes. The longer it is, the more clients can send their transactions before a consensus instance is initiated. This algorithm also makes a *C* node possibly have to re-send its transaction, in case it hadn't reached any of the *V* nodes.
@@ -137,11 +139,11 @@ However, it most certainly eliminates the overhead problem that exists in the cu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjQ2NDkzMSwzODE4MzQ0MzksMjAyMz
-c1NjIyOCw4ODgyMTI2OSwyMTI3ODIyMTg2LC05NTQwMjM2MTks
-MTYxMzkxMTIyMSwyNTU1NTg2OTQsLTE3MDM2MDYyMjcsLTc4ND
-QwMDA0NiwtNDk2OTgwNjIzLC0xMjA5MDE2MjI5LDEwMDExNjU0
-NTksLTE3OTk1NjMyOTYsMTcyNzc2NTQxNCwtNTc3MDE5MjgwLD
-M4ODU0MjY0Miw2MTcyMzk1MywtMTcxOTM1MzU1Nyw4NDQ5NDAz
-MDFdfQ==
+eyJoaXN0b3J5IjpbMTM1NzM0NDU3LC00NTI0NjQ5MzEsMzgxOD
+M0NDM5LDIwMjM3NTYyMjgsODg4MjEyNjksMjEyNzgyMjE4Niwt
+OTU0MDIzNjE5LDE2MTM5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNj
+A2MjI3LC03ODQ0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIy
+OSwxMDAxMTY1NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLT
+U3NzAxOTI4MCwzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1
+NTddfQ==
 -->
