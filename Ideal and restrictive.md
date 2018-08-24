@@ -139,17 +139,17 @@ Furthermore, if a *V* node is malicious, it may choose to never propose a client
 
 The idea provided here imposes restrictions that may hamper the performance of the algorithm. Primarily, system goes through different states, and is not constantly available to a *C* node. Client has to wait for the system to reach the appropriate state in order to respond with a requested validator set. Furthermore, the value used for *timeout* must be carefully chosen. It determines the time period throughout which a system can receive transactions from client nodes. The longer it is, the more clients can send their transactions before a consensus instance is initiated. This algorithm also makes a *C* node possibly have to re-send its transaction, in case it hadn't reached any of the *V* nodes.
 
-However, it most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. First of all, not even all *FN* nodes receive the transaction. Instead, only the ones that will propose it in a future consensus instance are actually provided with it. Even if it were only a single node that received it, the *T* will still be executed at some point. Distributing a *T* to multiple *V* nodes only increases the chances of *T* being executed sooner.
+However, it most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. First of all, not even all *FN* nodes receive the transaction. Instead, only the ones that will propose it in a future consensus instance are actually provided with it. Even if it were only a single node that received it, the *T* would still be executed at some point. Distributing a *T* to multiple *V* nodes only increases the chances of *T* being executed sooner.
 
 For one *C* transaction request *T*, maximum number of messages that are sent equals to *validatorSet.size() + 1* (plus one because the message to a provider node where a client requests the validator set is included). However, this algorithm guarantees successful transaction execution even if the number of messages exchanged is only 2 (*request validator set* message to a *FN* node and one *receive* message to a *V* node).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODAyOTcwMjYsLTIzNTQ3NTE2NiwtNT
-k2Njk1NDM5LDEzNTczNDQ1NywtNDUyNDY0OTMxLDM4MTgzNDQz
-OSwyMDIzNzU2MjI4LDg4ODIxMjY5LDIxMjc4MjIxODYsLTk1ND
-AyMzYxOSwxNjEzOTExMjIxLDI1NTU1ODY5NCwtMTcwMzYwNjIy
-NywtNzg0NDAwMDQ2LC00OTY5ODA2MjMsLTEyMDkwMTYyMjksMT
-AwMTE2NTQ1OSwtMTc5OTU2MzI5NiwxNzI3NzY1NDE0LC01Nzcw
-MTkyODBdfQ==
+eyJoaXN0b3J5IjpbNjgwNzk5NzMzLC0xMzgwMjk3MDI2LC0yMz
+U0NzUxNjYsLTU5NjY5NTQzOSwxMzU3MzQ0NTcsLTQ1MjQ2NDkz
+MSwzODE4MzQ0MzksMjAyMzc1NjIyOCw4ODgyMTI2OSwyMTI3OD
+IyMTg2LC05NTQwMjM2MTksMTYxMzkxMTIyMSwyNTU1NTg2OTQs
+LTE3MDM2MDYyMjcsLTc4NDQwMDA0NiwtNDk2OTgwNjIzLC0xMj
+A5MDE2MjI5LDEwMDExNjU0NTksLTE3OTk1NjMyOTYsMTcyNzc2
+NTQxNF19
 -->
