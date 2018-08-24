@@ -137,11 +137,11 @@ The idea provided here imposes restrictions that may hamper the performance of t
 
 However, it most certainly eliminates the overhead problem that exists in the current solution used in Tendermint. First of all, not even all *FN* nodes receive the transaction. Instead, only the ones that will propose it in a future consensus instance are actually provided with it. Even if it were only a single node that received it, the *T* will still be executed at some point. Distributing a *T* to multiple *V* nodes only increases the chances of *T* being executed sooner.
 
-For one *C* transaction request *T*, maximum number of messages that are sent equals to *validatorSet.size() + 1* (plus one because the message to a provider node where a client requests the validator set is included). However, this algorithm guarantees successful tr
+For one *C* transaction request *T*, maximum number of messages that are sent equals to *validatorSet.size() + 1* (plus one because the message to a provider node where a client requests the validator set is included). However, this algorithm guarantees successful transaction execution even if the number of messages exchanged is only 2 (request validator set message and one *receive* message to a *V* node).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2NTM1MjQzLDEzNTczNDQ1NywtNDUyND
+eyJoaXN0b3J5IjpbNDYxMjgyMzEyLDEzNTczNDQ1NywtNDUyND
 Y0OTMxLDM4MTgzNDQzOSwyMDIzNzU2MjI4LDg4ODIxMjY5LDIx
 Mjc4MjIxODYsLTk1NDAyMzYxOSwxNjEzOTExMjIxLDI1NTU1OD
 Y5NCwtMTcwMzYwNjIyNywtNzg0NDAwMDQ2LC00OTY5ODA2MjMs
