@@ -113,6 +113,7 @@ func receive(T transaction) : bool {
 		return false;
 	}
 	
+	// transaction is always received f
 	bool valid = checkTx(transaction);
 	
 	if (valid == false) {
@@ -136,11 +137,11 @@ However, it most certainly eliminates the overhead problem that exists in the cu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxODM0NDM5LDIwMjM3NTYyMjgsODg4Mj
-EyNjksMjEyNzgyMjE4NiwtOTU0MDIzNjE5LDE2MTM5MTEyMjEs
-MjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03ODQ0MDAwNDYsLTQ5Nj
-k4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1NDU5LC0xNzk5NTYz
-Mjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MCwzODg1NDI2NDIsNj
-E3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQwMzAxLC05MDgzODM3
-OV19
+eyJoaXN0b3J5IjpbLTE5Nzk0MDQ4NTMsMzgxODM0NDM5LDIwMj
+M3NTYyMjgsODg4MjEyNjksMjEyNzgyMjE4NiwtOTU0MDIzNjE5
+LDE2MTM5MTEyMjEsMjU1NTU4Njk0LC0xNzAzNjA2MjI3LC03OD
+Q0MDAwNDYsLTQ5Njk4MDYyMywtMTIwOTAxNjIyOSwxMDAxMTY1
+NDU5LC0xNzk5NTYzMjk2LDE3Mjc3NjU0MTQsLTU3NzAxOTI4MC
+wzODg1NDI2NDIsNjE3MjM5NTMsLTE3MTkzNTM1NTcsODQ0OTQw
+MzAxXX0=
 -->
