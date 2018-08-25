@@ -256,9 +256,11 @@ func receive(T transaction, Node sender) {
 
 ```
 
-In this case, a call to *checkMempool()* is also unnecessary. Every *FN* will receive *T* only once.
+In this case, a call to *checkMempool()* is also unnecessary. Every *FN* will receive *T* only once. 
+
+This solution provides no overhead. However, in ca
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjIwMzI2MiwxNjQ4NTY4ODIyLC0xND
+eyJoaXN0b3J5IjpbMTAxNTkwODgzMSwxNjQ4NTY4ODIyLC0xND
 EwNDU3NjcyLC0xNTMyMDAxNjExLDg0MTExMjQ3OSwxNjA3MDkz
 NjIxLC05Mzc3MTIwODUsLTE4Nzc0OTQ3MTgsLTUxNTczODg1Mi
 wxMzk2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMDY4
