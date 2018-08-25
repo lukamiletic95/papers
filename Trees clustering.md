@@ -43,10 +43,10 @@ To answer the first question, an approach explained in [9], *Flat membership ser
  <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm2/images/fig12.png" />
-	<h4>Figure # - State machine replication servers used for maintaini subscriptions</i></h4>
+	<h4>Figure # - State machine replication servers used for maintaining trees</i></h4>
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxMzI5MzM5LDIwNjgzNTM1MjYsLTEyNz
-Y5MjM4ODMsNjMxNjIwNTA4XX0=
+eyJoaXN0b3J5IjpbMTUxNDIxMzIwMywyMDY4MzUzNTI2LC0xMj
+c2OTIzODgzLDYzMTYyMDUwOF19
 -->
