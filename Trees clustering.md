@@ -112,9 +112,9 @@ func receive(T transaction, Node sender) {
 
 ```
 
-Note that there is no need for calling the *checkMempool()* function before adding a transaction to 
+Note that there is no need for calling the *checkMempool()* function before adding a transaction to the node's Mempool. This is due to the fact that a *FN* will always receive *T* only once. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzAxMDExMywtNTE1NzM4ODUyLDEzOT
-Y0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgzNTM1
-MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
+eyJoaXN0b3J5IjpbNTg3Mjc0MjM2LC01MTU3Mzg4NTIsMTM5Nj
+Q5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2ODM1MzUy
+NiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
