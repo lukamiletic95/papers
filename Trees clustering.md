@@ -66,9 +66,13 @@ When a node receives client's transaction *T*, it can easily propagate it down i
 
 To solve this problem, we assume that each node contains information about its parent (e.g. parent's IP address). Thus, when a *FN* shown in *Figure #* receives *T*, it can propagate it towards its parent, then that parent has to propagate it to both its parent and its descendants and so on recursively.
 
-Principle can be adopted - whenever a node receives a message from a child, it has to propagate it to its own parent. 
+Principle can be adopted:
+* Only when a node receives a message from a child or from a client, it has to propagate it to its own parent. 
+* The node always has to propagate the message down the tree.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzY2NTYzNywtNjE5ODg4NzUwLDEzNz
-kzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1
-MDhdfQ==
+eyJoaXN0b3J5IjpbLTEzNTYyNDEyMzQsLTYxOTg4ODc1MCwxMz
+c5MzU5MTU4LDIwNjgzNTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIw
+NTA4XX0=
 -->
