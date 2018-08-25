@@ -31,8 +31,8 @@ However, the overhead still exists within the clusters. There will still be redu
 </div>
 <br/><br/>
 
-The main 
+The main culprit behind the overhead problem is the graph. Graph can contain cycles. Since the network is modeled via a graph,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODYxMzU1OCwyMDY4MzUzNTI2LC0xMj
-c2OTIzODgzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbLTE0NTczMTA3NzEsMjA2ODM1MzUyNiwtMT
+I3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
