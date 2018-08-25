@@ -30,7 +30,9 @@ However, the overhead still exists within the clusters. There will still be redu
 	<h4>Figure # - Tree clustering - <i>Flat membership server based protocol</i></h4>
 </div>
 <br/><br/>
+
+The main 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2Mz
-E2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbLTQxODYxMzU1OCwyMDY4MzUzNTI2LC0xMj
+c2OTIzODgzLDYzMTYyMDUwOF19
 -->
