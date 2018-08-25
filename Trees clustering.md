@@ -166,9 +166,10 @@ Observe that in this case, upward gossiping is also required when the sender is 
 
 Also, a new node-local-variable is added - *interclusterLink*. Since intercluster links are unidirectional, it is assumed that this variable is set only for a node which can send a message to another cluster.
 
+In this case, better performance is achieved owing to grouping of "proximate" nodes into clusters, and thus enabling 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzA5MzYyMSwtOTM3NzEyMDg1LC0xOD
-c3NDk0NzE4LC01MTU3Mzg4NTIsMTM5NjQ5OTIxNCwtNjE5ODg4
-NzUwLDEzNzkzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4My
-w2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbMTg5MTk1OTk4OCwxNjA3MDkzNjIxLC05Mz
+c3MTIwODUsLTE4Nzc0OTQ3MTgsLTUxNTczODg1MiwxMzk2NDk5
+MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMDY4MzUzNTI2LC
+0xMjc2OTIzODgzLDYzMTYyMDUwOF19
 -->
