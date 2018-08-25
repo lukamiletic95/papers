@@ -75,7 +75,7 @@ Principle can be adopted:
 // Pseudocode for a FN/V node
 
 Node parent = ...;
-Set<Node> childen = ...;
+Set<Node> children = ...;
 
 func receive(T transaction, Node sender) {
 	if (sender == C) { 
@@ -92,12 +92,16 @@ func receive(T transaction, Node sender) {
 	
 	addMempool(transaction);
 	
+	if (sender == C or children.contains(sender)) {
+		parent.receive(transaction, self);
+	}
+
 	
 }
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDkyNzk0NywtNjE5ODg4NzUwLDEzNz
-kzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1
-MDhdfQ==
+eyJoaXN0b3J5IjpbMjQzMDMwNTczLC02MTk4ODg3NTAsMTM3OT
+M1OTE1OCwyMDY4MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUw
+OF19
 -->
