@@ -11,7 +11,7 @@ The idea behind this algorithm combines two of the solutions proposed in [9] - *
 </div>
 <br/><br/>
 
-First and foremost, let us assume that the network is now divided into clusters. As presented in [9], nodes are clustered according to geographical proximity or some network-related metrics that refers to network proximity (e.g. round-trip delay or number of hops between nodes). [9] provides mathematical proof that only a small number of connections among clusters is required to keep the system connected. In *Figure #*, there are four clusters, *A*, *B* and *C*. There are also two types of connections:
+First and foremost, let us assume that the network is now divided into clusters. As presented in [9], nodes are clustered according to geographical proximity or some network-related metrics that refers to network proximity (e.g. round-trip delay or number of hops between nodes). [9] provides mathematical proof that only a small number of connections among clusters is required to keep the system connected. In *Figure #*, there are four clusters, *A*, *B*, *C* and *D*. There are also two types of connections:
 
 * **Intercluster →** they represent links between different clusters.
 * **Intracluster→** they represent links between nodes within the same cluster.
@@ -31,6 +31,6 @@ However, the overhead still exists within the clusters. There will still be redu
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5Njk4NTU4LC0xMjc2OTIzODgzLDYzMT
-YyMDUwOF19
+eyJoaXN0b3J5IjpbMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2Mz
+E2MjA1MDhdfQ==
 -->
