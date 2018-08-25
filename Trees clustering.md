@@ -62,8 +62,9 @@ To answer the second question, let us consider a situation presented in *Figure 
 </div>
 <br/><br/>
 
+When a node receives client's transaction *T*, it can easily propagate it down the tree. However
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzQ4NDk0MiwtNjE5ODg4NzUwLDEzNz
-kzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1
-MDhdfQ==
+eyJoaXN0b3J5IjpbLTE0MzIxMzMwNDMsLTYxOTg4ODc1MCwxMz
+c5MzU5MTU4LDIwNjgzNTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIw
+NTA4XX0=
 -->
