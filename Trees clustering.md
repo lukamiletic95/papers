@@ -173,12 +173,12 @@ To solve this, a generalization of the idea to use trees inside a cluster can be
  <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm2/images/fig14.png" />
-	<h4>Figure # - Tree clustering </i></h4>
+	<h4>Figure # - Tree clustering - final solution</i></h4>
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTk0NDU1MywxNjA3MDkzNjIxLC05Mz
-c3MTIwODUsLTE4Nzc0OTQ3MTgsLTUxNTczODg1MiwxMzk2NDk5
-MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMDY4MzUzNTI2LC
-0xMjc2OTIzODgzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbODQxMTEyNDc5LDE2MDcwOTM2MjEsLTkzNz
+cxMjA4NSwtMTg3NzQ5NDcxOCwtNTE1NzM4ODUyLDEzOTY0OTky
+MTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgzNTM1MjYsLT
+EyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
