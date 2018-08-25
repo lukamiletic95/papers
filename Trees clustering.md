@@ -67,12 +67,41 @@ When a node receives client's transaction *T*, it can easily propagate it down i
 To solve this problem, we assume that each node contains information about its parent (e.g. parent's IP address). Thus, when a *FN* shown in *Figure #* receives *T*, it can propagate it towards its parent, then that parent has to propagate it to both its parent and its descendants and so on recursively.
 
 Principle can be adopted:
-* Only when a node receives a message from a child or from a client, it has to propagate it to its own parent. 
-* The node always has to propagate the message down the tree.
+* Only when a node receives a message from a child or from a client, it has to propagate it to its own parent - upward gossiping. 
+* The node always has to propagate the message down the tree - downward gossiping.
 
+```go
 
+```go
+
+// Mempool gossiping algorithm in Tendermint - pseudocode
+
+func receive(T transaction, Node sender) {
+	// Node = {C, FN, V}
+
+	if (sender == C) { 
+		// in Tendermint - this condition does not exist
+	
+		bool valid = checkTx(transaction);
+		if (valid == false) {
+			return;
+		}
+	}
+
+	bool isInMyMempool = checkMempool(transaction);
+	if (isInMyMempool == true) {
+		return;
+	}
+	
+	addMempool(transaction);
+	for (Node node : getPeerSubset()) {
+		node.receive(transaction, self);
+	}
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTYyNDEyMzQsLTYxOTg4ODc1MCwxMz
-c5MzU5MTU4LDIwNjgzNTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIw
-NTA4XX0=
+eyJoaXN0b3J5IjpbLTU2MTE0OTM5MCwtNjE5ODg4NzUwLDEzNz
+kzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1
+MDhdfQ==
 -->
