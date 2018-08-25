@@ -96,12 +96,18 @@ func receive(T transaction, Node sender) {
 		parent.receive(transaction, self);
 	}
 
-	
+	for (Node child : children) {
+		if (child == sender) {
+			continue;
+		}
+
+		child.receive(transaction, self);
+	}
 }
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzMDMwNTczLC02MTk4ODg3NTAsMTM3OT
-M1OTE1OCwyMDY4MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUw
-OF19
+eyJoaXN0b3J5IjpbMTM5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNz
+kzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1
+MDhdfQ==
 -->
