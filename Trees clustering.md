@@ -20,7 +20,8 @@ A *FN* node may be responsible for only one intercluster connection.
 
 Since the number of intercluster connections doesn't have to be large, we have reduced the number of links within the network. In doing so, we have reduced the overhead that exists with the current solution. In the current solution, the number of messages that are exchanged when gossiping one client transaction *T* is equal to _2 * num_of_vertices_. If we reduce the number of vertices in the network graph, we reduce the number of messages exchanged during the gossip phase.
 
-
+Furthermore, by clustering the nodes according to some criterion, we achieve having nodes that are in close "proximity"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
+eyJoaXN0b3J5IjpbMTE1ODY3MjU0MSwtMTI3NjkyMzg4Myw2Mz
+E2MjA1MDhdfQ==
 -->
