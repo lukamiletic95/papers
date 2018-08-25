@@ -124,7 +124,7 @@ Therefore, to avoid adding a duplicate of a transaction into a node's Mempool, t
 
 Node parent = ...;
 Set<Node> children = ...;
-Node intraclusterLink;
+Node interclusterLink;
 
 func receive(T transaction, Node sender) {
 	if (sender == C) { 
@@ -155,8 +155,8 @@ func receive(T transaction, Node sender) {
 		child.receive(transaction, self);
 	}
 
-	if (intraclusterLink != nil) {
-		intraclusterLink.receive(transaction, self);
+	if (interclusterLink != nil) {
+		interclusterLink.receive(transaction, self);
 	}
 }
 
@@ -167,8 +167,8 @@ Observe that in this case, upward gossiping is also required when the sender is 
 Also, a new node-local-variable is added - *Node intraclusterLink*. Since intercluster links are unidirectional, it is assumed that this variable is set only for a node which can send a message to another cluster.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDY2MTkxMTksLTkzNzcxMjA4NSwtMT
-g3NzQ5NDcxOCwtNTE1NzM4ODUyLDEzOTY0OTkyMTQsLTYxOTg4
-ODc1MCwxMzc5MzU5MTU4LDIwNjgzNTM1MjYsLTEyNzY5MjM4OD
-MsNjMxNjIwNTA4XX0=
+eyJoaXN0b3J5IjpbMTQzMDgwNjM1MSwtOTM3NzEyMDg1LC0xOD
+c3NDk0NzE4LC01MTU3Mzg4NTIsMTM5NjQ5OTIxNCwtNjE5ODg4
+NzUwLDEzNzkzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4My
+w2MzE2MjA1MDhdfQ==
 -->
