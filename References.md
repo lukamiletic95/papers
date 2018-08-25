@@ -20,11 +20,10 @@
 
 [9] A.M. Kermarrec, L. Massoulie and A.J. Ganesh, "Probabilistic Reliable Dissemination in Large-Scale systems". [Online]. Available: <https://www.researchgate.net/profile/Ayalvadi_Ganesh/publication/2832321_Probabilistic_Reliable_Dissemination_in_Large-Scale_Systems/links/00b7d535646945981f000000.pdf>
 
-[10] M. Castro, 
+[10] M. Castro, P. Druschel, A.M. Kermarrec, A. Nandi, A. Rowstron and A. Singh, "SplitStream: High-Bandwidth Multicast in Cooperative Environments"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU2NTIyMjUsLTE4NzYxOTE1NjMsMj
-Q5ODc3MjA2LDExNDYzMDk2NzQsMTcxNTA5NDAwNywtNzI3MjEx
-NDQyLDEyOTI0MDUwMTMsLTE3MDI5OTk4ODUsMTI1MjQ2NDkyMi
-wtMTYyNTYwMTQ5MSwtMTUxNjUxMzk4OSwtMjkyNTc3MzkzXX0=
-
+eyJoaXN0b3J5IjpbMzQ3NTU0MDIyLC0xODc2MTkxNTYzLDI0OT
+g3NzIwNiwxMTQ2MzA5Njc0LDE3MTUwOTQwMDcsLTcyNzIxMTQ0
+MiwxMjkyNDA1MDEzLC0xNzAyOTk5ODg1LDEyNTI0NjQ5MjIsLT
+E2MjU2MDE0OTEsLTE1MTY1MTM5ODksLTI5MjU3NzM5M119
 -->
