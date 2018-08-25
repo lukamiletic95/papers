@@ -7,7 +7,7 @@ The idea behind this algorithm combines two of the solutions proposed in [9] - *
  <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm2/images/fig10.png" />
-	<h4>Figure # - Dividing the network into clusters</h4>
+	<h4>Figure # - Dividing the network into clusters - <i>Hierarchical membership protocol</i></h4>
 </div>
 <br/><br/>
 
@@ -31,6 +31,6 @@ However, the overhead still exists within the clusters. There will still be redu
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTAyMTU1LC0xMjc2OTIzODgzLDYzMT
+eyJoaXN0b3J5IjpbNDU3OTA4MjIwLC0xMjc2OTIzODgzLDYzMT
 YyMDUwOF19
 -->
