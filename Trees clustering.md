@@ -47,8 +47,10 @@ To answer the first question, an approach explained in [9], *Flat membership ser
 </div>
 <br/><br/>
 
-We consider having a set of servers, where each server has its own state machine replica. When a new node wants to join the network, which can occur asynchronously and is therefore a dynamic process, it sends a request to a server set which is in charge of the node's most "proximate" cluster. As stated in `State machine replication` subsection, that node is completely unaware of the existence of multiple servers. As far as it is concerned, it constants a single server with a request to join the cluster. It is the responsibility of all the servers' in the set to reach on consensus on where 
+We consider having a set of servers, where each server has its own state machine replica. When a new node wants to join the network, which can occur asynchronously and is therefore a dynamic process, it sends a request to a server set which is in charge of the node's most "proximate" cluster. As stated in `State machine replication` subsection, that node is completely unaware of the existence of multiple servers. As far as it is concerned, it constants a single server with a request to join the cluster. It is the responsibility of all the servers in the set to reach a consensus on where in the tree will the new node be added. When that occurs, they all collectively transition to the next state. 
+
+Apart from having to handle membership requests, servers must also maintain a tree as efficient as possible (balan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4Mjk5OTEyMiwyMDY4MzUzNTI2LC0xMj
-c2OTIzODgzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbLTEzMTc2NjI2NzQsMjA2ODM1MzUyNiwtMT
+I3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
