@@ -177,10 +177,12 @@ To solve this, a generalization of the idea to use trees inside a cluster can be
 </div>
 <br/><br/>
 
-Now all of the clusters that constitute the network form a tree. 
+Now all of the clusters that constitute the network form a tree. In this case, a node can be responsible for more than one intercluster connection - this is less restrictive than [9].
+
+Root of every tree inside a cluster contains the IP address of roots
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NzE2OTYxMCw4NDExMTI0NzksMTYwNz
-A5MzYyMSwtOTM3NzEyMDg1LC0xODc3NDk0NzE4LC01MTU3Mzg4
-NTIsMTM5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMj
-A2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbLTE4ODQ1Mjc4MjgsODQxMTEyNDc5LDE2MD
+cwOTM2MjEsLTkzNzcxMjA4NSwtMTg3NzQ5NDcxOCwtNTE1NzM4
+ODUyLDEzOTY0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LD
+IwNjgzNTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
