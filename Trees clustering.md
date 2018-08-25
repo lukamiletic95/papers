@@ -64,9 +64,9 @@ To answer the second question, let us consider a situation presented in *Figure 
 
 When a node receives client's transaction *T*, it can easily propagate it down its subtree. However, how will the message reach the rest of the main tree?
 
-To solve this problem, we assume that each nodes contains information about its parent (e.g. parent's IP address).
+To solve this problem, we assume that each nodes contains information about its parent (e.g. parent's IP address). Thus, when a *FN* shown in *Figure #* receives *T*, it can propagate it towards its parent, then that parent has to propagate it to both its parent and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjc2ODA5MiwtNjE5ODg4NzUwLDEzNz
-kzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1
-MDhdfQ==
+eyJoaXN0b3J5IjpbMzM3MjMxMjc5LC02MTk4ODg3NTAsMTM3OT
+M1OTE1OCwyMDY4MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUw
+OF19
 -->
