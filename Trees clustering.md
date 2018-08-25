@@ -124,6 +124,7 @@ Therefore, to avoid adding a duplicate of a transaction into a node's Mempool, t
 
 Node parent = ...;
 Set<Node> children = ...;
+Node intraclusterLink;
 
 func receive(T transaction, Node sender) {
 	if (sender == C) { 
@@ -153,6 +154,8 @@ func receive(T transaction, Node sender) {
 
 		child.receive(transaction, self);
 	}
+
+	if (
 }
 
 ```
@@ -160,7 +163,7 @@ func receive(T transaction, Node sender) {
 Observe that in this case, upward gossiping is also required when the sender is from another cluster. The check is performed by a call to *isFromAnotherCluster()* function, which could, for example, check if the sender's IP address belongs to the receiver's cluster.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ2OTA5NDgsLTUxNTczODg1MiwxMz
-k2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMDY4MzUz
-NTI2LC0xMjc2OTIzODgzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbMTg0MTE4Mjg1MCwtNTE1NzM4ODUyLDEzOT
+Y0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgzNTM1
+MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
