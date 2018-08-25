@@ -120,8 +120,12 @@ First, let us explain how that is true. If we consider having three clusters, *A
 	C → B
 
 So, if there was a client within the cluster *B*, and it sent its transaction to any *FN* within that cluster, the transaction would be gossiped all over the cluster locally, via intracluster links. It would also be gossiped to cluster *C* via the B → C link. Inside cluster C, message would be gossiped locally, but then again returned to cluster B via the C → B link. 
+
+Therefore, to avoid adding a duplicate of a transaction into a node's Mempool, this time a call to *checkMempool()* is required:
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYzMDM2LC01MTU3Mzg4NTIsMTM5Nj
+eyJoaXN0b3J5IjpbODI5MTg0MTI3LC01MTU3Mzg4NTIsMTM5Nj
 Q5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2ODM1MzUy
 NiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
