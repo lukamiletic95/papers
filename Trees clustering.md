@@ -258,11 +258,11 @@ func receive(T transaction, Node sender) {
 
 In this case, a call to *checkMempool()* is also unnecessary. Every *FN* will receive *T* only once. 
 
-This solution provides no overhead. However, in ca
+This solution provides no overhead. However, in case of Byzantine or crash failures, it may not work properly. If any node within the tree becomes malicious or faulty, a client's transaction will not reach every node within the network. Therefore, it might get lost, never proposed, never executed and never stored in a blockchain.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTkwODgzMSwxNjQ4NTY4ODIyLC0xND
-EwNDU3NjcyLC0xNTMyMDAxNjExLDg0MTExMjQ3OSwxNjA3MDkz
-NjIxLC05Mzc3MTIwODUsLTE4Nzc0OTQ3MTgsLTUxNTczODg1Mi
-wxMzk2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMDY4
-MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbNzcxNjg1OTEsMTY0ODU2ODgyMiwtMTQxMD
+Q1NzY3MiwtMTUzMjAwMTYxMSw4NDExMTI0NzksMTYwNzA5MzYy
+MSwtOTM3NzEyMDg1LC0xODc3NDk0NzE4LC01MTU3Mzg4NTIsMT
+M5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2ODM1
+MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
