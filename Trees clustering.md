@@ -27,10 +27,10 @@ However, the overhead still exists within the clusters. There will still be redu
  <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm2/images/fig11.png" />
-	<h4>Figure # - Flat membership protocol with tree clustering</h4>
+	<h4>Figure # - Tree clustering - <i>Flat membership server based protocol</i></h4>
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3OTA4MjIwLC0xMjc2OTIzODgzLDYzMT
-YyMDUwOF19
+eyJoaXN0b3J5IjpbMTAzNzU1NzM4MiwtMTI3NjkyMzg4Myw2Mz
+E2MjA1MDhdfQ==
 -->
