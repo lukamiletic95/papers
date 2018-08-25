@@ -228,7 +228,7 @@ func receive(T transaction, Node sender) {
 
 // Pseudocode for a FN/V node - non-root node
 
-Node parent = ...;
+Node parent = ...; // is always from the same cluster
 Set<Node> children = ...;
 
 func receive(T transaction, Node sender) {
@@ -260,9 +260,9 @@ func receive(T transaction, Node sender) {
 
 In this case, a call to *checkMempool()* is also unnecessary. Every *FN* will receive *T* only once.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODU2ODgyMiwtMTQxMDQ1NzY3MiwtMT
-UzMjAwMTYxMSw4NDExMTI0NzksMTYwNzA5MzYyMSwtOTM3NzEy
-MDg1LC0xODc3NDk0NzE4LC01MTU3Mzg4NTIsMTM5NjQ5OTIxNC
-wtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2ODM1MzUyNiwtMTI3
-NjkyMzg4Myw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbOTc0NjMzMjk4LDE2NDg1Njg4MjIsLTE0MT
+A0NTc2NzIsLTE1MzIwMDE2MTEsODQxMTEyNDc5LDE2MDcwOTM2
+MjEsLTkzNzcxMjA4NSwtMTg3NzQ5NDcxOCwtNTE1NzM4ODUyLD
+EzOTY0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgz
+NTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
