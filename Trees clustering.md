@@ -265,11 +265,13 @@ It is evident that dealing with faults and crashes requires redundancy and produ
 
 #### Concluding the idea
 
-As far as the drawbacks of this solution are concerned, the first one regards clusters. It is not an easy task to group the nodes properly into clusters, and this is the subject of much ongoing research, as said in [9]. Secondly, implementing a state machine replication set of servers which will maintain a tree dynamically is also challenging. Determining which consensus algorithm 
+As far as the drawbacks of this solution are concerned, the first one regards clusters. It is not an easy task to group the nodes properly into clusters, and this is the subject of much ongoing research, as said in [9]. Secondly, implementing a state machine replication set of servers which will maintain a tree dynamically is also challenging. Determining which consensus algorithm to use within that set is vital for valid operating of the system.
+
+On the other hand, if this approach was to be implemented, it would produce no overhead at all. Every node in the network receives information which it knows nothing about only once, and never again. This approach would also improve performance of the Tendermint
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTAwMDk0NCwxNjQ4NTY4ODIyLC0xND
+eyJoaXN0b3J5IjpbMTE0MDQ4MDIzMCwxNjQ4NTY4ODIyLC0xND
 EwNDU3NjcyLC0xNTMyMDAxNjExLDg0MTExMjQ3OSwxNjA3MDkz
 NjIxLC05Mzc3MTIwODUsLTE4Nzc0OTQ3MTgsLTUxNTczODg1Mi
 wxMzk2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMDY4
