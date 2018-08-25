@@ -119,9 +119,9 @@ First, let us explain how that is true. If we consider having three clusters, *A
 	B → C
 	C → B
 
-So, if there was a client within the cluster *B*, and
+So, if there was a client within the cluster *B*, and it sent its transaction to any *FN* within that cluster, the transaction would be gossiped all over the cluster locally, via intracluster links. It would also be gossiped to cluster *C* via the B → C link. In
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzAxODU5LC01MTU3Mzg4NTIsMTM5Nj
-Q5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2ODM1MzUy
-NiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbMjAwMDk0NDQzNCwtNTE1NzM4ODUyLDEzOT
+Y0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgzNTM1
+MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
