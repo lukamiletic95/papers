@@ -224,10 +224,53 @@ func receive(T transaction, Node sender) {
 
 ```
 
+```go
+
+// Pseudocode for a FN/V node - non-root node
+
+Node parent = ...;
+Set<Node> children = ...;
+
+func receive(T transaction, Node sender) {
+	if (sender == C) { 
+		bool valid = checkTx(transaction);
+		if (valid == false) {
+			return;
+		}
+	}
+	
+	addMempool(transaction);
+	
+	if (sender == C || children.contains(sender)) {
+		if (parent != nil) {
+			parent.receive(transaction, self);
+		}
+	}
+
+	for (Node child : children) {
+		if (child == sender) {
+			continue;
+		}
+
+		child.receive(transaction, self);
+	}
+
+	for (Node interclusterChild : interclusterChildren) {
+		if (interclusterChild == sender) {
+			continue;
+		}
+		
+		interclusterChild.receive(transaction, self);
+	}
+}
+
+```
+
 In this case, a call to *checkMempool()* is also unnecessary. Every *FN* will receive *T* only once.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzIwMDE2MTEsODQxMTEyNDc5LDE2MD
-cwOTM2MjEsLTkzNzcxMjA4NSwtMTg3NzQ5NDcxOCwtNTE1NzM4
-ODUyLDEzOTY0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LD
-IwNjgzNTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
+eyJoaXN0b3J5IjpbMTIxODUxNzMwMSwtMTUzMjAwMTYxMSw4ND
+ExMTI0NzksMTYwNzA5MzYyMSwtOTM3NzEyMDg1LC0xODc3NDk0
+NzE4LC01MTU3Mzg4NTIsMTM5NjQ5OTIxNCwtNjE5ODg4NzUwLD
+EzNzkzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2
+MjA1MDhdfQ==
 -->
