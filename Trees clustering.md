@@ -47,8 +47,8 @@ To answer the first question, an approach explained in [9], *Flat membership ser
 </div>
 <br/><br/>
 
-We consider having a set of servers, where each server has its own state machine replica. When a new node wants to join the network, which can occur asynchronously and is therefore a dynamic process, it sends a request to a server set which is in charge of the node's most "proximate" cluster. As stated in `State machine replication` subsection, c 
+We consider having a set of servers, where each server has its own state machine replica. When a new node wants to join the network, which can occur asynchronously and is therefore a dynamic process, it sends a request to a server set which is in charge of the node's most "proximate" cluster. As stated in `State machine replication` subsection, that node is completely unaware of the existence of multiple servers. As far as it is concerned, it constants a single server with a request to join the cluster. It is the responsibility of all the servers' in the set to reach on consensus on where 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyNDYwMzMsMjA2ODM1MzUyNiwtMTI3Nj
-kyMzg4Myw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbMTI4Mjk5OTEyMiwyMDY4MzUzNTI2LC0xMj
+c2OTIzODgzLDYzMTYyMDUwOF19
 -->
