@@ -31,8 +31,8 @@ However, the overhead still exists within the clusters. There will still be redu
 </div>
 <br/><br/>
 
-The main culprit behind the overhead problem is the graph. Graph can contain cycles. Since the network is modeled via a graph,
+The main culprit behind the overhead problem is - the graph. Graph can contain cycles. Since the network is modeled via a graph, with its links being bidirectional, a client's transaction can travel through the network using different paths, only to finally reach the same destination multiple t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTczMTA3NzEsMjA2ODM1MzUyNiwtMT
-I3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbMTQ0NjE3MTE1MiwyMDY4MzUzNTI2LC0xMj
+c2OTIzODgzLDYzMTYyMDUwOF19
 -->
