@@ -11,7 +11,7 @@ The idea behind this algorithm combines two of the solutions proposed in [9] - *
 </div>
 <br/><br/>
 
-First and foremost, let us assume that the network is now divided into clusters. As stated in [9]
+First and foremost, let us assume that the network is now divided into clusters. As presented in [9], nodes are clustered according to geographical proximity or some network-related metrics that is related to
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzMzQzNDQyLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbMTMyMzgxNzQwLDYzMTYyMDUwOF19
 -->
