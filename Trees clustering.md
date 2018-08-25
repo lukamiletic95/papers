@@ -75,7 +75,7 @@ Principle can be adopted:
 
 ```go
 
-// Pseudocode for a FN/V node
+// Pseudocode for a FN/V node - clusters not taken into consideration
 
 Node parent = ...;
 Set<Node> children = ...;
@@ -87,11 +87,6 @@ func receive(T transaction, Node sender) {
 			return;
 		}
 	}
-
-	/*bool isInMyMempool = checkMempool(transaction);
-	if (isInMyMempool == true) {
-		return;
-	}*/
 	
 	addMempool(transaction);
 	
@@ -123,9 +118,49 @@ So, if there was a client within the cluster *B*, and it sent its transaction to
 
 Therefore, to avoid adding a duplicate of a transaction into a node's Mempool, this time a call to *checkMempool()* is required:
 
+```go
+
+// Pseudocode for a FN/V node - clusters taken into consideration
+
+Node parent = ...;
+Set<Node> children = ...;
+
+func receive(T transaction, Node sender) {
+	if (sender == C) { 
+		bool valid = checkTx(transaction);
+		if (valid == false) {
+			return;
+		}
+	}
+
+	bool isInMyMempool = checkMempool(transaction);
+	if (isInMyMempool == true) {
+		return;
+	}
+	
+	addMempool(transaction);
+	
+	if (sender == C || children.contains(sender) || isFromAnotherCluster(sender)) {
+		if (parent != nil) {
+			parent.receive(transaction, self);
+		}
+	}
+
+	for (Node child : children) {
+		if (child == sender) {
+			continue;
+		}
+
+		child.receive(transaction, self);
+	}
+}
+
+```
+
+Observe that in this case, upward gossiping is required also when the sender is from
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5MTg0MTI3LC01MTU3Mzg4NTIsMTM5Nj
-Q5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2ODM1MzUy
-NiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbLTE5NTY3NDY5MywtNTE1NzM4ODUyLDEzOT
+Y0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgzNTM1
+MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
