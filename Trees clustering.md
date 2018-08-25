@@ -62,9 +62,11 @@ To answer the second question, let us consider a situation presented in *Figure 
 </div>
 <br/><br/>
 
-When a node receives client's transaction *T*, it can easily propagate it down the tree. However
+When a node receives client's transaction *T*, it can easily propagate it down its subtree. However, how will the message reach the rest of the main tree?
+
+To solve this problem, we assume that each nodes contains information about its parent (e.g. parent's IP address).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIxMzMwNDMsLTYxOTg4ODc1MCwxMz
-c5MzU5MTU4LDIwNjgzNTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIw
-NTA4XX0=
+eyJoaXN0b3J5IjpbMTkzMjc2ODA5MiwtNjE5ODg4NzUwLDEzNz
+kzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1
+MDhdfQ==
 -->
