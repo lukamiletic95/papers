@@ -179,7 +179,7 @@ To solve this, a generalization of the idea to use trees inside a cluster can be
 
 Now all of the clusters that constitute the network form a tree. In this case, a node can be responsible for more than one intercluster connection - this is less restrictive than [9].
 
-Root of every tree inside a cluster contains links (IP addresses) towards roots of trees inside its clusters children. The information is propagated in a completely same manner as in a in-cluster tree.
+Root of every tree inside a cluster contains links (IP addresses) towards roots of trees inside its cluster's children. The information is propagated in a completely same manner as in a in-cluster tree.
 
 Observe that the restriction in [9] did not have to be mitigated for this algorithm to work. A node could still remain responsible for only one intercluster link, but this would result in multiple nodes within a cluster being connected to different clusters. Therefore, in further text, we assume that a only a root can contain intercluster connections.
 
@@ -271,10 +271,10 @@ On the other hand, if this approach was to be implemented, it would produce no o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTAzNTE2Niw0ODY4NjU3OTEsMTY0OD
-U2ODgyMiwtMTQxMDQ1NzY3MiwtMTUzMjAwMTYxMSw4NDExMTI0
-NzksMTYwNzA5MzYyMSwtOTM3NzEyMDg1LC0xODc3NDk0NzE4LC
-01MTU3Mzg4NTIsMTM5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNzkz
-NTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1MD
-hdfQ==
+eyJoaXN0b3J5IjpbMTM4NTYxODcyMywtNzQ1MDM1MTY2LDQ4Nj
+g2NTc5MSwxNjQ4NTY4ODIyLC0xNDEwNDU3NjcyLC0xNTMyMDAx
+NjExLDg0MTExMjQ3OSwxNjA3MDkzNjIxLC05Mzc3MTIwODUsLT
+E4Nzc0OTQ3MTgsLTUxNTczODg1MiwxMzk2NDk5MjE0LC02MTk4
+ODg3NTAsMTM3OTM1OTE1OCwyMDY4MzUzNTI2LC0xMjc2OTIzOD
+gzLDYzMTYyMDUwOF19
 -->
