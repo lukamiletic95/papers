@@ -4,8 +4,13 @@ As mentioned earlier in the paper, nodes within the system model are not part of
 
 The idea behind this algorithm combines two of the solutions proposed in [9] - ***Flat membership server based protocol*** ([9] - 2.3.1) and ***Hierarchical membership protocol*** ([9] - 2.3.2). However, those two solutions applied directly to our system model would not improve its gossiping algorithm performances in a significant manner. Due to that, additional modification to the combination of the aforesaid solutions is proposed in further text.
 
- 
+ <br/><br/>
+<div align='center'> 
+<img src="https://github.com/lukamiletic95/papers/blob/algorithm2/images/fig10.png" />
+	<h4>Figure # - Dividing the network into clusters</h4>
+</div>
+<br/><br/>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzQ2MDY4MCw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbLTEwODI4NTkyMjgsNjMxNjIwNTA4XX0=
 -->
