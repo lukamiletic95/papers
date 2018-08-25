@@ -242,9 +242,7 @@ func receive(T transaction, Node sender) {
 	addMempool(transaction);
 	
 	if (sender == C || children.contains(sender)) {
-		if (parent != nil) {
 			parent.receive(transaction, self);
-		}
 	}
 
 	for (Node child : children) {
@@ -260,7 +258,7 @@ func receive(T transaction, Node sender) {
 
 In this case, a call to *checkMempool()* is also unnecessary. Every *FN* will receive *T* only once.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0NjMzMjk4LDE2NDg1Njg4MjIsLTE0MT
+eyJoaXN0b3J5IjpbMjkxNzM4Nzg3LDE2NDg1Njg4MjIsLTE0MT
 A0NTc2NzIsLTE1MzIwMDE2MTEsODQxMTEyNDc5LDE2MDcwOTM2
 MjEsLTkzNzcxMjA4NSwtMTg3NzQ5NDcxOCwtNTE1NzM4ODUyLD
 EzOTY0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgz
