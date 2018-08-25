@@ -18,13 +18,13 @@
 
 [8] A. Montresor, "Gossip and Epidemic Protocols" 2017. [Online]. Available: <http://disi.unitn.it/~montreso/ds/papers/montresor17.pdf>
 
-[9]. A.M. Kermarrec, L. Massoulie and A.J. Ganesh, "Probabilistic Reliable Dissemination in Large-Scale systems". [Online]. Available: <https://www.researchgate.net/profile/Ayalvadi_Ganesh/publication/2832321_Probabilistic_Reliable_Dissemination_in_Large-Scale_Systems/links/00b7d535646945981f000000.pdf>
+[9] A.M. Kermarrec, L. Massoulie and A.J. Ganesh, "Probabilistic Reliable Dissemination in Large-Scale systems". [Online]. Available: <https://www.researchgate.net/profile/Ayalvadi_Ganesh/publication/2832321_Probabilistic_Reliable_Dissemination_in_Large-Scale_Systems/links/00b7d535646945981f000000.pdf>
 
-[10]
+[10] M. Castro, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTg3MjI3MCwtMTg3NjE5MTU2MywyND
-k4NzcyMDYsMTE0NjMwOTY3NCwxNzE1MDk0MDA3LC03MjcyMTE0
-NDIsMTI5MjQwNTAxMywtMTcwMjk5OTg4NSwxMjUyNDY0OTIyLC
-0xNjI1NjAxNDkxLC0xNTE2NTEzOTg5LC0yOTI1NzczOTNdfQ==
+eyJoaXN0b3J5IjpbLTE3MzU2NTIyMjUsLTE4NzYxOTE1NjMsMj
+Q5ODc3MjA2LDExNDYzMDk2NzQsMTcxNTA5NDAwNywtNzI3MjEx
+NDQyLDEyOTI0MDUwMTMsLTE3MDI5OTk4ODUsMTI1MjQ2NDkyMi
+wtMTYyNTYwMTQ5MSwtMTUxNjUxMzk4OSwtMjkyNTc3MzkzXX0=
 
 -->
