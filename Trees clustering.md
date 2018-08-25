@@ -11,6 +11,7 @@ The idea behind this algorithm combines two of the solutions proposed in [9] - *
 </div>
 <br/><br/>
 
+First and foremost, let us assume that the network is now divided into clusters. As stated in [9]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODI4NTkyMjgsNjMxNjIwNTA4XX0=
+eyJoaXN0b3J5IjpbODYzMzQzNDQyLDYzMTYyMDUwOF19
 -->
