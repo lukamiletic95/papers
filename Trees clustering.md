@@ -49,7 +49,7 @@ To answer the first question, an approach explained in [9], *Flat membership ser
 
 We consider having a set of servers, where each server has its own state machine replica. When a new node wants to join the network, which can occur asynchronously and is therefore a dynamic process, it sends a request to a server set which is in charge of that node's most "proximate" cluster. As stated in `State machine replication` subsection, that node is completely unaware of the existence of multiple servers. As far as it is concerned, it contacts a single server with a request to join the cluster. It is the responsibility of all the servers in the set to reach a consensus on where in the tree will the new node be added. When that occurs, they all collectively transition to the next state. 
 
-Apart from having to handle membership requests, servers must also keep the tree as efficient as possible (balanced, or even complete). It is advisable that the tree changes dynamically from time to time, in a way that a certain node does not remain a root node, intermediate node or a leaf node forever. Leaf nodes propagate the informat
+Apart from having to handle membership requests, servers must also keep the tree as efficient as possible (balanced, or even complete). It is advisable that the tree changes dynamically from time to time, in a way that a certain node does not remain a root node, intermediate node or a leaf node forever. Leaf nodes propagate the information a lot less than interior nodes, and are therefore less utilized, which is bad in case they have a high bandwidth. Shuffling the tree periodically maximizes the utilization of nodes' bandwidth .
 
 Replicating servers eliminates the *single point of failure* problem. However, they have to be properly synchronized, and therefore a consensus algorithm executed on them should be carefully chosen.
 
@@ -267,9 +267,9 @@ It is evident that dealing with faults and crashes requires redundancy and produ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5NTUyOTk5LDE2NDg1Njg4MjIsLTE0MT
-A0NTc2NzIsLTE1MzIwMDE2MTEsODQxMTEyNDc5LDE2MDcwOTM2
-MjEsLTkzNzcxMjA4NSwtMTg3NzQ5NDcxOCwtNTE1NzM4ODUyLD
-EzOTY0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgz
-NTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
+eyJoaXN0b3J5IjpbLTExNzU3MDAzMTcsMTY0ODU2ODgyMiwtMT
+QxMDQ1NzY3MiwtMTUzMjAwMTYxMSw4NDExMTI0NzksMTYwNzA5
+MzYyMSwtOTM3NzEyMDg1LC0xODc3NDk0NzE4LC01MTU3Mzg4NT
+IsMTM5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2
+ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
