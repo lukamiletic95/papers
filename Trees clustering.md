@@ -11,7 +11,7 @@ The idea behind this algorithm combines two of the solutions proposed in [9] - *
 </div>
 <br/><br/>
 
-First and foremost, let us assume that the network is now divided into clusters. As presented in [9], nodes are clustered according to geographical proximity or some network-related metrics that refers to network proximity (e.g. round-trip delay or number of hops between nodes).
+First and foremost, let us assume that the network is now divided into clusters. As presented in [9], nodes are clustered according to geographical proximity or some network-related metrics that refers to network proximity (e.g. round-trip delay or number of hops between nodes). [9] provides mathematical proof that only a small number of connections among clusters is required to keep the system connected.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjI1NzI5NDMsNjMxNjIwNTA4XX0=
+eyJoaXN0b3J5IjpbLTE5MzY5NzAxNSw2MzE2MjA1MDhdfQ==
 -->
