@@ -176,9 +176,11 @@ To solve this, a generalization of the idea to use trees inside a cluster can be
 	<h4>Figure # - Tree clustering - final solution</i></h4>
 </div>
 <br/><br/>
+
+Now all of the clusters that constitute the network form a tree. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxMTEyNDc5LDE2MDcwOTM2MjEsLTkzNz
-cxMjA4NSwtMTg3NzQ5NDcxOCwtNTE1NzM4ODUyLDEzOTY0OTky
-MTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgzNTM1MjYsLT
-EyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
+eyJoaXN0b3J5IjpbLTU5NzE2OTYxMCw4NDExMTI0NzksMTYwNz
+A5MzYyMSwtOTM3NzEyMDg1LC0xODc3NDk0NzE4LC01MTU3Mzg4
+NTIsMTM5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMj
+A2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
