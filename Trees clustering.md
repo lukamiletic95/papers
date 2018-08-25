@@ -38,8 +38,15 @@ If nodes within the cluster were to be connected in a tree-like scheme, it would
 1. Who maintains the tree within the cluster?
 2. How to propagate a message upward in a tree if we use a unidirectional link?
 
+To answer the first question, an approach explained in [9], *Flat membership server based protocol*, can be applied. 
 
+ <br/><br/>
+<div align='center'> 
+<img src="https://github.com/lukamiletic95/papers/blob/algorithm2/images/fig12.png" />
+	<h4>Figure # - State machine replication servers used for maintaini subscriptions</i></h4>
+</div>
+<br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk4NDIxMDcsMjA2ODM1MzUyNiwtMT
-I3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbNzUxMzI5MzM5LDIwNjgzNTM1MjYsLTEyNz
+Y5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
