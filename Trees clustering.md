@@ -258,11 +258,11 @@ func receive(T transaction, Node sender) {
 
 In this case, a call to *checkMempool()* is also unnecessary. Every *FN* will receive *T* only once. 
 
-This solution provides no overhead. However, in case of Byzantine or crash failures, it may not work properly. If any node in the tree becomes malicious or faulty, a client's transaction will not reach every node within the network. Therefore, it might become lost, never proposed, never executed and never stored in a blockchain. To solve this, SMR servers  inside each cluster could maintain multiple trees - a 
+This solution provides no overhead. However, in case of Byzantine or crash failures, it may not work properly. If any node in the tree becomes malicious or faulty, a client's transaction will not reach every node within the network. Therefore, it might become lost, never proposed, never executed and never stored in a blockchain. To solve this, SMR servers  inside each cluster could maintain multiple trees - a forest of trees such that a node which is a root in one tree is never a root in another and a node which is a leaf in one tree is never an intermediate node in another. It is evident that dealing with faults and crashes requires redundancy and produces overhead, but it is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODc3ODU4LDE2NDg1Njg4MjIsLTE0MT
-A0NTc2NzIsLTE1MzIwMDE2MTEsODQxMTEyNDc5LDE2MDcwOTM2
-MjEsLTkzNzcxMjA4NSwtMTg3NzQ5NDcxOCwtNTE1NzM4ODUyLD
-EzOTY0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgz
-NTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
+eyJoaXN0b3J5IjpbLTYyODIxNzMyOCwxNjQ4NTY4ODIyLC0xND
+EwNDU3NjcyLC0xNTMyMDAxNjExLDg0MTExMjQ3OSwxNjA3MDkz
+NjIxLC05Mzc3MTIwODUsLTE4Nzc0OTQ3MTgsLTUxNTczODg1Mi
+wxMzk2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMDY4
+MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUwOF19
 -->
