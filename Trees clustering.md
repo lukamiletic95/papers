@@ -124,7 +124,7 @@ Therefore, to avoid adding a duplicate of a transaction into a node's Mempool, t
 
 Node parent = ...;
 Set<Node> children = ...;
-Node interclusterLink;
+Node interclusterLink = ...;
 
 func receive(T transaction, Node sender) {
 	if (sender == C) { 
@@ -183,10 +183,52 @@ Root of every tree inside a cluster contains links (IP addresses) towards roots 
 
 Observe that the restriction in [9] did not have to be mitigated for this algorithm to work. A node could still remain responsible for only one intercluster link, but this would result in multiple nodes within a cluster being connected to different clusters. Therefore, in further text, we assume that a only a root can contain intercluster connections.
 
+```go
 
+// Pseudocode for a FN/V node - root
+
+Node parent = ...;
+Set<Node> children = ...;
+Set<Node> interclusterChildren = ...;
+
+func receive(T transaction, Node sender) {
+	if (sender == C) { 
+		bool valid = checkTx(transaction);
+		if (valid == false) {
+			return;
+		}
+	}
+
+	bool isInMyMempool = checkMempool(transaction);
+	if (isInMyMempool == true) {
+		return;
+	}
+	
+	addMempool(transaction);
+	
+	if (sender == C || children.contains(sender) || isFromAnotherCluster(sender)) {
+		if (parent != nil) {
+			parent.receive(transaction, self);
+		}
+	}
+
+	for (Node child : children) {
+		if (child == sender) {
+			continue;
+		}
+
+		child.receive(transaction, self);
+	}
+
+	if (interclusterLink != nil) {
+		interclusterLink.receive(transaction, self);
+	}
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzI1MTE3Niw4NDExMTI0NzksMTYwNz
-A5MzYyMSwtOTM3NzEyMDg1LC0xODc3NDk0NzE4LC01MTU3Mzg4
-NTIsMTM5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMj
-A2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbMzk1ODUxNTE5LDg0MTExMjQ3OSwxNjA3MD
+kzNjIxLC05Mzc3MTIwODUsLTE4Nzc0OTQ3MTgsLTUxNTczODg1
+MiwxMzk2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMD
+Y4MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUwOF19
 -->
