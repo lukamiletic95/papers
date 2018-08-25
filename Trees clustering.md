@@ -92,8 +92,10 @@ func receive(T transaction, Node sender) {
 	
 	addMempool(transaction);
 	
-	if (sender == C or children.contains(sender)) {
-		parent.receive(transaction, self);
+	if (sender == C || children.contains(sender)) {
+		if (parent != nil) {
+			parent.receive(transaction, self);
+		}
 	}
 
 	for (Node child : children) {
@@ -107,7 +109,7 @@ func receive(T transaction, Node sender) {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNz
-kzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1
-MDhdfQ==
+eyJoaXN0b3J5IjpbLTUxNTczODg1MiwxMzk2NDk5MjE0LC02MT
+k4ODg3NTAsMTM3OTM1OTE1OCwyMDY4MzUzNTI2LC0xMjc2OTIz
+ODgzLDYzMTYyMDUwOF19
 -->
