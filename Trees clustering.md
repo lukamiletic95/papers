@@ -265,13 +265,13 @@ It is evident that dealing with faults and crashes requires redundancy and produ
 
 #### Concluding the idea
 
-As far as the drawbacks of this solution are concerned, the first one regards clusters. It is not an easy task to group the nodes properly into clusters
+As far as the drawbacks of this solution are concerned, the first one regards clusters. It is not an easy task to group the nodes properly into clusters, and this is the subject of much ongoing research, as said in [9]. Secondly, implementing a state machine replication set of servers which will maintain a tree dynamically is also challenging. Determining which consensus algorithm 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1MDM5MTksMTY0ODU2ODgyMiwtMTQxMD
-Q1NzY3MiwtMTUzMjAwMTYxMSw4NDExMTI0NzksMTYwNzA5MzYy
-MSwtOTM3NzEyMDg1LC0xODc3NDk0NzE4LC01MTU3Mzg4NTIsMT
-M5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2ODM1
-MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbLTQ1MTAwMDk0NCwxNjQ4NTY4ODIyLC0xND
+EwNDU3NjcyLC0xNTMyMDAxNjExLDg0MTExMjQ3OSwxNjA3MDkz
+NjIxLC05Mzc3MTIwODUsLTE4Nzc0OTQ3MTgsLTUxNTczODg1Mi
+wxMzk2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMDY4
+MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUwOF19
 -->
