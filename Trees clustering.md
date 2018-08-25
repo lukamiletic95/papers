@@ -52,8 +52,18 @@ We consider having a set of servers, where each server has its own state machine
 Apart from having to handle membership requests, servers must also keep the tree as efficient as possible (balanced, or even complete). 
 
 Replicating servers eliminates the *single point of failure* problem. However, they have to be properly synchronized, and therefore a consensus algorithm executed on them should be carefully chosen.
+
+To answer the second question, let us consider a situation presented in *Figure #*:
+
+ <br/><br/>
+<div align='center'> 
+<img src="https://github.com/lukamiletic95/papers/blob/algorithm2/images/fig13.png" />
+	<h4>Figure # - Propagating the message when using trees</i></h4>
+</div>
+<br/><br/>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyNDQwNjIxLC02MTk4ODg3NTAsMTM3OT
-M1OTE1OCwyMDY4MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUw
-OF19
+eyJoaXN0b3J5IjpbLTIyMzQ4NDk0MiwtNjE5ODg4NzUwLDEzNz
+kzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1
+MDhdfQ==
 -->
