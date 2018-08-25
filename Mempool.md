@@ -24,6 +24,7 @@ Speaking in terms of blockchain, Mempool is a bottleneck of the system. It conta
 
 Therefore, it is vital to ensure "liveliness" of a Mempool, in the sense that it should constantly release processed transactions, in order to provide more space for the ones to come in the future. Speed of clearing a Mempool is tightly connected to a gossiping protocol used within the network.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE4MzM4NjksLTg1MzUwMDkzNiwtMT
-k5Mzk2MTc1NiwxNzYxMzM1ODY3LC04MTg5MzE3OTNdfQ==
+eyJoaXN0b3J5IjpbLTE2Mjg2MDgwNDAsLTE5MDE4MzM4NjksLT
+g1MzUwMDkzNiwtMTk5Mzk2MTc1NiwxNzYxMzM1ODY3LC04MTg5
+MzE3OTNdfQ==
 -->
