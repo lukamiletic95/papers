@@ -155,7 +155,7 @@ func receive(T transaction, Node sender) {
 		child.receive(transaction, self);
 	}
 
-	if (intraclusterLink != n
+	if (intraclusterLink != nil && instracluster
 }
 
 ```
@@ -163,7 +163,8 @@ func receive(T transaction, Node sender) {
 Observe that in this case, upward gossiping is also required when the sender is from another cluster. The check is performed by a call to *isFromAnotherCluster()* function, which could, for example, check if the sender's IP address belongs to the receiver's cluster.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzc0OTQ3MTgsLTUxNTczODg1MiwxMz
-k2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMDY4MzUz
-NTI2LC0xMjc2OTIzODgzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbLTE5MTM0OTMxODQsLTE4Nzc0OTQ3MTgsLT
+UxNTczODg1MiwxMzk2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1
+OTE1OCwyMDY4MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUwOF
+19
 -->
