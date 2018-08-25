@@ -112,9 +112,9 @@ func receive(T transaction, Node sender) {
 
 ```
 
-Note that c
+Note that there is no need for calling the *checkMempool()* function before adding a transaction to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Mjk5MzY4MSwtNTE1NzM4ODUyLDEzOT
+eyJoaXN0b3J5IjpbMjExMzAxMDExMywtNTE1NzM4ODUyLDEzOT
 Y0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgzNTM1
 MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
