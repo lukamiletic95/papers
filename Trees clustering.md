@@ -46,7 +46,9 @@ To answer the first question, an approach explained in [9], *Flat membership ser
 	<h4>Figure # - State machine replication servers used for maintaining trees</i></h4>
 </div>
 <br/><br/>
+
+We consider having a set of servers, where each server has its own state machine replica. Simply 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDIxMzIwMywyMDY4MzUzNTI2LC0xMj
+eyJoaXN0b3J5IjpbMTExMjAyNTgyNCwyMDY4MzUzNTI2LC0xMj
 c2OTIzODgzLDYzMTYyMDUwOF19
 -->
