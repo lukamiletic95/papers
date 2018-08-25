@@ -22,8 +22,15 @@ Since the number of intercluster connections doesn't have to be large, we have r
 
 Furthermore, by clustering the nodes according to some criterion, we achieve having nodes that are in close "proximity" to one another, thus enabling a faster communication between them. Clustering reduces the latency in the network.
 
-However, the overhead still exists within the clusters. There will still be redundant message passing when gossiping a transaction *T* from a node's Mempool. To solve that, following improvement is proposed.
+However, the overhead still exists within the clusters. There will still be redundant message passing when gossiping a transaction *T* from a node's Mempool. To solve that, following improvement is proposed:
+
+ <br/><br/>
+<div align='center'> 
+<img src="https://github.com/lukamiletic95/papers/blob/algorithm2/images/fig11.png" />
+	<h4>Figure # - Flat membership protocol with tree clustering</h4>
+</div>
+<br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzU0NTY1NywtMTI3NjkyMzg4Myw2Mz
-E2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbMTU5MTAyMTU1LC0xMjc2OTIzODgzLDYzMT
+YyMDUwOF19
 -->
