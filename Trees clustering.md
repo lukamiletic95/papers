@@ -187,7 +187,7 @@ Observe that the restriction in [9] did not have to be mitigated for this algori
 
 // Pseudocode for a FN/V node - root
 
-Node parent = ...;
+Node parent = ...; // is always from another cluster
 Set<Node> children = ...;
 Set<Node> interclusterChildren = ...;
 
@@ -260,9 +260,9 @@ func receive(T transaction, Node sender) {
 
 In this case, a call to *checkMempool()* is also unnecessary. Every *FN* will receive *T* only once.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTA0NTc2NzIsLTE1MzIwMDE2MTEsOD
-QxMTEyNDc5LDE2MDcwOTM2MjEsLTkzNzcxMjA4NSwtMTg3NzQ5
-NDcxOCwtNTE1NzM4ODUyLDEzOTY0OTkyMTQsLTYxOTg4ODc1MC
-wxMzc5MzU5MTU4LDIwNjgzNTM1MjYsLTEyNzY5MjM4ODMsNjMx
-NjIwNTA4XX0=
+eyJoaXN0b3J5IjpbMTY0ODU2ODgyMiwtMTQxMDQ1NzY3MiwtMT
+UzMjAwMTYxMSw4NDExMTI0NzksMTYwNzA5MzYyMSwtOTM3NzEy
+MDg1LC0xODc3NDk0NzE4LC01MTU3Mzg4NTIsMTM5NjQ5OTIxNC
+wtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2ODM1MzUyNiwtMTI3
+NjkyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
