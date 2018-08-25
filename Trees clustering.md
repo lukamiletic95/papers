@@ -201,9 +201,9 @@ func receive(T transaction, Node sender) {
 	
 	addMempool(transaction);
 	
-		if (parent != nil) {
-			parent.receive(transaction, self);
-		}
+	if (parent != nil) {
+		parent.receive(transaction, self);
+	}
 
 	for (Node child : children) {
 		if (child == sender) {
@@ -213,8 +213,12 @@ func receive(T transaction, Node sender) {
 		child.receive(transaction, self);
 	}
 
-	if (interclusterLink != nil) {
-		interclusterLink.receive(transaction, self);
+	for (Node interclusterChild : interclusterChildren) {
+		if (interclusterChild == sender) {
+			continue;
+		}
+		
+		interclusterChild.receive(transaction, self);
 	}
 }
 
@@ -222,8 +226,8 @@ func receive(T transaction, Node sender) {
 
 In this case, a call to *checkMempool()* is also unnecessary. Every *FN* will receive *T* only once.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzA0OTAwLDg0MTExMjQ3OSwxNjA3MD
-kzNjIxLC05Mzc3MTIwODUsLTE4Nzc0OTQ3MTgsLTUxNTczODg1
-MiwxMzk2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMD
-Y4MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbLTE1MzIwMDE2MTEsODQxMTEyNDc5LDE2MD
+cwOTM2MjEsLTkzNzcxMjA4NSwtMTg3NzQ5NDcxOCwtNTE1NzM4
+ODUyLDEzOTY0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LD
+IwNjgzNTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
