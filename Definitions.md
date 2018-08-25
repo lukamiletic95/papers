@@ -14,6 +14,6 @@ After that, a system model used throughout the analysis will be defined, in thre
 * `System model - consensus & gossip`
 * `System model - assumptions & summary`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTA1MzYzLC02NDkwNTM2MywtMTY4Mz
-k0ODI1Nl19
+eyJoaXN0b3J5IjpbLTUyMDE4NTE0MCwtNjQ5MDUzNjMsLTY0OT
+A1MzYzLC0xNjgzOTQ4MjU2XX0=
 -->
