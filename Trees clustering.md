@@ -156,7 +156,7 @@ func receive(T transaction, Node sender) {
 	}
 
 	if (intraclusterLink != nil) {
-		intraClusterLink.receive(transaction, self);
+		intraclusterLink.receive(transaction, self);
 	}
 }
 
@@ -164,9 +164,11 @@ func receive(T transaction, Node sender) {
 
 Observe that in this case, upward gossiping is also required when the sender is from another cluster. The check is performed by a call to *isFromAnotherCluster()* function, which could, for example, check if the sender's IP address belongs to the receiver's cluster.
 
+Also, a new node local variable is added - *Node intraclusterLink*. Since intercluster links are unidirectional, it is assumed that this variable is set for a node which can 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTIxNTI1OTEsLTE4Nzc0OTQ3MTgsLT
-UxNTczODg1MiwxMzk2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1
-OTE1OCwyMDY4MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUwOF
-19
+eyJoaXN0b3J5IjpbMTgzODU1ODU4OSwtMTg3NzQ5NDcxOCwtNT
+E1NzM4ODUyLDEzOTY0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5
+MTU4LDIwNjgzNTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX
+0=
 -->
