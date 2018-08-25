@@ -16,7 +16,7 @@ First and foremost, let us assume that the network is now divided into clusters.
 * **Intercluster →** they represent links between different clusters.
 * **Intracluster→** they represent links between nodes within the same cluster.
 
-A *FN* node may be responsible for only one intercluster connection.
+A *FN* node may be responsible for only one intercluster connection - this is al.
 
 Since the number of intercluster connections doesn't have to be large, we have reduced the number of links within the network. In doing so, we have reduced the overhead that exists with the current solution. In the current solution, the number of messages that are exchanged when gossiping one client transaction *T* is equal to _2 * num_of_vertices_. If we reduce the number of vertices in the network graph, we reduce the number of messages exchanged during the gossip phase.
 
@@ -51,6 +51,6 @@ We consider having a set of servers, where each server has its own state machine
 
 Apart from having to handle membership requests, servers must also maintain a tree as efficient as possible. Replicating servers eliminates the *single point of failure* problem. However, they have to be properly synchronized, and therefore a consensus algorithm executed on them should be carefully chosen.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTM1OTE1OCwyMDY4MzUzNTI2LC0xMj
-c2OTIzODgzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbMTk5MzA4MTkxOCwxMzc5MzU5MTU4LDIwNj
+gzNTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
