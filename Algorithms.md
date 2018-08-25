@@ -9,5 +9,5 @@ In this section, before all else, a current algorithm used in Tendermint for gos
 Following, analysis of other algorithms is provided.
 *To-Do:* finish this.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5OTM5MDQxXX0=
+eyJoaXN0b3J5IjpbNDUxOTgwNDA3LDY2OTkzOTA0MV19
 -->
