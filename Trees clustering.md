@@ -181,10 +181,10 @@ Now all of the clusters that constitute the network form a tree. In this case, a
 
 Root of every tree inside a cluster contains links (IP addresses) towards roots of trees inside its clusters children. The information is propagated in a completely same manner as in a in-cluster tree.
 
-Observe that the restriction in [9] di
+Observe that the restriction in [9] did not have to be mitigated for this algorithm to work. A node could still remain responsible for only one intercluster link
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODUwODQ4NCw4NDExMTI0NzksMTYwNz
-A5MzYyMSwtOTM3NzEyMDg1LC0xODc3NDk0NzE4LC01MTU3Mzg4
-NTIsMTM5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMj
-A2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbLTE3NTExMjQ5OTIsODQxMTEyNDc5LDE2MD
+cwOTM2MjEsLTkzNzcxMjA4NSwtMTg3NzQ5NDcxOCwtNTE1NzM4
+ODUyLDEzOTY0OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LD
+IwNjgzNTM1MjYsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
