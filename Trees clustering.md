@@ -15,6 +15,10 @@ First and foremost, let us assume that the network is now divided into clusters.
 
 * **Intercluster →** they represent links between different clusters.
 * **Intracluster→** they represent links between nodes within the same cluster.
+
+A *FN* node may be responsible for only one intercluster connection.
+
+By 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzI0MDQxOCw2MzE2MjA1MDhdfQ==
+eyJoaXN0b3J5IjpbLTIwNjc1NzU4MDksNjMxNjIwNTA4XX0=
 -->
