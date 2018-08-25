@@ -33,8 +33,13 @@ However, the overhead still exists within the clusters. There will still be redu
 
 The main culprit behind the overhead problem is - the graph. Graph can contain cycles. Since the network is modeled via a graph, with its links being bidirectional, a client's transaction can travel through the network using different paths, only to finally reach the same destination multiple times. To avoid that, a non-cyclical unidirectional data structure can be used - the tree.
 
-If nodes within the cluster were to be connected in a tree-like scheme, it would result in each node receiving the message only once.
+If nodes within the cluster were to be connected in a tree-like scheme, it would result in each node receiving the message only once. However, two questions arise:
+
+1. Who maintains the tree within the cluster?
+2. How to propagate a message upward in a tree if we use a unidirectional link?
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODI0NzI3MiwyMDY4MzUzNTI2LC0xMj
-c2OTIzODgzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbLTIwMDk4NDIxMDcsMjA2ODM1MzUyNiwtMT
+I3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
