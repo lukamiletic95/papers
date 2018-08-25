@@ -258,18 +258,20 @@ func receive(T transaction, Node sender) {
 
 In this case, a call to *checkMempool()* is also unnecessary. Every *FN* will receive *T* only once. 
 
-This solution provides no overhead. However, in case of Byzantine or crash failures, it may not work properly. If any node in the tree becomes malicious or faulty, a client's transaction will not reach every node within the network. Therefore, it might become lost, never proposed, never executed and never stored in a blockchain. To solve this, SMR servers  inside each cluster could maintain multiple trees - a forest of trees such that a node which is a root in one tree is never a root in another and a node which is a leaf in one tree is never an intermediate node in another. Similar idea is used in SplitStream [10]. 
+This solution provides no overhead. However, in case of Byzantine or crash failures, it may not work properly. If any node in the tree becomes malicious or faulty, a client's transaction will not reach every node within the network. Therefore, it might become lost, never proposed, never executed and never stored in a blockchain. To solve this, SMR servers  inside each cluster could maintain multiple trees - a forest of trees such that a node which is a root in one tree is never a root in another and a node which is a leaf in one tree is never an intermediate node in another. Similar idea is used in SplitStream. [10] 
 
 It is evident that dealing with faults and crashes requires redundancy and produces overhead, but it is mandatory if we wish to preserve proper functioning of the network.
 
 
 #### Concluding the idea
 
+As far as the drawbacks of this solution are concerned, the first one regards clusters. It is not an easy task to group the nodes properly into clusters
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDAzNTA2OCwxNjQ4NTY4ODIyLC0xND
-EwNDU3NjcyLC0xNTMyMDAxNjExLDg0MTExMjQ3OSwxNjA3MDkz
-NjIxLC05Mzc3MTIwODUsLTE4Nzc0OTQ3MTgsLTUxNTczODg1Mi
-wxMzk2NDk5MjE0LC02MTk4ODg3NTAsMTM3OTM1OTE1OCwyMDY4
-MzUzNTI2LC0xMjc2OTIzODgzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbNjE1MDM5MTksMTY0ODU2ODgyMiwtMTQxMD
+Q1NzY3MiwtMTUzMjAwMTYxMSw4NDExMTI0NzksMTYwNzA5MzYy
+MSwtOTM3NzEyMDg1LC0xODc3NDk0NzE4LC01MTU3Mzg4NTIsMT
+M5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2ODM1
+MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
