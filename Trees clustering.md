@@ -47,8 +47,8 @@ To answer the first question, an approach explained in [9], *Flat membership ser
 </div>
 <br/><br/>
 
-We consider having a set of servers, where each server has its own state machine replica. Simply 
+We consider having a set of servers, where each server has its own state machine replica. When a new n 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjAyNTgyNCwyMDY4MzUzNTI2LC0xMj
-c2OTIzODgzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbMjcwMTYwMzUsMjA2ODM1MzUyNiwtMTI3Nj
+kyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
