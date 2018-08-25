@@ -114,9 +114,14 @@ func receive(T transaction, Node sender) {
 
 Note that there is no need for calling the *checkMempool()* function before adding a transaction to the node's Mempool. This is due to the fact that a *FN* will always receive *T* only once. When not taking clusters into account, this solution provides ideal performances.. However, if we take clusters into account, redundancy is present.
 
-First, let us explain how that is true. If we consider having three clusters, *A*, *B* and *C*, as shown in *-Figure #*, we see that the network is now again a graph, and a cyclic one
+First, let us explain how that is true. If we consider having three clusters, *A*, *B* and *C*, as shown in *-Figure #*, we see that the network is now again a graph, and a cyclic one, for example the following intercluster links form a cycle:
+
+	B → C
+	C → B
+
+So, if there was a client within the cluster *B*, and
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNjY1NDQ3LC01MTU3Mzg4NTIsMTM5Nj
+eyJoaXN0b3J5IjpbLTkzMzAxODU5LC01MTU3Mzg4NTIsMTM5Nj
 Q5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2ODM1MzUy
 NiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
