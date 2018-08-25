@@ -47,8 +47,8 @@ To answer the first question, an approach explained in [9], *Flat membership ser
 </div>
 <br/><br/>
 
-We consider having a set of servers, where each server has its own state machine replica. When a new n 
+We consider having a set of servers, where each server has its own state machine replica. When a new node wants to join the network, which can occur asynchronously and is therefore a dynamic process, it sends a request to a server set which is in charge of the node's most "proximate" cluster. As stated in `State machine replication` subsection, c 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwMTYwMzUsMjA2ODM1MzUyNiwtMTI3Nj
+eyJoaXN0b3J5IjpbNTcyNDYwMzMsMjA2ODM1MzUyNiwtMTI3Nj
 kyMzg4Myw2MzE2MjA1MDhdfQ==
 -->
