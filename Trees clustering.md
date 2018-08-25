@@ -72,9 +72,7 @@ Principle can be adopted:
 
 ```go
 
-```go
-
-// Mempool gossiping algorithm in Tendermint - pseudocode
+// Pseudocode for a FN/V node
 
 func receive(T transaction, Node sender) {
 	// Node = {C, FN, V}
@@ -101,7 +99,7 @@ func receive(T transaction, Node sender) {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTE0OTM5MCwtNjE5ODg4NzUwLDEzNz
+eyJoaXN0b3J5IjpbMTY5NTY4NjQ5OCwtNjE5ODg4NzUwLDEzNz
 kzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1
 MDhdfQ==
 -->
