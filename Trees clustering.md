@@ -22,8 +22,8 @@ Since the number of intercluster connections doesn't have to be large, we have r
 
 Furthermore, by clustering the nodes according to some criterion, we achieve having nodes that are in close "proximity" to one another, thus enabling a faster communication between them. Clustering reduces the latency in the network.
 
-However, the overhead still exists within the clusters. There will still be redundant message passing when gossiping a transaction from a node's Mempool.
+However, the overhead still exists within the clusters. There will still be redundant message passing when gossiping a transaction *T* from a node's Mempool. To solve that, following improvement is proposed.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1NTk5NDEsLTEyNzY5MjM4ODMsNjMxNj
-IwNTA4XX0=
+eyJoaXN0b3J5IjpbMTAyMzU0NTY1NywtMTI3NjkyMzg4Myw2Mz
+E2MjA1MDhdfQ==
 -->
