@@ -141,6 +141,10 @@ However, this approach has one drawback. It assumes that every node in the netwo
 
 HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in such a way that some nodes are faster and more productive than others. HEAP adapts a node's fanout according to its own bandwidth, average bandwidth, and the average fanout (which is, as we said, *ln(n)*).
 
+Equation used in HEAP [12] is:
+
+	myFanout = myBandwidth / averageBandwidth * 
+
 Updated pseudocode, which includes HEAP protocol, is given:
 
 ```go
@@ -246,7 +250,7 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0MDExMTQwLC00MjAzMTU0OTEsMjAxND
+eyJoaXN0b3J5IjpbNTg0MTQwMjE1LC00MjAzMTU0OTEsMjAxND
 I0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYw
 NCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNj
 YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
