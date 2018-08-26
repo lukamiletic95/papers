@@ -92,7 +92,10 @@ func selectNodes(f) int {
 }
 
 func gossip(Set<int> eventIds) {
-	Set<Node> peerSubset = selectNodes(
+	Set<Node> peerSubset = selectNodes(f);
+	for (Node node : peerSubset) {
+		send(PROPOSE, eventIds);
+	}
 }
 
 ```
@@ -126,8 +129,8 @@ func gossip(Set<int> eventIds) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA1MDk2MDksLTkzNTM1ODg5NSwxNj
-YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
-MjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF
-19
+eyJoaXN0b3J5IjpbMjI2MTM0MTMxLC05MzUzNTg4OTUsMTY2Mj
+gzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIz
+MiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ
+==
 -->
