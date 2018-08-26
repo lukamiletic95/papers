@@ -28,6 +28,7 @@ Those three phases are:
 Pseudocode is given (slightly modified version than the ones in [11] and [12]), followed by an explanation of the algorithm:
 
 ```go
+// This is executed on each FN nodes
 
 // Initialization
 int f = ln(n);
@@ -138,8 +139,8 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTM2MjUzNCwtNjk0OTEyMzc5LDE0MD
-c1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLTQ0MDkxNzMy
-OSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyODEyLD
-EwMjk2ODAyODcsMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbLTEzMjkyODM5MzYsLTY5NDkxMjM3OSwxND
+A3NTk4NjQ5LC05MzUzNTg4OTUsMTY2MjgzMzU5LC00NDA5MTcz
+MjksLTE3OTg2ODI3MjUsMjA5MjkyMzIzMiwtMTg3OTM1MjgxMi
+wxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
 -->
