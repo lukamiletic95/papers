@@ -29,7 +29,12 @@ Pseudocode is given (slightly modified version than the ones in [11] and [12]), 
 
 // Initialization
 int f = ln(n);
-Set<T> 	toPropose, 
+Set<T> 	toPropose = EMPTY_SET;
+Set<T> 	delivered = EMPTY_SET;
+Set<T> 	requested = EMPTY_SET; 
+start(GossipTimer(gossipPeriod));
+
+// Phase 1 - PSH
 
 ```
 
@@ -62,7 +67,7 @@ Set<T> 	toPropose,
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDkxMDIzNjUsMTY2MjgzMzU5LC00ND
+eyJoaXN0b3J5IjpbLTE3NjY4MTA1MTYsMTY2MjgzMzU5LC00ND
 A5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIzMiwtMTg3OTM1
 MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
 -->
