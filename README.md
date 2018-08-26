@@ -29,6 +29,8 @@ Paper structure:
 * System model - assumptions & summary
 4. Algorithms
 * Current Solution
-* ... my Solutions (includes analysis for each solution)
+* Ideal and restrictive
+* Tree clustering
+
 5. Conclusion
 6. References
