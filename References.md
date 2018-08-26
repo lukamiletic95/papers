@@ -24,11 +24,11 @@
 
 [11] D. Frey, R. Guerraoui, A.M. Kermarrec, M. Monod and V. Quema, "Stretching Gossip with Live Streaming" 2009. [Online]. Available: <https://hal.inria.fr/inria-00436130/document>
 
-[12] D. Frey, R. Guerraoui, A.M. Kermarrec, B. Koldehofe, M. Mogensen, M. Monod and V. Quema, ""
+[12] D. Frey, R. Guerraoui, A.M. Kermarrec, B. Koldehofe, M. Mogensen, M. Monod and V. Quema, "Heterogeneous gossip" 2009. [Online]. Available: <https://infoscience.epfl.ch/record/140640/files/middleware-monod.pdf>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjE1MDE2MCwyMzE4MTAzMjYsLTE4Nz
-YxOTE1NjMsMjQ5ODc3MjA2LDExNDYzMDk2NzQsMTcxNTA5NDAw
-NywtNzI3MjExNDQyLDEyOTI0MDUwMTMsLTE3MDI5OTk4ODUsMT
-I1MjQ2NDkyMiwtMTYyNTYwMTQ5MSwtMTUxNjUxMzk4OSwtMjky
-NTc3MzkzXX0=
+eyJoaXN0b3J5IjpbMzE4NDc2MDksMjMxODEwMzI2LC0xODc2MT
+kxNTYzLDI0OTg3NzIwNiwxMTQ2MzA5Njc0LDE3MTUwOTQwMDcs
+LTcyNzIxMTQ0MiwxMjkyNDA1MDEzLC0xNzAyOTk5ODg1LDEyNT
+I0NjQ5MjIsLTE2MjU2MDE0OTEsLTE1MTY1MTM5ODksLTI5MjU3
+NzM5M119
 -->
