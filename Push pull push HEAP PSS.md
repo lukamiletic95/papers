@@ -64,6 +64,7 @@ upon (receive(PROPOSE, proposed)) {
 	}
 
 	requested.add(wanted.getAll());
+	reply(REQUEST, wanted);
 }
 
 ```
@@ -97,7 +98,7 @@ upon (receive(PROPOSE, proposed)) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDIxNjcwMTAsLTkzNTM1ODg5NSwxNj
+eyJoaXN0b3J5IjpbLTIwNTc1MjI2NDAsLTkzNTM1ODg5NSwxNj
 YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
 MjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF
 19
