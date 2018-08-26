@@ -54,7 +54,7 @@ upon (GossipTimer % gossipPeriod) == 0 {
 	toPropose = EMPTY_SET; // Infect and die model
 }
 
-// Phase 2 - PULL wanted transactions
+// Phase 2 - PULL wanted T ids
 upon (receive(PROPOSE, proposed)) {
 	Set<int> wanted = EMPTY_SET;
 	for (int id : proposed) {
@@ -65,6 +65,11 @@ upon (receive(PROPOSE, proposed)) {
 
 	requested.add(wanted.getAll());
 	reply(REQUEST, wanted);
+}
+
+// Phase 3 - PUSH requested T
+upon (receive(REQUEST, wanted)) {
+	Set<T> asked
 }
 
 ```
@@ -98,8 +103,8 @@ upon (receive(PROPOSE, proposed)) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc1MjI2NDAsLTkzNTM1ODg5NSwxNj
-YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
-MjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF
-19
+eyJoaXN0b3J5IjpbNTg1NTk1MjM3LC05MzUzNTg4OTUsMTY2Mj
+gzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIz
+MiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ
+==
 -->
