@@ -123,6 +123,8 @@ Since we assumed that a node has knowledge of the entire network, its fanout is 
 * *delivered* - set of transactions T which contains all the transactions that were added to the Mempool
 * *requested* - set of integers which contains the ids of transactions that were requested by the *REQUEST* message.
 
+Due to the fact that the gossiping should occur periodically, in the initialization phase, a timer is started. Whenever a certain period of time (*gossipPeriod*) passes, a node sends information about every
+
 
 #### 2. HEAP
 
@@ -145,7 +147,7 @@ Since we assumed that a node has knowledge of the entire network, its fanout is 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTg0MTE0OTYsLTM4ODE1MTc3MCwxNT
+eyJoaXN0b3J5IjpbLTEwODc4MDMzMjEsLTM4ODE1MTc3MCwxNT
 MxNzYzNjA0LC02OTQ5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4
 ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LD
 IwOTI5MjMyMzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4
