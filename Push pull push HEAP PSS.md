@@ -69,7 +69,11 @@ upon (receive(PROPOSE, proposed)) {
 
 // Phase 3 - PUSH requested T
 upon (receive(REQUEST, wanted)) {
-	Set<T> asked
+	Set<T> asked = EMPTY_SET;
+	for (int id : wanted) {
+		asked.add(getEvent(id));
+	}
+
 }
 
 ```
@@ -103,8 +107,8 @@ upon (receive(REQUEST, wanted)) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1NTk1MjM3LC05MzUzNTg4OTUsMTY2Mj
-gzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIz
-MiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ
-==
+eyJoaXN0b3J5IjpbLTc3ODM5OTk4NSwtOTM1MzU4ODk1LDE2Nj
+I4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMy
+MzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX
+0=
 -->
