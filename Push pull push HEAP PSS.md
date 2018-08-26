@@ -139,7 +139,88 @@ However, this approach has one drawback. It assumes that every node in the netwo
 
 #### 2. HEAP
 
-HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in such a way that some nodes are faster and more productive than others. HEAP adapts a node's fanout according to its own capability, average capability, and the average fanout (which is, as we said, *ln(n)*).
+HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in such a way that some nodes are faster and more productive than others. HEAP adapts a node's fanout according to its own capability, average capability, and the average fanout (which is, as we said, *ln(n)*). Updated pseudocode, which includes HEAP protocol, is given:
+
+```go
+// This is executed on each FN node
+
+// Initialization
+int f = ln(n);
+Set<int> toPropose = EMPTY_SET;
+Set<T> delivered = EMPTY_SET;
+Set<int> requested = EMPTY_SET; 
+start(GossipTimer(gossipPeriod));
+
+// Phase 1 - PUSH T ids
+func publish(T t) { // when C sends its transaction to FN
+	bool valid = checkTx(transaction);
+	if (valid == false) {
+		return;
+	}
+
+	deliverEvent(t);
+	gossip({t.id});
+}
+
+upon (GossipTimer % gossipPeriod) == 0 {
+	gossip(toPropose);
+	toPropose = EMPTY_SET; // Infect and die model
+}
+
+// Phase 2 - PULL wanted T ids
+upon (receive(PROPOSE, proposed)) {
+	Set<int> wanted = EMPTY_SET;
+	for (int id : proposed) {
+		if (!requested.contains(id)) {
+			wanted.add(id);
+		}
+	}
+
+	requested.add(wanted.getAll());
+	reply(REQUEST, wanted);
+}
+
+// Phase 3 - PUSH requested T
+upon (receive(REQUEST, wanted)) {
+	Set<T> asked = EMPTY_SET;
+	for (int id : wanted) {
+		asked.add(getEvent(id));
+	}
+
+	reply(SERVE, asked);
+}
+
+upon (receive(SERVE, events)) {
+	for (T t : events) {
+		if (!delivered.contains(t)) { // a message is delivered only once
+			toPropose.add(t.id);
+			deliverEvent(t);
+		}
+	}
+}
+
+// Miscellaneous
+func selectNodes(int f) int {
+	return f uniformly random nodes from the set of all nodes;
+}
+
+func gossip(Set<int> eventIds) {
+	Set<Node> peerSubset = selectNodes(f);
+	for (Node node : peerSubset) {
+		send(PROPOSE, eventIds, node);
+	}
+}
+
+func getEvent(int id) T {
+	return T corresponding to the id;
+}
+
+func deliverEvent(T t) {
+	delivered.add(t);
+	addMempool(t);
+}
+
+```
 
 <br/><br/>
 <div align='center'> 
@@ -160,9 +241,10 @@ HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homog
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDMxNTQ5MSwyMDE0MjQ4NjE3LDEzOD
-MzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIz
-NzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1OSwtND
-QwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4Nzkz
-NTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbNTAyMzM3OTcyLC00MjAzMTU0OTEsMjAxND
+I0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYw
+NCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNj
+YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
+MjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF
+19
 -->
