@@ -1,6 +1,6 @@
 ### Push-pull-push HEAP with PSS
 
-
+The idea of this algorithm combines a three-phase gossiping protocol described in [11], a bandwidth
 
 <br/><br/>
 <div align='center'> 
@@ -25,6 +25,6 @@
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTM2OTQyMywxMDI5NjgwMjg3LDEyOT
-gwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbLTE5MDM5MjQxMTksMTAyOTY4MDI4NywxMj
+k4MDkzOTc0XX0=
 -->
