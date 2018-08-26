@@ -23,7 +23,12 @@ Concept where three-phase gossiping is used is essential when there is a high ne
 2. **PULL →** represented by sending a *REQUEST* message
 3. **PUSH →** represented by sending a *SERVE* message
 
-First, a pseudocode is given, after which an explanation follows.
+Pseudocode is given, followed by an explanation of the algorithm:
+
+```go
+
+
+```
 
 <br/><br/>
 <div align='center'> 
@@ -54,7 +59,7 @@ First, a pseudocode is given, after which an explanation follows.
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ3MDI0MjAsMTY2MjgzMzU5LC00ND
-A5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIzMiwtMTg3OTM1
-MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbMjE0NzI2MzMwMiwxNjYyODMzNTksLTQ0MD
+kxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUy
+ODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
 -->
