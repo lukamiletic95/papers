@@ -26,9 +26,9 @@
 
 [12] D. Frey, R. Guerraoui, A.M. Kermarrec, B. Koldehofe, M. Mogensen, M. Monod and V. Quema, "Heterogeneous gossip" 2009. [Online]. Available: <https://infoscience.epfl.ch/record/140640/files/middleware-monod.pdf>
 
-[13] M. Jelasity, R. Guerraoui, A.M. Kermarrec and M.V. Steen, "The Peer Sampling Service - Experimental "
+[13] M. Jelasity, R. Guerraoui, A.M. Kermarrec and M.V. Steen, "The Peer Sampling Service - Experimental Evaluation of Gossip-Based Implementations" 2004. [Online]. Available: <http://lpdwww.epfl.ch/upload/documents/publications/neg--1184036295all.pdf>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODgxNTU3NSwyMzE4MTAzMjYsLTE4Nz
+eyJoaXN0b3J5IjpbMTU5Nzc3Mjk2NSwyMzE4MTAzMjYsLTE4Nz
 YxOTE1NjMsMjQ5ODc3MjA2LDExNDYzMDk2NzQsMTcxNTA5NDAw
 NywtNzI3MjExNDQyLDEyOTI0MDUwMTMsLTE3MDI5OTk4ODUsMT
 I1MjQ2NDkyMiwtMTYyNTYwMTQ5MSwtMTUxNjUxMzk4OSwtMjky
