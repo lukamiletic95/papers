@@ -28,7 +28,7 @@ Those three phases are:
 Pseudocode is given (slightly modified version than the ones in [11] and [12]), followed by an explanation of the algorithm:
 
 ```go
-// This is executed on each FN nodes
+// This is executed on each FN node
 
 // Initialization
 int f = ln(n);
@@ -115,7 +115,7 @@ func deliverEvent(T t) {
 </div>
 <br/><br/>
 
-
+Since we assumed that a node has knowledge of the entire network, its fanout is initialized to *ln(n)*. This represents the size of the peer subset, or more precise, the number of nodes that are going to receive the PROPOSE message.
 
 
 #### 2. HEAP
@@ -139,8 +139,8 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjkyODM5MzYsLTY5NDkxMjM3OSwxND
-A3NTk4NjQ5LC05MzUzNTg4OTUsMTY2MjgzMzU5LC00NDA5MTcz
-MjksLTE3OTg2ODI3MjUsMjA5MjkyMzIzMiwtMTg3OTM1MjgxMi
-wxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbMTc3NjE1NzU1NiwtNjk0OTEyMzc5LDE0MD
+c1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLTQ0MDkxNzMy
+OSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyODEyLD
+EwMjk2ODAyODcsMTI5ODA5Mzk3NF19
 -->
