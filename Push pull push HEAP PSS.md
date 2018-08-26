@@ -214,7 +214,10 @@ upon (receive(SERVE, events)) {
 }
 
 // Aggregation protocol
-
+upon (AggregationTimer % aggregationPeriod) == 0 {
+	Set<Node> peerSubset = selectNodes(getFanout());
+	
+}
 
 // Fanout adaptation
 func getFanout() int {
@@ -263,10 +266,10 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTIwMDYyNjksLTQyMDMxNTQ5MSwyMD
-E0MjQ4NjE3LDEzODMzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYz
-NjA0LC02OTQ5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LD
-E2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5
-MjMyMzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOT
-c0XX0=
+eyJoaXN0b3J5IjpbMTkyMjc3MzQzMywtNDIwMzE1NDkxLDIwMT
+QyNDg2MTcsMTM4MzM2NDUzOSwtMzg4MTUxNzcwLDE1MzE3NjM2
+MDQsLTY5NDkxMjM3OSwxNDA3NTk4NjQ5LC05MzUzNTg4OTUsMT
+Y2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5Mjky
+MzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5Nz
+RdfQ==
 -->
