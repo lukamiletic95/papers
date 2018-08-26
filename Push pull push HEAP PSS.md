@@ -32,8 +32,8 @@ Pseudocode is given (slightly modified version than the ones in [11] and [12]), 
 // Initialization
 int f = ln(n);
 Set<int> toPropose = EMPTY_SET;
-Set<int> delivered = EMPTY_SET;
-Set<T> 	requested = EMPTY_SET; 
+Set<T> delivered = EMPTY_SET;
+Set<int> requested = EMPTY_SET; 
 start(GossipTimer(gossipPeriod));
 
 // Phase 1 - PUSH T ids
@@ -56,10 +56,14 @@ upon (GossipTimer % gossipPeriod) == 0 {
 
 // Phase 2 - PULL wanted transactions
 upon (receive(PROPOSE, proposed)) {
-	Set<T> wanted = EMPTY_SET;
+	Set<int> wanted = EMPTY_SET;
 	for (int id : proposed) {
-		if (!requested.contains(id)
+		if (!requested.contains(id)) {
+			wanted.add(id);
+		}
 	}
+
+	requested.add(wanted.getAll());
 }
 
 ```
@@ -93,8 +97,8 @@ upon (receive(PROPOSE, proposed)) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwMTE0ODA1LC05MzUzNTg4OTUsMTY2Mj
-gzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIz
-MiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ
-==
+eyJoaXN0b3J5IjpbLTIwMDIxNjcwMTAsLTkzNTM1ODg5NSwxNj
+YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
+MjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF
+19
 -->
