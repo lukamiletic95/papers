@@ -155,6 +155,7 @@ Updated pseudocode, which includes HEAP protocol, is given, followed by an expla
 // Initialization
 Set<Capability> capabilities = EMPTY_SET;
 Bandwidth b = MY_BANDWIDTH;
+Bandwith _b_ = ...; // average bandwidth
 
 int f = ln(n);
 Set<int> toPropose = EMPTY_SET;
@@ -212,7 +213,13 @@ upon (receive(SERVE, events)) {
 	}
 }
 
-// Aggre
+// Aggregation protocol
+
+
+// Fanout adaptation
+func getFanout() int {
+	return b / _b_ * f;
+}
 
 // Miscellaneous
 func selectNodes(int f) int {
@@ -256,7 +263,7 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQzMzA3MTcsLTQyMDMxNTQ5MSwyMD
+eyJoaXN0b3J5IjpbLTEzNTIwMDYyNjksLTQyMDMxNTQ5MSwyMD
 E0MjQ4NjE3LDEzODMzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYz
 NjA0LC02OTQ5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LD
 E2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5
