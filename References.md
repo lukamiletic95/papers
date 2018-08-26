@@ -18,12 +18,13 @@
 
 [8] A. Montresor, "Gossip and Epidemic Protocols" 2017. [Online]. Available: <http://disi.unitn.it/~montreso/ds/papers/montresor17.pdf>
 
-[9] A.M. Kermarrec, L. Massoulie and A.J. Ganesh, "Probabilistic Reliable Dissemination in Large-Scale systems". [Online]. Available: <https://www.researchgate.net/profile/Ayalvadi_Ganesh/publication/2832321_Probabilistic_Reliable_Dissemination_in_Large-Scale_Systems/links/00b7d535646945981f000000.pdf>
+[9] A.M. Kermarrec, L. Massoulie and A.J. Ganesh, "Probabilistic Reliable Dissemination in Large-Scale systems" 2002. [Online]. Available: <https://www.researchgate.net/profile/Ayalvadi_Ganesh/publication/2832321_Probabilistic_Reliable_Dissemination_in_Large-Scale_Systems/links/00b7d535646945981f000000.pdf>
 
-[10] M. Castro, P. Druschel, A.M. Kermarrec, A. Nandi, A. Rowstron and A. Singh, "SplitStream: High-Bandwidth Multicast in Cooperative Environments". [Online]. Available: <http://rowstron.azurewebsites.net/PAST/SplitStream-sosp.pdf>
+[10] M. Castro, P. Druschel, A.M. Kermarrec, A. Nandi, A. Rowstron and A. Singh, "SplitStream: High-Bandwidth Multicast in Cooperative Environments" 2003. [Online]. Available: <http://rowstron.azurewebsites.net/PAST/SplitStream-sosp.pdf>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxODEwMzI2LC0xODc2MTkxNTYzLDI0OT
-g3NzIwNiwxMTQ2MzA5Njc0LDE3MTUwOTQwMDcsLTcyNzIxMTQ0
-MiwxMjkyNDA1MDEzLC0xNzAyOTk5ODg1LDEyNTI0NjQ5MjIsLT
-E2MjU2MDE0OTEsLTE1MTY1MTM5ODksLTI5MjU3NzM5M119
+eyJoaXN0b3J5IjpbLTEzOTE2MDI1ODMsMjMxODEwMzI2LC0xOD
+c2MTkxNTYzLDI0OTg3NzIwNiwxMTQ2MzA5Njc0LDE3MTUwOTQw
+MDcsLTcyNzIxMTQ0MiwxMjkyNDA1MDEzLC0xNzAyOTk5ODg1LD
+EyNTI0NjQ5MjIsLTE2MjU2MDE0OTEsLTE1MTY1MTM5ODksLTI5
+MjU3NzM5M119
 -->
