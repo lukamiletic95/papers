@@ -8,6 +8,8 @@ The idea of this algorithm combines a three-phase gossiping protocol described i
 
 Each of the three parts will be explained in further text.
 
+This solution is based on building a dynamic, unstructured overlay. Each node will change its peer subset dynamically, and gossip a client's transaction onl
+
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig15.png" />
@@ -31,6 +33,6 @@ Each of the three parts will be explained in further text.
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjkyMzIzMiwtMTg3OTM1MjgxMiwxMD
-I5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbLTIwNTUxNDg0NjIsMjA5MjkyMzIzMiwtMT
+g3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
 -->
