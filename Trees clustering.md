@@ -31,7 +31,7 @@ However, the overhead still exists within the clusters. There will still be redu
 </div>
 <br/><br/>
 
-The main culprit behind the overhead problem is - the graph. Graph can contain cycles. Since the network is modeled via a graph, with its links being bidirectional, a client's transaction can travel through the network using different paths, only to finally reach the same destination multiple times. To avoid that, a non-cyclical unidirectional data structure can be used - the tree.
+The main culprit behind the overhead problem is - the graph. Graph can contain cycles. Since the network is modeled via a graph, with its links being bidirectional, a client's transaction could travel through the network using different paths, only to finally reach the same destination multiple times. To avoid that, a non-cyclical unidirectional data structure can be used - the tree.
 
 If nodes within the cluster were to be connected in a tree-like scheme, it would result in each node receiving the message only once. However, two questions arise:
 
@@ -271,11 +271,11 @@ On the other hand, if this approach was to be implemented, it would produce no o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDkxODkyMywtNjEwNTE3MzAwLDE4ND
-Y1NTA3OTEsMTM4NTYxODcyMywtNzQ1MDM1MTY2LDQ4Njg2NTc5
-MSwxNjQ4NTY4ODIyLC0xNDEwNDU3NjcyLC0xNTMyMDAxNjExLD
-g0MTExMjQ3OSwxNjA3MDkzNjIxLC05Mzc3MTIwODUsLTE4Nzc0
-OTQ3MTgsLTUxNTczODg1MiwxMzk2NDk5MjE0LC02MTk4ODg3NT
-AsMTM3OTM1OTE1OCwyMDY4MzUzNTI2LC0xMjc2OTIzODgzLDYz
-MTYyMDUwOF19
+eyJoaXN0b3J5IjpbLTE0MTQyMzM0MTQsLTYxMDUxNzMwMCwxOD
+Q2NTUwNzkxLDEzODU2MTg3MjMsLTc0NTAzNTE2Niw0ODY4NjU3
+OTEsMTY0ODU2ODgyMiwtMTQxMDQ1NzY3MiwtMTUzMjAwMTYxMS
+w4NDExMTI0NzksMTYwNzA5MzYyMSwtOTM3NzEyMDg1LC0xODc3
+NDk0NzE4LC01MTU3Mzg4NTIsMTM5NjQ5OTIxNCwtNjE5ODg4Nz
+UwLDEzNzkzNTkxNTgsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2
+MzE2MjA1MDhdfQ==
 -->
