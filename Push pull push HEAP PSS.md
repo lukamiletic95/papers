@@ -133,7 +133,9 @@ When a *FN* node receives a *REQUEST* message, it replies with a *SERVE* message
 
 When a *FN* node receives a *SERVE* message, it adds it to its Mempool, and marks it as a future transaction to-be-proposed, only if it already wasn't inside its Mempool.
 
-This push-pull-push approach reduces the payload in the network, owing to the fact that only a transaction's id is gossiped. Sending the actual transaction is delayed until *T* is explicitly required. However, requiring that each nod
+This push-pull-push approach reduces the payload in the network, owing to the fact that only a transaction's id is gossiped. Sending the actual transaction is delayed until *T* is explicitly required. 
+
+However, this approach has one drawback. It assumes that every node in the network has the same fanout. This means that, when gossiping, every node will be equally burdened, meaning it would have to
 
 #### 2. HEAP
 
@@ -156,9 +158,9 @@ This push-pull-push approach reduces the payload in the network, owing to the fa
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMxMTE0OTUsMjAxNDI0ODYxNywxMz
-gzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYwNCwtNjk0OTEy
-Mzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLT
-Q0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5
-MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbLTE2MTA2MDM2MywyMDE0MjQ4NjE3LDEzOD
+MzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIz
+NzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1OSwtND
+QwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4Nzkz
+NTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
 -->
