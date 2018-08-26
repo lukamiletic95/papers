@@ -17,7 +17,7 @@ Let us consider a network of nodes, equivalent to that described in `System mode
 
 Hence, there exists a network of nodes where each node contains IP addresses of every other node. Basic gossiping idea is that a node, periodically, sends a message to a subset of nodes picked uniformly at random from the set of all nodes. As stated earlier, the size of that subset is denoted as *fanout*. Theoretical [9] and experimental [11] analysis has proven that in order to keep the network graph connected with high probability, optimal value for *f* is *ln(n)*, where *n* represents the number of nodes within the network.
 
-Concept where three-phase gossiping is used is essential when there is a high network load, due to the fact that it guarantees that a message will not be delivered (added to the Mempool) more than once. Also, it enables that primarily, only a transaction's identifier is gossiped. Only when there is a need for go Those three phases are:
+Concept where three-phase gossiping is used is essential when there is a high network load, due to the fact that it guarantees that a message will not be delivered (added to the Mempool) more than once. Also, it enables that primarily, only a transaction's identifier is gossiped. A need for gossiping an entire transaction happens only if that particular transaction identifier has been explicitly requested. This significantly reduces that amount of traffic that travels through the network.  Those three phases are:
 
 1. **PUSH →** represented by sending a *PROPOSE* message
 2. **PULL →** represented by sending a *REQUEST* message
@@ -68,7 +68,7 @@ func publish(T t)
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzA3MTM3NSwxNjYyODMzNTksLTQ0MD
-kxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUy
-ODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbNTQyNzM4MzI0LDE2NjI4MzM1OSwtNDQwOT
+E3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4NzkzNTI4
+MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
 -->
