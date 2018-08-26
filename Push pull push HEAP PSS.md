@@ -49,6 +49,11 @@ func publish(T t) {
 	gossip({t.id});
 }
 
+upon (GossipTimer % gossipPeriod) == 0 {
+	gossip(toPropose);
+	toPr
+}
+
 ```
 
 <br/><br/>
@@ -80,8 +85,8 @@ func publish(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTUwODA3MDEsLTkzNTM1ODg5NSwxNj
-YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
-MjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF
-19
+eyJoaXN0b3J5IjpbLTQ1NjM2NTA3MCwtOTM1MzU4ODk1LDE2Nj
+I4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMy
+MzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX
+0=
 -->
