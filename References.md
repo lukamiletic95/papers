@@ -22,11 +22,11 @@
 
 [10] M. Castro, P. Druschel, A.M. Kermarrec, A. Nandi, A. Rowstron and A. Singh, "SplitStream: High-Bandwidth Multicast in Cooperative Environments" 2003. [Online]. Available: <http://rowstron.azurewebsites.net/PAST/SplitStream-sosp.pdf>
 
-[11] D. Frey, R. Guerraoui, A.M. Kermarrec, M. Monod, Qu´ema, V.: Stretching Gossip with Live Streaming. In: Proc. of DSN (2009)
+[11] D. Frey, R. Guerraoui, A.M. Kermarrec, M. Monod and V. Quema, "Stretching Gossip with Live Streaming. In: Proc. of DSN (2009)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4NTE5NzI2LDIzMTgxMDMyNiwtMTg3Nj
-E5MTU2MywyNDk4NzcyMDYsMTE0NjMwOTY3NCwxNzE1MDk0MDA3
-LC03MjcyMTE0NDIsMTI5MjQwNTAxMywtMTcwMjk5OTg4NSwxMj
-UyNDY0OTIyLC0xNjI1NjAxNDkxLC0xNTE2NTEzOTg5LC0yOTI1
-NzczOTNdfQ==
+eyJoaXN0b3J5IjpbMTkzMDU3NTcwOSwyMzE4MTAzMjYsLTE4Nz
+YxOTE1NjMsMjQ5ODc3MjA2LDExNDYzMDk2NzQsMTcxNTA5NDAw
+NywtNzI3MjExNDQyLDEyOTI0MDUwMTMsLTE3MDI5OTk4ODUsMT
+I1MjQ2NDkyMiwtMTYyNTYwMTQ5MSwtMTUxNjUxMzk4OSwtMjky
+NTc3MzkzXX0=
 -->
