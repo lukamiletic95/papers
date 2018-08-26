@@ -19,7 +19,9 @@ Hence, there exists a network of nodes where each node contains IP addresses of 
 
 Concept where three-phase gossiping is used is essential when there is a high network load, due to the fact that it guarantees that a message will not be delivered (added to the Mempool) more than once. Those three phases are:
 
-1. **PUSH**
+1. **PUSH →** represented by sending a *PROPOSE* message
+2. **PULL →** represented by sending a *REQUEST* message
+3. **PUSH →** represented by sending a *SERVE* message
 
 <br/><br/>
 <div align='center'> 
@@ -50,7 +52,7 @@ Concept where three-phase gossiping is used is essential when there is a high ne
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQwODk4MjYsMTY2MjgzMzU5LC00ND
-A5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIzMiwtMTg3OTM1
-MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbMjAzOTkxMzE3MCwxNjYyODMzNTksLTQ0MD
+kxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUy
+ODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
 -->
