@@ -23,6 +23,8 @@ Concept where three-phase gossiping is used is essential when there is a high ne
 2. **PULL →** represented by sending a *REQUEST* message
 3. **PUSH →** represented by sending a *SERVE* message
 
+First, a pseudocode is given, after which an explanation follows.
+
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig15.png" />
@@ -52,7 +54,7 @@ Concept where three-phase gossiping is used is essential when there is a high ne
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTkxMzE3MCwxNjYyODMzNTksLTQ0MD
-kxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUy
-ODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbLTIwNTQ3MDI0MjAsMTY2MjgzMzU5LC00ND
+A5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIzMiwtMTg3OTM1
+MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
 -->
