@@ -38,7 +38,12 @@ start(GossipTimer(gossipPeriod));
 
 // Phase 1 - PUSH T ids
 func publish(T t) {
-	
+	if (sender == C) { 
+		bool valid = checkTx(transaction);
+		if (valid == false) {
+			return;
+		}
+	}
 }
 
 ```
@@ -72,7 +77,8 @@ func publish(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTM1ODg5NSwxNjYyODMzNTksLTQ0MD
-kxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUy
-ODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbLTczMzE1OTA5NiwtOTM1MzU4ODk1LDE2Nj
+I4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMy
+MzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX
+0=
 -->
