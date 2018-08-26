@@ -242,7 +242,7 @@ func receive(T transaction, Node sender) {
 	addMempool(transaction);
 	
 	if (sender == C || children.contains(sender)) {
-			parent.receive(transaction, self); // parent is never nil for a non-root node
+		parent.receive(transaction, self); // parent is never nil for a non-root node
 	}
 
 	for (Node child : children) {
@@ -271,7 +271,7 @@ On the other hand, if this approach was to be implemented, it would produce no o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzIxNzQzMSw4OTU4NjM0NTAsLTE0MT
+eyJoaXN0b3J5IjpbLTM3ODg1OTIxNyw4OTU4NjM0NTAsLTE0MT
 QyMzM0MTQsLTYxMDUxNzMwMCwxODQ2NTUwNzkxLDEzODU2MTg3
 MjMsLTc0NTAzNTE2Niw0ODY4NjU3OTEsMTY0ODU2ODgyMiwtMT
 QxMDQ1NzY3MiwtMTUzMjAwMTYxMSw4NDExMTI0NzksMTYwNzA5
