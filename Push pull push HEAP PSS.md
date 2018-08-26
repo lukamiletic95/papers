@@ -139,7 +139,7 @@ However, this approach has one drawback. It assumes that every node in the netwo
 
 #### 2. HEAP
 
-HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in such a way that some nodes are faster and more productive than others. HEAP adapts a node's fanout according to its capabilities.
+HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in such a way that some nodes are faster and more productive than others. HEAP adapts a node's fanout according to its own capability, average capability, and the average fanout (which is, as we said, *ln(n)*).
 
 <br/><br/>
 <div align='center'> 
@@ -160,9 +160,9 @@ HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homog
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA5MTc5NDQsMjAxNDI0ODYxNywxMz
-gzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYwNCwtNjk0OTEy
-Mzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLT
-Q0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5
-MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbLTQyMDMxNTQ5MSwyMDE0MjQ4NjE3LDEzOD
+MzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIz
+NzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1OSwtND
+QwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4Nzkz
+NTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
 -->
