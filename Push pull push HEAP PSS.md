@@ -129,6 +129,10 @@ Whenever a *C* node sends its transaction T to a *FN* node, function *publish()*
 
 When a *FN* node receives a *PROPOSE* message, it replies with a *REQUEST* message which contains only the requests for those transactions that haven't been requested before. Note that a node requests a transaction only once.
 
+When a *FN* node receives a *REQUEST* message, it replies with a *SERVE* message which contains the actual transactions requested. Transactions are created via the call to *getEvent()* function.
+
+When a *FN* node receives a *SERVE* message, it adds it to it
+
 
 #### 2. HEAP
 
@@ -151,7 +155,7 @@ When a *FN* node receives a *PROPOSE* message, it replies with a *REQUEST* messa
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDE3NTE0MCwtMzg4MTUxNzcwLDE1Mz
+eyJoaXN0b3J5IjpbMTk2OTI0NjkxMiwtMzg4MTUxNzcwLDE1Mz
 E3NjM2MDQsLTY5NDkxMjM3OSwxNDA3NTk4NjQ5LC05MzUzNTg4
 OTUsMTY2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMj
 A5MjkyMzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgw
