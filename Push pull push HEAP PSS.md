@@ -127,7 +127,7 @@ Due to the fact that the gossiping should occur periodically, in the initializat
 
 Whenever a *C* node sends its transaction T to a *FN* node, function *publish()* is called. It first checks if the client's transaction is valid, then adds it to the Mempool and gossips its identifier.
 
-When a *FN* node rec
+When a *FN* node receives a *PROPOSE* message, it replies with a *REQUEST* message which contains only the requests for those transactions that haven't been requested before. Note that a node requests a certain transaction only once.
 
 
 #### 2. HEAP
@@ -151,9 +151,9 @@ When a *FN* node rec
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY1NDYzMjUsLTM4ODE1MTc3MCwxNT
-MxNzYzNjA0LC02OTQ5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4
-ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LD
-IwOTI5MjMyMzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4
-MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbMTk4MzY0MTU2NiwtMzg4MTUxNzcwLDE1Mz
+E3NjM2MDQsLTY5NDkxMjM3OSwxNDA3NTk4NjQ5LC05MzUzNTg4
+OTUsMTY2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMj
+A5MjkyMzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgw
+OTM5NzRdfQ==
 -->
