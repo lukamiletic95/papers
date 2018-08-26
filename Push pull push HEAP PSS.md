@@ -131,7 +131,7 @@ When a *FN* node receives a *PROPOSE* message, it replies with a *REQUEST* messa
 
 When a *FN* node receives a *REQUEST* message, it replies with a *SERVE* message which contains the actual transactions requested. Transactions are created via the call to *getEvent()* function.
 
-When a *FN* node receives a *SERVE* message, it adds it to it
+When a *FN* node receives a *SERVE* message, it adds it to its Mempool, and marks it as a future transaction to-be-proposed, only if it already wasn't inside its Mempool.
 
 
 #### 2. HEAP
@@ -155,7 +155,7 @@ When a *FN* node receives a *SERVE* message, it adds it to it
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTI0NjkxMiwtMzg4MTUxNzcwLDE1Mz
+eyJoaXN0b3J5IjpbMTM4MzM2NDUzOSwtMzg4MTUxNzcwLDE1Mz
 E3NjM2MDQsLTY5NDkxMjM3OSwxNDA3NTk4NjQ5LC05MzUzNTg4
 OTUsMTY2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMj
 A5MjkyMzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgw
