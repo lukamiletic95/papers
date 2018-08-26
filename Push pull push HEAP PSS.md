@@ -123,7 +123,7 @@ Since we assumed that a node has knowledge of the entire network, its fanout is 
 * *delivered* - set of transactions T which contains all the transactions that were added to the Mempool
 * *requested* - set of integers which contains the ids of transactions that were requested by the *REQUEST* message.
 
-Due to the fact that the gossiping should occur periodically, in the initialization phase, a timer is started. Whenever a certain period of time (*gossipPeriod*) passes, a node sends information about every
+Due to the fact that the gossiping should occur periodically, in the initialization phase, a timer is started. Whenever a certain period of time (*gossipPeriod*) passes, a node sends information about every transaction that hasn't been proposed so far. After doing so, it empties its *toPropose* set. This way of operating is named *Infect and die*, because a node sends the information only once, and then "kills" that information.
 
 
 #### 2. HEAP
@@ -147,9 +147,9 @@ Due to the fact that the gossiping should occur periodically, in the initializat
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODc4MDMzMjEsLTM4ODE1MTc3MCwxNT
-MxNzYzNjA0LC02OTQ5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4
-ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LD
-IwOTI5MjMyMzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4
-MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbLTUwNzAyODA4LC0zODgxNTE3NzAsMTUzMT
+c2MzYwNCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5
+NSwxNjYyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMD
+kyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5
+Mzk3NF19
 -->
