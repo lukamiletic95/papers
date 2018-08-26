@@ -143,9 +143,11 @@ HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homog
 
 Equation used in HEAP [12] is:
 
-	myFanout = myBandwidth / averageBandwidth * 
+	myFanout = myBandwidth / averageBandwidth * averageFanout
 
-Updated pseudocode, which includes HEAP protocol, is given:
+*Average bandwidth* is updated according to the information about the capabilities of other nodes.
+
+Updated pseudocode, which includes HEAP protocol, is given, followed by an explanation:
 
 ```go
 // This is executed on each FN node
@@ -250,10 +252,10 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0MTQwMjE1LC00MjAzMTU0OTEsMjAxND
-I0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYw
-NCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNj
-YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
-MjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF
-19
+eyJoaXN0b3J5IjpbMTQ2NjQwMTcxNSwtNDIwMzE1NDkxLDIwMT
+QyNDg2MTcsMTM4MzM2NDUzOSwtMzg4MTUxNzcwLDE1MzE3NjM2
+MDQsLTY5NDkxMjM3OSwxNDA3NTk4NjQ5LC05MzUzNTg4OTUsMT
+Y2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5Mjky
+MzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5Nz
+RdfQ==
 -->
