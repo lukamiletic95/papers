@@ -15,7 +15,7 @@ This solution is based on building a dynamic, unstructured overlay across the ne
 
 Let us consider a network of nodes, equivalent to that described in `System model`, with an additional assumption - each node in the network must have knowledge of every other node in the network. It is evident that by adopting this hypothesis, we suppose a full-mesh connectivity, which is not how the Tendermint network operates. However, this assumption is only adopted so that explaining of this part of the algorithm would be simplified. In the third part - *PSS*, we will explain how this idea is applied to a wide area network with peer-to-peer connectivity.
 
-Hence, there exists a network of nodes whe
+Hence, there exists a network of nodes where each node 
 
 <br/><br/>
 <div align='center'> 
@@ -46,7 +46,7 @@ Hence, there exists a network of nodes whe
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk5MTg4OTUsLTE3OTg2ODI3MjUsMj
-A5MjkyMzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgw
-OTM5NzRdfQ==
+eyJoaXN0b3J5IjpbLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMD
+kyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5
+Mzk3NF19
 -->
