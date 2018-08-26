@@ -31,8 +31,8 @@ Pseudocode is given (slightly modified version than the ones in [11] and [12]), 
 
 // Initialization
 int f = ln(n);
-Set<T> 	toPropose = EMPTY_SET;
-Set<T> 	delivered = EMPTY_SET;
+Set<int> toPropose = EMPTY_SET;
+Set<int> delivered = EMPTY_SET;
 Set<T> 	requested = EMPTY_SET; 
 start(GossipTimer(gossipPeriod));
 
@@ -57,7 +57,9 @@ upon (GossipTimer % gossipPeriod) == 0 {
 // Phase 2 - PULL wanted transactions
 upon (receive(PROPOSE, proposed)) {
 	Set<T> wanted = EMPTY_SET;
-	for (T t
+	for (int id : proposed) {
+		if (!requested.contains(id)
+	}
 }
 
 ```
@@ -91,7 +93,7 @@ upon (receive(PROPOSE, proposed)) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjQzMTE1LC05MzUzNTg4OTUsMTY2Mj
+eyJoaXN0b3J5IjpbODQwMTE0ODA1LC05MzUzNTg4OTUsMTY2Mj
 gzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIz
 MiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ
 ==
