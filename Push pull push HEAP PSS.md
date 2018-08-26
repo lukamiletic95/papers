@@ -135,7 +135,7 @@ When a *FN* node receives a *SERVE* message, it adds it to its Mempool, and mark
 
 This push-pull-push approach reduces the payload in the network, owing to the fact that only a transaction's id is gossiped. Sending the actual transaction is delayed until *T* is explicitly required. 
 
-However, this approach has one drawback. It assumes that every node in the network has the same fanout. This means that, when gossiping, every node will be equally burdened, meaning it would have to
+However, this approach has one drawback. It assumes that every node in the network has fanout *f = ln(n)*. This means that, when gossiping, every node will be equally burdened. Unfortunately, not all the nodes have the same bandwidth. Therefore, imposing a high load on a node with smaller bandwidth may ca
 
 #### 2. HEAP
 
@@ -158,7 +158,7 @@ However, this approach has one drawback. It assumes that every node in the netwo
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTA2MDM2MywyMDE0MjQ4NjE3LDEzOD
+eyJoaXN0b3J5IjpbLTk1MTM3NTk5NywyMDE0MjQ4NjE3LDEzOD
 MzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIz
 NzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1OSwtND
 QwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4Nzkz
