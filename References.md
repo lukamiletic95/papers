@@ -21,10 +21,12 @@
 [9] A.M. Kermarrec, L. Massoulie and A.J. Ganesh, "Probabilistic Reliable Dissemination in Large-Scale systems" 2002. [Online]. Available: <https://www.researchgate.net/profile/Ayalvadi_Ganesh/publication/2832321_Probabilistic_Reliable_Dissemination_in_Large-Scale_Systems/links/00b7d535646945981f000000.pdf>
 
 [10] M. Castro, P. Druschel, A.M. Kermarrec, A. Nandi, A. Rowstron and A. Singh, "SplitStream: High-Bandwidth Multicast in Cooperative Environments" 2003. [Online]. Available: <http://rowstron.azurewebsites.net/PAST/SplitStream-sosp.pdf>
+
+[11] Frey, D., Guerraoui, R., Kermarrec, A.-M., Monod, M., Qu´ema, V.: Stretching Gossip with Live Streaming. In: Proc. of DSN (2009)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE2MDI1ODMsMjMxODEwMzI2LC0xOD
-c2MTkxNTYzLDI0OTg3NzIwNiwxMTQ2MzA5Njc0LDE3MTUwOTQw
-MDcsLTcyNzIxMTQ0MiwxMjkyNDA1MDEzLC0xNzAyOTk5ODg1LD
-EyNTI0NjQ5MjIsLTE2MjU2MDE0OTEsLTE1MTY1MTM5ODksLTI5
-MjU3NzM5M119
+eyJoaXN0b3J5IjpbOTUwNjMzOTkzLDIzMTgxMDMyNiwtMTg3Nj
+E5MTU2MywyNDk4NzcyMDYsMTE0NjMwOTY3NCwxNzE1MDk0MDA3
+LC03MjcyMTE0NDIsMTI5MjQwNTAxMywtMTcwMjk5OTg4NSwxMj
+UyNDY0OTIyLC0xNjI1NjAxNDkxLC0xNTE2NTEzOTg5LC0yOTI1
+NzczOTNdfQ==
 -->
