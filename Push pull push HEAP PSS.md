@@ -133,7 +133,7 @@ When a *FN* node receives a *REQUEST* message, it replies with a *SERVE* message
 
 When a *FN* node receives a *SERVE* message, it adds it to its Mempool, and marks it as a future transaction to-be-proposed, only if it already wasn't inside its Mempool.
 
-This push-pull-push approach reduces the payload in the network, owing to the fact that only a transaction's id is gossiped. 
+This push-pull-push approach reduces the payload in the network, owing to the fact that only a transaction's id is gossiped. Sending the actual transaction is delayed until *T* is explicitly required. 
 
 #### 2. HEAP
 
@@ -156,7 +156,7 @@ This push-pull-push approach reduces the payload in the network, owing to the fa
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTk1MzQxNSwyMDE0MjQ4NjE3LDEzOD
+eyJoaXN0b3J5IjpbLTU1OTIwODYxOCwyMDE0MjQ4NjE3LDEzOD
 MzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIz
 NzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1OSwtND
 QwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4Nzkz
