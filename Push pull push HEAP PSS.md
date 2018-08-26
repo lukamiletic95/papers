@@ -115,7 +115,11 @@ func deliverEvent(T t) {
 </div>
 <br/><br/>
 
-Since we assumed that a node has knowledge of the entire network, its fanout is initialized to *ln(n)*. This represents the size of the peer subset, or more precisely, the number of nodes that are going to receive the *PROPOSE* message.
+Since we assumed that a node has knowledge of the entire network, its fanout is initialized to *ln(n)*. This represents the size of the peer subset, or more precisely, the number of nodes that are going to receive the *PROPOSE* message. Node keeps track of three sets:
+
+* *toPropose* - set of integers which contains
+*
+*
 
 
 #### 2. HEAP
@@ -139,7 +143,7 @@ Since we assumed that a node has knowledge of the entire network, its fanout is 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzNzMxMDM5LC02OTQ5MTIzNzksMTQwNz
+eyJoaXN0b3J5IjpbNDU3NDU1MDA2LC02OTQ5MTIzNzksMTQwNz
 U5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5
 LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4NzkzNTI4MTIsMT
 AyOTY4MDI4NywxMjk4MDkzOTc0XX0=
