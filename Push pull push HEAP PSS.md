@@ -15,6 +15,8 @@ This solution is based on building a dynamic, unstructured overlay across the ne
 
 
 
+
+
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig15.png" />
@@ -44,6 +46,6 @@ This solution is based on building a dynamic, unstructured overlay across the ne
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI5NjYzMjksMjA5MjkyMzIzMiwtMT
-g3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbLTU4ODAzNTQyMSwyMDkyOTIzMjMyLC0xOD
+c5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
 -->
