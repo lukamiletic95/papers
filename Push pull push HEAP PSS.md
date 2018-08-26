@@ -17,7 +17,7 @@ Let us consider a network of nodes, equivalent to that described in `System mode
 
 Hence, there exists a network of nodes where each node contains IP addresses of every other node. Basic gossiping idea is that a node, periodically, sends a message to a subset of nodes picked uniformly at random from the set of all nodes. As stated earlier, the size of that subset is denoted as *fanout*. Theoretical [9] and experimental [11] analysis has proven that in order to keep the network graph connected with high probability, optimal value for *f* is *ln(n)*, where *n* represents the number of nodes within the network.
 
-Concept where a three-phase gossiping is used is essential when there is a high network load, due to the fact that it guarantees that a message will not be delivered (added to the Mempool) more than once. Furthermore, it enables that, primarily, only a transaction's identifier is gossiped. A need for gossiping an entire transaction happens only if that particular transaction identifier has been explicitly requested. This significantly reduces the amount of traffic that travels through the network.  
+Concept where a three-phase gossiping is used is essential when there is a high network load, due to the fact that it guarantees that a message will not be delivered (added to the Mempool) more than once. **Furthermore, it enables that only a transaction's identifier is gossiped**. A need for sending an entire transaction happens only if that particular transaction identifier has been explicitly requested. This significantly reduces the amount of traffic that travels through the network.  
 
 Those three phases are:
 
@@ -129,8 +129,8 @@ func gossip(Set<int> eventIds) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2MTM0MTMxLC05MzUzNTg4OTUsMTY2Mj
-gzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIz
-MiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ
-==
+eyJoaXN0b3J5IjpbMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2Nj
+I4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMy
+MzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX
+0=
 -->
