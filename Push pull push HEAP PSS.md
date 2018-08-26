@@ -17,6 +17,8 @@ Let us consider a network of nodes, equivalent to that described in `System mode
 
 Hence, there exists a network of nodes where each node contains IP addresses of every other node. Basic gossiping idea is that a node, periodically, sends a message to a subset of nodes picked uniformly at random from the set of all nodes. As stated earlier, the size of that subset is denoted as *fanout*. Theoretical [9] and experimental [11] analysis has proven that in order to keep the network graph connected with high probability, optimal value for *f* is *ln(n)*, where *n* represents the number of nodes within the network.
 
+
+
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig15.png" />
@@ -46,7 +48,7 @@ Hence, there exists a network of nodes where each node contains IP addresses of 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjgzMzU5LC00NDA5MTczMjksLTE3OT
-g2ODI3MjUsMjA5MjkyMzIzMiwtMTg3OTM1MjgxMiwxMDI5Njgw
-Mjg3LDEyOTgwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbMTM1MTM1ODM5NSwxNjYyODMzNTksLTQ0MD
+kxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUy
+ODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
 -->
