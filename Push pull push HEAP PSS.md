@@ -135,11 +135,11 @@ When a *FN* node receives a *SERVE* message, it adds it to its Mempool, and mark
 
 This push-pull-push approach reduces the payload in the network, owing to the fact that only a transaction's id is gossiped. Sending the actual transaction is delayed until *T* is explicitly required. 
 
-However, this approach has one drawback. It assumes that every node in the network a has fanout *f = ln(n)*. This means that, when gossiping, every node will be equally burdened. Unfortunately, not all the nodes have the same bandwidth. Therefore, imposing a high load on a node with lower bandwidth may cause crashes, lower throughput and higher latency. HEAP, the second part of this solution, tends to solve this issue.
+However, this approach has one drawback. It assumes that every node in the network a has fanout *f = ln(n)*. This means that, when gossiping, every node will be equally burdened. Unfortunately, not all the nodes have the same capabilities. Therefore, imposing a high load on a node with lower capabilities may cause crashes, lower throughput and higher latency. HEAP, the second part of this solution, tends to solve this issue.
 
 #### 2. HEAP
 
-HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in a way that some nodes are faster and more productive than 
+HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in such a way that some nodes are faster and more productive than others. HEAP adapts a node's fanout according to its bandwidth
 
 <br/><br/>
 <div align='center'> 
@@ -160,9 +160,9 @@ HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homog
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzMwMTk1LDIwMTQyNDg2MTcsMTM4Mz
-M2NDUzOSwtMzg4MTUxNzcwLDE1MzE3NjM2MDQsLTY5NDkxMjM3
-OSwxNDA3NTk4NjQ5LC05MzUzNTg4OTUsMTY2MjgzMzU5LC00ND
-A5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIzMiwtMTg3OTM1
-MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbLTEzNzkwNDE5NzgsMjAxNDI0ODYxNywxMz
+gzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYwNCwtNjk0OTEy
+Mzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLT
+Q0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5
+MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
 -->
