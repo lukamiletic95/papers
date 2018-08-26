@@ -11,7 +11,7 @@ The idea behind this algorithm combines two of the solutions proposed in [9] - *
 </div>
 <br/><br/>
 
-First and foremost, let us assume that the network is now divided into clusters. As presented in [9], nodes are clustered according to geographical proximity or some network-related metrics that refers to network proximity (e.g. round-trip delay or number of hops between nodes). [9] provides mathematical proof that only a small number of connections among clusters is required to keep the system connected. In *Figure #*, there are four clusters, *A*, *B*, *C* and *D*. There are also two types of connections:
+First and foremost, let us assume that the network is now divided into clusters. As presented in [9], nodes are clustered according to geographical proximity or some network-related metrics that refers to network proximity (e.g. round-trip delay or number of hops between nodes). Clusters could be maintained by some an process. [9] provides mathematical proof that only a small number of connections among clusters is required to keep the system connected. In *Figure #*, there are four clusters, *A*, *B*, *C* and *D*. There are also two types of connections:
 
 * **Intercluster →** they represent links between different clusters.
 * **Intracluster→** they represent links between nodes within the same cluster.
@@ -271,10 +271,10 @@ On the other hand, if this approach was to be implemented, it would produce no o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTYxODcyMywtNzQ1MDM1MTY2LDQ4Nj
-g2NTc5MSwxNjQ4NTY4ODIyLC0xNDEwNDU3NjcyLC0xNTMyMDAx
-NjExLDg0MTExMjQ3OSwxNjA3MDkzNjIxLC05Mzc3MTIwODUsLT
-E4Nzc0OTQ3MTgsLTUxNTczODg1MiwxMzk2NDk5MjE0LC02MTk4
-ODg3NTAsMTM3OTM1OTE1OCwyMDY4MzUzNTI2LC0xMjc2OTIzOD
-gzLDYzMTYyMDUwOF19
+eyJoaXN0b3J5IjpbMTg0NjU1MDc5MSwxMzg1NjE4NzIzLC03ND
+UwMzUxNjYsNDg2ODY1NzkxLDE2NDg1Njg4MjIsLTE0MTA0NTc2
+NzIsLTE1MzIwMDE2MTEsODQxMTEyNDc5LDE2MDcwOTM2MjEsLT
+kzNzcxMjA4NSwtMTg3NzQ5NDcxOCwtNTE1NzM4ODUyLDEzOTY0
+OTkyMTQsLTYxOTg4ODc1MCwxMzc5MzU5MTU4LDIwNjgzNTM1Mj
+YsLTEyNzY5MjM4ODMsNjMxNjIwNTA4XX0=
 -->
