@@ -139,6 +139,8 @@ However, this approach has one drawback. It assumes that every node in the netwo
 
 #### 2. HEAP
 
+HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in a way that some nodes are faster and more productive than 
+
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig16.png" />
@@ -158,7 +160,7 @@ However, this approach has one drawback. It assumes that every node in the netwo
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc1NzUxODQ1LDIwMTQyNDg2MTcsMTM4Mz
+eyJoaXN0b3J5IjpbMTQ4NzMwMTk1LDIwMTQyNDg2MTcsMTM4Mz
 M2NDUzOSwtMzg4MTUxNzcwLDE1MzE3NjM2MDQsLTY5NDkxMjM3
 OSwxNDA3NTk4NjQ5LC05MzUzNTg4OTUsMTY2MjgzMzU5LC00ND
 A5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIzMiwtMTg3OTM1
