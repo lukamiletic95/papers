@@ -8,7 +8,7 @@ The idea of this algorithm combines a three-phase gossiping protocol described i
 
 Each of the three parts will be explained in further text.
 
-This solution is based on building a dynamic, unstructured overlay across the network of nodes. Each node will change its peer subset dynamically, and gossip a client's transaction only to a particular number of nodes in that peer subset. That number will be denoted as node's ***fanout*** - *f*.
+This solution is based on building a dynamic, unstructured overlay across the network of nodes. Each node will change its peer subset dynamically, and gossip a client's transaction only to nodes in that peer subset. That number will be denoted as node's ***fanout*** - *f*.
 
 
 #### 1. Push-pull-push gossiping
@@ -274,10 +274,10 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjgxNTI0NSwxNjIwNjYwNjIxLC00Mj
-AzMTU0OTEsMjAxNDI0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3
-NzAsMTUzMTc2MzYwNCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLT
-kzNTM1ODg5NSwxNjYyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4
-MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2ODAyOD
-csMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbLTIwOTg4MjIzNTcsMTExNjgxNTI0NSwxNj
+IwNjYwNjIxLC00MjAzMTU0OTEsMjAxNDI0ODYxNywxMzgzMzY0
+NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYwNCwtNjk0OTEyMzc5LD
+E0MDc1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLTQ0MDkx
+NzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyOD
+EyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
 -->
