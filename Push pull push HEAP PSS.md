@@ -1,6 +1,6 @@
 ### Push-pull-push HEAP with PSS
 
-The idea of this algorithm combines a three-phase gossiping protocol described in [11], a protocol aware of network bandwidth inequality - _**HEAP**_ (**HE**terogeneity-**A**ware-**P**rotocol)  [12], and a service for providing every node with its peer subset - the _**PSS**_ (**P**eer **S**ampling **S**ervice) [13].
+The idea of this algorithm combines a three-phase gossiping protocol described in [11], a protocol aware of network bandwidth inequality - _**HEAP**_ (**HE**terogeneity-**A**ware-**P**rotocol)  [12], and a gossiping service for providing every node with its peer subset - the _**PSS**_ (**P**eer **S**ampling **S**ervice) [13].
 
 <br/><br/>
 <div align='center'> 
@@ -25,6 +25,6 @@ The idea of this algorithm combines a three-phase gossiping protocol described i
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDkyNjY1MiwxMDI5NjgwMjg3LDEyOT
+eyJoaXN0b3J5IjpbMTU2NTMxMzA3MSwxMDI5NjgwMjg3LDEyOT
 gwOTM5NzRdfQ==
 -->
