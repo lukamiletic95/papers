@@ -1,6 +1,6 @@
 ### Push-pull-push HEAP with PSS
 
-The idea of this algorithm combines a three-phase gossiping protocol described in [11], a protocol aware of network bandwidth inequality - _**HEAP**_ (**HE**terogeneity-**A**ware-**P**rotocol)  [12], and a gossiping service for providing every node with its peer subset - the _**PSS**_ (**P**eer **S**ampling **S**ervice) [13]. Therefore, this algorithm consists of three parts, which are slightly modified in order to become applicable to our system model:
+The idea of this algorithm combines a three-phase gossiping protocol described in [11], a protocol aware of network capabilities inequality - _**HEAP**_ (**HE**terogeneity-**A**ware-**P**rotocol)  [12], and a gossiping service for providing every node with its peer subset - the _**PSS**_ (**P**eer **S**ampling **S**ervice) [13]. Therefore, this algorithm consists of three parts, which are slightly modified in order to become applicable to our system model:
 
 1. _Push-pull-push gossiping_
 2. _HEAP_
@@ -139,7 +139,7 @@ However, this approach has one drawback. It assumes that every node in the netwo
 
 #### 2. HEAP
 
-HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in such a way that some nodes are faster and more productive than others. HEAP adapts a node's fanout according to its bandwidth
+HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in such a way that some nodes are faster and more productive than others. HEAP adapts a node's fanout according to its capabilities.
 
 <br/><br/>
 <div align='center'> 
@@ -160,7 +160,7 @@ HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homog
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzkwNDE5NzgsMjAxNDI0ODYxNywxMz
+eyJoaXN0b3J5IjpbLTE3NzA5MTc5NDQsMjAxNDI0ODYxNywxMz
 gzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYwNCwtNjk0OTEy
 Mzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLT
 Q0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5
