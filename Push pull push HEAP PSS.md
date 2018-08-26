@@ -11,7 +11,7 @@ Each of the three parts will be explained in further text.
 This solution is based on building a dynamic, unstructured overlay across the network of nodes. Each node will change its peer subset dynamically, and gossip a client's transaction only to a particular number of nodes in that peer subset. That number will be denoted as node's ***fanout*** - *f*.
 
 
-### 1. Push-pull-push gossiping
+#### 1. Push-pull-push gossiping
 
 
 
@@ -23,6 +23,8 @@ This solution is based on building a dynamic, unstructured overlay across the ne
 <br/><br/>
 
 
+#### 2. HEAP
+
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig16.png" />
@@ -31,13 +33,17 @@ This solution is based on building a dynamic, unstructured overlay across the ne
 <br/><br/>
 
 
+#### 3. PSS
+
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig17.png" />
 	<h4>Figure # - Peer sampling service</h4>
 </div>
 <br/><br/>
+
+#### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY4MDA4MjksMjA5MjkyMzIzMiwtMT
+eyJoaXN0b3J5IjpbLTIwNzcwODYwMDUsMjA5MjkyMzIzMiwtMT
 g3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
 -->
