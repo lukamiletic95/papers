@@ -74,6 +74,15 @@ upon (receive(REQUEST, wanted)) {
 		asked.add(getEvent(id));
 	}
 
+	reply(SERVE, asked);
+}
+
+upon (receive(SERVE, events)) {
+	for (T t : events) {
+		if (!delivered.contains(t)) {
+			toPropose.add
+		}
+	}
 }
 
 ```
@@ -107,8 +116,8 @@ upon (receive(REQUEST, wanted)) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODM5OTk4NSwtOTM1MzU4ODk1LDE2Nj
-I4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMy
-MzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX
-0=
+eyJoaXN0b3J5IjpbODY1MTEyNzgzLC05MzUzNTg4OTUsMTY2Mj
+gzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIz
+MiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ
+==
 -->
