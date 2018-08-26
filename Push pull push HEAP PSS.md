@@ -115,6 +115,8 @@ func deliverEvent(T t) {
 <br/><br/>
 
 
+
+
 #### 2. HEAP
 
 <br/><br/>
@@ -136,7 +138,7 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDI5NDAwNiwtNjk0OTEyMzc5LDE0MD
+eyJoaXN0b3J5IjpbMjE0NTM2MjUzNCwtNjk0OTEyMzc5LDE0MD
 c1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLTQ0MDkxNzMy
 OSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyODEyLD
 EwMjk2ODAyODcsMTI5ODA5Mzk3NF19
