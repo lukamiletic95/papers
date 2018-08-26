@@ -115,7 +115,7 @@ func deliverEvent(T t) {
 </div>
 <br/><br/>
 
-The algorithm is based on a 
+The algorithm is based on exchanging three messages between two nodes, as shown in *Figure #*. If a *FN* node receives client's transaction *T*, it gossips its id by a call to *publish()* function, which will lead to creating a new *PROPOSE*.
 
 Since we assumed that a node has knowledge of the entire network, its fanout is initialized to *ln(n)*. This represents the size of the peer subset, or more precisely, the number of nodes that are going to receive the *PROPOSE* message. Node keeps track of three sets:
 
@@ -145,8 +145,8 @@ Since we assumed that a node has knowledge of the entire network, its fanout is 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjg0MTQzMDIsLTY5NDkxMjM3OSwxND
-A3NTk4NjQ5LC05MzUzNTg4OTUsMTY2MjgzMzU5LC00NDA5MTcz
-MjksLTE3OTg2ODI3MjUsMjA5MjkyMzIzMiwtMTg3OTM1MjgxMi
-wxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbMTAyNjYxNzIxMSwtNjk0OTEyMzc5LDE0MD
+c1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLTQ0MDkxNzMy
+OSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyODEyLD
+EwMjk2ODAyODcsMTI5ODA5Mzk3NF19
 -->
