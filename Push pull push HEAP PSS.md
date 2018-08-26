@@ -85,7 +85,7 @@ upon (receive(SERVE, events)) {
 }
 
 // Miscellaneous
-func selectNodes(f) int {
+func selectNodes(int f) int {
 	return f uniformly random nodes from the set of all nodes;
 }
 
@@ -136,8 +136,8 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDkxMjM3OSwxNDA3NTk4NjQ5LC05Mz
-UzNTg4OTUsMTY2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3
-MjUsMjA5MjkyMzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LD
-EyOTgwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbLTM1OTIxNzY0NCwtNjk0OTEyMzc5LDE0MD
+c1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLTQ0MDkxNzMy
+OSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyODEyLD
+EwMjk2ODAyODcsMTI5ODA5Mzk3NF19
 -->
