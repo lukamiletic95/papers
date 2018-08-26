@@ -154,13 +154,15 @@ Updated pseudocode, which includes HEAP protocol, is given, followed by an expla
 
 // Initialization
 Set<Capability> capabilities = EMPTY_SET;
-
+Bandwidth b = MY_BANDWIDTH;
 
 int f = ln(n);
 Set<int> toPropose = EMPTY_SET;
 Set<T> delivered = EMPTY_SET;
 Set<int> requested = EMPTY_SET; 
 start(GossipTimer(gossipPeriod));
+
+start(AggregationTimer(aggregationPeriod));
 
 // Phase 1 - PUSH T ids
 func publish(T t) { // when C sends its transaction to FN
@@ -252,7 +254,7 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjQwMTcxNSwtNDIwMzE1NDkxLDIwMT
+eyJoaXN0b3J5IjpbLTE3NTU0MDQ3MywtNDIwMzE1NDkxLDIwMT
 QyNDg2MTcsMTM4MzM2NDUzOSwtMzg4MTUxNzcwLDE1MzE3NjM2
 MDQsLTY5NDkxMjM3OSwxNDA3NTk4NjQ5LC05MzUzNTg4OTUsMT
 Y2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5Mjky
