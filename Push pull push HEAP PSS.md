@@ -1,6 +1,7 @@
 ### Push-pull-push HEAP with PSS
 
 
+
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig15.png" />
@@ -24,5 +25,6 @@
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbLTk1NTM2OTQyMywxMDI5NjgwMjg3LDEyOT
+gwOTM5NzRdfQ==
 -->
