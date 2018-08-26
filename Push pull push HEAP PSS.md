@@ -87,7 +87,13 @@ upon (receive(SERVE, events)) {
 }
 
 // Miscellaneous
-func selectNodes(f)
+func selectNodes(f) int {
+	return f uniformly random nodes from the set of all nodes;
+}
+
+func gossip(Set<int> eventIds) {
+	Set<Node> peerSubset = selectNodes(
+}
 
 ```
 
@@ -120,8 +126,8 @@ func selectNodes(f)
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDg1NTU3MSwtOTM1MzU4ODk1LDE2Nj
-I4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMy
-MzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX
-0=
+eyJoaXN0b3J5IjpbLTEzOTA1MDk2MDksLTkzNTM1ODg5NSwxNj
+YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
+MjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF
+19
 -->
