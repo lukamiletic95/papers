@@ -201,7 +201,7 @@ func receive(T transaction, Node sender) {
 	
 	addMempool(transaction);
 	
-	if (sender == C || children.contains(sender) |) {
+	if (sender == C || children.contains(sender) || interclusterChildren.contains(sender)) {
 		if (parent != nil) {
 			parent.receive(transaction, self);
 		}
@@ -273,7 +273,7 @@ On the other hand, if this approach was to be implemented, it would produce no o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODg2MDM4NiwtMzc4ODU5MjE3LDg5NT
+eyJoaXN0b3J5IjpbMTA4MzQ3NjM5NiwtMzc4ODU5MjE3LDg5NT
 g2MzQ1MCwtMTQxNDIzMzQxNCwtNjEwNTE3MzAwLDE4NDY1NTA3
 OTEsMTM4NTYxODcyMywtNzQ1MDM1MTY2LDQ4Njg2NTc5MSwxNj
 Q4NTY4ODIyLC0xNDEwNDU3NjcyLC0xNTMyMDAxNjExLDg0MTEx
