@@ -6,8 +6,10 @@ In this section, before all else, a current algorithm used in Tendermint for gos
 
 * `Current solution` 
 
-Following, analysis of other algorithms is provided.
-*To-Do:* finish this.
+Following, analysis of three different algorithms is provided. Each algorithm is supported with a pseudocode which describes its functioning at a high abstraction level. That pseudocode may be used for various implementations. Those three algorithms are:
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxOTgwNDA3LDY2OTkzOTA0MV19
+eyJoaXN0b3J5IjpbLTE3NDI4OTI2ODQsNDUxOTgwNDA3LDY2OT
+kzOTA0MV19
 -->
