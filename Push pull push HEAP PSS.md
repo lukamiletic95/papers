@@ -98,6 +98,10 @@ func gossip(Set<int> eventIds) {
 	}
 }
 
+func getEvent(int id) T {
+
+}
+
 ```
 
 <br/><br/>
@@ -129,8 +133,8 @@ func gossip(Set<int> eventIds) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2Nj
-I4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMy
-MzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX
-0=
+eyJoaXN0b3J5IjpbLTkyMzMyMTgzOCwxNDA3NTk4NjQ5LC05Mz
+UzNTg4OTUsMTY2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3
+MjUsMjA5MjkyMzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LD
+EyOTgwOTM5NzRdfQ==
 -->
