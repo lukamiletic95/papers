@@ -23,13 +23,13 @@ Concept where three-phase gossiping is used is essential when there is a high ne
 2. **PULL →** represented by sending a *REQUEST* message
 3. **PUSH →** represented by sending a *SERVE* message
 
-Pseudocode is given , followed by an explanation of the algorithm:
+Pseudocode is given (slightly modified version than the ones in [11] and [12]), followed by an explanation of the algorithm:
 
 ```go
 
 // Initialization
-
-int f
+int f = ln(n);
+Set<T> 	toPropose, 
 
 ```
 
@@ -62,7 +62,7 @@ int f
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTMzMDA3LDE2NjI4MzM1OSwtNDQwOT
-E3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4NzkzNTI4
-MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbLTE4NDkxMDIzNjUsMTY2MjgzMzU5LC00ND
+A5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIzMiwtMTg3OTM1
+MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
 -->
