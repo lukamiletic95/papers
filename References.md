@@ -22,13 +22,13 @@
 
 [10] M. Castro, P. Druschel, A.M. Kermarrec, A. Nandi, A. Rowstron and A. Singh, "SplitStream: High-Bandwidth Multicast in Cooperative Environments" 2003. [Online]. Available: <http://rowstron.azurewebsites.net/PAST/SplitStream-sosp.pdf>
 
-[11] D. Frey, R. Guerraoui, A.M. Kermarrec, M. Monod and V. Quema, "Stretching Gossip with Live Streaming" 2009. [Online]. Available: <https://hal.inria.fr/inria-00436130/document>
+[11] D. Frey, R. Guerraoui, A.M. Kermarrec, M. Monod and V. Quema, "Stretching Gossip with Live Streaming"  DSN, Estoril, Portugal, 2009. [Online]. Available: <https://hal.inria.fr/inria-00436130/document>
 
 [12] D. Frey, R. Guerraoui, A.M. Kermarrec, B. Koldehofe, M. Mogensen, M. Monod and V. Quema, "Heterogeneous gossip" 2009. [Online]. Available: <https://infoscience.epfl.ch/record/140640/files/middleware-monod.pdf>
 
 [13] M. Jelasity, R. Guerraoui, A.M. Kermarrec and M.V. Steen, "The Peer Sampling Service - Experimental Evaluation of Gossip-Based Implementations" 2004. [Online]. Available: <http://lpdwww.epfl.ch/upload/documents/publications/neg--1184036295all.pdf>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5Nzc3Mjk2NSwxNTk3NzcyOTY1LDIzMT
+eyJoaXN0b3J5IjpbMTQ4NjQ2MDcyNCwxNTk3NzcyOTY1LDIzMT
 gxMDMyNiwtMTg3NjE5MTU2MywyNDk4NzcyMDYsMTE0NjMwOTY3
 NCwxNzE1MDk0MDA3LC03MjcyMTE0NDIsMTI5MjQwNTAxMywtMT
 cwMjk5OTg4NSwxMjUyNDY0OTIyLC0xNjI1NjAxNDkxLC0xNTE2
