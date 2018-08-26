@@ -1,6 +1,6 @@
 ### Push-pull-push HEAP with PSS
 
-The idea of this algorithm combines a three-phase gossiping protocol described in [11], a bandwidth
+The idea of this algorithm combines a three-phase gossiping protocol described in [11], a heterogeneity a
 
 <br/><br/>
 <div align='center'> 
@@ -25,6 +25,6 @@ The idea of this algorithm combines a three-phase gossiping protocol described i
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM5MjQxMTksMTAyOTY4MDI4NywxMj
-k4MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbMzQ2MTEwOTUxLDEwMjk2ODAyODcsMTI5OD
+A5Mzk3NF19
 -->
