@@ -15,7 +15,7 @@ This solution is based on building a dynamic, unstructured overlay across the ne
 
 Let us consider a network of nodes, equivalent to that described in `System model`, with an additional assumption - each node in the network must have knowledge of every other node in the network. It is evident that by adopting this hypothesis, we suppose a full-mesh connectivity, which is not how the Tendermint network operates. However, this assumption is only adopted so that explaining of this part of the algorithm would be simplified. In the third part - *PSS*, we will explain how this idea is applied to a wide area network with peer-to-peer connectivity.
 
-Hence, there exists a network of nodes where each node 
+Hence, there exists a network of nodes where each node contains IP addresses of every other node. Basic gossiping idea is that a node, periodically, sends a message to a subset of 
 
 <br/><br/>
 <div align='center'> 
@@ -46,7 +46,7 @@ Hence, there exists a network of nodes where each node
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMD
-kyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5
-Mzk3NF19
+eyJoaXN0b3J5IjpbLTE1MDQ5NjI4MDgsLTQ0MDkxNzMyOSwtMT
+c5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2
+ODAyODcsMTI5ODA5Mzk3NF19
 -->
