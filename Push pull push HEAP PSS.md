@@ -119,7 +119,7 @@ The algorithm is based on exchanging three messages between two nodes, as shown 
 
 Since we assumed that a node has knowledge of the entire network, its fanout is initialized to *ln(n)*. This represents the size of the peer subset, or more precisely, the number of nodes that are going to receive the *PROPOSE* message. Node keeps track of three sets:
 
-* *toPropose* - set of integers which contains the ids of transactions that will be proposed periodically
+* *toPropose* - set of integers which contains the ids of transactions that will be proposed periodically by the *PROPOSE* message
 * *delivered* - set of transactions T which contains all the transactions that were added to the Mempool
 * *requested* - set of integers which contains the ids of transactions that were requested by the *REQUEST* message.
 
@@ -145,9 +145,9 @@ Since we assumed that a node has knowledge of the entire network, its fanout is 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3MjUyNTUxLC0zODgxNTE3NzAsMTUzMT
-c2MzYwNCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5
-NSwxNjYyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMD
-kyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5
-Mzk3NF19
+eyJoaXN0b3J5IjpbLTIwNTg0MTE0OTYsLTM4ODE1MTc3MCwxNT
+MxNzYzNjA0LC02OTQ5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4
+ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LD
+IwOTI5MjMyMzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4
+MDkzOTc0XX0=
 -->
