@@ -135,7 +135,7 @@ When a *FN* node receives a *SERVE* message, it adds it to its Mempool, and mark
 
 This push-pull-push approach reduces the payload in the network, owing to the fact that only a transaction's id is gossiped. Sending the actual transaction is delayed until *T* is explicitly required. 
 
-However, this approach has one drawback. It assumes that every node in the network has fanout *f = ln(n)*. This means that, when gossiping, every node will be equally burdened. Unfortunately, not all the nodes have the same capabilities. Therefore, imposing a high load on a node with lower capabilities may cause crashes, lower throughput and higher latency. HEAP, the second part of this solution, tends to solve this issue.
+However, this approach has one drawback. It assumes that every node in the network has a fanout *f = ln(n)*. This means that, when gossiping, every node will be equally burdened. Unfortunately, not all the nodes have the same capabilities. Therefore, imposing a high load on a node with lower capabilities may cause crashes, lower throughput and higher latency. HEAP, the second part of this solution, tends to solve this issue.
 
 #### 2. HEAP
 
@@ -274,10 +274,10 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3MDY1ODM4LDE2MjA2NjA2MjEsLTQyMD
-MxNTQ5MSwyMDE0MjQ4NjE3LDEzODMzNjQ1MzksLTM4ODE1MTc3
-MCwxNTMxNzYzNjA0LC02OTQ5MTIzNzksMTQwNzU5ODY0OSwtOT
-M1MzU4ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNzk4Njgy
-NzI1LDIwOTI5MjMyMzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4Ny
-wxMjk4MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbMTExNjgxNTI0NSwxNjIwNjYwNjIxLC00Mj
+AzMTU0OTEsMjAxNDI0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3
+NzAsMTUzMTc2MzYwNCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLT
+kzNTM1ODg5NSwxNjYyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4
+MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2ODAyOD
+csMTI5ODA5Mzk3NF19
 -->
