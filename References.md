@@ -24,9 +24,9 @@
 
 [11] D. Frey, R. Guerraoui, A.M. Kermarrec, M. Monod and V. Quema, "Stretching Gossip with Live Streaming" 2009. [Online]. Available: <https://hal.inria.fr/inria-00436130/document>
 
-[12] 
+[12] D. Frey, R. Guerraoui, A.M. Kermarrec, B. Koldehofe, M. Mogensen, M. Monod and V. Quema, ""
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTgzNjE4OSwyMzE4MTAzMjYsLTE4Nz
+eyJoaXN0b3J5IjpbLTM3MjE1MDE2MCwyMzE4MTAzMjYsLTE4Nz
 YxOTE1NjMsMjQ5ODc3MjA2LDExNDYzMDk2NzQsMTcxNTA5NDAw
 NywtNzI3MjExNDQyLDEyOTI0MDUwMTMsLTE3MDI5OTk4ODUsMT
 I1MjQ2NDkyMiwtMTYyNTYwMTQ5MSwtMTUxNjUxMzk4OSwtMjky
