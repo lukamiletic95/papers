@@ -79,7 +79,7 @@ upon (receive(REQUEST, wanted)) {
 
 upon (receive(SERVE, events)) {
 	for (T t : events) {
-		if (!delivered.contains(t)) {
+		if (!delivered.contains(t)) { // a message is delivered only once
 			toPropose.add(t.id);
 			deliverEvent(t);
 		}
@@ -138,8 +138,8 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkyOTE5NDIsMTQwNzU5ODY0OSwtOT
-M1MzU4ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNzk4Njgy
-NzI1LDIwOTI5MjMyMzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4Ny
-wxMjk4MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbLTIzNjUxMzM1NSwxNDA3NTk4NjQ5LC05Mz
+UzNTg4OTUsMTY2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3
+MjUsMjA5MjkyMzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LD
+EyOTgwOTM5NzRdfQ==
 -->
