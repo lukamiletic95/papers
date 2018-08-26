@@ -37,12 +37,10 @@ Set<int> requested = EMPTY_SET;
 start(GossipTimer(gossipPeriod));
 
 // Phase 1 - PUSH T ids
-func publish(T t) {
-	if (sender == C) { 
-		bool valid = checkTx(transaction);
-		if (valid == false) {
-			return;
-		}
+func publish(T t) { // when C sends its transaction to FN
+	bool valid = checkTx(transaction);
+	if (valid == false) {
+		return;
 	}
 
 	deliverEvent(t);
@@ -138,8 +136,8 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY0NjEyMzIsMTQwNzU5ODY0OSwtOT
-M1MzU4ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNzk4Njgy
-NzI1LDIwOTI5MjMyMzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4Ny
-wxMjk4MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbLTY5NDkxMjM3OSwxNDA3NTk4NjQ5LC05Mz
+UzNTg4OTUsMTY2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3
+MjUsMjA5MjkyMzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LD
+EyOTgwOTM5NzRdfQ==
 -->
