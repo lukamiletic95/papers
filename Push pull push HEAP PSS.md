@@ -4,7 +4,7 @@
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig15.png" />
-	<h4>Figure # - Messages exch</h4>
+	<h4>Figure # - Messages exchanged during gossiping</h4>
 </div>
 <br/><br/>
 
@@ -12,7 +12,7 @@
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig16.png" />
-	<h4>Figure # - Five states of the system</h4>
+	<h4>Figure # - Additional HEAP messages</h4>
 </div>
 <br/><br/>
 
@@ -20,9 +20,9 @@
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig17.png" />
-	<h4>Figure # - Five states of the system</h4>
+	<h4>Figure # - Peer sampling service</h4>
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjgyODAwMywxMjk4MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
 -->
