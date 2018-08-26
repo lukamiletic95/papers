@@ -13,7 +13,7 @@ This solution is based on building a dynamic, unstructured overlay across the ne
 
 #### 1. Push-pull-push gossiping
 
-
+Let as consider a network of nodes, equivalent to that described in `System model`.
 
 
 
@@ -46,6 +46,6 @@ This solution is based on building a dynamic, unstructured overlay across the ne
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODAzNTQyMSwyMDkyOTIzMjMyLC0xOD
-c5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbLTEzNzE4MjIwOTYsMjA5MjkyMzIzMiwtMT
+g3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
 -->
