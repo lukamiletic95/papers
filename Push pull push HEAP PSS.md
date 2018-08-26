@@ -2,7 +2,11 @@
 
 The idea of this algorithm combines a three-phase gossiping protocol described in [11], a protocol aware of network bandwidth inequality - _**HEAP**_ (**HE**terogeneity-**A**ware-**P**rotocol)  [12], and a gossiping service for providing every node with its peer subset - the _**PSS**_ (**P**eer **S**ampling **S**ervice) [13]. Therefore, this algorithm consists of three parts:
 
-1. Push-pull-push gossiping for 
+1. Push-pull-push gossiping
+2. HEAP
+3. PSS
+
+Each of the three parts will be discussed in further text.
 
 <br/><br/>
 <div align='center'> 
@@ -27,6 +31,6 @@ The idea of this algorithm combines a three-phase gossiping protocol described i
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzA1NzkyOSwxMDI5NjgwMjg3LDEyOT
-gwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMj
+k4MDkzOTc0XX0=
 -->
