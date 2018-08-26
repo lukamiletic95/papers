@@ -115,7 +115,7 @@ func deliverEvent(T t) {
 </div>
 <br/><br/>
 
-The algorithm is based on exchanging three messages between two nodes, as shown in *Figure #*. Whenever a node wishes to broadcast information about transactions inside its Mempool, it sends a *PROPOSE* message (*PROPOSE* **contains only transactions' ids**). Afterwards, all the nodes who received that message can reply with a *REQUEST* message, in order to get a transaction corresponding to the requested id. Upon receiving a *SERVE* message (which is the **only message that contains the actual transaction and not only the id**), the requester may add the served transaction to its Mempool.
+The algorithm is based on exchanging three messages between two nodes, as shown in *Figure #*. Whenever a node wishes to broadcast information about transactions inside its Mempool, it sends a *PROPOSE* message (*PROPOSE* **contains only the transaction's id**). Afterwards, all the nodes who received that message can reply with a *REQUEST* (*REQUEST* **contains only the transaction's id**) message, in order to get a transaction corresponding to the requested id. Upon receiving a *SERVE* message (which is the **only message that contains the actual transaction and not only the id**), the requester may add the served transaction to its Mempool.
 
 Since we assumed that a node has knowledge of the entire network, its fanout is initialized to *ln(n)*. This represents the size of the peer subset, or more precisely, the number of nodes that are going to receive the *PROPOSE* message. Node keeps track of three sets:
 
@@ -145,8 +145,9 @@ Since we assumed that a node has knowledge of the entire network, its fanout is 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC02OT
-Q5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1
-OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLT
-E4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbNjI3MjUyNTUxLC0zODgxNTE3NzAsMTUzMT
+c2MzYwNCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5
+NSwxNjYyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMD
+kyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5
+Mzk3NF19
 -->
