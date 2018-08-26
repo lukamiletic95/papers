@@ -13,8 +13,8 @@ The idea behind this algorithm combines two of the solutions proposed in [9] - *
 
 First and foremost, let us assume that the network is now divided into clusters. As presented in [9], nodes are clustered according to geographical proximity or some network-related metrics that refers to network proximity (e.g. round-trip delay or number of hops between nodes). Clusters could be maintained by an external process. [9] provides mathematical proof that only a small number of connections among clusters is required to keep the system connected. In *Figure #*, there are four clusters, *A*, *B*, *C* and *D*. There are also two types of connections:
 
-* **Intercluster →** they represent links between different clusters.
-* **Intracluster→** they represent links between nodes within the same cluster.
+* **Intercluster →** they represent links between different clusters - they are unidirectional.
+* **Intracluster→** they represent links between nodes within the same cluster - they are bidirectional.
 
 Node may be responsible for only one intercluster connection - this is also a restriction presented in [9].
 
@@ -271,11 +271,11 @@ On the other hand, if this approach was to be implemented, it would produce no o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDUxNzMwMCwxODQ2NTUwNzkxLDEzOD
-U2MTg3MjMsLTc0NTAzNTE2Niw0ODY4NjU3OTEsMTY0ODU2ODgy
-MiwtMTQxMDQ1NzY3MiwtMTUzMjAwMTYxMSw4NDExMTI0NzksMT
-YwNzA5MzYyMSwtOTM3NzEyMDg1LC0xODc3NDk0NzE4LC01MTU3
-Mzg4NTIsMTM5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNT
-gsMjA2ODM1MzUyNiwtMTI3NjkyMzg4Myw2MzE2MjA1MDhdfQ==
-
+eyJoaXN0b3J5IjpbMTA1NDkxODkyMywtNjEwNTE3MzAwLDE4ND
+Y1NTA3OTEsMTM4NTYxODcyMywtNzQ1MDM1MTY2LDQ4Njg2NTc5
+MSwxNjQ4NTY4ODIyLC0xNDEwNDU3NjcyLC0xNTMyMDAxNjExLD
+g0MTExMjQ3OSwxNjA3MDkzNjIxLC05Mzc3MTIwODUsLTE4Nzc0
+OTQ3MTgsLTUxNTczODg1MiwxMzk2NDk5MjE0LC02MTk4ODg3NT
+AsMTM3OTM1OTE1OCwyMDY4MzUzNTI2LC0xMjc2OTIzODgzLDYz
+MTYyMDUwOF19
 -->
