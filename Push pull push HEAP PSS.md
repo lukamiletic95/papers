@@ -54,7 +54,11 @@ upon (GossipTimer % gossipPeriod) == 0 {
 	toPropose = EMPTY_SET; // Infect and die model
 }
 
-// Phase 2 - PULL
+// Phase 2 - PULL wanted transactions
+upon (receive(PROPOSE, proposed)) {
+	Set<T> wanted = EMPTY_SET;
+	for (T t
+}
 
 ```
 
@@ -87,7 +91,7 @@ upon (GossipTimer % gossipPeriod) == 0 {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTU0NDc2LC05MzUzNTg4OTUsMTY2Mj
+eyJoaXN0b3J5IjpbLTM0NjQzMTE1LC05MzUzNTg4OTUsMTY2Mj
 gzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIz
 MiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ
 ==
