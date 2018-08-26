@@ -115,7 +115,7 @@ func deliverEvent(T t) {
 </div>
 <br/><br/>
 
-The algorithm is based on exchanging three messages between two nodes, as shown in *Figure #* (publish()). 
+The algorithm is based on exchanging three messages between two nodes, as shown in *Figure #*. Whenever a node wishes to broadcast information about transactions inside its Mempool, it sends a *PROPOSE* message. After that, all of the nodes who received 
 
 Since we assumed that a node has knowledge of the entire network, its fanout is initialized to *ln(n)*. This represents the size of the peer subset, or more precisely, the number of nodes that are going to receive the *PROPOSE* message. Node keeps track of three sets:
 
@@ -145,8 +145,8 @@ Since we assumed that a node has knowledge of the entire network, its fanout is 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTc2MzYwNCwtNjk0OTEyMzc5LDE0MD
-c1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLTQ0MDkxNzMy
-OSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyODEyLD
-EwMjk2ODAyODcsMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbMTE5OTIyOTI5MCwxNTMxNzYzNjA0LC02OT
+Q5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1
+OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLT
+E4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
 -->
