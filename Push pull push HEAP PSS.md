@@ -115,7 +115,7 @@ func deliverEvent(T t) {
 </div>
 <br/><br/>
 
-The algorithm is based on exchanging three messages between two nodes, as shown in *Figure #*. Whenever a node wishes to broadcast information about transactions inside its Mempool, it sends a *PROPOSE* message (*PROPOSE* **contains only the transaction's id**). Afterwards, all the nodes who received that message can reply with a *REQUEST* message (*REQUEST* **contains only the transaction's id**) message, in order to get a transaction corresponding to the requested id. Upon receiving a *SERVE* message (which is the **only message that contains the actual transaction and not only the id**), the requester may add the served transaction to its Mempool.
+The algorithm is based on exchanging three messages between two nodes, as shown in *Figure #*. Whenever a node wishes to broadcast information about transactions inside its Mempool, it sends a *PROPOSE* message (*PROPOSE* **contains only the transaction's id**). Afterwards, all the nodes who received that message can reply with a *REQUEST* message (*REQUEST* **contains only the transaction's id**), in order to get a transaction corresponding to the requested id. Upon receiving a *SERVE* message (which is the **only message that contains the actual transaction and not only the id**), the requester may add the served transaction to its Mempool.
 
 Since we assumed that a node has knowledge of the entire network, its fanout is initialized to *ln(n)*. This represents the size of the peer subset, or more precisely, the number of nodes that are going to receive the *PROPOSE* message. Node keeps track of three sets:
 
@@ -155,7 +155,7 @@ When a *FN* node receives a *SERVE* message, it adds it to its Mempool, and mark
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzUyNTUzNCwxMzgzMzY0NTM5LC0zOD
+eyJoaXN0b3J5IjpbMjAxNDI0ODYxNywxMzgzMzY0NTM5LC0zOD
 gxNTE3NzAsMTUzMTc2MzYwNCwtNjk0OTEyMzc5LDE0MDc1OTg2
 NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLTQ0MDkxNzMyOSwtMT
 c5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2
