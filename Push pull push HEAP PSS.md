@@ -51,8 +51,10 @@ func publish(T t) {
 
 upon (GossipTimer % gossipPeriod) == 0 {
 	gossip(toPropose);
-	toPr
+	toPropose = EMPTY_SET; // Infect and die model
 }
+
+// Phase 2 - PULL
 
 ```
 
@@ -85,8 +87,8 @@ upon (GossipTimer % gossipPeriod) == 0 {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjM2NTA3MCwtOTM1MzU4ODk1LDE2Nj
-I4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMy
-MzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX
-0=
+eyJoaXN0b3J5IjpbMTIxOTU0NDc2LC05MzUzNTg4OTUsMTY2Mj
+gzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5MjkyMzIz
+MiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ
+==
 -->
