@@ -17,7 +17,7 @@ Let us consider a network of nodes, equivalent to that described in `System mode
 
 Hence, there exists a network of nodes where each node contains IP addresses of every other node. Basic gossiping idea is that a node, periodically, sends a message to a subset of nodes picked uniformly at random from the set of all nodes. As stated earlier, the size of that subset is denoted as *fanout*. Theoretical [9] and experimental [11] analysis has proven that in order to keep the network graph connected with high probability, optimal value for *f* is *ln(n)*, where *n* represents the number of nodes within the network.
 
-Concept where a three-phase gossiping is used is essential when there is a high network load, due to the fact that it guarantees that a message will not be delivered (added to the Mempool) more than once.
+Concept where three-phase gossiping is used is essential when there is a high network load, due to the fact that it guarantees that a message will not be delivered (added to the Mempool) more than once.
 
 <br/><br/>
 <div align='center'> 
@@ -48,7 +48,7 @@ Concept where a three-phase gossiping is used is essential when there is a high 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTQzNTY5LDE2NjI4MzM1OSwtNDQwOT
+eyJoaXN0b3J5IjpbMzg0MzU4OTU4LDE2NjI4MzM1OSwtNDQwOT
 E3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4NzkzNTI4
 MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
 -->
