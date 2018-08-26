@@ -133,6 +133,7 @@ When a *FN* node receives a *REQUEST* message, it replies with a *SERVE* message
 
 When a *FN* node receives a *SERVE* message, it adds it to its Mempool, and marks it as a future transaction to-be-proposed, only if it already wasn't inside its Mempool.
 
+This push-pull-push approach reduces the payload in the network, owing to the fact that only a transaction's id is gossiped. 
 
 #### 2. HEAP
 
@@ -155,9 +156,9 @@ When a *FN* node receives a *SERVE* message, it adds it to its Mempool, and mark
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDI0ODYxNywxMzgzMzY0NTM5LC0zOD
-gxNTE3NzAsMTUzMTc2MzYwNCwtNjk0OTEyMzc5LDE0MDc1OTg2
-NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLTQ0MDkxNzMyOSwtMT
-c5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2
-ODAyODcsMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbMTM2MTk1MzQxNSwyMDE0MjQ4NjE3LDEzOD
+MzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIz
+NzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1OSwtND
+QwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4Nzkz
+NTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
 -->
