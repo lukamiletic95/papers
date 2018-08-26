@@ -99,7 +99,12 @@ func gossip(Set<int> eventIds) {
 }
 
 func getEvent(int id) T {
+	return T corresponding to the id;
+}
 
+func deliverEvent(T t) {
+	delivered.add(t);
+	addMempool(t);
 }
 
 ```
@@ -133,8 +138,8 @@ func getEvent(int id) T {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzMyMTgzOCwxNDA3NTk4NjQ5LC05Mz
-UzNTg4OTUsMTY2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3
-MjUsMjA5MjkyMzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LD
-EyOTgwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbLTE3OTkyOTE5NDIsMTQwNzU5ODY0OSwtOT
+M1MzU4ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNzk4Njgy
+NzI1LDIwOTI5MjMyMzIsLTE4NzkzNTI4MTIsMTAyOTY4MDI4Ny
+wxMjk4MDkzOTc0XX0=
 -->
