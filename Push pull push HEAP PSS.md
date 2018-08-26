@@ -13,7 +13,7 @@ This solution is based on building a dynamic, unstructured overlay across the ne
 
 #### 1. Push-pull-push gossiping
 
-Let as consider a network of nodes, equivalent to that described in `System model`.
+Let as consider a network of nodes, equivalent to that described in `System model`, with an additional assumption - each node in the network must have knowledge of every other node in the network. It is evident that by adopting this presumption, we 
 
 
 
@@ -46,6 +46,6 @@ Let as consider a network of nodes, equivalent to that described in `System mode
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE4MjIwOTYsMjA5MjkyMzIzMiwtMT
-g3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5NzRdfQ==
+eyJoaXN0b3J5IjpbMTMxOTY1MDA0NCwyMDkyOTIzMjMyLC0xOD
+c5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
 -->
