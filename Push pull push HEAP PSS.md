@@ -8,7 +8,7 @@ The idea of this algorithm combines a three-phase gossiping protocol described i
 
 Each of the three parts will be explained in further text.
 
-This solution is based on building a dynamic, unstructured overlay across the network of nodes. Each node will change its peer subset dynamically, and gossip a client's transaction only to a particular number of nodes in that peer subset. That number will be denoted as node's ***fanout*** - ***f***/
+This solution is based on building a dynamic, unstructured overlay across the network of nodes. Each node will change its peer subset dynamically, and gossip a client's transaction only to a particular number of nodes in that peer subset. That number will be denoted as node's ***fanout*** - *f*.
 
 <br/><br/>
 <div align='center'> 
@@ -33,6 +33,6 @@ This solution is based on building a dynamic, unstructured overlay across the ne
 </div>
 <br/><br/>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc2MTgxOCwyMDkyOTIzMjMyLC0xOD
-c5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbMjM2MzExNTI1LDIwOTI5MjMyMzIsLTE4Nz
+kzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
 -->
