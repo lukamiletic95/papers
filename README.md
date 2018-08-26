@@ -31,6 +31,7 @@ Paper structure:
 * Current Solution
 * Ideal and restrictive
 * Tree clustering
+* Push-pull-push HEAP (HEterogeneity Aware Protocol) with PSP (Peer Sampling Service)
 
 5. Conclusion
 6. References
