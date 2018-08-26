@@ -201,8 +201,10 @@ func receive(T transaction, Node sender) {
 	
 	addMempool(transaction);
 	
-	if (parent != nil && parent != sender) {
-		parent.receive(transaction, self);
+	if (sender == C || children.contains(sender) |) {
+		if (parent != nil) {
+			parent.receive(transaction, self);
+		}
 	}
 
 	for (Node child : children) {
@@ -271,11 +273,11 @@ On the other hand, if this approach was to be implemented, it would produce no o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODg1OTIxNyw4OTU4NjM0NTAsLTE0MT
-QyMzM0MTQsLTYxMDUxNzMwMCwxODQ2NTUwNzkxLDEzODU2MTg3
-MjMsLTc0NTAzNTE2Niw0ODY4NjU3OTEsMTY0ODU2ODgyMiwtMT
-QxMDQ1NzY3MiwtMTUzMjAwMTYxMSw4NDExMTI0NzksMTYwNzA5
-MzYyMSwtOTM3NzEyMDg1LC0xODc3NDk0NzE4LC01MTU3Mzg4NT
-IsMTM5NjQ5OTIxNCwtNjE5ODg4NzUwLDEzNzkzNTkxNTgsMjA2
-ODM1MzUyNl19
+eyJoaXN0b3J5IjpbLTk3ODg2MDM4NiwtMzc4ODU5MjE3LDg5NT
+g2MzQ1MCwtMTQxNDIzMzQxNCwtNjEwNTE3MzAwLDE4NDY1NTA3
+OTEsMTM4NTYxODcyMywtNzQ1MDM1MTY2LDQ4Njg2NTc5MSwxNj
+Q4NTY4ODIyLC0xNDEwNDU3NjcyLC0xNTMyMDAxNjExLDg0MTEx
+MjQ3OSwxNjA3MDkzNjIxLC05Mzc3MTIwODUsLTE4Nzc0OTQ3MT
+gsLTUxNTczODg1MiwxMzk2NDk5MjE0LC02MTk4ODg3NTAsMTM3
+OTM1OTE1OF19
 -->
