@@ -139,12 +139,17 @@ However, this approach has one drawback. It assumes that every node in the netwo
 
 #### 2. HEAP
 
-HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in such a way that some nodes are faster and more productive than others. HEAP adapts a node's fanout according to its own capability, average capability, and the average fanout (which is, as we said, *ln(n)*). Updated pseudocode, which includes HEAP protocol, is given:
+HEAP (HEterogeneity-Aware-Protocol) does not assume that the network is of homogeneous structure. It relies on nodes having different properties, in such a way that some nodes are faster and more productive than others. HEAP adapts a node's fanout according to its own bandwidth, average bandwidth, and the average fanout (which is, as we said, *ln(n)*). 
+
+Updated pseudocode, which includes HEAP protocol, is given:
 
 ```go
 // This is executed on each FN node
 
 // Initialization
+Set<Capability> capabilities = EMPTY_SET;
+
+
 int f = ln(n);
 Set<int> toPropose = EMPTY_SET;
 Set<T> delivered = EMPTY_SET;
@@ -241,10 +246,10 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyMzM3OTcyLC00MjAzMTU0OTEsMjAxND
-I0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYw
-NCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNj
-YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
-MjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF
-19
+eyJoaXN0b3J5IjpbMTUwOTgyMzI5NiwtNDIwMzE1NDkxLDIwMT
+QyNDg2MTcsMTM4MzM2NDUzOSwtMzg4MTUxNzcwLDE1MzE3NjM2
+MDQsLTY5NDkxMjM3OSwxNDA3NTk4NjQ5LC05MzUzNTg4OTUsMT
+Y2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5Mjky
+MzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5Nz
+RdfQ==
 -->
