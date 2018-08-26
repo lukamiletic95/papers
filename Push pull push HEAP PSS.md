@@ -222,7 +222,10 @@ upon (AggregationTimer % aggregationPeriod) == 0 {
 	}
 }
 
-upon
+upon (receive(AGGREGATION, newCapabilities)) {
+	capabilities.merge(newCapabilities);
+	update(_b_, capabilities);
+}
 
 // Fanout adaptation
 func getFanout() int {
@@ -271,10 +274,10 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3MzQ5NjgxLC00MjAzMTU0OTEsMjAxND
-I0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYw
-NCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNj
-YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
-MjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF
-19
+eyJoaXN0b3J5IjpbMTYyMDY2MDYyMSwtNDIwMzE1NDkxLDIwMT
+QyNDg2MTcsMTM4MzM2NDUzOSwtMzg4MTUxNzcwLDE1MzE3NjM2
+MDQsLTY5NDkxMjM3OSwxNDA3NTk4NjQ5LC05MzUzNTg4OTUsMT
+Y2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2ODI3MjUsMjA5Mjky
+MzIzMiwtMTg3OTM1MjgxMiwxMDI5NjgwMjg3LDEyOTgwOTM5Nz
+RdfQ==
 -->
