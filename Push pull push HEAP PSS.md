@@ -273,7 +273,7 @@ Finally, we will describe the third part of this solution, which enables it to b
 
 #### 3. PSS
 
-
+The fundamental purpose of PSS is to provide every node with 
 
 <br/><br/>
 <div align='center'> 
@@ -284,11 +284,11 @@ Finally, we will describe the third part of this solution, which enables it to b
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTI2NTQ3NSwxMjgxMTcwODIxLDEwMD
-M4ODU1MDksMTA0NjgzNDg2MCwxNzM2NTQxMTcxLC0xMTM2Nzcz
-NTEwLC02ODk0NDc5MjQsLTU4OTU0NzAyOCw1NDgxMjM2NTQsMj
-Y4Njc2ODIxLDczNjE1ODk5OSwxMTE2ODE1MjQ1LDE2MjA2NjA2
-MjEsLTQyMDMxNTQ5MSwyMDE0MjQ4NjE3LDEzODMzNjQ1MzksLT
-M4ODE1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIzNzksMTQwNzU5
-ODY0OV19
+eyJoaXN0b3J5IjpbNzM4MDc0NjcxLC03MjkyNjU0NzUsMTI4MT
+E3MDgyMSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAsMTczNjU0MTE3
+MSwtMTEzNjc3MzUxMCwtNjg5NDQ3OTI0LC01ODk1NDcwMjgsNT
+Q4MTIzNjU0LDI2ODY3NjgyMSw3MzYxNTg5OTksMTExNjgxNTI0
+NSwxNjIwNjYwNjIxLC00MjAzMTU0OTEsMjAxNDI0ODYxNywxMz
+gzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYwNCwtNjk0OTEy
+Mzc5XX0=
 -->
