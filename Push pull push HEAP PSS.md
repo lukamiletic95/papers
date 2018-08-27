@@ -365,15 +365,15 @@ Function *increaseHopCount()* increments the value of hop count in each descript
 
 Active  thread periodically initiates communication based on its strategy - push, pull or push-pull [13]. In case of pushing information, it sends its partial view and its own descriptor to the passive thread of the selected peer. In case of pulling, it creates a pull request by sending an EMPTY_SET to the passive thread of the selected peer.
 
-Passive thread is used to receive information and pull requests from active threads of other nodes. In case the information was pushed to the p
+Passive thread is used to receive information and pull requests from active threads of other nodes. In case the information was pushed to the passive thread by some other active thread, it is only added to the passive thread's node partial view. In case a pull request was made by another active thread, the passive thread responds with its descriptor and partial view combined.
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDYyMzcxNiwxMzUzODI3OTIyLC0xMD
-A5NTk1OTc0LDUwODI4MTA2NiwtMTIxODA4MDg5NywtMTUxNjUx
-NzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNz
-c2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03
-MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4Mz
-Q4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3OTI0
-LC01ODk1NDcwMjhdfQ==
+eyJoaXN0b3J5IjpbLTExMzU1ODIwNDcsMTM1MzgyNzkyMiwtMT
+AwOTU5NTk3NCw1MDgyODEwNjYsLTEyMTgwODA4OTcsLTE1MTY1
+MTcyNDYsLTExNDY3NDIwNzEsLTEyMDA1NjM5OTAsLTEwNTExMT
+c3NjUsLTE2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwt
+NzI5MjY1NDc1LDEyODExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2OD
+M0ODYwLDE3MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0Nzky
+NCwtNTg5NTQ3MDI4XX0=
 -->
