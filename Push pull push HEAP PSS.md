@@ -363,13 +363,13 @@ Function *merge()* merges two views it receives as parameters. The resulting vie
 
 Function *increaseHopCount()* increments the value of hop count in each descriptor of the view it received as a parameter.
 
-Active  thread periodically initiates communication based on its strategy - push, pull or push-pull [13]. In case of pushing information, it sends its partial view and its own descriptor to the passive thread of the selected peer. In case of pulling, it creates a pull request by sending an EMPTY_SET to the passive thread of the selected peer.
+Active  thread periodically initiates communication based on its strategy - push, pull or push-pull [13]. In case of pushing information, it sends its partial view and its own descriptor to the passive thread of the selected peer. In case of pulling, it creates a pull request by sending an EMPTY_SET to the passive thread of the selected peer, after which it waits for the response
 
 Passive thread is used to receive information and pull requests from active threads of other nodes. In case the information was pushed to the passive thread by some other active thread, it is only added to the passive thread's node partial view. In case a pull request was made by another active thread, the passive thread responds with its descriptor and partial view combined.
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzU1ODIwNDcsMTM1MzgyNzkyMiwtMT
+eyJoaXN0b3J5IjpbLTEzOTQwODMzMTYsMTM1MzgyNzkyMiwtMT
 AwOTU5NTk3NCw1MDgyODEwNjYsLTEyMTgwODA4OTcsLTE1MTY1
 MTcyNDYsLTExNDY3NDIwNzEsLTEyMDA1NjM5OTAsLTEwNTExMT
 c3NjUsLTE2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwt
