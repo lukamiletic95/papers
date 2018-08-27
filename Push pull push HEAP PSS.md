@@ -290,15 +290,15 @@ Note that when discussing this problem, we observe two aspects of gossip communi
 
 * *D - Node descriptor*
 
-As depicted in *Figure #* and described in [13], each *FN* node now contains information about its peer subset, which is in [13] denoted as a node's ***partial view***. *Partial view* is a list of ***node descriptors***, where each descriptor contains a node's ***IP address*** and a ***hop count***. *Hop count* represents the distance between two corresponding nodes expressed in the number of network hops between them. Each partial view has the same size, which is of size ***c***. Herein, it is assumed that ***c ≥ f***.
+As depicted in *Figure #* and described in [13], each *FN* node now contains information about its peer subset, which is in [13] denoted as a node's ***partial view***. *Partial view* is a list of ***node descriptors***, where each descriptor contains a node's ***IP address*** and a ***hop count***. *Hop count* represents the distance between two corresponding nodes expressed in the number of network hops between them. Each partial view is of the same size, which will be denoted as ***c***. Herein, it is assumed that ***c ≥ f***.
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjEwNjU0MywtMTA1MTExNzc2NSwtMT
-Y4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03MjkyNjU0
-NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAsMT
-czNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3OTI0LC01ODk1
-NDcwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMSw3MzYxNTg5OTksMT
-ExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAzMTU0OTEsMjAxNDI0
-ODYxN119
+eyJoaXN0b3J5IjpbMzc4ODgzOTAyLC0xMDUxMTE3NzY1LC0xNj
+g2MzgzNDM1LDgzMDIyODM3Myw0NTMzNjk4MjEsLTcyOTI2NTQ3
+NSwxMjgxMTcwODIxLDEwMDM4ODU1MDksMTA0NjgzNDg2MCwxNz
+M2NTQxMTcxLC0xMTM2NzczNTEwLC02ODk0NDc5MjQsLTU4OTU0
+NzAyOCw1NDgxMjM2NTQsMjY4Njc2ODIxLDczNjE1ODk5OSwxMT
+E2ODE1MjQ1LDE2MjA2NjA2MjEsLTQyMDMxNTQ5MSwyMDE0MjQ4
+NjE3XX0=
 -->
