@@ -351,11 +351,11 @@ func passiveThread() {
 
 ```
 
-The pseudocode is parametrized with two booleans - ** and **
+The pseudocode is parametrized with two booleans - *push* and *pull*. Their values determine different strategies of the PSS, and this will be discussed in further text, alongside the implementation of the *selectPeer()*
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDE0NTA5NSwtMTUxNjUxNzI0NiwtMT
+eyJoaXN0b3J5IjpbMTM5NDQ0MjM4MiwtMTUxNjUxNzI0NiwtMT
 E0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNzc2NSwtMTY4
 NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03MjkyNjU0Nz
 UsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAsMTcz
