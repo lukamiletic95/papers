@@ -294,11 +294,11 @@ As depicted in *Figure #* and described in [13], each *FN* node now contains inf
 
 PSS protocol contains two threads:
 * **Active thread   →** which initiates communication with other nodes
-* **Passive thread  →** which receives incoming mess
+* **Passive thread  →** which receives incoming messages
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzAxNjk5MjIsLTEwNTExMTc3NjUsLT
+eyJoaXN0b3J5IjpbLTEyMDA1NjM5OTAsLTEwNTExMTc3NjUsLT
 E2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwtNzI5MjY1
 NDc1LDEyODExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLD
 E3MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0NzkyNCwtNTg5
