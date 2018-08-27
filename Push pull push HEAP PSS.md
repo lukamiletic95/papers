@@ -154,10 +154,10 @@ Updated pseudocode [12], which includes HEAP protocol, is given, followed by an 
 
 // Initialization
 Set<Capability> capabilities = EMPTY_SET;
-Bandwidth b = MY_BANDWIDTH;
+Bandwidth b = MY_BANDWIDTH; // my bandwidth
 Bandwith _b_ = ...; // average bandwidth
 
-int f = ln(n);
+int f = ln(n); // average fanout
 Set<int> toPropose = EMPTY_SET;
 Set<T> delivered = EMPTY_SET;
 Set<int> requested = EMPTY_SET; 
@@ -274,7 +274,7 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzUzODQxNyw1NDgxMjM2NTQsMjY4Nj
+eyJoaXN0b3J5IjpbLTU4OTU0NzAyOCw1NDgxMjM2NTQsMjY4Nj
 c2ODIxLDczNjE1ODk5OSwxMTE2ODE1MjQ1LDE2MjA2NjA2MjEs
 LTQyMDMxNTQ5MSwyMDE0MjQ4NjE3LDEzODMzNjQ1MzksLTM4OD
 E1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIzNzksMTQwNzU5ODY0
