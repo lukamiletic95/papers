@@ -296,7 +296,7 @@ PSS protocol contains two threads:
 * **Active thread   →** which initiates communication with other nodes
 * **Passive thread  →** which receives incoming messages
 
-Pseudocode from [13] is given, followed by an explanation:
+Pseudocode from [13] is given, slightly modified, and followed by an explanation:
 
 ```go
 // Peer Sampling Service - pseudocode
@@ -336,7 +336,7 @@ func passiveThread() {
 		{Node p, PartialView receivedView} = receiveMessage();
 		increaseHopCount(receivedView);
 		
-		if (pull) {
+		if (EMPTY_SET) {
 			// 0 is the initial hop count
 			Descriptor myDescriptor = new Descriptor(myIPAddress, 0);
 			PartialView buffer = merge(myPartialView, myDescriptor);
@@ -357,7 +357,7 @@ The active thread periodically initiates communication with a selected peer, eit
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjcwMDQyMywtMTUxNjUxNzI0NiwtMT
+eyJoaXN0b3J5IjpbLTE1NDU5MDI1NiwtMTUxNjUxNzI0NiwtMT
 E0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNzc2NSwtMTY4
 NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03MjkyNjU0Nz
 UsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAsMTcz
