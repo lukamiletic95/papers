@@ -300,7 +300,7 @@ Pseudocode from [13] is given, slightly modified, and followed by an explanation
 
 ```go
 // Peer Sampling Service - pseudocode
-bool push = ...;
+bool push = ...; // at least one is always true
 bool pull = ...;
 PartialView myPartialView;
 
@@ -317,6 +317,7 @@ func activeThread() {
 			
 			send(p, buffer);
 		} else {
+			// make a pull request
 			send(p, EMPTY_SET);
 				
 			if (pull) {
@@ -358,11 +359,11 @@ The active thread periodically initiates communication with a selected peer, eit
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTYwOTc4ODgsLTE1MTY1MTcyNDYsLT
-ExNDY3NDIwNzEsLTEyMDA1NjM5OTAsLTEwNTExMTc3NjUsLTE2
-ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwtNzI5MjY1ND
-c1LDEyODExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLDE3
-MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0NzkyNCwtNTg5NT
-Q3MDI4LDU0ODEyMzY1NCwyNjg2NzY4MjEsNzM2MTU4OTk5LDEx
-MTY4MTUyNDVdfQ==
+eyJoaXN0b3J5IjpbMTA4MTYxODU0MCwtMTUxNjUxNzI0NiwtMT
+E0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNzc2NSwtMTY4
+NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03MjkyNjU0Nz
+UsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAsMTcz
+NjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3OTI0LC01ODk1ND
+cwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMSw3MzYxNTg5OTksMTEx
+NjgxNTI0NV19
 -->
