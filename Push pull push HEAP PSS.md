@@ -300,6 +300,9 @@ Pseudocode from [13] is given, followed by an explanation:
 
 ```go
 // Peer Sampling Service - pseudocode
+bool push = ...;
+bool pull = ...;
+PartialView myPartialView;
 
 // Active thread
 func activeThread() {
@@ -309,7 +312,15 @@ func activeThread() {
 
 		if (push) {
 			Descriptor myDescriptor = new Descriptor(myIPAddress, 0); // 0 is the initial hop count
-			PartialView buffer = merge(
+			PartialView buffer = merge(myPartialView, myDescriptor);
+			
+			for (Node node : peerSubset) {
+				send(node, buffer);
+			}
+		} else {
+			for (Node node : peerSubset) {
+				send(node, EMPTY_SET); // send an empty view to trigger 
+			}
 		}
 	}
 }
@@ -318,7 +329,7 @@ func activeThread() {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODk2OTM4MSwtMTIwMDU2Mzk5MCwtMT
+eyJoaXN0b3J5IjpbMTM4MzUxMzE3OSwtMTIwMDU2Mzk5MCwtMT
 A1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5
 ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LD
 EwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5
