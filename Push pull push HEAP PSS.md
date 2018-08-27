@@ -262,7 +262,7 @@ func deliverEvent(T t) {
 </div>
 <br/><br/>
 
-Note that a *FN* now has information about a set of capabilities. It uses this set to update the value of average bandwith.
+Note that a *FN* now has information about a set of capabilities. It uses this set to update the value of average bandwidth (*update(_b_, capabilities)*). Policy for updating the average bandwidth is implement
 
 
 #### 3. PSS
@@ -276,11 +276,11 @@ Note that a *FN* now has information about a set of capabilities. It uses this s
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg3ODEyNzMsLTU4OTU0NzAyOCw1ND
-gxMjM2NTQsMjY4Njc2ODIxLDczNjE1ODk5OSwxMTE2ODE1MjQ1
-LDE2MjA2NjA2MjEsLTQyMDMxNTQ5MSwyMDE0MjQ4NjE3LDEzOD
-MzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIz
-NzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1OSwtND
-QwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4Nzkz
-NTI4MTJdfQ==
+eyJoaXN0b3J5IjpbMzc2OTczMzM3LC01ODk1NDcwMjgsNTQ4MT
+IzNjU0LDI2ODY3NjgyMSw3MzYxNTg5OTksMTExNjgxNTI0NSwx
+NjIwNjYwNjIxLC00MjAzMTU0OTEsMjAxNDI0ODYxNywxMzgzMz
+Y0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYwNCwtNjk0OTEyMzc5
+LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMzNTksLTQ0MD
+kxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC0xODc5MzUy
+ODEyXX0=
 -->
