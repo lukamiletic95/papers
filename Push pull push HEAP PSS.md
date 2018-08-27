@@ -499,12 +499,16 @@ Note that a node does not need to have knowledge of everyone in the network. It 
 The main drawback of this solution is that it is only probabilistic. It relies on theoretical and experimental results that by using a value for *f = ln(n)*, the network graph is connected with high probability. This probability grows asymptotically toward 1.
 
 In case of Byzantine or crash failures, some kind of re-transmission would be required. Idea for this is described in [12], where a special timer, *RetTimer*, is used. Basic idea is that node re-sends *REQUEST* messages for a certain group of  transactions until it receives them in a *SERVE* message.
+
+This solution provides a certain overhead when it comes to receiving *PROPOSE* and *SERVE* messages multiple times.
+
+However, there are many advantagesto 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzM0Mjk0MCwxODg4NDUyNjUzLDEzNT
-M4Mjc5MjIsLTEwMDk1OTU5NzQsNTA4MjgxMDY2LC0xMjE4MDgw
-ODk3LC0xNTE2NTE3MjQ2LC0xMTQ2NzQyMDcxLC0xMjAwNTYzOT
-kwLC0xMDUxMTE3NzY1LC0xNjg2MzgzNDM1LDgzMDIyODM3Myw0
-NTMzNjk4MjEsLTcyOTI2NTQ3NSwxMjgxMTcwODIxLDEwMDM4OD
-U1MDksMTA0NjgzNDg2MCwxNzM2NTQxMTcxLC0xMTM2NzczNTEw
-LC02ODk0NDc5MjRdfQ==
+eyJoaXN0b3J5IjpbLTE3MTk3NzM4MDksMTg4ODQ1MjY1MywxMz
+UzODI3OTIyLC0xMDA5NTk1OTc0LDUwODI4MTA2NiwtMTIxODA4
+MDg5NywtMTUxNjUxNzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mz
+k5MCwtMTA1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMs
+NDUzMzY5ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzOD
+g1NTA5LDEwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUx
+MCwtNjg5NDQ3OTI0XX0=
 -->
