@@ -266,7 +266,7 @@ Note that a *FN* now has information about a set of capabilities. It uses this s
 
 In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes periodically exchange *AGGREGATION* messages, as shown in *Figure #*. Therefore, during the initialization phase, an *Aggregation timer* is started. On every *aggregationPeriod*, a *FN* will gossip information from its *Capability* set to a selected peer subset. Observe that the fanout is now calculated according to the aforementioned equation. When gossiping information about capabilities, a node will choose ***K*** values from the set. Value for *K* is implementation-dependent. Upon receiving an *AGGREGATION* message, a *FN* merges the new values with the existing ones and updates its *Capability* set accordingly.
 
-The main role of HEAP is to optimize the utilization of nodes' capabilities (e.g. bandwidth), by adjusting their fanout in correspondence with the selected factors (*b, \_b\_, f*). Thus, nodes periodically gossip their information about other nodes' capabilities via *AGGREGATION* messages. This leads to nodes learning about the potential of the network and adjusting the information about that potential (*\_b\_*). That value is used when calculating a node's fanout.
+The main role of HEAP is to optimize the utilization of nodes' capabilities (e.g. bandwidth), by adjusting their fanout in correspondence with the selected factors (*b, \_b\_, f*). Thus, nodes periodically gossip their information about other nodes' capabilities via *AGGREGATION* messages. This leads to nodes learning about the potential of the network and adjusting the information about that potential (*\_b\_*). That information is then used when calculating a node's fanout.
 
 
 #### 3. PSS
@@ -280,11 +280,11 @@ The main role of HEAP is to optimize the utilization of nodes' capabilities (e.g
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDIyOTY0NzksMTA0NjgzNDg2MCwxNz
-M2NTQxMTcxLC0xMTM2NzczNTEwLC02ODk0NDc5MjQsLTU4OTU0
-NzAyOCw1NDgxMjM2NTQsMjY4Njc2ODIxLDczNjE1ODk5OSwxMT
-E2ODE1MjQ1LDE2MjA2NjA2MjEsLTQyMDMxNTQ5MSwyMDE0MjQ4
-NjE3LDEzODMzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC
-02OTQ5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4
-MzM1OV19
+eyJoaXN0b3J5IjpbMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLDE3Mz
+Y1NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0NzkyNCwtNTg5NTQ3
+MDI4LDU0ODEyMzY1NCwyNjg2NzY4MjEsNzM2MTU4OTk5LDExMT
+Y4MTUyNDUsMTYyMDY2MDYyMSwtNDIwMzE1NDkxLDIwMTQyNDg2
+MTcsMTM4MzM2NDUzOSwtMzg4MTUxNzcwLDE1MzE3NjM2MDQsLT
+Y5NDkxMjM3OSwxNDA3NTk4NjQ5LC05MzUzNTg4OTUsMTY2Mjgz
+MzU5XX0=
 -->
