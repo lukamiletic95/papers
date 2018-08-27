@@ -308,26 +308,19 @@ PartialView myPartialView;
 func activeThread() {
 	while (true) {
 		wait(SOME_TIME);
-		Set<Node> peerSubset = selectPeer();
+		Node p = selectPeer();
 
 		if (push) {
 			// 0 is the initial hop count
 			Descriptor myDescriptor = new Descriptor(myIPAddress, 0);
 			PartialView buffer = merge(myPartialView, myDescriptor);
 			
-			for (Node node : peerSubset) {
-				send(node, buffer);
-			}
+			send(p, buffer);
 		} else {
-			for (Node node : peerSubset) {
-				send(node, EMPTY_SET); // send an empty view to trigger response
-			}
-			
+			send(p, EMPTY_SET);
+				
 			if (pull) {
-				PartialView receivedView;
-				for (Node node : peerSubset) {
-					receivedView.add(receive(node));
-				}
+				PartialView receivedView = receiveViewFrom(p);		
 				
 				increaseHopCount(receivedView);
 				PartialView buffer = merge(receivedView, myPartialView);
@@ -348,7 +341,7 @@ func passiveThread() {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzAwODM4MywtMTIwMDU2Mzk5MCwtMT
+eyJoaXN0b3J5IjpbLTQxOTQyOTczNywtMTIwMDU2Mzk5MCwtMT
 A1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5
 ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LD
 EwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5
