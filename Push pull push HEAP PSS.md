@@ -506,13 +506,13 @@ However, there are many advantages to this solution. It is based on a completely
 
 Network is not flooded with transactions, but only with transactions' ids. Transaction is sent only after it has been requested by a *REQUEST* message.  Delivery is guaranteed to occur only once, therefore there will be no duplicates in a node's Mempool. 
 
-It is easy to implement as well. It takes into account nodes' and network capabilities owing to HEAP, it is able to operate in a large scale distributed system owing to PSS.
+It is easy to implement as well. It takes into account nodes' and network capabilities owing to HEAP and it is able to operate in a large scale distributed system owing to PSS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzY4MjYxMTksMTg4ODQ1MjY1MywxMz
-UzODI3OTIyLC0xMDA5NTk1OTc0LDUwODI4MTA2NiwtMTIxODA4
-MDg5NywtMTUxNjUxNzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mz
-k5MCwtMTA1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMs
-NDUzMzY5ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzOD
-g1NTA5LDEwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUx
-MCwtNjg5NDQ3OTI0XX0=
+eyJoaXN0b3J5IjpbNTk2MzM0MjYwLC0xNDM2ODI2MTE5LDE4OD
+g0NTI2NTMsMTM1MzgyNzkyMiwtMTAwOTU5NTk3NCw1MDgyODEw
+NjYsLTEyMTgwODA4OTcsLTE1MTY1MTcyNDYsLTExNDY3NDIwNz
+EsLTEyMDA1NjM5OTAsLTEwNTExMTc3NjUsLTE2ODYzODM0MzUs
+ODMwMjI4MzczLDQ1MzM2OTgyMSwtNzI5MjY1NDc1LDEyODExNz
+A4MjEsMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLDE3MzY1NDExNzEs
+LTExMzY3NzM1MTBdfQ==
 -->
