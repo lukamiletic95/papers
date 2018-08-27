@@ -262,6 +262,8 @@ func deliverEvent(T t) {
 </div>
 <br/><br/>
 
+Note that a *FN* now has information about a set of capabilities. It uses this set to update the value of average bandwith.
+
 
 #### 3. PSS
 
@@ -274,11 +276,11 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTU0NzAyOCw1NDgxMjM2NTQsMjY4Nj
-c2ODIxLDczNjE1ODk5OSwxMTE2ODE1MjQ1LDE2MjA2NjA2MjEs
-LTQyMDMxNTQ5MSwyMDE0MjQ4NjE3LDEzODMzNjQ1MzksLTM4OD
-E1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIzNzksMTQwNzU5ODY0
-OSwtOTM1MzU4ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNz
-k4NjgyNzI1LDIwOTI5MjMyMzIsLTE4NzkzNTI4MTIsMTAyOTY4
-MDI4N119
+eyJoaXN0b3J5IjpbLTE1Mjg3ODEyNzMsLTU4OTU0NzAyOCw1ND
+gxMjM2NTQsMjY4Njc2ODIxLDczNjE1ODk5OSwxMTE2ODE1MjQ1
+LDE2MjA2NjA2MjEsLTQyMDMxNTQ5MSwyMDE0MjQ4NjE3LDEzOD
+MzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIz
+NzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1OSwtND
+QwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLTE4Nzkz
+NTI4MTJdfQ==
 -->
