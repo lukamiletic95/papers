@@ -337,7 +337,7 @@ func passiveThread() {
 		increaseHopCount(receivedView);
 		
 		if (pull) {
-/			// 0 is the initial hop count
+			// 0 is the initial hop count
 			Descriptor myDescriptor = new Descriptor(myIPAddress, 0);
 			PartialView buffer = merge(myPartialView, myDescriptor);
 			
@@ -353,11 +353,11 @@ func passiveThread() {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY3NDIwNzEsLTEyMDA1NjM5OTAsLT
-EwNTExMTc3NjUsLTE2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2
-OTgyMSwtNzI5MjY1NDc1LDEyODExNzA4MjEsMTAwMzg4NTUwOS
-wxMDQ2ODM0ODYwLDE3MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4
-OTQ0NzkyNCwtNTg5NTQ3MDI4LDU0ODEyMzY1NCwyNjg2NzY4Mj
-EsNzM2MTU4OTk5LDExMTY4MTUyNDUsMTYyMDY2MDYyMSwtNDIw
-MzE1NDkxXX0=
+eyJoaXN0b3J5IjpbLTE1MTY1MTcyNDYsLTExNDY3NDIwNzEsLT
+EyMDA1NjM5OTAsLTEwNTExMTc3NjUsLTE2ODYzODM0MzUsODMw
+MjI4MzczLDQ1MzM2OTgyMSwtNzI5MjY1NDc1LDEyODExNzA4Mj
+EsMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLDE3MzY1NDExNzEsLTEx
+MzY3NzM1MTAsLTY4OTQ0NzkyNCwtNTg5NTQ3MDI4LDU0ODEyMz
+Y1NCwyNjg2NzY4MjEsNzM2MTU4OTk5LDExMTY4MTUyNDUsMTYy
+MDY2MDYyMV19
 -->
