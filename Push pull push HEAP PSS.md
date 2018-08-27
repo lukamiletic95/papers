@@ -355,17 +355,19 @@ func passiveThread() {
 
 The pseudocode is parametrized with two booleans - *push* and *pull*, as well as with two functions - *selectPeer()* and *selectView()*. Different strategies for determining these parameters are provided in [13] - p.5.
 
-Function *
+Function *selectPeer()* selects a peer to communicate with from the node's partial view.
+
+Function *selectView()* truncates the *buffer* so as to make it of length *c*.
 
 The active thread periodically initiates communication with a selected peer, either by sending its own descriptor and partial view (push), or by sending an empty set in order to trigger
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDEyMTI1MzMsLTEyMTgwODA4OTcsLT
-E1MTY1MTcyNDYsLTExNDY3NDIwNzEsLTEyMDA1NjM5OTAsLTEw
-NTExMTc3NjUsLTE2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2OT
-gyMSwtNzI5MjY1NDc1LDEyODExNzA4MjEsMTAwMzg4NTUwOSwx
-MDQ2ODM0ODYwLDE3MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4OT
-Q0NzkyNCwtNTg5NTQ3MDI4LDU0ODEyMzY1NCwyNjg2NzY4MjEs
-NzM2MTU4OTk5XX0=
+eyJoaXN0b3J5IjpbLTk1NTU3Njk4MSwtMTIxODA4MDg5NywtMT
+UxNjUxNzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1
+MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5OD
+IxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEw
+NDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5ND
+Q3OTI0LC01ODk1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMSw3
+MzYxNTg5OTldfQ==
 -->
