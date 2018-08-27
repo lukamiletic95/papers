@@ -45,7 +45,7 @@ func publish(T t) { // when C sends its transaction to FN
 	}
 
 	deliverEvent(t);
-	gossip({t.id}); // each T has a unique identifier
+	gossip({t.id}); // each T now has a unique identifier
 }
 
 upon (GossipTimer % gossipPeriod) == 0 {
@@ -274,10 +274,10 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzM1NTIzMyw3MzYxNTg5OTksMTExNj
-gxNTI0NSwxNjIwNjYwNjIxLC00MjAzMTU0OTEsMjAxNDI0ODYx
-NywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYwNCwtNj
-k0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNjYyODMz
-NTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIzMjMyLC
-0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5Mzk3NF19
+eyJoaXN0b3J5IjpbMjY4Njc2ODIxLDczNjE1ODk5OSwxMTE2OD
+E1MjQ1LDE2MjA2NjA2MjEsLTQyMDMxNTQ5MSwyMDE0MjQ4NjE3
+LDEzODMzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC02OT
+Q5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1
+OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLT
+E4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
 -->
