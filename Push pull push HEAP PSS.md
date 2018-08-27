@@ -275,7 +275,7 @@ Finally, we will describe the third part of this solution, which enables it to b
 
 The fundamental purpose of PSS is to provide every node with a *peer subset*. Until now, the presumption was that a node contains IP addresses of every other node in the network, and when it gossips information, it merely selects *f* nodes uniformly at random, hence creating the peer subset. However, maintaining information about every node in the network has a non-negligible overhead.
 
-PSS is based on avoiding the aforesaid presumption. Its idea is to **gossip the membership information as well**, therefore making this service **gossip based** as well. This creates a dynamic unstructured overlay across the network. Experimental analysis in [13] provides promising results when it comes to using PSS.
+PSS is based on avoiding the aforesaid presumption. Its idea is to **gossip the membership information as well**, therefore making this service **gossip based**. This creates a dynamic unstructured overlay across the network. Experimental analysis in [13] provides promising results when it comes to using PSS.
 
 Note that when discussing this problem, we observe two aspects of gossip communication:
 * **Peer sampling service** which provides every node with its peer subset - so far this was not gossip based, it was based on drawing a uniformly random sample from the set of all nodes
@@ -292,7 +292,7 @@ Note that when discussing this problem, we observe two aspects of gossip communi
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Njc5NzM4Niw4MzAyMjgzNzMsNDUzMz
+eyJoaXN0b3J5IjpbMTgxNzQwMzYzMCw4MzAyMjgzNzMsNDUzMz
 Y5ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5
 LDEwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNj
 g5NDQ3OTI0LC01ODk1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3Njgy
