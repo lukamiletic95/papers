@@ -359,13 +359,13 @@ Function *selectPeer()* selects a peer to communicate with from the node's parti
 
 Function *selectView()* truncates the *buffer* so as to make it of maximum length *c*.
 
-Function *merge()* merges two views it receives as parameters. The resulting view is again ordered by hop count. If the resulting view contains two descriptors for the same IP address, only the one with the lower hop count is included, 
+Function *merge()* merges two views it receives as parameters. The resulting view is again ordered by hop count. If the resulting view contains two descriptors for the same IP address, only the one with the lower hop count is included.
 
 The active thread periodically initiates communication with a selected peer, either by sending its own descriptor and partial view (push), or by sending an empty set in order to trigger
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzU0OTgzLC0xMDA5NTk1OTc0LDUwOD
+eyJoaXN0b3J5IjpbMjM4NDAyMzc3LC0xMDA5NTk1OTc0LDUwOD
 I4MTA2NiwtMTIxODA4MDg5NywtMTUxNjUxNzI0NiwtMTE0Njc0
 MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNzc2NSwtMTY4NjM4Mz
 QzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03MjkyNjU0NzUsMTI4
