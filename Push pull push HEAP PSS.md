@@ -357,17 +357,17 @@ The pseudocode is parametrized with two booleans - *push* and *pull*, as well as
 
 Function *selectPeer()* selects a peer to communicate with from the node's partial view.
 
-Function *selectView()* truncates the *buffer* so as to make it of length *c*.
+Function *selectView()* truncates the *buffer* so as to make it of maximum length *c*.
 
 The active thread periodically initiates communication with a selected peer, either by sending its own descriptor and partial view (push), or by sending an empty set in order to trigger
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTE1MDUyMiw1MDgyODEwNjYsLTEyMT
-gwODA4OTcsLTE1MTY1MTcyNDYsLTExNDY3NDIwNzEsLTEyMDA1
-NjM5OTAsLTEwNTExMTc3NjUsLTE2ODYzODM0MzUsODMwMjI4Mz
-czLDQ1MzM2OTgyMSwtNzI5MjY1NDc1LDEyODExNzA4MjEsMTAw
-Mzg4NTUwOSwxMDQ2ODM0ODYwLDE3MzY1NDExNzEsLTExMzY3Nz
-M1MTAsLTY4OTQ0NzkyNCwtNTg5NTQ3MDI4LDU0ODEyMzY1NCwy
-Njg2NzY4MjFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDk1OTU5NzQsNTA4MjgxMDY2LC0xMj
+E4MDgwODk3LC0xNTE2NTE3MjQ2LC0xMTQ2NzQyMDcxLC0xMjAw
+NTYzOTkwLC0xMDUxMTE3NzY1LC0xNjg2MzgzNDM1LDgzMDIyOD
+M3Myw0NTMzNjk4MjEsLTcyOTI2NTQ3NSwxMjgxMTcwODIxLDEw
+MDM4ODU1MDksMTA0NjgzNDg2MCwxNzM2NTQxMTcxLC0xMTM2Nz
+czNTEwLC02ODk0NDc5MjQsLTU4OTU0NzAyOCw1NDgxMjM2NTQs
+MjY4Njc2ODIxXX0=
 -->
