@@ -336,6 +336,15 @@ func passiveThread() {
 		{Node p, PartialView receivedView} = receiveMessage();
 		increaseHopCount(receivedView);
 		
+		if (pull) {
+/			// 0 is the initial hop count
+			Descriptor myDescriptor = new Descriptor(myIPAddress, 0);
+			PartialView buffer = merge(myPartialView, myDescriptor);
+			
+			send(p, buffer);
+		}
+	
+		
 	}
 }
 
@@ -343,11 +352,11 @@ func passiveThread() {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ0NzYyOTQsLTEyMDA1NjM5OTAsLT
-EwNTExMTc3NjUsLTE2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2
-OTgyMSwtNzI5MjY1NDc1LDEyODExNzA4MjEsMTAwMzg4NTUwOS
-wxMDQ2ODM0ODYwLDE3MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4
-OTQ0NzkyNCwtNTg5NTQ3MDI4LDU0ODEyMzY1NCwyNjg2NzY4Mj
-EsNzM2MTU4OTk5LDExMTY4MTUyNDUsMTYyMDY2MDYyMSwtNDIw
-MzE1NDkxXX0=
+eyJoaXN0b3J5IjpbLTI2NzI1NzQyMCwtMTIwMDU2Mzk5MCwtMT
+A1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5
+ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LD
+EwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5
+NDQ3OTI0LC01ODk1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMS
+w3MzYxNTg5OTksMTExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAz
+MTU0OTFdfQ==
 -->
