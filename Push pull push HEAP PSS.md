@@ -273,7 +273,7 @@ Finally, we will describe the third part of this solution, which enables it to b
 
 #### 3. PSS
 
-The fundamental purpose of PSS is to provide every node with 
+The fundamental purpose of PSS is to provide every node with a *peer subset*. Until now, the presumption was that a node contains IP addresses of every other node in the network, and when gossips information, it merely selects *f* nodes uniformly at random, hence creating the peer subset.
 
 <br/><br/>
 <div align='center'> 
@@ -284,11 +284,11 @@ The fundamental purpose of PSS is to provide every node with
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4MDc0NjcxLC03MjkyNjU0NzUsMTI4MT
-E3MDgyMSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAsMTczNjU0MTE3
-MSwtMTEzNjc3MzUxMCwtNjg5NDQ3OTI0LC01ODk1NDcwMjgsNT
-Q4MTIzNjU0LDI2ODY3NjgyMSw3MzYxNTg5OTksMTExNjgxNTI0
-NSwxNjIwNjYwNjIxLC00MjAzMTU0OTEsMjAxNDI0ODYxNywxMz
-gzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYwNCwtNjk0OTEy
-Mzc5XX0=
+eyJoaXN0b3J5IjpbLTc5MDA1MDc1OCwtNzI5MjY1NDc1LDEyOD
+ExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLDE3MzY1NDEx
+NzEsLTExMzY3NzM1MTAsLTY4OTQ0NzkyNCwtNTg5NTQ3MDI4LD
+U0ODEyMzY1NCwyNjg2NzY4MjEsNzM2MTU4OTk5LDExMTY4MTUy
+NDUsMTYyMDY2MDYyMSwtNDIwMzE1NDkxLDIwMTQyNDg2MTcsMT
+M4MzM2NDUzOSwtMzg4MTUxNzcwLDE1MzE3NjM2MDQsLTY5NDkx
+MjM3OV19
 -->
