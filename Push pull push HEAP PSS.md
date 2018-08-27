@@ -264,7 +264,7 @@ func deliverEvent(T t) {
 
 Note that a *FN* now has information about a set of capabilities. It uses this set to update the value of average bandwidth (*update(_b_, capabilities)*). Policy for updating the average bandwidth is implementation-dependent. Also, the data stored in *Capability* is implementation-dependent. It could be any data of interest to the network.
 
-In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes periodically exchange *AGGREGATION* messages. Therefore, during the initialization phase, an *Aggregation timer* is started. On every *aggregationPeriod*, a *FN* will gossip information from its *Capability* set to a selected peer subset. Observe that the fanout
+In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes periodically exchange *AGGREGATION* messages. Therefore, during the initialization phase, an *Aggregation timer* is started. On every *aggregationPeriod*, a *FN* will gossip information from its *Capability* set to a selected peer subset. Observe that the fanout is now calculated according to the aforementioned equation. When gossiping information about capabilities, a node will choose ***K*** values from the set. Value for *K* is implementation-dependent.
 
 
 #### 3. PSS
@@ -278,7 +278,7 @@ In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjkyOTA0MCwtNjg5NDQ3OTI0LC01OD
+eyJoaXN0b3J5IjpbMjA5NzA2MTUwNywtNjg5NDQ3OTI0LC01OD
 k1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMSw3MzYxNTg5OTks
 MTExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAzMTU0OTEsMjAxND
 I0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYw
