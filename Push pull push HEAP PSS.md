@@ -290,7 +290,7 @@ Note that when discussing this problem, we observe two aspects of gossip communi
 
 * *D - Node descriptor*
 
-As depicted in *Figure #* and described in [13], each *FN* node now contains information about its peer subset, which is in [13] denoted as a node's ***partial view***. *Partial view* is a list of ***node descriptors***, where each descriptor contains a node's ***IP address*** and a ***hop count***. *Hop count* represents the distance between two corresponding nodes expressed in the number of network hops between them. Partial view has at most one descriptor per node and is ordered according to increasing hop count. Each partial view is of the same size, which will be denoted as ***c***. Herein, it is assumed that ***c ≥ f***.
+As depicted in *Figure #* and described in [13], each *FN* node now contains information about its peer subset, which is in [13] denoted as a node's ***partial view***. *Partial view* is a list of ***node descriptors***, where each descriptor contains a node's ***IP address*** and a ***hop count***. *Hop count* represents the distance between two corresponding nodes expressed in the number of network hops between them. Partial view has at most one descriptor per node and is ordered according to increasing hop count. Each partial view is of the same size, which will be denoted as ***c***..
 
 PSS protocol contains two threads:
 * **Active thread   →** which initiates communication with other nodes
@@ -363,11 +363,11 @@ The active thread periodically initiates communication with a selected peer, eit
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTU3Njk4MSw1MDgyODEwNjYsLTEyMT
-gwODA4OTcsLTE1MTY1MTcyNDYsLTExNDY3NDIwNzEsLTEyMDA1
-NjM5OTAsLTEwNTExMTc3NjUsLTE2ODYzODM0MzUsODMwMjI4Mz
-czLDQ1MzM2OTgyMSwtNzI5MjY1NDc1LDEyODExNzA4MjEsMTAw
-Mzg4NTUwOSwxMDQ2ODM0ODYwLDE3MzY1NDExNzEsLTExMzY3Nz
-M1MTAsLTY4OTQ0NzkyNCwtNTg5NTQ3MDI4LDU0ODEyMzY1NCwy
-Njg2NzY4MjFdfQ==
+eyJoaXN0b3J5IjpbMjc5OTU3OTMwLDUwODI4MTA2NiwtMTIxOD
+A4MDg5NywtMTUxNjUxNzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2
+Mzk5MCwtMTA1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNz
+MsNDUzMzY5ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAz
+ODg1NTA5LDEwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3Mz
+UxMCwtNjg5NDQ3OTI0LC01ODk1NDcwMjgsNTQ4MTIzNjU0LDI2
+ODY3NjgyMV19
 -->
