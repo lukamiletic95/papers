@@ -502,13 +502,13 @@ In case of Byzantine or crash failures, some kind of re-transmission would be re
 
 This solution provides a certain overhead when it comes to receiving *PROPOSE* and *SERVE* messages multiple times.
 
-However, there are many advantagesto 
+However, there are many advantages to this solution. It is based on a completely dynamic algorithm. It is one hundred percent gossip based. Network is not flooded with transactions, but only with transactions' ids. Transaction is sent only after it has been requested by a *REQUEST* message. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTk3NzM4MDksMTg4ODQ1MjY1MywxMz
-UzODI3OTIyLC0xMDA5NTk1OTc0LDUwODI4MTA2NiwtMTIxODA4
-MDg5NywtMTUxNjUxNzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mz
-k5MCwtMTA1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMs
-NDUzMzY5ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzOD
-g1NTA5LDEwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUx
-MCwtNjg5NDQ3OTI0XX0=
+eyJoaXN0b3J5IjpbMTg5MjU2NDA1NSwxODg4NDUyNjUzLDEzNT
+M4Mjc5MjIsLTEwMDk1OTU5NzQsNTA4MjgxMDY2LC0xMjE4MDgw
+ODk3LC0xNTE2NTE3MjQ2LC0xMTQ2NzQyMDcxLC0xMjAwNTYzOT
+kwLC0xMDUxMTE3NzY1LC0xNjg2MzgzNDM1LDgzMDIyODM3Myw0
+NTMzNjk4MjEsLTcyOTI2NTQ3NSwxMjgxMTcwODIxLDEwMDM4OD
+U1MDksMTA0NjgzNDg2MCwxNzM2NTQxMTcxLC0xMTM2NzczNTEw
+LC02ODk0NDc5MjRdfQ==
 -->
