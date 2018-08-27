@@ -131,7 +131,7 @@ When a *FN* node receives a *PROPOSE* message, it replies with a *REQUEST* messa
 
 When a *FN* node receives a *REQUEST* message, it replies with a *SERVE* message which contains the actual transactions requested. Transactions are created via the call to *getEvent()* function.
 
-When a *FN* node receives a *SERVE* message, it adds it to its Mempool, and marks it as a future transaction to-be-proposed, only if it already wasn't inside its Mempool.
+When a *FN* node receives a *SERVE* message, it adds T to its Mempool, and marks it as a future transaction to-be-proposed, only if it already wasn't inside its Mempool.
 
 This push-pull-push approach reduces the payload in the network, owing to the fact that only a transaction's id is gossiped. Sending the actual transaction is delayed until *T* is explicitly required. 
 
@@ -274,10 +274,11 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4Njc2ODIxLDczNjE1ODk5OSwxMTE2OD
-E1MjQ1LDE2MjA2NjA2MjEsLTQyMDMxNTQ5MSwyMDE0MjQ4NjE3
-LDEzODMzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0LC02OT
-Q5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2NjI4MzM1
-OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMyMzIsLT
-E4NzkzNTI4MTIsMTAyOTY4MDI4NywxMjk4MDkzOTc0XX0=
+eyJoaXN0b3J5IjpbNTQ4MTIzNjU0LDI2ODY3NjgyMSw3MzYxNT
+g5OTksMTExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAzMTU0OTEs
+MjAxNDI0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMTUzMT
+c2MzYwNCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5
+NSwxNjYyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMD
+kyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5
+Mzk3NF19
 -->
