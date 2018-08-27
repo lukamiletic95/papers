@@ -319,7 +319,9 @@ func activeThread() {
 			}
 		} else {
 			for (Node node : peerSubset) {
-				send(node, EMPTY_SET); // send an empty view to trigger 
+				send(node, EMPTY_SET); // send an empty view to trigger response
+
+				
 			}
 		}
 	}
@@ -329,7 +331,7 @@ func activeThread() {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzUxMzE3OSwtMTIwMDU2Mzk5MCwtMT
+eyJoaXN0b3J5IjpbLTQ5ODk0NTg4OCwtMTIwMDU2Mzk5MCwtMT
 A1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5
 ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LD
 EwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5
