@@ -363,11 +363,9 @@ Function *merge()* merges two views it receives as parameters. The resulting vie
 
 Function *increaseHopCount()* increments the value of hop count in each descriptor of the view it received as a parameter.
 
-The active thread periodically initiates communication with a selected peer, either by sending its own descriptor and partial view (push), or by sending an empty set in order to trigger
-
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTEzNjQ3NywtMTAwOTU5NTk3NCw1MD
+eyJoaXN0b3J5IjpbMTM1MzgyNzkyMiwtMTAwOTU5NTk3NCw1MD
 gyODEwNjYsLTEyMTgwODA4OTcsLTE1MTY1MTcyNDYsLTExNDY3
 NDIwNzEsLTEyMDA1NjM5OTAsLTEwNTExMTc3NjUsLTE2ODYzOD
 M0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwtNzI5MjY1NDc1LDEy
