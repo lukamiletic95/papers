@@ -383,6 +383,9 @@ Set<Capability> capabilities = EMPTY_SET;
 Bandwidth b = MY_BANDWIDTH; // my bandwidth
 Bandwith _b_ = ...; // average bandwidth
 
+PartialView myPartialView;
+initPSS();
+
 int f = ln(n); // average fanout
 Set<int> toPropose = EMPTY_SET;
 Set<T> delivered = EMPTY_SET;
@@ -460,7 +463,7 @@ func getFanout() int {
 
 // Miscellaneous
 func selectNodes(int f) int {
-	return f uniformly random nodes from the set of all nodes;
+	
 }
 
 func gossip(Set<int> eventIds) {
@@ -484,7 +487,7 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzg4MDcxOSwxMzUzODI3OTIyLC0xMD
+eyJoaXN0b3J5IjpbMTg3OTAwNDY4MiwxMzUzODI3OTIyLC0xMD
 A5NTk1OTc0LDUwODI4MTA2NiwtMTIxODA4MDg5NywtMTUxNjUx
 NzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNz
 c2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03
