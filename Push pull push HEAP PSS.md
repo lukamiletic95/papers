@@ -290,17 +290,17 @@ Note that when discussing this problem, we observe two aspects of gossip communi
 
 * *D - Node descriptor*
 
-As depicted in *Figure #* and described in [13], each *FN* node now contains information about its peer subset, which is in [13] denoted as a node's ***partial view***. *Partial view* is a list of ***node descriptors***, where each descriptor contains a node's ***IP address*** and a ***hop count***. *Hop count* represents the distance between two corresponding nodes expressed in the number of network hops between them. Partial view h Each partial view is of the same size, which will be denoted as ***c***. Herein, it is assumed that ***c ≥ f***.
+As depicted in *Figure #* and described in [13], each *FN* node now contains information about its peer subset, which is in [13] denoted as a node's ***partial view***. *Partial view* is a list of ***node descriptors***, where each descriptor contains a node's ***IP address*** and a ***hop count***. *Hop count* represents the distance between two corresponding nodes expressed in the number of network hops between them. Partial view has at most one descriptor per node and is ordered according to increasing hop count. [13] Each partial view is of the same size, which will be denoted as ***c***. Herein, it is assumed that ***c ≥ f***.
 
 PSS protocol contains
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjU1NzQ4MzEsLTEwNTExMTc3NjUsLT
-E2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwtNzI5MjY1
-NDc1LDEyODExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLD
-E3MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0NzkyNCwtNTg5
-NTQ3MDI4LDU0ODEyMzY1NCwyNjg2NzY4MjEsNzM2MTU4OTk5LD
-ExMTY4MTUyNDUsMTYyMDY2MDYyMSwtNDIwMzE1NDkxLDIwMTQy
-NDg2MTddfQ==
+eyJoaXN0b3J5IjpbMTE2NzczMjU2OSwtMTA1MTExNzc2NSwtMT
+Y4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03MjkyNjU0
+NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAsMT
+czNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3OTI0LC01ODk1
+NDcwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMSw3MzYxNTg5OTksMT
+ExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAzMTU0OTEsMjAxNDI0
+ODYxN119
 -->
