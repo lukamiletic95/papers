@@ -488,16 +488,17 @@ func deliverEvent(T t) {
 
 ```
 
-*FN* node now contains information about its partial view. This information is provided by the underlying peer sampling service. Function *initPSS()* initializes PSS on a given *FN*  node. Different methods for initializing the peer sampling service are described in [13] - section 5.
+*FN* node now contains information about its partial view. This information is provided by the underlying peer sampling service. Function *initPSS()* initializes PSS on a given *FN*  node. Different methods for initializing PSS are described in [13].
 
+**Observe that only the implementation of the _selectNodes()_ function changes.** This is the function in
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE2NDc3MzE3LDEzNTM4Mjc5MjIsLTEwMD
-k1OTU5NzQsNTA4MjgxMDY2LC0xMjE4MDgwODk3LC0xNTE2NTE3
-MjQ2LC0xMTQ2NzQyMDcxLC0xMjAwNTYzOTkwLC0xMDUxMTE3Nz
-Y1LC0xNjg2MzgzNDM1LDgzMDIyODM3Myw0NTMzNjk4MjEsLTcy
-OTI2NTQ3NSwxMjgxMTcwODIxLDEwMDM4ODU1MDksMTA0NjgzND
-g2MCwxNzM2NTQxMTcxLC0xMTM2NzczNTEwLC02ODk0NDc5MjQs
-LTU4OTU0NzAyOF19
+eyJoaXN0b3J5IjpbLTE0NzMzODc4NTQsMTM1MzgyNzkyMiwtMT
+AwOTU5NTk3NCw1MDgyODEwNjYsLTEyMTgwODA4OTcsLTE1MTY1
+MTcyNDYsLTExNDY3NDIwNzEsLTEyMDA1NjM5OTAsLTEwNTExMT
+c3NjUsLTE2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwt
+NzI5MjY1NDc1LDEyODExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2OD
+M0ODYwLDE3MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0Nzky
+NCwtNTg5NTQ3MDI4XX0=
 -->
