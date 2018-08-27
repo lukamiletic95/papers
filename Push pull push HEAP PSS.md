@@ -290,15 +290,17 @@ Note that when discussing this problem, we observe two aspects of gossip communi
 
 * *D - Node descriptor*
 
-As depicted in *Figure #* and described in [13], each *FN* node now contains information about its peer subset, which is in [13] denoted as a node's ***partial view***. *Partial view* is a list of ***node descriptors***, where each descriptor contains a node's ***IP address*** and a ***hop count***. *Hop count* represents the distance between two corresponding nodes expressed in the number of network hops between them. Each partial view is of the same size, which will be denoted as ***c***. Herein, it is assumed that ***c ≥ f***.
+As depicted in *Figure #* and described in [13], each *FN* node now contains information about its peer subset, which is in [13] denoted as a node's ***partial view***. *Partial view* is a list of ***node descriptors***, where each descriptor contains a node's ***IP address*** and a ***hop count***. *Hop count* represents the distance between two corresponding nodes expressed in the number of network hops between them. Partial view h Each partial view is of the same size, which will be denoted as ***c***. Herein, it is assumed that ***c ≥ f***.
+
+PSS protocol contains
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4ODgzOTAyLC0xMDUxMTE3NzY1LC0xNj
-g2MzgzNDM1LDgzMDIyODM3Myw0NTMzNjk4MjEsLTcyOTI2NTQ3
-NSwxMjgxMTcwODIxLDEwMDM4ODU1MDksMTA0NjgzNDg2MCwxNz
-M2NTQxMTcxLC0xMTM2NzczNTEwLC02ODk0NDc5MjQsLTU4OTU0
-NzAyOCw1NDgxMjM2NTQsMjY4Njc2ODIxLDczNjE1ODk5OSwxMT
-E2ODE1MjQ1LDE2MjA2NjA2MjEsLTQyMDMxNTQ5MSwyMDE0MjQ4
-NjE3XX0=
+eyJoaXN0b3J5IjpbLTIxMjU1NzQ4MzEsLTEwNTExMTc3NjUsLT
+E2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwtNzI5MjY1
+NDc1LDEyODExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLD
+E3MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0NzkyNCwtNTg5
+NTQ3MDI4LDU0ODEyMzY1NCwyNjg2NzY4MjEsNzM2MTU4OTk5LD
+ExMTY4MTUyNDUsMTYyMDY2MDYyMSwtNDIwMzE1NDkxLDIwMTQy
+NDg2MTddfQ==
 -->
