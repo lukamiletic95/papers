@@ -281,8 +281,6 @@ Note that when discussing this problem, we observe two aspects of gossip communi
 * **Peer sampling service** which provides every node with its peer subset - so far this was not gossip based, it was based on drawing a uniformly random sample from the set of all nodes.
 * **Gossiping** messages of interest to that peer subset.
 
-
-
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig17.png" />
@@ -290,9 +288,11 @@ Note that when discussing this problem, we observe two aspects of gossip communi
 </div>
 <br/><br/>
 
+As depicted in *Figure #*, each *FN* node now contains information about its peer subset, which is, in [13], denoted as a node's ***partial view***.
+
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODE0MzA5MywtMTY4NjM4MzQzNSw4Mz
+eyJoaXN0b3J5IjpbMTI2OTcxMjE3OCwtMTY4NjM4MzQzNSw4Mz
 AyMjgzNzMsNDUzMzY5ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgy
 MSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMT
 EzNjc3MzUxMCwtNjg5NDQ3OTI0LC01ODk1NDcwMjgsNTQ4MTIz
