@@ -264,7 +264,7 @@ func deliverEvent(T t) {
 
 Note that a *FN* now has information about a set of capabilities. It uses this set to update the value of average bandwidth (*update(\_b\_, capabilities)*). Policy for updating the average bandwidth is implementation-dependent. Also, the data stored in *Capability* is implementation-dependent. It could be any data of interest to the network.
 
-In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes periodically exchange *AGGREGATION* messages. Therefore, during the initialization phase, an *Aggregation timer* is started. On every *aggregationPeriod*, a *FN* will gossip information from its *Capability* set to a selected peer subset. Observe that the fanout is now calculated according to the aforementioned equation. When gossiping information about capabilities, a node will choose ***K*** values from the set. Value for *K* is implementation-dependent. Upon receiving an *AGGREGATION* message, a *FN* merges the new values with the existing ones and updates its *Capability* set accordingly.
+In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes periodically exchange *AGGREGATION* messages, as shown in *Figure #*. Therefore, during the initialization phase, an *Aggregation timer* is started. On every *aggregationPeriod*, a *FN* will gossip information from its *Capability* set to a selected peer subset. Observe that the fanout is now calculated according to the aforementioned equation. When gossiping information about capabilities, a node will choose ***K*** values from the set. Value for *K* is implementation-dependent. Upon receiving an *AGGREGATION* message, a *FN* merges the new values with the existing ones and updates its *Capability* set accordingly.
 
 
 #### 3. PSS
@@ -278,7 +278,7 @@ In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY3ODk2OTEsLTY4OTQ0NzkyNCwtNT
+eyJoaXN0b3J5IjpbLTExMzY3NzM1MTAsLTY4OTQ0NzkyNCwtNT
 g5NTQ3MDI4LDU0ODEyMzY1NCwyNjg2NzY4MjEsNzM2MTU4OTk5
 LDExMTY4MTUyNDUsMTYyMDY2MDYyMSwtNDIwMzE1NDkxLDIwMT
 QyNDg2MTcsMTM4MzM2NDUzOSwtMzg4MTUxNzcwLDE1MzE3NjM2
