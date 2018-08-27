@@ -321,7 +321,15 @@ func activeThread() {
 			for (Node node : peerSubset) {
 				send(node, EMPTY_SET); // send an empty view to trigger response
 
-				
+				if (pull) {
+					PartialView receivedView;
+					for (Node node : peerSubset) {
+						receivedView.add(receive(node));
+					}
+					
+					increaseHopCount(receivedView);
+					
+				}
 			}
 		}
 	}
@@ -331,7 +339,7 @@ func activeThread() {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODk0NTg4OCwtMTIwMDU2Mzk5MCwtMT
+eyJoaXN0b3J5IjpbMTM0ODQ2OTkxMSwtMTIwMDU2Mzk5MCwtMT
 A1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5
 ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LD
 EwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5
