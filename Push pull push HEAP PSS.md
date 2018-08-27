@@ -496,13 +496,15 @@ Note that a node does not need to have knowledge of everyone in the network. It 
 
 #### Concluding the idea
 
-The main drawback of this solution is that it is only probabilistic. It relies on theoretical and experimental results that by using a value for *f = ln(n)*, the network graph is connected with high probability. In case of Byzantine or crash failures
+The main drawback of this solution is that it is only probabilistic. It relies on theoretical and experimental results that by using a value for *f = ln(n)*, the network graph is connected with high probability. This probability grows asymptotically toward 1.
+
+In case of Byzantine or crash failures, some kind of re-transmission would be required. Idea for 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTIwMjI0OCwxODg4NDUyNjUzLDEzNT
-M4Mjc5MjIsLTEwMDk1OTU5NzQsNTA4MjgxMDY2LC0xMjE4MDgw
-ODk3LC0xNTE2NTE3MjQ2LC0xMTQ2NzQyMDcxLC0xMjAwNTYzOT
-kwLC0xMDUxMTE3NzY1LC0xNjg2MzgzNDM1LDgzMDIyODM3Myw0
-NTMzNjk4MjEsLTcyOTI2NTQ3NSwxMjgxMTcwODIxLDEwMDM4OD
-U1MDksMTA0NjgzNDg2MCwxNzM2NTQxMTcxLC0xMTM2NzczNTEw
-LC02ODk0NDc5MjRdfQ==
+eyJoaXN0b3J5IjpbODM4MzkzODUwLDE4ODg0NTI2NTMsMTM1Mz
+gyNzkyMiwtMTAwOTU5NTk3NCw1MDgyODEwNjYsLTEyMTgwODA4
+OTcsLTE1MTY1MTcyNDYsLTExNDY3NDIwNzEsLTEyMDA1NjM5OT
+AsLTEwNTExMTc3NjUsLTE2ODYzODM0MzUsODMwMjI4MzczLDQ1
+MzM2OTgyMSwtNzI5MjY1NDc1LDEyODExNzA4MjEsMTAwMzg4NT
+UwOSwxMDQ2ODM0ODYwLDE3MzY1NDExNzEsLTExMzY3NzM1MTAs
+LTY4OTQ0NzkyNF19
 -->
