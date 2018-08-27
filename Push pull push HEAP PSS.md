@@ -273,6 +273,8 @@ Finally, we will describe the third part of this solution, which enables it to b
 
 #### 3. PSS
 
+
+
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig17.png" />
@@ -282,7 +284,7 @@ Finally, we will describe the third part of this solution, which enables it to b
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzUzNTUyOSwxMDAzODg1NTA5LDEwND
+eyJoaXN0b3J5IjpbMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwND
 Y4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3
 OTI0LC01ODk1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMSw3Mz
 YxNTg5OTksMTExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAzMTU0
