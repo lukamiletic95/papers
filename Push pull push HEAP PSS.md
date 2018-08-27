@@ -264,7 +264,7 @@ func deliverEvent(T t) {
 
 Note that a *FN* now has information about a set of capabilities. It uses this set to update the value of average bandwidth (*update(_b_, capabilities)*). Policy for updating the average bandwidth is implementation-dependent. Also, the data stored in *Capability* is implementation-dependent. It could be any data of interest to the network.
 
-In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes periodically exchange *AGGREGATION* messages. Therefore, during the initialization phase
+In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes periodically exchange *AGGREGATION* messages. Therefore, during the initialization phase, an *Aggregation timer* is started. On every *aggregationPeriod*, a *FN* will gossip information from its *Capability* set to a selected peer subset. Observe that the fanout
 
 
 #### 3. PSS
@@ -278,11 +278,11 @@ In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMjc1NjI0LC02ODk0NDc5MjQsLTU4OT
-U0NzAyOCw1NDgxMjM2NTQsMjY4Njc2ODIxLDczNjE1ODk5OSwx
-MTE2ODE1MjQ1LDE2MjA2NjA2MjEsLTQyMDMxNTQ5MSwyMDE0Mj
-Q4NjE3LDEzODMzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYzNjA0
-LC02OTQ5MTIzNzksMTQwNzU5ODY0OSwtOTM1MzU4ODk1LDE2Nj
-I4MzM1OSwtNDQwOTE3MzI5LC0xNzk4NjgyNzI1LDIwOTI5MjMy
-MzJdfQ==
+eyJoaXN0b3J5IjpbLTQ4MjkyOTA0MCwtNjg5NDQ3OTI0LC01OD
+k1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMSw3MzYxNTg5OTks
+MTExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAzMTU0OTEsMjAxND
+I0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2MzYw
+NCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5NSwxNj
+YyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMDkyOTIz
+MjMyXX0=
 -->
