@@ -13,7 +13,7 @@ This solution is based on building a dynamic, unstructured overlay across the ne
 
 #### 1. Push-pull-push gossiping
 
-Let us consider a network of nodes, equivalent to that described in `System model`, with an additional assumption - each node in the network must have knowledge of every other node in the network. It is evident that by adopting this hypothesis, we suppose a full-mesh connectivity, which is not how the Tendermint network operates. However, this assumption is only adopted so that explaining of this part of the algorithm would be simplified. In the third part - *PSS*, we will explain how this idea is applied to a wide area network with peer-to-peer connectivity.
+Let us consider a network of nodes, equivalent to that described in `System model`, with an additional assumption - each node in the network must have knowledge of every other node in the network. It is evident that by adopting this hypothesis, we suppose a full-mesh connectivity, which is not how the Tendermint network operates. However, this assumption is only adopted so that explaining of the first two parts of the algorithm would be simplified. In the third part - *PSS*, we will explain how this idea is applied to a wide area network with peer-to-peer connectivity.
 
 Hence, there exists a network of nodes where each node contains IP addresses of every other node. Basic gossiping idea is that a node, periodically, sends a message to a subset of nodes picked uniformly at random from the set of all nodes. As stated earlier, the size of that subset is denoted as *fanout*. Theoretical [9] and experimental [11] analysis has proven that in order to keep the network graph connected with high probability, optimal value for *f* is *ln(n)*, where *n* represents the number of nodes within the network.
 
@@ -284,11 +284,11 @@ Finally, we will describe the third part of this solution, which enables it to b
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwND
-Y4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3
-OTI0LC01ODk1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMSw3Mz
-YxNTg5OTksMTExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAzMTU0
-OTEsMjAxNDI0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMT
-UzMTc2MzYwNCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1
-ODg5NV19
+eyJoaXN0b3J5IjpbLTcyOTI2NTQ3NSwxMjgxMTcwODIxLDEwMD
+M4ODU1MDksMTA0NjgzNDg2MCwxNzM2NTQxMTcxLC0xMTM2Nzcz
+NTEwLC02ODk0NDc5MjQsLTU4OTU0NzAyOCw1NDgxMjM2NTQsMj
+Y4Njc2ODIxLDczNjE1ODk5OSwxMTE2ODE1MjQ1LDE2MjA2NjA2
+MjEsLTQyMDMxNTQ5MSwyMDE0MjQ4NjE3LDEzODMzNjQ1MzksLT
+M4ODE1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIzNzksMTQwNzU5
+ODY0OV19
 -->
