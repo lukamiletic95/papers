@@ -371,15 +371,15 @@ Therefore, we conclude that by using the PSS we avoid the need for each node kno
 
 #### Final solution
 
-
+Final solution is based on combining all three parts described before. It uses 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDA0MjIxNDcsMTM1MzgyNzkyMiwtMT
-AwOTU5NTk3NCw1MDgyODEwNjYsLTEyMTgwODA4OTcsLTE1MTY1
-MTcyNDYsLTExNDY3NDIwNzEsLTEyMDA1NjM5OTAsLTEwNTExMT
-c3NjUsLTE2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwt
-NzI5MjY1NDc1LDEyODExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2OD
-M0ODYwLDE3MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0Nzky
-NCwtNTg5NTQ3MDI4XX0=
+eyJoaXN0b3J5IjpbLTg5MTU5NzI4NCwxMzUzODI3OTIyLC0xMD
+A5NTk1OTc0LDUwODI4MTA2NiwtMTIxODA4MDg5NywtMTUxNjUx
+NzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNz
+c2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03
+MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4Mz
+Q4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3OTI0
+LC01ODk1NDcwMjhdfQ==
 -->
