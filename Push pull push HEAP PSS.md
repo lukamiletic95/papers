@@ -275,7 +275,7 @@ Finally, we will describe the third part of this solution, which enables it to b
 
 The fundamental purpose of PSS is to provide every node with a *peer subset*. Until now, the presumption was that a node contains IP addresses of every other node in the network, and when it gossips information, it merely selects *f* nodes uniformly at random, hence creating the peer subset. 
 
-PSS is based on avoiding the requirement that all nodes have to know about one another. Its idea is to gossip the membership inorma
+PSS is based on avoiding the requirement that all nodes have to know about one another. Its idea is to gossip the membership information as well.
 
 <br/><br/>
 <div align='center'> 
@@ -286,11 +286,11 @@ PSS is based on avoiding the requirement that all nodes have to know about one a
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTI3OTM3Nyw0NTMzNjk4MjEsLTcyOT
-I2NTQ3NSwxMjgxMTcwODIxLDEwMDM4ODU1MDksMTA0NjgzNDg2
-MCwxNzM2NTQxMTcxLC0xMTM2NzczNTEwLC02ODk0NDc5MjQsLT
-U4OTU0NzAyOCw1NDgxMjM2NTQsMjY4Njc2ODIxLDczNjE1ODk5
-OSwxMTE2ODE1MjQ1LDE2MjA2NjA2MjEsLTQyMDMxNTQ5MSwyMD
-E0MjQ4NjE3LDEzODMzNjQ1MzksLTM4ODE1MTc3MCwxNTMxNzYz
-NjA0XX0=
+eyJoaXN0b3J5IjpbLTEyNTg1MzI1MzcsNDUzMzY5ODIxLC03Mj
+kyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4MzQ4
+NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3OTI0LC
+01ODk1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMSw3MzYxNTg5
+OTksMTExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAzMTU0OTEsMj
+AxNDI0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMTUzMTc2
+MzYwNF19
 -->
