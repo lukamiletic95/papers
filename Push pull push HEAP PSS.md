@@ -288,11 +288,11 @@ Note that when discussing this problem, we observe two aspects of gossip communi
 </div>
 <br/><br/>
 
-As depicted in *Figure #*, each *FN* node now contains information about its peer subset, which is, in [13], denoted as a node's ***partial view***. Partial view is a list of ***node descriptors***, where each descriptor contains a node's ***IP address*** 
+As depicted in *Figure #* and described in [13], each *FN* node now contains information about its peer subset, which is, in [13], denoted as a node's ***partial view***. Partial view is a list of ***node descriptors***, where each descriptor contains a node's ***IP address*** and a ***hop count***. *Hop count* represents
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzM4MTM0NiwtMTY4NjM4MzQzNSw4Mz
+eyJoaXN0b3J5IjpbMTI3MzA4MjY3MCwtMTY4NjM4MzQzNSw4Mz
 AyMjgzNzMsNDUzMzY5ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgy
 MSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMT
 EzNjc3MzUxMCwtNjg5NDQ3OTI0LC01ODk1NDcwMjgsNTQ4MTIz
