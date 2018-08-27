@@ -492,15 +492,15 @@ func deliverEvent(T t) {
 
 **Observe that only the implementation of the _selectNodes()_ function changes.** This is the function in charge of providing a node with its peer subset. Peer subset is, in this case, chosen according to the calculated optimal fanout of the node and the size of its partial view. Since HEAP calculates a node's desired fanout, by a call to *getFanout()* function, the algorithm will always chose *f* nodes at most from its partial view. This is done with the aim of optimizing the node's load. Alternative is to gossip a message to everyone in the partial view.
 
-Note that in this case, a node does not need to have knowledge of everyone in the network. It only has to know the size of the network, in order to calculate *ln(n)*.
+Note that a node does not need to have knowledge of everyone in the network. It only has to know the size of the network, in order to calculate *ln(n)*.
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDMxNTg3NSwxODg4NDUyNjUzLDEzNT
-M4Mjc5MjIsLTEwMDk1OTU5NzQsNTA4MjgxMDY2LC0xMjE4MDgw
-ODk3LC0xNTE2NTE3MjQ2LC0xMTQ2NzQyMDcxLC0xMjAwNTYzOT
-kwLC0xMDUxMTE3NzY1LC0xNjg2MzgzNDM1LDgzMDIyODM3Myw0
-NTMzNjk4MjEsLTcyOTI2NTQ3NSwxMjgxMTcwODIxLDEwMDM4OD
-U1MDksMTA0NjgzNDg2MCwxNzM2NTQxMTcxLC0xMTM2NzczNTEw
-LC02ODk0NDc5MjRdfQ==
+eyJoaXN0b3J5IjpbLTExMjU0NzEyNTYsMTg4ODQ1MjY1MywxMz
+UzODI3OTIyLC0xMDA5NTk1OTc0LDUwODI4MTA2NiwtMTIxODA4
+MDg5NywtMTUxNjUxNzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mz
+k5MCwtMTA1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMs
+NDUzMzY5ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzOD
+g1NTA5LDEwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUx
+MCwtNjg5NDQ3OTI0XX0=
 -->
