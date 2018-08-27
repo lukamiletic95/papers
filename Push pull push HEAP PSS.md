@@ -363,17 +363,17 @@ Function *merge()* merges two views it receives as parameters. The resulting vie
 
 Function *increaseHopCount()* increments the value of hop count in each descriptor of the view it received as a parameter.
 
-Active  thread periodically initiates communication based on its strategy - push, pull or push-pull [13]. In case of pushing information, it sends its partial view and its own descriptor to the passive thread of the selected peer. In case of pulling, it creates a pull request by sending an EMPTY_SET to the passive thread of the selected peer, after which it waits for the response
+Active  thread periodically initiates communication based on its strategy - push, pull or push-pull [13]. In case of pushing information, it sends its partial view and its own descriptor to the passive thread of the selected peer. In case of pulling, it creates a pull request by sending an EMPTY_SET to the passive thread of the selected peer, after which it waits for the response.
 
 Passive thread is used to receive information and pull requests from active threads of other nodes. In case the information was pushed to the passive thread by some other active thread, it is only added to the passive thread's node partial view. In case a pull request was made by another active thread, the passive thread responds with its descriptor and partial view combined.
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQwODMzMTYsMTM1MzgyNzkyMiwtMT
-AwOTU5NTk3NCw1MDgyODEwNjYsLTEyMTgwODA4OTcsLTE1MTY1
-MTcyNDYsLTExNDY3NDIwNzEsLTEyMDA1NjM5OTAsLTEwNTExMT
-c3NjUsLTE2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwt
-NzI5MjY1NDc1LDEyODExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2OD
-M0ODYwLDE3MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0Nzky
-NCwtNTg5NTQ3MDI4XX0=
+eyJoaXN0b3J5IjpbMzkwMDg3MTk0LDEzNTM4Mjc5MjIsLTEwMD
+k1OTU5NzQsNTA4MjgxMDY2LC0xMjE4MDgwODk3LC0xNTE2NTE3
+MjQ2LC0xMTQ2NzQyMDcxLC0xMjAwNTYzOTkwLC0xMDUxMTE3Nz
+Y1LC0xNjg2MzgzNDM1LDgzMDIyODM3Myw0NTMzNjk4MjEsLTcy
+OTI2NTQ3NSwxMjgxMTcwODIxLDEwMDM4ODU1MDksMTA0NjgzND
+g2MCwxNzM2NTQxMTcxLC0xMTM2NzczNTEwLC02ODk0NDc5MjQs
+LTU4OTU0NzAyOF19
 -->
