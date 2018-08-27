@@ -351,17 +351,17 @@ func passiveThread() {
 
 ```
 
-The pseudocode is parametrized with two booleans - *push* and *pull*. Their values determine different strategies of the PSS, and this will be discussed in further text, alongside the implementations of the *selectPeer()* and *selectView()* functions.
+The pseudocode is parametrized with two booleans - *push* and *pull*, as well as with two functions - *selectPeer()* and *selectView()*. Different strategies for implementing these functions are
 
 The active thread periodically initiates communication with a selected peer, either by sending its own descriptor and partial view (push), or by sending 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTg2Njg0MiwtMTUxNjUxNzI0NiwtMT
-E0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNzc2NSwtMTY4
-NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03MjkyNjU0Nz
-UsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAsMTcz
-NjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3OTI0LC01ODk1ND
-cwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMSw3MzYxNTg5OTksMTEx
-NjgxNTI0NV19
+eyJoaXN0b3J5IjpbODI4ODc3OTEsLTE1MTY1MTcyNDYsLTExND
+Y3NDIwNzEsLTEyMDA1NjM5OTAsLTEwNTExMTc3NjUsLTE2ODYz
+ODM0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwtNzI5MjY1NDc1LD
+EyODExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLDE3MzY1
+NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0NzkyNCwtNTg5NTQ3MD
+I4LDU0ODEyMzY1NCwyNjg2NzY4MjEsNzM2MTU4OTk5LDExMTY4
+MTUyNDVdfQ==
 -->
