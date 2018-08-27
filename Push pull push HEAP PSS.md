@@ -463,7 +463,11 @@ func getFanout() int {
 
 // Miscellaneous
 func selectNodes(int f) int {
-	
+	if (myPartialView.size() > f) {
+		return f nodes from the partial view;
+	} else {
+		return myPartia
+	}
 }
 
 func gossip(Set<int> eventIds) {
@@ -487,7 +491,7 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTAwNDY4MiwxMzUzODI3OTIyLC0xMD
+eyJoaXN0b3J5IjpbLTUzMjEzOTI5OSwxMzUzODI3OTIyLC0xMD
 A5NTk1OTc0LDUwODI4MTA2NiwtMTIxODA4MDg5NywtMTUxNjUx
 NzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNz
 c2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03
