@@ -321,17 +321,17 @@ func activeThread() {
 		} else {
 			for (Node node : peerSubset) {
 				send(node, EMPTY_SET); // send an empty view to trigger response
-
-				if (pull) {
-					PartialView receivedView;
-					for (Node node : peerSubset) {
-						receivedView.add(receive(node));
-					}
-					
-					increaseHopCount(receivedView);
-					PartialView buffer = merge(receivedView, myPartialView);
-					myPartialView = selectView(buffer);
+			}
+			
+			if (pull) {
+				PartialView receivedView;
+				for (Node node : peerSubset) {
+					receivedView.add(receive(node));
 				}
+				
+				increaseHopCount(receivedView);
+				PartialView buffer = merge(receivedView, myPartialView);
+				myPartialView = selectView(buffer);
 			}
 		}
 	}
@@ -341,7 +341,7 @@ func activeThread() {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTc2OTgwOCwtMTIwMDU2Mzk5MCwtMT
+eyJoaXN0b3J5IjpbLTk4ODUwNTUwOCwtMTIwMDU2Mzk5MCwtMT
 A1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5
 ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LD
 EwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5
