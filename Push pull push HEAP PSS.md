@@ -367,9 +367,13 @@ Active  thread periodically initiates communication based on its strategy - push
 
 Passive thread is used to receive information and pull requests from active threads of other nodes. In case the information was pushed to the passive thread by some other active thread, it is only added to the passive thread's node's partial view. In case a pull request was made by another active thread, the passive thread responds with its descriptor and partial view combined.
 
+
+
+#### Final solution
+
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTYwNTExNCwxMzUzODI3OTIyLC0xMD
+eyJoaXN0b3J5IjpbLTQ5MTI1NzY0OSwxMzUzODI3OTIyLC0xMD
 A5NTk1OTc0LDUwODI4MTA2NiwtMTIxODA4MDg5NywtMTUxNjUx
 NzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNz
 c2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03
