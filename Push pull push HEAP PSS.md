@@ -361,15 +361,17 @@ Function *selectView()* truncates the *buffer* so as to make it of maximum lengt
 
 Function *merge()* merges two views it receives as parameters. The resulting view is again ordered by hop count. If the resulting view contains two descriptors for the same IP address, only the one with the lower hop count is included.
 
+Function *increaseHopCount()* increments the value of hop count in each descriptor of the view it received as a parameter.
+
 The active thread periodically initiates communication with a selected peer, either by sending its own descriptor and partial view (push), or by sending an empty set in order to trigger
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4NDAyMzc3LC0xMDA5NTk1OTc0LDUwOD
-I4MTA2NiwtMTIxODA4MDg5NywtMTUxNjUxNzI0NiwtMTE0Njc0
-MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNzc2NSwtMTY4NjM4Mz
-QzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03MjkyNjU0NzUsMTI4
-MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAsMTczNjU0MT
-E3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3OTI0LC01ODk1NDcwMjgs
-NTQ4MTIzNjU0XX0=
+eyJoaXN0b3J5IjpbMTk3MTEzNjQ3NywtMTAwOTU5NTk3NCw1MD
+gyODEwNjYsLTEyMTgwODA4OTcsLTE1MTY1MTcyNDYsLTExNDY3
+NDIwNzEsLTEyMDA1NjM5OTAsLTEwNTExMTc3NjUsLTE2ODYzOD
+M0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwtNzI5MjY1NDc1LDEy
+ODExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLDE3MzY1ND
+ExNzEsLTExMzY3NzM1MTAsLTY4OTQ0NzkyNCwtNTg5NTQ3MDI4
+LDU0ODEyMzY1NF19
 -->
