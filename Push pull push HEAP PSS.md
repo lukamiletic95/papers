@@ -268,6 +268,8 @@ In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes 
 
 The main role of HEAP is to optimize the utilization of nodes' capabilities (e.g. bandwidth), by adjusting their fanout in correspondence with the selected factors (*b, \_b\_, f*). Thus, nodes periodically gossip their information about other nodes' capabilities via *AGGREGATION* messages. This leads to nodes learning about the potential of the network and adjusting the information about that potential (*\_b\_*). That information is then used when calculating a node's fanout.
 
+Finally, we will describe the third part of this solution, which enables it to be applied in  a wide area network. So far, it was assumed that a *FN* has knowledge of every other node in the network. To overcome this problem, we introduce the PSS (Peer Sampling Service) [13].
+
 
 #### 3. PSS
 
@@ -280,11 +282,11 @@ The main role of HEAP is to optimize the utilization of nodes' capabilities (e.g
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLDE3Mz
-Y1NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0NzkyNCwtNTg5NTQ3
-MDI4LDU0ODEyMzY1NCwyNjg2NzY4MjEsNzM2MTU4OTk5LDExMT
-Y4MTUyNDUsMTYyMDY2MDYyMSwtNDIwMzE1NDkxLDIwMTQyNDg2
-MTcsMTM4MzM2NDUzOSwtMzg4MTUxNzcwLDE1MzE3NjM2MDQsLT
-Y5NDkxMjM3OSwxNDA3NTk4NjQ5LC05MzUzNTg4OTUsMTY2Mjgz
-MzU5XX0=
+eyJoaXN0b3J5IjpbMTY5NzUzNTUyOSwxMDAzODg1NTA5LDEwND
+Y4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3
+OTI0LC01ODk1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMSw3Mz
+YxNTg5OTksMTExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAzMTU0
+OTEsMjAxNDI0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMT
+UzMTc2MzYwNCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1
+ODg5NV19
 -->
