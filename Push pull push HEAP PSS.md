@@ -266,7 +266,7 @@ Note that a *FN* now has information about a set of capabilities. It uses this s
 
 In HEAP, apart from exchanging *PROPOSE*, *REQUEST* and *SERVE* messages, nodes periodically exchange *AGGREGATION* messages, as shown in *Figure #*. Therefore, during the initialization phase, an *Aggregation timer* is started. On every *aggregationPeriod*, a *FN* will gossip information from its *Capability* set to a selected peer subset. Observe that the fanout is now calculated according to the aforementioned equation. When gossiping information about capabilities, a node will choose ***K*** values from the set. Value for *K* is implementation-dependent. Upon receiving an *AGGREGATION* message, a *FN* merges the new values with the existing ones and updates its *Capability* set accordingly.
 
-The main role of HEAP is to optimize the utilization of nodes' capabilities (e.g. bandwidth), by adjusting their fanout in correspondence with the capabilities of other nodes. Thus, nodes periodically gossip their capabilities via *AGGREGATION* messages. This leads to nodes learning about potential of the network and adjusting the information about that potential (\_b\_). That value is used when calculating node's desired fanout.
+The main role of HEAP is to optimize the utilization of nodes' capabilities (e.g. bandwidth), by adjusting their fanout in correspondence with the capabilities of other nodes. Thus, nodes periodically gossip their capabilities via *AGGREGATION* messages. This leads to nodes learning about potential of the network and adjusting the information about that potential (\_b\_). That value is used when calculating a node's fanout.
 
 
 #### 3. PSS
@@ -280,11 +280,11 @@ The main role of HEAP is to optimize the utilization of nodes' capabilities (e.g
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0MDUxOTE4LC0xMTM2NzczNTEwLC02OD
-k0NDc5MjQsLTU4OTU0NzAyOCw1NDgxMjM2NTQsMjY4Njc2ODIx
-LDczNjE1ODk5OSwxMTE2ODE1MjQ1LDE2MjA2NjA2MjEsLTQyMD
-MxNTQ5MSwyMDE0MjQ4NjE3LDEzODMzNjQ1MzksLTM4ODE1MTc3
-MCwxNTMxNzYzNjA0LC02OTQ5MTIzNzksMTQwNzU5ODY0OSwtOT
-M1MzU4ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNzk4Njgy
-NzI1XX0=
+eyJoaXN0b3J5IjpbLTEyMzEzNzk3ODksLTExMzY3NzM1MTAsLT
+Y4OTQ0NzkyNCwtNTg5NTQ3MDI4LDU0ODEyMzY1NCwyNjg2NzY4
+MjEsNzM2MTU4OTk5LDExMTY4MTUyNDUsMTYyMDY2MDYyMSwtND
+IwMzE1NDkxLDIwMTQyNDg2MTcsMTM4MzM2NDUzOSwtMzg4MTUx
+NzcwLDE1MzE3NjM2MDQsLTY5NDkxMjM3OSwxNDA3NTk4NjQ5LC
+05MzUzNTg4OTUsMTY2MjgzMzU5LC00NDA5MTczMjksLTE3OTg2
+ODI3MjVdfQ==
 -->
