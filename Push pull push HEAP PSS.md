@@ -371,11 +371,120 @@ Therefore, we conclude that by using the PSS we avoid the need for each node kno
 
 #### Final solution
 
-Final solution is based on combining all three parts described before. It uses 
+Final solution is based on combining all three parts described before. It uses push-pull-push gossiping so that only a transaction's identifier is gossiped. It uses HEAP to utilize the capability of a node, without overloading it. It uses PSS to provide a node with its peer subset dynamically.
+
+Pseudocode for the final solution would be:
+
+```go
+// This is executed on each FN node
+
+// Initialization
+Set<Capability> capabilities = EMPTY_SET;
+Bandwidth b = MY_BANDWIDTH; // my bandwidth
+Bandwith _b_ = ...; // average bandwidth
+
+int f = ln(n); // average fanout
+Set<int> toPropose = EMPTY_SET;
+Set<T> delivered = EMPTY_SET;
+Set<int> requested = EMPTY_SET; 
+start(GossipTimer(gossipPeriod));
+
+start(AggregationTimer(aggregationPeriod));
+
+// Phase 1 - PUSH T ids
+func publish(T t) { // when C sends its transaction to FN
+	bool valid = checkTx(transaction);
+	if (valid == false) {
+		return;
+	}
+
+	deliverEvent(t);
+	gossip({t.id});
+}
+
+upon (GossipTimer % gossipPeriod) == 0 {
+	gossip(toPropose);
+	toPropose = EMPTY_SET; // Infect and die model
+}
+
+// Phase 2 - PULL wanted T ids
+upon (receive(PROPOSE, proposed)) {
+	Set<int> wanted = EMPTY_SET;
+	for (int id : proposed) {
+		if (!requested.contains(id)) {
+			wanted.add(id);
+		}
+	}
+
+	requested.add(wanted.getAll());
+	reply(REQUEST, wanted);
+}
+
+// Phase 3 - PUSH requested T
+upon (receive(REQUEST, wanted)) {
+	Set<T> asked = EMPTY_SET;
+	for (int id : wanted) {
+		asked.add(getEvent(id));
+	}
+
+	reply(SERVE, asked);
+}
+
+upon (receive(SERVE, events)) {
+	for (T t : events) {
+		if (!delivered.contains(t)) { // a message is delivered only once
+			toPropose.add(t.id);
+			deliverEvent(t);
+		}
+	}
+}
+
+// Aggregation protocol
+upon (AggregationTimer % aggregationPeriod) == 0 {
+	Set<Node> peerSubset = selectNodes(getFanout());
+	for (Node node : peerSubset) {
+		Set<Capability> node = capabilities.get(K);
+		send(AGGREGATION, fresh, node);
+	}
+}
+
+upon (receive(AGGREGATION, newCapabilities)) {
+	capabilities.merge(newCapabilities);
+	update(_b_, capabilities);
+}
+
+// Fanout adaptation
+func getFanout() int {
+	return b / _b_ * f;
+}
+
+// Miscellaneous
+func selectNodes(int f) int {
+	return f uniformly random nodes from the set of all nodes;
+}
+
+func gossip(Set<int> eventIds) {
+	Set<Node> peerSubset = selectNodes(getFanout());
+	for (Node node : peerSubset) {
+		send(PROPOSE, eventIds, node);
+	}
+}
+
+func getEvent(int id) T {
+	return T corresponding to the id;
+}
+
+func deliverEvent(T t) {
+	delivered.add(t);
+	addMempool(t);
+}
+
+```
+
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTU5NzI4NCwxMzUzODI3OTIyLC0xMD
+eyJoaXN0b3J5IjpbLTExNzg4MDcxOSwxMzUzODI3OTIyLC0xMD
 A5NTk1OTc0LDUwODI4MTA2NiwtMTIxODA4MDg5NywtMTUxNjUx
 NzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNz
 c2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03
