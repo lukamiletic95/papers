@@ -490,13 +490,13 @@ func deliverEvent(T t) {
 
 *FN* node now contains information about its partial view. This information is provided by the underlying peer sampling service. Function *initPSS()* initializes PSS on a given *FN*  node. Different methods for initializing PSS are described in [13].
 
-**Observe that only the implementation of the _selectNodes()_ function changes.** This is the function in charge of providing a node with its peer subset. Peer subset is, in this case, chosen according to the calculated optimal fanout of the node and the size of its partial view. Since HEAP calculates a node's desired fanout, by a call to *getFanout()*, the algorithm will always chose *f* nodes at most from its partial view. This is done with the aim of optimizing the node's load. Alternative is to gossip a message to everyone in the partial view.
+**Observe that only the implementation of the _selectNodes()_ function changes.** This is the function in charge of providing a node with its peer subset. Peer subset is, in this case, chosen according to the calculated optimal fanout of the node and the size of its partial view. Since HEAP calculates a node's desired fanout, by a call to *getFanout()* function, the algorithm will always chose *f* nodes at most from its partial view. This is done with the aim of optimizing the node's load. Alternative is to gossip a message to everyone in the partial view.
 
 Note that in this case, a node does not need to have knowledge of everyone in the network. It only has to know the size of the network, in order to calculate *ln(n)*.
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTQ1MDQ3NSwxODg4NDUyNjUzLDEzNT
+eyJoaXN0b3J5IjpbLTIyNDMxNTg3NSwxODg4NDUyNjUzLDEzNT
 M4Mjc5MjIsLTEwMDk1OTU5NzQsNTA4MjgxMDY2LC0xMjE4MDgw
 ODk3LC0xNTE2NTE3MjQ2LC0xMTQ2NzQyMDcxLC0xMjAwNTYzOT
 kwLC0xMDUxMTE3NzY1LC0xNjg2MzgzNDM1LDgzMDIyODM3Myw0
