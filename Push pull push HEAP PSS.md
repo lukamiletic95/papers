@@ -147,7 +147,7 @@ Equation used in HEAP [12] is:
 
 *Average bandwidth* is updated according to the information about the capabilities of other nodes.
 
-Updated pseudocode, which includes HEAP protocol, is given, followed by an explanation:
+Updated pseudocode [12], which includes HEAP protocol, is given, followed by an explanation:
 
 ```go
 // This is executed on each FN node
@@ -274,11 +274,11 @@ func deliverEvent(T t) {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4MTIzNjU0LDI2ODY3NjgyMSw3MzYxNT
-g5OTksMTExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAzMTU0OTEs
-MjAxNDI0ODYxNywxMzgzMzY0NTM5LC0zODgxNTE3NzAsMTUzMT
-c2MzYwNCwtNjk0OTEyMzc5LDE0MDc1OTg2NDksLTkzNTM1ODg5
-NSwxNjYyODMzNTksLTQ0MDkxNzMyOSwtMTc5ODY4MjcyNSwyMD
-kyOTIzMjMyLC0xODc5MzUyODEyLDEwMjk2ODAyODcsMTI5ODA5
-Mzk3NF19
+eyJoaXN0b3J5IjpbMTI1MzUzODQxNyw1NDgxMjM2NTQsMjY4Nj
+c2ODIxLDczNjE1ODk5OSwxMTE2ODE1MjQ1LDE2MjA2NjA2MjEs
+LTQyMDMxNTQ5MSwyMDE0MjQ4NjE3LDEzODMzNjQ1MzksLTM4OD
+E1MTc3MCwxNTMxNzYzNjA0LC02OTQ5MTIzNzksMTQwNzU5ODY0
+OSwtOTM1MzU4ODk1LDE2NjI4MzM1OSwtNDQwOTE3MzI5LC0xNz
+k4NjgyNzI1LDIwOTI5MjMyMzIsLTE4NzkzNTI4MTIsMTAyOTY4
+MDI4N119
 -->
