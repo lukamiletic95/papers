@@ -363,15 +363,15 @@ Function *merge()* merges two views it receives as parameters. The resulting vie
 
 Function *increaseHopCount()* increments the value of hop count in each descriptor of the view it received as a parameter.
 
-
+Active  thread periodically initiates communication
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc3NzQ2LDEzNTM4Mjc5MjIsLTEwMD
-k1OTU5NzQsNTA4MjgxMDY2LC0xMjE4MDgwODk3LC0xNTE2NTE3
-MjQ2LC0xMTQ2NzQyMDcxLC0xMjAwNTYzOTkwLC0xMDUxMTE3Nz
-Y1LC0xNjg2MzgzNDM1LDgzMDIyODM3Myw0NTMzNjk4MjEsLTcy
-OTI2NTQ3NSwxMjgxMTcwODIxLDEwMDM4ODU1MDksMTA0NjgzND
-g2MCwxNzM2NTQxMTcxLC0xMTM2NzczNTEwLC02ODk0NDc5MjQs
-LTU4OTU0NzAyOF19
+eyJoaXN0b3J5IjpbLTE3OTA2MDE3NywxMzUzODI3OTIyLC0xMD
+A5NTk1OTc0LDUwODI4MTA2NiwtMTIxODA4MDg5NywtMTUxNjUx
+NzI0NiwtMTE0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNz
+c2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03
+MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4Mz
+Q4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5NDQ3OTI0
+LC01ODk1NDcwMjhdfQ==
 -->
