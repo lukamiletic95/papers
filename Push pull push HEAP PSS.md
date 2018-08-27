@@ -131,7 +131,7 @@ When a *FN* node receives a *PROPOSE* message, it replies with a *REQUEST* messa
 
 When a *FN* node receives a *REQUEST* message, it replies with a *SERVE* message which contains the actual transactions requested. Transactions are created via the call to *getEvent()* function.
 
-When a *FN* node receives a *SERVE* message, it adds T to its Mempool, and marks it as a future transaction to-be-proposed, only if it already wasn't inside its Mempool.
+When a *FN* node receives a *SERVE* message, it adds T to its Mempool and marks it as a future transaction to-be-proposed, only if it already wasn't inside its Mempool.
 
 This push-pull-push approach reduces the payload in the network, owing to the fact that only a transaction's id is gossiped. Sending the actual transaction is delayed until *T* is explicitly required. 
 
@@ -508,11 +508,11 @@ Network is not flooded with transactions, but only with transactions' ids. Trans
 
 It is easy to implement as well. It takes into account nodes' and network capabilities owing to HEAP and it is able to operate in a large scale distributed system owing to PSS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2MzM0MjYwLC0xNDM2ODI2MTE5LDE4OD
-g0NTI2NTMsMTM1MzgyNzkyMiwtMTAwOTU5NTk3NCw1MDgyODEw
-NjYsLTEyMTgwODA4OTcsLTE1MTY1MTcyNDYsLTExNDY3NDIwNz
-EsLTEyMDA1NjM5OTAsLTEwNTExMTc3NjUsLTE2ODYzODM0MzUs
-ODMwMjI4MzczLDQ1MzM2OTgyMSwtNzI5MjY1NDc1LDEyODExNz
-A4MjEsMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLDE3MzY1NDExNzEs
-LTExMzY3NzM1MTBdfQ==
+eyJoaXN0b3J5IjpbLTM2OTg0NjkwMCw1OTYzMzQyNjAsLTE0Mz
+Y4MjYxMTksMTg4ODQ1MjY1MywxMzUzODI3OTIyLC0xMDA5NTk1
+OTc0LDUwODI4MTA2NiwtMTIxODA4MDg5NywtMTUxNjUxNzI0Ni
+wtMTE0Njc0MjA3MSwtMTIwMDU2Mzk5MCwtMTA1MTExNzc2NSwt
+MTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5ODIxLC03MjkyNj
+U0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LDEwNDY4MzQ4NjAs
+MTczNjU0MTE3MV19
 -->
