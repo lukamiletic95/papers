@@ -328,7 +328,8 @@ func activeThread() {
 					}
 					
 					increaseHopCount(receivedView);
-					
+					PartialView buffer = merge(receivedView, myPartialView);
+					myPartialView = selectView(buffer);
 				}
 			}
 		}
@@ -339,7 +340,7 @@ func activeThread() {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODQ2OTkxMSwtMTIwMDU2Mzk5MCwtMT
+eyJoaXN0b3J5IjpbLTc2NzI3ODg3MCwtMTIwMDU2Mzk5MCwtMT
 A1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5
 ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LD
 EwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5
