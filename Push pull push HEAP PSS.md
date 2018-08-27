@@ -273,7 +273,7 @@ Finally, we will describe the third part of this solution, which enables it to b
 
 #### 3. PSS
 
-The fundamental purpose of PSS is to provide every node with a *peer subset*. Until now, the presumption was that a node contains IP addresses of every other node in the network, and when it gossips information, it merely selects *f* nodes uniformly at random, hence creating the peer subset. However, maintaing in
+The fundamental purpose of PSS is to provide every node with a *peer subset*. Until now, the presumption was that a node contains IP addresses of every other node in the network, and when it gossips information, it merely selects *f* nodes uniformly at random, hence creating the peer subset. However, maintaining information about every node in the network has a non-negligible overhead.
 
 PSS is based on avoiding that requirement. Its idea is to **gossip the membership information as well**. This creates a dynamic unstructured overlay across the network. Experimental analysis in [13] provides promising results when it comes to using PSS.
 
@@ -286,7 +286,7 @@ PSS is based on avoiding that requirement. Its idea is to **gossip the membershi
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDYxOTc5MCw4MzAyMjgzNzMsNDUzMz
+eyJoaXN0b3J5IjpbMTE4MjExMDY5MSw4MzAyMjgzNzMsNDUzMz
 Y5ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5
 LDEwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNj
 g5NDQ3OTI0LC01ODk1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3Njgy
