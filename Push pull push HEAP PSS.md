@@ -311,7 +311,8 @@ func activeThread() {
 		Set<Node> peerSubset = selectPeer();
 
 		if (push) {
-			Descriptor myDescriptor = new Descriptor(myIPAddress, 0); // 0 is the initial hop count
+			// 0 is the initial hop count
+			Descriptor myDescriptor = new Descriptor(myIPAddress, 0);
 			PartialView buffer = merge(myPartialView, myDescriptor);
 			
 			for (Node node : peerSubset) {
@@ -340,7 +341,7 @@ func activeThread() {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzI3ODg3MCwtMTIwMDU2Mzk5MCwtMT
+eyJoaXN0b3J5IjpbMjExOTc2OTgwOCwtMTIwMDU2Mzk5MCwtMT
 A1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5
 ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LD
 EwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5
