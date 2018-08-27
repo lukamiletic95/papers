@@ -296,21 +296,31 @@ PSS protocol contains two threads:
 * **Active thread   →** which initiates communication with other nodes
 * **Passive thread  →** which receives incoming messages
 
+Pseudocode from [13] is given, followed by an explanation:
+
 ```go
 // Peer Sampling Service - pseudocode
 
 // Active thread
-func 
+bool push = ...;
+bool pull = ...;
+func activeThread() {
+	while (true) {
+		wait(SOME_TIME);
+		Set<Node> peerSubset = selectPeer();
+		
+	}
+}
 
 ```
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjA5OTQ4MTQsLTEyMDA1NjM5OTAsLT
-EwNTExMTc3NjUsLTE2ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2
-OTgyMSwtNzI5MjY1NDc1LDEyODExNzA4MjEsMTAwMzg4NTUwOS
-wxMDQ2ODM0ODYwLDE3MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4
-OTQ0NzkyNCwtNTg5NTQ3MDI4LDU0ODEyMzY1NCwyNjg2NzY4Mj
-EsNzM2MTU4OTk5LDExMTY4MTUyNDUsMTYyMDY2MDYyMSwtNDIw
-MzE1NDkxXX0=
+eyJoaXN0b3J5IjpbLTcyODQxMjM0NSwtMTIwMDU2Mzk5MCwtMT
+A1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5
+ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LD
+EwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5
+NDQ3OTI0LC01ODk1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3NjgyMS
+w3MzYxNTg5OTksMTExNjgxNTI0NSwxNjIwNjYwNjIxLC00MjAz
+MTU0OTFdfQ==
 -->
