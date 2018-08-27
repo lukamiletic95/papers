@@ -277,6 +277,10 @@ The fundamental purpose of PSS is to provide every node with a *peer subset*. Un
 
 PSS is based on avoiding the aforesaid presumption. Its idea is to **gossip the membership information as well**. This creates a dynamic unstructured overlay across the network. Experimental analysis in [13] provides promising results when it comes to using PSS.
 
+Note that when discussing about this, we observe two aspects of gossip communication:
+* Peer sampling service - which provides every node with its peer subset
+* Gossiping messages of interest to that peer subset
+
 <br/><br/>
 <div align='center'> 
 <img src="https://github.com/lukamiletic95/papers/blob/algorithm3/images/fig17.png" />
@@ -286,7 +290,7 @@ PSS is based on avoiding the aforesaid presumption. Its idea is to **gossip the 
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTg4MzY2Miw4MzAyMjgzNzMsNDUzMz
+eyJoaXN0b3J5IjpbMTEwNzkzNTExOCw4MzAyMjgzNzMsNDUzMz
 Y5ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5
 LDEwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNj
 g5NDQ3OTI0LC01ODk1NDcwMjgsNTQ4MTIzNjU0LDI2ODY3Njgy
