@@ -333,7 +333,8 @@ func activeThread() {
 // Passive thread
 func passiveThread() {
 	while (true) {
-		
+		{Node p, PartialView receivedView} = receiveMessage();
+		increaseHop
 	}
 }
 
@@ -341,7 +342,7 @@ func passiveThread() {
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTQyOTczNywtMTIwMDU2Mzk5MCwtMT
+eyJoaXN0b3J5IjpbLTYwMjcxNTI1NywtMTIwMDU2Mzk5MCwtMT
 A1MTExNzc2NSwtMTY4NjM4MzQzNSw4MzAyMjgzNzMsNDUzMzY5
 ODIxLC03MjkyNjU0NzUsMTI4MTE3MDgyMSwxMDAzODg1NTA5LD
 EwNDY4MzQ4NjAsMTczNjU0MTE3MSwtMTEzNjc3MzUxMCwtNjg5
