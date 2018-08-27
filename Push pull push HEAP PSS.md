@@ -335,7 +335,6 @@ func activeThread() {
 func passiveThread() {
 	while (true) {
 		{Node p, PartialView receivedView} = receiveMessage();
-		increaseHopCount(receivedView);
 		
 		// active thread of some other node has made a pull request
 		if (receivedView == EMPTY_SET) {
@@ -345,6 +344,7 @@ func passiveThread() {
 			
 			send(p, buffer);
 		} else {
+			increaseHopCount(receivedView);
 			PartialView buffer = merge(receivedView, myPartialView);
 			myPartialView = selectView(buffer);
 		}
@@ -359,11 +359,11 @@ The active thread periodically initiates communication with a selected peer, eit
 
 #### Concluding the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTgwODA4OTcsLTE1MTY1MTcyNDYsLT
-ExNDY3NDIwNzEsLTEyMDA1NjM5OTAsLTEwNTExMTc3NjUsLTE2
-ODYzODM0MzUsODMwMjI4MzczLDQ1MzM2OTgyMSwtNzI5MjY1ND
-c1LDEyODExNzA4MjEsMTAwMzg4NTUwOSwxMDQ2ODM0ODYwLDE3
-MzY1NDExNzEsLTExMzY3NzM1MTAsLTY4OTQ0NzkyNCwtNTg5NT
-Q3MDI4LDU0ODEyMzY1NCwyNjg2NzY4MjEsNzM2MTU4OTk5LDEx
-MTY4MTUyNDVdfQ==
+eyJoaXN0b3J5IjpbODUzNjMwNDM3LC0xMjE4MDgwODk3LC0xNT
+E2NTE3MjQ2LC0xMTQ2NzQyMDcxLC0xMjAwNTYzOTkwLC0xMDUx
+MTE3NzY1LC0xNjg2MzgzNDM1LDgzMDIyODM3Myw0NTMzNjk4Mj
+EsLTcyOTI2NTQ3NSwxMjgxMTcwODIxLDEwMDM4ODU1MDksMTA0
+NjgzNDg2MCwxNzM2NTQxMTcxLC0xMTM2NzczNTEwLC02ODk0ND
+c5MjQsLTU4OTU0NzAyOCw1NDgxMjM2NTQsMjY4Njc2ODIxLDcz
+NjE1ODk5OV19
 -->
